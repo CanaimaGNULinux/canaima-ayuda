@@ -1,0 +1,13 @@
+Package: huayra-ayuda-gnome
+Source: huayra-ayuda
+Version: 0.15
+Architecture: all
+Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
+Installed-Size: 10827
+Depends: yelp
+Conflicts: huayra-ayuda
+Replaces: huayra-ayuda
+Section: main
+Priority: optional
+Description: Ayuda de Huayra GNU/Linux
+  Archivos de ayuda de Huayra para el escritorio Gnome

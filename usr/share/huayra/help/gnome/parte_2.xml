@@ -1,0 +1,657 @@
+<part id='part:tu-escritorio' xreflabel='Tu escritorio'>
+  <title>Tu escritorio </title>
+  <partintro>
+  <para>
+  <inlinemediaobject>
+    <imageobject>
+      <imagedata fileref="img/tuescritorio.png" role="png" />
+    </imageobject>
+  </inlinemediaobject>
+  </para>
+  <para>En este apartado se muestra toda la información necesaria para cambiar completamente la
+  apariencia de tu escritorio. No solamente los fondos de pantalla, con Canaima también es posible
+  cambiar el aspecto de los íconos, los bordes de la ventana y todo la apariencia del
+  escritorio.</para>
+  <para>El equipo de Canaima cuenta con un área de Arte que trabaja en otorgar un diseño exclusivo y
+  una imagen propia a la distribución. Investiga referencias visuales y culturales locales que
+  puedan generar una mayor identificación en los usuarios. Fruto de este trabajo, en tu netbook vas
+  a encontrar muchos fondos de pantalla, temas de ventana, temas de iconos y mucho mas diseñados
+  enteramente por nuestro equipo de Arte.</para>
+  </partintro>
+    <chapter id='chap:Cambiar-el-fondo' xreflabel='Cambiar el fondo del escritorio'>
+    <title>Cambiar el fondo del escritorio</title>
+    <para>Podés cambiar la imagen usada en el fondo del escritorio con solo hacer clic con el botón
+    derecho del mouse sobre la imagen del fondo y elegir "Cambiar el fondo del escritorio".</para>
+    <para>Esto te va a abrir un cuadro con tres opciones en la lista desplegable en la
+    izquierda.</para>
+    <itemizedlist>
+      <listitem>
+        <para>Seleccioná "Fondos de escritorio" para usar una de las muchas imágenes de fondo con
+        las que se distribuye Canaima y GNOME (el entorno de Escritorio que utiliza Canaima). Algunos
+        fondos de escritorio son parcialmente transparentes y permiten mostrar un color de fondo a
+        través de ellos. Para esos fondos de escritorio, aparece un botón de selección de color en
+        la esquina inferior derecha.</para>
+      </listitem>
+      <listitem>
+        <para>Seleccioná la carpeta "Imágenes" para usar una de tus propias fotografías de tu
+        carpeta «Imágenes». La mayoría de los gestores de fotos almacenan las fotos aquí.</para>
+      </listitem>
+      <listitem>
+        <para>Seleccioná "Colores y degradados" para ajustar un color plano o un degradado lineal.
+        Los botones selectores de color van a aparecer en la esquina inferior derecha.</para>
+      </listitem>
+    </itemizedlist>
+    <para>También podés buscar una imagen en tu equipo pulsando el botón +. Cualquier imagen que
+    agregues de esta manera se va a mostrar en la carpeta de Imágenes. Podés quitarla de la lista
+    seleccionándola y pulsando el botón "-". Quitar una imagen de la lista no eliminará el archivo
+    original.</para>
+    <para>La 
+    <xref linkend="sub:Resolucin-12" /> de las computadoras de Conectar Igualdad es 1024x600px.
+    Siempre se puede editar cualquier imagen descargada de Internet para adaptarla a la pantalla
+    usando las aplicaciones libres de Canaima (Ver 
+    <xref linkend="sec:Con-qu-aplicacin-13" />).</para>
+  </chapter>
+  <chapter id='chap:Cambiar-los-temas...' xreflabel='Cambiar los temas'>
+    <title>Cambiar los temas...</title>
+    <para>Como Canaima usa un entorno de escritorio libre como Gnome, te deja modificar la
+    apariencia de todo el escritorio. No solamente cambiar el fondo de pantalla, sino que también
+    es Canaima te permite elegir diferentes:</para>
+    <itemizedlist>
+      <listitem>
+        <para>Temas de ventanas (
+        <xref linkend="sub:Metacity" />): cambian cómo se ven los bordes de las ventanas y los
+        íconos de minimizar, restaurar y cerrar</para>
+      </listitem>
+      <listitem>
+        <para>Temas de íconos: cambian cómo se ven los íconos de carpetas, aplicaciones, archivos y
+        menus</para>
+      </listitem>
+      <listitem>
+        <para>Temas de escritorio (Shell): cambia el aspecto general del escritorio, la barra
+        superior, el tablero, etc.</para>
+      </listitem>
+      <listitem>
+        <para>Temas de 
+        <xref linkend="sub:GTK-14" />: cambia los cuadros de diálogo y el contenido del as
+        ventanas</para>
+      </listitem>
+    </itemizedlist>
+    <para>Siguiendo la filosofía del software libre, existen miles de temas diferentes para que
+    cada uno tenga la libertad de elegir que aspecto tiene su escritorio y hasta combinarlos,
+    eligiendo temas diferentes para las ventanas, el escritorio, etc. A esta altura no hay razón
+    para que todos miremos el mismo escritorio de nuestras computadoras.</para>
+    <sect1 id='sec:Cambiar-temas' xreflabel='Elegir qué temas usar'>
+      <title>Elegir qué temas usar
+    <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/circruz.png" role="png" />
+        </imageobject>
+      </inlinemediaobject></title>
+      <para>Para poder cambiar los temas:</para>
+      <orderedlist>
+        <listitem>
+          <para>Abrí el Menú Canaima arriba a la izquierda</para>
+        </listitem>
+        <listitem>
+          <para>Hacé clic en Preferencias y luego en Configuración Avanzada</para>
+        </listitem>
+        <listitem>
+          <para>Elegí el item "Temas"</para>
+        </listitem>
+      </orderedlist>
+      <para>Desde esta configuración podés elegir un tema para cada parte del escritorio.
+      Simplemente hay que hacer clic en cada uno y elegir entre los temas instalados desde el menú
+      desplegable</para>
+      <itemizedlist>
+        <listitem>
+          <para>En Shell se modifica la apariencia general del escritorio (el 
+          <xref linkend="x-hap:Tablero-2" />, la 
+          <xref linkend="chap:Barra-superior" />, etc).</para>
+        </listitem>
+        <listitem>
+          <para>En el tema de ventanas se modifica la barra superior de las ventanas y los botones
+          de Minimizar, Restaurar y Cerrar</para>
+        </listitem>
+        <listitem>
+          <para>Podés agregar íconos a los menús desplegables o a los botones de las cajas de
+          diálogo con la opción correspondiente</para>
+        </listitem>
+        <listitem>
+          <para>El tema del cursor cambia el aspecto de la flecha del mouse</para>
+        </listitem>
+        <listitem>
+          <para>Tema de asociación de teclas (esto hace referencia a combinaciones como CTRL + C
+          para copiar, etc. Recomendamos dejarlo como está)</para>
+        </listitem>
+        <listitem>
+          <para>Tema de íconos, modifica los íconos que aparecen en las carpetas, menús, accesos
+          directos (lanzadores), etc.</para>
+        </listitem>
+        <listitem>
+          <para>Tema de 
+          <xref linkend="sub:GTK-14" />, modifica el tema de los cuadros de diálogo, menús
+          desplegables, botones, etc.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Canaima viene con varios temas incorporados entre los que podés elegir. No estás
+      obligado a elegir uno solo tema para todo, sino que podés combinar los diferentes temas,
+      usando un tema para los íconos y otro tema para bordes de ventanas.</para>
+      <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/bajar-temas.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>
+      </para>
+      <para>Desde este menú de configuración se puede también configurar que las extensiones (Ver 
+      <xref linkend="chap:Extensiones-de-escritorio" />), los íconos que aparecen en el escritorio,
+      configuraciones del Shell (indicador batería, calendario y fecha, qué hacer cuando se baja la
+      tapa de la net), las tipografías y las acciones de las ventanas.</para>
+    </sect1>
+    <sect1>
+      <title>Instalar temas bajados de Internet</title>
+      <para>Existen muchos sitios desde donde se pueden bajar estos temas, como
+      http://gnome-look.org/ y 
+      <ulink url="http://art.gnome.org/themes">http://art.gnome.org/themes</ulink>Estos temas
+      fueron desarrollados por fuera del equipo de Canaima por lo que no podemos garantizar que
+      funcionen. Primero hay que descargarlos del sitio y, como vienen generalmente en formato
+      comprimido, descromprimirlos (Ver 
+      <xref linkend="sec:Comprimir-y-descomprimir" />). Hay que tener cuidado con lo siguiente: a
+      veces uno puede bajar un tema que tiene sus variantes. Es decir, descargar el tema Canaima,
+      que viene en rojo, verde y amarillo. Al descargar vemos la carpeta Canaima.tar.gz, se
+      descomprime y aparece la carpeta Canaima. Pero dentro esta Canaima-rojo, Canaima-verde y
+      Canaima-amarillo. Cada una de esas carpetas es un tema en sí mismo.</para>
+      <para>Para poder usar estos temas y que aparezcan en las opciones del menú desplegable de la
+      Configuración Avanzada donde elegimos los temas, primero es necesario instalarlos.</para>
+      <sect2>
+        <title>¿Cómo se instalan los temas?</title>
+        <para>Para instalarlos hay que guardar la carpeta que contiene el tema en la carpeta
+        correspondiente. Si es un tema de íconos va en la carpeta de íconos (.icons) y ves un tema
+        de ventanas va en la carpeta de ventanas (.themes).</para>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/themes.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>Estas carpetas no existen al comienzo y debemos crearlas. Las creamos dentro de
+        nuestra Carpeta Personal. Por eso es conveniente crearnos un usuario propio, para que la
+        sesión de cada uno tenga su propia apariencia (Ver 
+        <xref linkend="sec:Aadir-una-cuenta-15" />). Hay que crear dos carpetas .icons y .themes.
+        Si, con el "." al comienzo. Esto hace que sea una carpeta oculta (
+        <xref linkend="sec:Ocultar-un-archivo" />).</para>
+        <sect3>
+          <title>.icons</title>
+          <para>En esta carpeta se guardan los íconos. Es habitual que de los sitios de internet
+          podamos descargar íconos puntuales. Esto es, algunos íconos sueltos. Para que funcione
+          como "TEMA" precisamente, debemos bajarnos temas de íconos completos (icon themes en
+          ingles). Una vez descomprimido, hay que copiar esa carpeta dentro de .icons. Es
+          importante recordar que en un mismo archivo comprimido pueden venir más de un tema. Cada
+          tema tiene que estar en la carpeta .icons. Siguiendo el ejemplo anterior: en la carpeta
+          .icons no debe estar la carpeta Canaima que contiene Canaima-rojo y Canaima-verde, sino
+          estas carpetas solas por sí mismas.</para>
+        </sect3>
+        <sect3>
+          <title>.themes</title>
+          <para>En esta carpeta se guardan los temas de ventana (
+          <xref linkend="sub:Metacity" />), los temas de escritorio (shell) y los temas 
+          <xref linkend="sub:GTK-14" />.</para>
+          <para>
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/themes.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>
+          </para>
+          <para>
+          <xref linkend="sub:Metacity" /> es el gestor de ventanas de Gnome, el entorno de
+          escritorio que usa Canaima. Por eso cuando uno quiere bajar un tema de ventanas debe
+          especificar que sea de 
+          <xref linkend="sub:Metacity" />. Se descarga y descomprime en la carpeta .themes.
+          Recordar que un archivo comprimido puede guardar varios temas dentro.</para>
+          <para>Los temas
+          <xref linkend="sub:GTK-14" /> también hay que guardarlos en la carpeta .themes para
+          instalarlos. Al descargar hay que recordar que para Canaima se deben descargar los que
+          dicen GTK+ 3.0 en adelante.</para>
+        </sect3>
+        <sect3>
+          <title>Instalar tema de escritorio o Shell desde configuración avanzada</title>
+          <para>En las carpetas .icons y .themes se instalan los temas de íconos y de ventanas y
+          GTK+ respectivamente. Para instalar el tema de shell, además de descomprimirlo en la
+          carpeta .themes, puede hacerse desde la Configuración avanzada:</para>
+          <orderedlist>
+            <listitem>
+              <para>Se descarga el tema del sitio, pero no se descomprime</para>
+            </listitem>
+            <listitem>
+              <para>Desde Configuración avanzada/Temas (Menú Canaima / Administración) en Tema
+              Shell, al lado del menú desplegable hay un botón que permite instalar el tema</para>
+            </listitem>
+            <listitem>
+              <para>Hacer clic y buscar el tema descargado. Recordar que para instalarlo no debe
+              haberse descomprimido antes.</para>
+            </listitem>
+            <listitem>
+              <para>Seleccionar el archivo y hacer clic en Aceptar</para>
+            </listitem>
+            <listitem>
+              <para>Elegir del menú desplegable el nombre del tema que se ha descargado</para>
+            </listitem>
+          </orderedlist>
+        </sect3>
+      </sect2>
+      <sect2>
+        <title>Ya están instalados, ahora solo queda elegir qué temas utilizar.</title>
+        <para>Antes de volver a la Configuración Avanzada para elegir de los menús desplegables los
+        nuevos temas, debemos reiniciar el entorno de escritorio Gnome:</para>
+        <orderedlist>
+          <listitem>
+            <para>Presionar Alt + F2</para>
+          </listitem>
+          <listitem>
+            <para>Escribir "restart" sin comillas.</para>
+          </listitem>
+          <listitem>
+            <para>Presionar Enter</para>
+          </listitem>
+        </orderedlist>
+        <para>Una vez que se hayan descomprimido los temas descargados en las carpetas
+        correspondientes, y reiniciado Gnome, éstos aparecerán en el menú desplegable de la
+        Configuración Avanzada al igual que los oficiales de Canaima (Ver 
+        <xref linkend="sec:Cambiar-temas" />).</para>
+      </sect2>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Extensiones-de-escritorio'  xreflabel='Extensiones de escritorio'>
+    <title>Extensiones de escritorio</title>
+    <para>Las extensiones son alternativas que da Gnome (el entorno de escritorio de Canaima
+    GNU/Linux) para personalizar el escritorio y modificar su comportamiento. Por ejemplo: instalar
+    una extensión que modifique la forma en que se ve el día y la hora en la barra superior,
+    etc.</para>
+    <para>Con Canaima es posible personalizar el escritorio de mi netbook bajando desde la página
+    oficial de 
+    <ulink url="https://extensions.gnome.org/">Gnome</ulink>(https://extensions.gnome.org/) todas
+    las extensiones que quiera.</para>
+    <para>Muchas de ellas ya vienen instaladas en Canaima. Para saber cuáles:</para>
+    <orderedlist>
+      <listitem>
+        <para>Abrí el Menú Canaima arriba a la izquierda</para>
+      </listitem>
+      <listitem>
+        <para>Hacé clic en Preferencias y luego en Configuración Avanzada</para>
+      </listitem>
+      <listitem>
+        <para>Elegí el item "Extensiones de Gnome-shell"</para>
+      </listitem>
+    </orderedlist>
+    <para>También ingresando en el sitio web mismo se indicará con un 
+    ON <!--keycombo--> cuando estén activadas y con un OFF <!--keycombo--> cuando estén desactivadas. Para instalarlas sólo hace falta cliquear en el nombre de la extensión y ponerlo en ON <!--keycombo-->.</para>
+    <sect1>
+      <title>Extensiones instaladas en Canaima</title>
+      <sect2>
+        <title>Alternative Status Menu</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/alternativestatusmenu.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/5/alternative-status-menu/</para>
+        <para>Utilidad: Reemplaza Gnome Shell Status Menú, mostrando Suspender, Hibernar y Apagar
+        como ítems separados.</para>
+      </sect2>
+      <sect2>
+        <title>User Themes</title>
+        <para>URL:https://extensions.gnome.org/extension/19/user-themes/</para>
+        <para>Utilidad: Carga los temas de Shell desde el directorio del usuario.</para>
+      </sect2>
+      <sect2>
+        <title>AlternateTab</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/alternate.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/15/alternatetab/</para>
+        <para>Utilidad:Reemplaza el Alt+Tab. Permite circular entre las ventanas y no agrupa por
+        aplicaciones.</para>
+      </sect2>
+      <sect2>
+        <title>Auto Move Window</title>
+        <para>URL:https://extensions.gnome.org/extension/16/auto-move-windows/</para>
+        <para>Utilidad:Mueve las aplicaciones a espacios de trabajo específicos cuando estos crean
+        ventanas.</para>
+      </sect2>
+      <sect2>
+        <title>Quit Button</title>
+        <para>         
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/quitbutton.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/156/quit-button/</para>
+        <para>Utilidad:Reemplaza el ícono de usuario con el botón Quit.</para>
+      </sect2>
+      <sect2>
+        <title>Show Desktop Button</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/showdesktop.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/64/show-desktop-button/</para>
+        <para>Utilidad:</para>
+      </sect2>
+      <sect2>
+        <title>Frippery Bottom Panel</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/frippery.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/3/bottom-panel/</para>
+        <para>Utilidad:Agrega un botón de panel.</para>
+      </sect2>
+      <sect2>
+        <title>Axe Menú</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/axemenu.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/327/axe-menu/</para>
+        <para>Utilidad:Es una nueva versión grande y linda del menú.</para>
+      </sect2>
+      <sect2>
+        <title>Workspace Indicator</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/workspace.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/21/workspace-indicator/</para>
+        <para>Utilidad: Pone un indicador en el panel que señala en qué espacio de trabajo te
+        encuentras y te da la posibilidad de cambiar a otro espacio de trabajo.</para>
+      </sect2>
+      <sect2>
+        <title>Remove Accessibility</title>
+        <para>URL: https://extensions.gnome.org/extension/112/remove-accesibility/</para>
+        <para>Utilidad: Remueve el botón de accesibilidad de la barra superior.</para>
+      </sect2>
+      <sect2>
+        <title>Dock</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/dock.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL: https://extensions.gnome.org/extension/17/dock/</para>
+        <para>Utilidad: Muestra las aplicaciones favoritas y en funcionamiento.</para>
+      </sect2>
+      <sect2>
+        <title>Remove Workspaces Sidebar</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/removable.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/387/remove-workspaces-sidebar/</para>
+        <para>Utilidad:Quita la barra lateral con los espacios de trabajo en miniatura del resumen
+        de actividades. Es perfecto si no usás espacios de trabajo.</para>
+      </sect2>
+      <sect2>
+        <title>Places Status Indicator</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/places.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/8/places-status-indicator/</para>
+        <para>Utilidad: Agrega un menú para una rápida navegación de ls diferentes lugares del
+        sistema.</para>
+      </sect2>
+      <sect2>
+        <title>Native Window Placement</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/native.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/18/native-window-placement/</para>
+        <para>Utilidad:Organiza las ventanas de una forma más integrada al sistema
+        operativo.</para>
+      </sect2>
+      <sect2>
+        <title>System Monitor</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/systemmonitor.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/9/systemmonitor/</para>
+        <para>Utilidad: Sirve para monitorear los recursos y el funcionamiento del equipo. Ofrece
+        una lista de datos sobre el mismo como por ejemplo el nivel de carga de la batería, la
+        temperatura del equipo, etc.</para>
+      </sect2>
+      <sect2>
+        <title>Gajim IM Integration</title>
+        <para>URL:</para>
+        <para>Utilidad:Muestra los mensajes entrantes de chat como notificaciones en la bandeja de
+        mensajes.</para>
+      </sect2>
+      <sect2>
+        <title>Panel-Docklet v14</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/paneldocklet.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/105/panel-docklet/</para>
+        <para>Utilidad: Esta extensión representa a todas las ventanas abiertas como íconos en un
+        panel. Hay muchas posibilidaes de personalización.</para>
+      </sect2>
+      <sect2>
+        <title>Removable Drive Menu</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/remodrivemenu.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/7/removable-drive-menu/</para>
+        <para>Utilidad: Es un menú de estado para acceder y desmontar los dispositivos
+        extraíbles.</para>
+      </sect2>
+      <sect2>
+        <title>Window Navigator</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/windownavigator.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL:https://extensions.gnome.org/extension/10/windownavigator/</para>
+        <para>Utilidad: Permite seleccionar con el teclado las ventanas y los espacios de trabajo
+        de forma superpuesta.</para>
+      </sect2>
+      <sect2>
+        <title>Applications Menu</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/applicationsmenu.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL: https://extensions.gnome.org/extension/6/applications-menu/</para>
+        <para>Utilidad: Añade un menú de estilo para las aplicaciones.</para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Extensiones de Gnome reomendadas para tu Canaima</title>
+      <para>Estas son algunas de las extensiones que recomendamos desde Canaima para agregarle
+      funcionalidades al escritorio y hacerlo más amigable:</para>
+      <sect2>
+        <title>Advanced Audio Menu</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/cap9/audio_menu.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL: https://extensions.gnome.org/extension/246/advanced-audio-menu/</para>
+        <para>Utilidad: Es un menú que sirve para administrar el volumen, las aplicaciones de audio
+        abiertas, etc.</para>
+      </sect2>
+      <sect2>
+        <title>Frippery Move Clock</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/cap9/move_clock.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL: https://extensions.gnome.org/extension/2/move-clock/</para>
+        <para>Utilidad: Corre el reloj más a la derecha dejando más limpia la barra de
+        arriba.</para>
+      </sect2>
+      <sect2>
+        <title>To Do List</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/cap9/todo_list.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL: https://extensions.gnome.org/extension/162/todo-list/</para>
+        <para>Utilidad: En la barra de arriba arma un cuadro de diálogo donde puedo armar una lista
+        de tareas pendientes. Con solo hacer clic en ellas las elimino de mi lista.</para>
+      </sect2>
+      <sect2>
+        <title>Area Screenshot</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/cap9/screenshot.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL: https://extensions.gnome.org/extension/61/area-screenshot/</para>
+        <para>Utilidad: Permite tomar una captura de pantalla de una porción específica del
+        escritorio.</para>
+      </sect2>
+      <sect2>
+        <title>Jump Lists</title>
+        <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/cap9/jump_list.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        </para>
+        <para>URL: https://extensions.gnome.org/extension/33/jump-lists/</para>
+        <para>Utilidad: Permite acceder de forma rápida a los archivos recientes directamente desde
+        el ícono de la aplicación.</para>
+      </sect2>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Configuracin-de-tu-16' xreflabel='Configuración de tu escritorio'>
+    <title>Configuración de tu escritorio</title>
+    <sect1 id='sec:Por-qu-parece-17' xreflabel='¿Por qué parece que lo que hay en mi pantalla está difuso o pixelado?'>
+      <title>¿Por qué parece que lo que hay en mi pantalla está difuso o pixelado?</title>
+      <para>Esto puede suceder porque la resolución de pantalla que definida no es la más adecuada
+      para tu pantalla.</para>
+      <para>Para solucionar este problema, hacé clic en el 
+      <xref linkend="Icono-de-usuario" /> en la barra superior a la derecha y después en 
+      <xref linkend="sec:Configuracin-del-sistema-1" />. En la sección de hardware, elegí Pantalla.
+      La 
+      <xref linkend="sub:Resolucin-12" /> de las computadoras de Conectar Igualdad es 1024x600px.
+      Siempre se puede editar la imagen descargada para adaptarla a la pantalla usando las
+      aplicaciones libres de Canaima (Ver 
+      <xref linkend="sec:Con-qu-aplicacin-13" />).</para>
+      <bridgehead renderas="sect3"></bridgehead>
+    </sect1>
+    <sect1>
+      <title>Cambiar el tamaño o la rotación de la pantalla</title>
+      <para>Puede cambiar cómo de grandes (o detalladas), aparecen las cosas en la pantalla
+      cambiando la resolución de pantalla. Puede cambiar la manera en la que se muestran las cosas
+      (por ejemplo, si tiene una pantalla giratoria) cambiando la rotación.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el 
+          <xref linkend="Icono-de-usuario" /> en la barra superior a la derecha y seleccione
+          Configuración del sistema.</para>
+        </listitem>
+        <listitem>
+          <para>Abra Pantallas.</para>
+        </listitem>
+        <listitem>
+          <para>Si tiene varias pantallas y no están replicadas puede tener diferentes
+          configuraciones en cada una. Seleccione una pantalla en el área de
+          previsualización.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione la resolución y la rotación que quiere.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Aplicar. La nueva configuración se aplicará durante 30 segundos antes de
+          revertidse. De esta forma, si no puede ver nada con la nueva configuración su antigua
+          configuración se restaurará automáticamente. Si está satisfecho con la nueva
+          configuración, pulse Mantener esta configuración.</para>
+        </listitem>
+      </orderedlist>
+      <para>Cuando se utiliza otra pantalla, como un proyector, se debe detectar automáticamente
+      para que pueda cambiar su configuración en la misma forma que la pantalla normal. Si esto no
+      sucede, simplemente pulse en Detectar pantallas.</para>
+      <sect2 id='sub:Resolucin-12' xreflabel='Resolución'>
+        <title>Resolución</title>
+        <para>La resolución es el número de píxeles (puntos en la pantalla) que se muestran en cada
+        dirección. Cada resolución tiene una proporción de aspecto, la proporción entre la altura y
+        la anchura. Las pantallas anchas usan una proporción de aspecto de 16:9, mientras que las
+        tradicionales usan 4:3. Si elige una resolución que no coincide con la proporción de
+        aspecto, para evitar distorsión, se añadirán bandas negras superiores e inferiores en su
+        pantalla.</para>
+        <para>Puede elegir la opción que prefiera en el menú desplegable Resolución. Si escoge una
+        resolución que no sea adecuada para su pantalla es posible que la vea borrosa o pixelada.
+        La resolución de las computadoras de Conectar Igualdad es 1024x600px.</para>
+      </sect2>
+      <sect2>
+        <title>Rotación</title>
+        <para>En algunos portátiles puede girar físicamente sus pantallas en muchas direcciones.
+        Esto es útil para poder cambiar la rotación de la pantalla. Puede elegir la rotación que
+        quiere para su pantalla en la lista desplegable Rotación.</para>
+      </sect2>
+    </sect1>
+  </chapter>
+</part>

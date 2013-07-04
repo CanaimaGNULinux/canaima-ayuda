@@ -1,0 +1,80 @@
+<part id='part:Acerca-de-la' xreflabel='Acerca de la guía de Huayra'>
+  <title>Acerca de la guía de Huayra</title>
+  <partintro>
+  <para>
+  <inlinemediaobject>
+    <imageobject>
+      <imagedata fileref="img/ayuda.png" role="png" />
+    </imageobject>
+  </inlinemediaobject>
+  </para>
+  <para>En este apartado se encuentra información acerca de esta guía, cómo se puede hacer para
+  contribuir a mejorarla y, capaz lo más importante de todo: un glosario para entender qué
+  significan todas esas palabras complicadas de informática y que nunca se terminaron de
+  entender.</para>
+  <para>Esta guía está diseñada para describir las características de Huayra, responder a las
+  preguntas relacionadas con la informática y ofrecer consejos para usar su equipo de forma más
+  efectiva. Esperamos que sea lo más sencilla y didáctica posible. Está basada en la excelente
+  documentación de Gnome, el entorno de escritorio libre que utiliza Huayra GNU/Linux.</para>
+  <para>Como ningún proyecto de un equipo aislado puede superar un proyecto que cuenta con el
+  respaldo de una comunidad robusta y activa, el equipo que desarrolla Huayra generó en su sitio
+  web (http://www.huayra.conectarigualdad.gob.ar) un foro. Se trata de un espacio abierto para que
+  cualquiera de ustedes, los usuarios de Huayra, puedan contribuir al proyecto desde sus
+  comentarios, recomendaciones, críticas, sugerencias, reflexiones, opiniones, etc. También existe
+  un formulario de contacto y un lugar donde reportar bugs y errores.</para>
+  </partintro>
+  <chapter id='chap:Indicaciones-para-tener' xreflabel='Indicaciones para tener en cuenta:'>
+    <title>Indicaciones para tener en cuenta:</title>
+    <itemizedlist>
+      <listitem>
+        <para>La guía está ordenada por temas pequeños, orientados a las tareas, no por capítulos.
+        Esto significa que no es necesario hojear a través de un manual completo para encontrar las
+        respuestas.</para>
+      </listitem>
+      <listitem>
+        <para>Incluye una búsqueda interna. La barra por encima del navegador de ayuda es una 
+        <emphasis>barra de búsqueda</emphasis>y los resultados relevantes aparecerán tan pronto
+        como empiece a teclear.</para>
+      </listitem>
+    </itemizedlist>
+    <para>
+    <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="img/buscador-doc.png" role="png" />
+      </imageobject>
+    </inlinemediaobject>
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>Los temas relacionados están vinculados entre sí. Los vínculos «Consulte también» al
+        final de algunas páginas llevarán a temas relacionados. Esto facilita la búsqueda de temas
+        similares que podrían ayudar a realizar una determinada tarea.</para>
+      </listitem>
+      <listitem>
+        <para>Esta guía está mejorándose constantemente. Aunque intentamos ofrecerle un conjunto
+        completo de información útil, sabemos que no podemos responder aquí a todas sus preguntas.
+        No obstante, seguiremos añadiendo más información para hacerle las cosas más útiles.</para>
+      </listitem>
+    </itemizedlist>
+    <para>Gracias por tomarse el tiempo de leer la ayuda del escritorio. Sinceramente esperamos que
+    nunca tenga que usarla. -- El equipo de documentación HUAYRA</para>
+  </chapter>
+  <chapter id='chap:Participa-y-contribuye' xreflabel='Participa y contribuye'>
+    <title>Participa y contribuye</title>
+    <para>
+      <emphasis>Participar para mejorar esta guía Informar de un error o proponer una
+      mejora</emphasis>
+    </para>
+    <para>Esta documentación ha sido creada por el Equipo de Documentación de Huayra . Esta guía no
+    es definitiva y estamos siempre intentando mejorarla. Para eso es indispensable la
+    participación de sus usuarios. Como ningún proyecto de un equipo aislado puede superar un
+    proyecto que cuenta con el respaldo de una comunidad robusta y activa, el equipo que desarrolla
+    Huayra generó en su sitio web (http://www.huayra.conectarigualdad.gob.ar) un foro. Se trata de
+    un espacio abierto para que cualquiera de ustedes, los usuarios de Huayra, puedan contribuir al
+    proyecto desde sus comentarios, recomendaciones, críticas, sugerencias, reflexiones, opiniones,
+    etc. También existe un formulario de contacto y un lugar donde reportar bugs y errores. Si
+    encuentra un problema con estas páginas de ayuda (errores ortográficos, instrucciones
+    incorrectas, o temas que se deberían cubrir pero no están), puede enviar un informe de error a
+    través del espacio para reporte de errores del sitio.</para>
+  </chapter>
+</part>

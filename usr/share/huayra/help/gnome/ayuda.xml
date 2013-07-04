@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd"
+ [ 
+<!ENTITY parte_1.xml SYSTEM "parte_1.xml">
+<!ENTITY parte_2.xml SYSTEM "parte_2.xml">
+<!ENTITY parte_3.xml SYSTEM "parte_3.xml">
+<!ENTITY parte_4.xml SYSTEM "parte_4.xml">
+<!ENTITY parte_5.xml SYSTEM "parte_5.xml">
+<!ENTITY parte_6.xml SYSTEM "parte_6.xml">
+<!ENTITY parte_7.xml SYSTEM "parte_7.xml">
+<!ENTITY parte_8.xml SYSTEM "parte_8.xml">
+<!ENTITY parte_9.xml SYSTEM "parte_9.xml">
+<!ENTITY parte_10.xml SYSTEM "parte_10.xml">
+<!ENTITY parte_11.xml SYSTEM "parte_11.xml">
+<!ENTITY glosario.xml SYSTEM "glosario.xml">
+]>
+<book lang="es">
+<bookinfo> 
+	 <copyright> 
+		<year>2013</year> 
+		<holder>Equipo de Canaima GNU Linux</holder> 
+	 </copyright>
+	 <publisher role="maintainer"> 
+		<publishername>Equipo de Canaima GNU Linux</publishername> 
+	 </publisher>   
+<legalnotice id="legalnotice">
+    <para>Este trabajo está licenciado bajo una <link href="http://creativecommons.org/licenses/by-sa/3.0/">Licencia Creative Commons Compartir-igual de Atribución 3.0 sin soporte</link>.</para>
+<para> La Documentación de Canaima GNU/Linux fue desarrollada por el Equipo de Canaima basandonos en la de huayra y su equipo de Documentación de CENITAL. Utilizó elementos de documentaciones existentes como Gnome Shell (Licencia Creative Commons Compartir-igual de Atribución 3.0 sin soporte).</para>	
+  </legalnotice>
+<license xmlns="http://projectmallard.org/1.0/" href="http://creativecommons.org/licenses/by-sa/3.0/">
+  <p>Este trabajo está licenciado bajo una <link href="http://creativecommons.org/licenses/by-sa/3.0/">Licencia Creative Commons Compartir-igual de Atribución 3.0 sin soporte</link>.</p>
+</license>
+	 <authorgroup> 
+		<author>
+                  <firstname>Sasha Veronica</firstname>
+		  <surname>Solano Grosjean</surname> 
+		  <affiliation> 
+			 <orgname>Equipo de desarrollo de Canaima GNU/Linux</orgname> 
+		  </affiliation>
+                   <affiliation> 
+			 <orgname>Equipo de Documentación Huayra / CENITAL</orgname> 
+		  </affiliation> 
+		</author> 
+	
+	 </authorgroup>
+  </bookinfo>
+<title>Documentación Canaima</title>
+    &parte_1.xml;
+    &parte_5.xml;
+    &parte_6.xml;
+    &parte_7.xml;
+    &parte_8.xml;
+    &parte_9.xml;
+    &parte_10.xml;
+    &parte_11.xml;
+    &glosario.xml; 
+</book>
