@@ -1,0 +1,3 @@
+paquete/gnome/* usr/share/huayra/help/gnome/
+debian/ayuda-gnome.desktop usr/share/applications/
+debian/ayuda-gnome.desktop etc/skel/Escritorio/ 

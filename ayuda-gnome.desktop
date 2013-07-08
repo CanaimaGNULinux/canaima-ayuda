@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ayuda
+Comment=Ayuda de canaima para Gnome
+Exec=yelp /usr/share/canaima/help/gnome/ayuda.xml
+Icon=help-browser
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Documentation;
+OnlyShowIn=GNOME;

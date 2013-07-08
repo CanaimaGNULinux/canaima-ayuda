@@ -1,0 +1,3248 @@
+<part id='part:Hardware' xreflabel='Hardware'>
+  <title>Hardware</title>
+  <partintro>
+  <para>
+  <inlinemediaobject>
+    <imageobject>
+      <imagedata fileref="img/hardware.png" role="png" />
+    </imageobject>
+  </inlinemediaobject>
+  </para>
+  <para>En este apartado se encuentra toda la información necesaria sobre el uso del hardware de la
+  computador: mouse, teclado, impresoras, energía y batería, discos y almacenamiento, el modo
+  alternativo y todos los problemas más comunes.</para>
+  <para>
+    <emphasis>IMPORTANTE: si bien en este apartado se intentó contemplar todas las situaciones
+    posibles a suceder con un hardware, puede ser que algunos aspectos vinculados a los periféricos
+    (Ver 
+    <xref linkend="sub:Perifrico-47" />) queden por fuera de esta guía.</emphasis>
+  </para>
+  </partintro>
+  <chapter id='chap:Mouse' xreflabel='Mouse'>
+    <title>Mouse</title>
+    <para>Acá va a encontrar ayuda sobre cómo realizar ajustes personalizados al mouse según su
+    conveniencia.</para>
+    <sect1>
+      <title>Ajustar el umbral de arrastre del mouse</title>
+      <para>Cuando se pulsa sobre algo, no es raro que su mano se mueva un poco durante el tiempo
+      que pasa entre que pulsa el botón y lo suelta. Por esa razón, el proceso de arrastrar solo
+      empieza si se mueve el puntero pasado un cierto umbral, para que no empiece a arrastrar
+      accidentalmente cada vez que pulse sobre algo.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el 
+          <xref linkend="Icono-de-usuario" />en la barra superior a la derecha y seleccione 
+          <emphasis>Configuración del sistema.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse y touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Mouse</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>En 
+          <emphasis>Arrastrar y soltar,</emphasis>ajuste el deslizador del Umbral a un valor que le
+          resulte cómodo. Pruebe a mover la ventana de opciones arrastrando la barra de título para
+          probar el valor actual.</para>
+        </listitem>
+      </orderedlist>
+      <para>
+        <emphasis>Este ajuste afectará tanto a su mouse como a su "touchpad", así como a cualquier
+        otro dispositivo apuntador.</emphasis>
+      </para>
+    </sect1>
+    <sect1>
+      <title>Ajustar la velocidad de la doble pulsación</title>
+      <para>La doble pulsación solo sucede cuando pulsa el botón del mouse dos veces lo bastante
+      rápido. Si se tarda mucho en pulsar la segunda vez, obtendrá dos pulsaciones separadas, no
+      una doble pulsación. Si tiene dificultados en pulsar el mouse tan deprisa debería incrementar
+      el tiempo de espera.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el 
+          <xref linkend="Icono-de-usuario" />en la barra superior a la derecha y seleccione 
+          <emphasis>Configuración del sistema.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse y touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Mouse</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Debajo de 
+          <emphasis>Tiempo de espera de la pulsación doble</emphasis>, ajuste el deslizador Tiempo
+          de espera a un valor que considere confortable. Use la cara sonriente junto al deslizador
+          para probar su configuración. Una pulsación simple lo hará sonreír. Una pulsación doble
+          lo hará sonreír de oreja a oreja.</para>
+        </listitem>
+      </orderedlist>
+      <para>
+        <emphasis>Si su mouse hace una doble pulsación cuando usted quiere hacer una sola
+        pulsación, aunque haya incrementado el tiempo de espera de la pulsación doble, es posible
+        que esté defectuoso. Pruebe a conectar otro mouse en su equipo y compruebe si funciona
+        correctamente. O también, conecte su mouse en otro equipo distinto y compruebe si el
+        problema persiste.</emphasis>
+      </para>
+      <para>
+        <emphasis>Este ajuste afectará tanto a su mouse como a su "touchpad", así como a cualquier
+        otro dispositivo apuntador. </emphasis>
+      </para>
+    </sect1>
+    <sect1>
+      <title>Ajustar la velocidad del mouse y del touchpad</title>
+      <para>Si el puntero se mueve demasiado deprisa o despacio cuando mueve el mouse o usa el
+      touchpad, puede ajustar la sensibilidad del puntero y la aceleración para estos
+      dispositivos.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el 
+          <xref linkend="Icono-de-usuario" />en la barra superior a la derecha y seleccione 
+          <emphasis>Configuración del sistema.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse y touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Mouse</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Ajuste los deslizadores de 
+          <emphasis>Aceleración y Sensibilidad</emphasis>en Velocidad del puntero hasta que el
+          movimiento del puntero le sea cómodo.</para>
+        </listitem>
+      </orderedlist>
+      <para>
+      <emphasis>La sensibilidad es la velocidad inicial del puntero al mover su
+      mouse.</emphasis>Cuanto más mueva el mouse, más rápidamente se mueve el puntero con relación
+      a su movimiento. Esto le ayuda a mover el puntero por la pantalla sin levantar la mano,
+      mientras que le permite apuntar y pulsar de manera precisa. La aceleración controla este
+      comportamiento.</para>
+      <para>Puede ajustar la sensibilidad y la aceleración de forma diferente para el mouse y el
+      "touchpad". A veces la configuración más agradable para un tipo de dispositivo no es la más
+      cómoda para el otro. Solo tiene que configurar las barras de desplazamiento tanto en la
+      pestaña del mouse como en la del Touchpad.</para>
+    </sect1>
+    <sect1 id='sub:Desactivar-el-Touchpad' xreflabel='Desactivar el Touchpad al escribir'>
+      <title>Desactivar el Touchpad al escribir</title>
+      <para>Los "touchpads" en las computadors se sitúan normalmente donde descansa su muñeca mientras
+      está tecleando, por lo que a veces puede provocar pulsaciones accidentales mientras teclea.
+      Pero puede desactivar el "touchpad" mientras teclea, funcionará de nuevo un poco después de
+      que haya pulsado la última tecla.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el 
+          <xref linkend="Icono-de-usuario" />
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior a la derecha y seleccione 
+          <emphasis>Configuración del sistema.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse y touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Touchpad.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Seleccione 
+          <emphasis>Desactivar el "touchpad" al escribir.</emphasis></para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+    <sect1>
+      <title>Localizar rápidamente el puntero</title>
+      <para>Puede encontrar el puntero del mouse pulsando 
+      <keycap>
+        Ctrl
+      </keycap>.</para>
+    </sect1>
+    <sect1 id='sub:Pulsar-o-desplazarse' xreflabel='Pulsar o desplazarse con el touchpad'>
+      <title>Pulsar o desplazarse con el touchpad</title>
+      <para>Puede habilitarse o deshabilitarse el touchpad para que funcione como si fuera un botón
+      del mouse (pulsar, hacer dobles pulsaciones, arrastrar y desplazarse).</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el 
+          <xref linkend="Icono-de-usuario" />
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior a la derecha y seleccione 
+          <emphasis>Configuración del sistema.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse y touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Touchpad.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Seleccione 
+          <emphasis>Activar pulsaciones del mouse con el touchpad.</emphasis></para>
+        </listitem>
+      </orderedlist>
+      <para>Recuerde entonces que:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Para 
+          <emphasis>pulsar una vez</emphasis>solo basta con tocar el "touchpad".</para>
+        </listitem>
+        <listitem>
+          <para>Para 
+          <emphasis>una doble pulsación,</emphasis>toque dos veces.</para>
+        </listitem>
+        <listitem>
+          <para>Para 
+          <emphasis>arrastrar un elemento</emphasis>, toque dos veces pero no levante su dedo
+          después del segundo toque. Arrastre el elemento a donde quiera y después levante su dedo
+          para soltarlo.</para>
+        </listitem>
+        <listitem>
+          <para>Si su "touchpad" es multitáctil, pulse con el botón derecho del mouse usando dos
+          dedos a la vez. De lo contrario necesitará usar los botones hardware para pulsar con el
+          botón derecho del mouse.</para>
+        </listitem>
+        <listitem>
+          <para>Si su "touchpad" soporta multi-toque puede pulsar con el botón del medio pulsando(
+          <xref linkend="sub:Pulsacin-central-49" />) con tres dedos a la vez.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Asegúrese de que sus dedos están separados lo suficiente al tocar o arrastrar con
+      varios dedos. Si sus dedos están demasiado juntos su equipo puede creer que es un solo
+      dedo.</para>
+      <para>Puede hacer desplazamientos usando su "touchpad", bien usando los bordes del "touchpad"
+      o bien usando dos dedos:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Seleccione 
+          <emphasis>Desplazamiento en el borde</emphasis>en Desplazamiento para hacer
+          desplazamientos usando el borde de su touchpad. Cuando está seleccionado, al arrastrar su
+          dedo arriba y abajo por el lateral derecho de su "touchpad" se desplazará verticalmente.
+          Si además selecciona 
+          <emphasis>Activar desplazamiento horizontal</emphasis>, al arrastrar su dedo a izquierda
+          y derecha por el borde inferior del "touchpad" se desplazará horizontalmente.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione 
+          <emphasis>Desplazamiento con dos dedos</emphasis>en Desplazamiento para desplazarse con
+          dos dedos. Cuando está seleccionado, el acto de golpear y arrastrar con un solo dedo
+          funcionará como siempre, pero si arrastra dos dedos por cualquier zona del "touchpad",
+          hará un desplazamiento. Si además selecciona Activar desplazamiento horizontal, podrá
+          mover sus dedos a izquierda y derecha para desplazarse horizontalmente. Asegúrese de
+          dejar un poco de espacio entre sus dedos. Si sus dedos están demasiado juntos, el
+          "touchpad" podría creer que se trata de un único dedo grande. El desplazamiento con dos
+          dedos puede no funcionar en todos los touchpads.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>Pulsar y mover el puntero del mouse usando el teclado numérico</title>
+      <para>Si tiene dificultades al usar un mouse u otro dispositivo señalador, puede controlar el
+      puntero del mouse usando el teclado numérico de su teclado. Esta característica se llama 
+      <emphasis>teclas de mouse</emphasis>.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse Ctrl+Alt+Tab <!--keycombo-->para dar el foco del teclado a la barra superior.</para>
+        </listitem>
+        <listitem>
+          <para>Use las flechas derecha e izquierda para seleccionar el menú de acceso universal y
+          pulse 
+          <emphasis>
+            
+              Intro
+            <!--keycombo-->
+          </emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Use las teclas de flechas arriba y abajo para seleccionar 
+          <emphasis>Teclas del mouse</emphasis>y pulse 
+          <emphasis>
+            
+              Intro
+            <!--keycombo-->
+          </emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Compruebe que la tecla 
+          
+            Bloq Num
+          <!--keycombo-->está desactivada. Ahora podrá mover el puntero del mouse usando el teclado
+          numérico.</para>
+        </listitem>
+      </orderedlist>
+      <para>Estas instrucciones indican la manera más rápida de activar las teclas del mouse usando
+      sólo el teclado. Seleccione 
+      <emphasis>Configuración del acceso universal</emphasis>para ver más opciones de
+      accesibilidad.</para>
+      <sect2>
+        <title>El teclado numérico</title>
+        <para>Es un conjunto de botones numéricos de su teclado normalmente dispuestos en una
+        matriz cuadrada. </para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Simular una pulsación al posicionar el puntero</title>
+      <para>La pulsación al posarse (pulsación al posicionar el puntero) le permite pulsar
+      manteniendo el mouse quieto.</para>
+    </sect1>
+    <sect1>
+      <title>Use su mouse para zurdos</title>
+      <para>Puede intercambiar el comportamiento de los botones izquierdo y derecho de su mouse o
+      "touchpad" para hacerlo más cómodo a los zurdos.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el ícono 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior a la derecha y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse y touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Mouse</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione 
+          <emphasis>Zurdo</emphasis>.</para>
+        </listitem>
+      </orderedlist>
+      <para>Este ajuste afectará tanto a su mouse como a su "touchpad", así como a cualquier otro
+      dispositivo apuntador.</para>
+    </sect1>
+    <sect1>
+      <title>Problemas comunes</title>
+      <sect2>
+        <title>El puntero del mouse no se mueve</title>
+        <sect3 id='sub:Compruebe-que-el' xreflabel='Compruebe que el mouse este conectado'>
+          <title>Compruebe que el mouse este conectado</title>
+          <itemizedlist>
+            <listitem>
+              <para>Si tiene un mouse con cable, compruebe que esta firmemente conectado a su
+              equipo.</para>
+            </listitem>
+            <listitem>
+              <para>Si es un mouse USB 
+              <emphasis>(con un conector rectangular)</emphasis>, pruebe a conectarlo en un puerto
+              USB distinto.</para>
+            </listitem>
+            <listitem>
+              <para>Si es un mouse PS/2 (con un pequeño conector redondo con seis pines), compruebe
+              que está conectado en el puerto verde del mouse, y no en el puerto violeta del
+              teclado. Puede que tenga que reiniciar el equipo si no estaba bien conectado.</para>
+            </listitem>
+          </itemizedlist>
+        </sect3>
+        <sect3>
+          <title>Compruebe que su equipo ha reconocido el mouse</title>
+          <para>Abra la aplicación 
+          <emphasis>Terminal</emphasis>desde la vista de 
+          <emphasis>Actividades.</emphasis></para>
+          <para>En la ventana de la terminal, escriba</para>
+          <para>
+            <literal>
+              xsetpointer -l | grep Pointer
+            </literal>
+          </para>
+          <para>exactamente como aparece aquí y pulse 
+          
+            Intro
+          <!--keycombo-->.</para>
+          <para>Aparecerá una pequeña lista de dispositivos de mouse. Compruebe que al menos uno de
+          los elementos diga [XExtensionPointer] junto a él, y que uno de los elementos
+          [XExtensionPointer] tenga el nombre del mouse a su izquierda.</para>
+          <para>Si no hay ninguna entrada con el nombre del mouse seguido de [XExtensionPointer],
+          es que su equipo no reconoció su mouse.</para>
+          <para>Si existe esa entrada, su equipo reconoció su mouse. En este caso debería comprobar
+          que el mouse está conectado (
+          <xref linkend="sub:Compruebe-que-el" />) y en condiciones de trabajo (
+          <xref linkend="sub:Compruebe-que-actualmente" />).</para>
+          <para>Si su mouse tiene un puerto serie (RS-232), puede que tenga que realizar algunos
+          pasos adicionales para que funcione. Los pasos pueden depender de la marca o el modelo
+          del mouse.</para>
+          <para>Puede ser complicado arreglar los problemas con la detección del mouse. Pida ayuda
+          a su distribuidor o proveedor si piensa que el mouse no se ha detectado
+          correctamente.</para>
+        </sect3>
+        <sect3 id='sub:Compruebe-que-actualmente' xreflabel='Compruebe que actualmente el mouse funciona'>
+          <title>Compruebe que actualmente el mouse funciona</title>
+          <para>Conecte el mouse en un equipo distinto y vea si funciona. Si el mouse es un mouse
+          óptico o láser, debería brillar una luz en la parte inferior del mouse, cuando está
+          encendido. Si no hay luz, compruebe que está activado. Si es así y todavía no hay luz, el
+          mouse puede que esté roto.</para>
+        </sect3>
+        <sect3>
+          <title>Comprobar el mouse inalámbrico</title>
+          <para>Asegúrese de que el mouse está encendido. Generalmente existe un interruptor en la
+          parte de inferior del mouse para apagar completamente el mouse, de tal forma que puede
+          moverlo de un sitio a otro sin tener que despertarlo constantemente. Si está usando un
+          mouse Bluetooth, asegúrese de que ha emparejado el mouse con el equipo. Consulte la
+          Conectar su equipo a un dispositivo Bluetooth.</para>
+          <itemizedlist>
+            <listitem>
+              <para>Pulse un botón y compruebe si el puntero del mouse se mueve ahora. Algunos
+              ratones inalámbricos se ponen en reposo para ahorrar energía, por lo que es posible
+              que no respondan hasta que pulse un botón. Consulte 
+              <xref linkend="sub:El-mouse-sufre" />.</para>
+            </listitem>
+            <listitem>
+              <para>Compruebe que la batería del mouse está cargada.</para>
+            </listitem>
+            <listitem>
+              <para>Compruebe que el receptor está firmemente conectado al equipo.</para>
+            </listitem>
+            <listitem>
+              <para>Si el mouse y el receptor pueden funcionar en canales de radio diferentes,
+              asegúrese de que están en el mismo canal.</para>
+            </listitem>
+            <listitem>
+              <para>Es posible que tenga que pulsar un botón en el mouse, el receptor o ambos para
+              establecer una conexión. El manual de instrucciones de su mouse debería tener más
+              detalles si este es el caso.</para>
+            </listitem>
+          </itemizedlist>
+          <para>La mayoría de los ratones inalámbricos RF (radio), deberían funcionar
+          automáticamente cuando se conectan al equipo. Si tiene un mouse inalámbrico Bluetooth o
+          IR (infrarrojos), puede que tenga que realizar algunos pasos adicionales para que
+          funcione. Los pasos pueden depender de la marca o el modelo del mouse.</para>
+        </sect3>
+      </sect2>
+      <sect2 id='sub:El-mouse-sufre' xreflabel='El mouse sufre un retardo antes de empezar a funcionar'>
+        <title>El mouse sufre un retardo antes de empezar a funcionar</title>
+        <para>Los ratones inalámbricos y ópticos, así como los "touchpads" de los portátiles, a
+        veces necesitan "despertarse" antes de empezar a funcionar. Se ponen automáticamente en
+        reposo cuando no se están usando, para ahorrar batería. Para despertar su mouse o su
+        "touchpad", pulse un botón del mouse o agítelo.</para>
+        <para>Los "touchpads" de los portátiles a veces tienen un retardo desde que deja de teclear
+        hasta que empiezan a funcionar de nuevo. Esto se hace para evitar que toque el "touchpad"
+        accidentalmente con la palma de su mano mientras teclea.</para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Consejos</title>
+      <sect2 id='sub:Pulsacin-central-49' xreflabel='Pulsación central'>
+        <title>Pulsación central </title>
+        <para>
+          <emphasis>Use el botón central para abrir aplicaciones, pegar texto, abrir pestañas y
+          más.</emphasis>
+        </para>
+        <para>Muchos "mouse" y algunos "touchpads" tienen un 
+        <emphasis>botón central</emphasis>. En los mouse que disponen de rueda de desplazamiento, a
+        veces puede presionar la rueda directamente para hacer una pulsación de botón central. Si
+        no dispone de botón central, puede emularlo pulsando los botones izquierdo y derecho al
+        mismo tiempo.</para>
+        <para>En "touchpads" que sean multitáctiles puede pulsar con tres dedos a la vez para
+        realizar una pulsación con el botón del medio. Para que esto funcione, debe activar 
+        <emphasis>Activar pulsaciones del mouse con el touchpad</emphasis>(
+        <xref linkend="sub:Pulsar-o-desplazarse" />) en la configuración del "touchpad".</para>
+        <para>Muchas aplicaciones usan la pulsación central para atajos de pulsación
+        avanzados.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Un atajo común es pegar el texto seleccionado. (A veces se denomina "pegado de
+            selección principal".) Para ello:</para>
+            <itemizedlist>
+              <listitem>
+                <para>seleccione el texto que desea pegar,</para>
+              </listitem>
+              <listitem>
+                <para>a continuación, vaya a donde quiera pegar y</para>
+              </listitem>
+              <listitem>
+                <para>haga una pulsación central. El texto seleccionado se pegará en la posición
+                del mouse.</para>
+              </listitem>
+            </itemizedlist>
+            <para>Pegar texto con el botón central del mouse es algo totalmente independiente de
+            pegarlo desde el portapapeles normal. Al seleccionar texto no se pega al portapapeles.
+            Este método rápido de pegado solo funciona con el botón central del mouse.</para>
+          </listitem>
+          <listitem>
+            <para>En barras de desplazamiento y deslizadores, una pulsación en el espacio vacío las
+            mueve una cantidad determinada (por ejemplo, una página) en la dirección en la que ha
+            pulsado. También puede pulsar con el botón central en el espacio vacío para moverse
+            exactamente a la ubicación en la que ha pulsado.</para>
+          </listitem>
+          <listitem>
+            <para>En la vista general de Actividades (ver 
+            <xref linkend="chap:Vista-de-actividades" />) puede abrir rápidamente una ventana nueva
+            para una aplicación en su propio nuevo área de trabajo, pulsando con el botón del
+            medio. Simplemente pulse con el botón del medio sobre el ícono de la aplicación, ya sea
+            en el tablero de la izquierda, o en la vista general de aplicaciones.</para>
+          </listitem>
+          <listitem>
+            <para>Muchos navegadores web le permiten abrir enlaces en pestañas rápidamente con el
+            botón central del mouse. Pulse cualquier enlace con el botón central y se abrirá en una
+            nueva pestaña. Pero tenga cuidado al pulsar un enlace en el navegador web Cunaguaro. En
+            Cunaguaro, si pulsa el botón central en cualquier otro sitio que no sea un enlace, el
+            navegador intentará cargar su texto seleccionado como un URL, como si hubiese usado el
+            botón central para pegarlo en la barra de direcciones y hubiese pulsado Intro.</para>
+          </listitem>
+          <listitem>
+            <para>En el gestor de archivos, el botón central tiene dos funciones. Si pulsa con el
+            botón central en una carpeta, se abrirá en una pestaña nueva. Este comportamiento imita
+            al de los navegadores web más populares. Si pulsa con el botón central sobre un
+            archivo, lo abrirá como si hubiese pulsado dos veces sobre él.</para>
+          </listitem>
+        </itemizedlist>
+        <para>Algunas aplicaciones especializadas le permiten usar el botón central del mouse para
+        otras funciones. Busque en la ayuda de su aplicación algún apartado referente a pulsación
+        central o botón central del mouse.</para>
+      </sect2>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Teclado' xreflabel='Teclado'>
+    <title>Teclado</title>
+    <para>Acá podrá leer sobre cómo personalizar la configuración del teclado, ya sea para cambiar
+    el idioma, o adaptarlo según su conveniencia.</para>
+    <sect1 id='sub:Usar-distribuciones-de' xreflabel=''>
+      <title>Cambiar Idioma- Usar distribuciones de teclado</title>
+      <para>Los teclados vienen en cientos de distribuciones diferentes para distintos idiomas.
+      Incluso para un solo idioma pueden existir muchas distribuciones de teclado, como la
+      distribución Dvorak para el inglés.</para>
+      <para>Puede hacer que su teclado se comporte como un teclado con una distribución diferente,
+      independientemente de qué letras y símbolos tenga escritos en las teclas. Esto es útil si
+      tiene que usar varios idiomas a menudo.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el ícono de usuario 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior a la derecha y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Región e idioma</emphasis>y seleccione la pestaña 
+          <emphasis>Distribuciones</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse el 
+          <emphasis>botón +</emphasis>, seleccione una distribución y pulse 
+          <emphasis>Añadir</emphasis>. Puede añadir hasta cuatro distribuciones.</para>
+        </listitem>
+      </orderedlist>
+      <para>Puede tener una vista previa de una imagen o cualquier distribución seleccionando en la
+      lista y pulsando , o pulsando Vista previa en la ventana emergente cuando añade una
+      distribución.</para>
+      <itemizedlist>
+        <listitem>
+          <para>Cuando 
+          <emphasis>se añaden</emphasis>varias distribuciones, puede cambiar entre ellas utilizando
+          el ícono de distribución de teclado en la barra superior. La barra superior mostrará una
+          cadena corta de identificación de la distribución actual, tal como es para la
+          distribución estándar de español. Pulse en el indicador de la distribución y seleccione
+          la que quiera usar en el menú.</para>
+        </listitem>
+        <listitem>
+          <para>Cuando 
+          <emphasis>se usan</emphasis>varias distribuciones, se puede elegir entre tener todas las
+          ventanas con la misma distribución o asignar una distribución diferente a cada ventana.
+          Esto último resulta interesante, por ejemplo, si está escribiendo un artículo en otro
+          idioma en una ventana del procesador de textos. Cada ventana recordará su selección de
+          teclado conforme vaya pasando de una ventana a otra.</para>
+        </listitem>
+      </itemizedlist>
+      <para>De manera predeterminada, las nuevas ventanas usarán la distribución de teclado
+      predeterminada. En su lugar, puede elegir que usen la distribución de la ventana que
+      estuviera usando antes. La distribución predeterminada es la situada al principio de la
+      lista. Use los botones "flecha arriba" y "flecha abajo" para subir o bajar las distribuciones dentro de la lista.</para>
+      <para>También puede establecer un atajo de teclado para cambiar rápidamente entre las
+      distribuciones de teclado seleccionadas:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse Opciones, busque la opción del grupo Tecla/s para cambiar la
+          distribución.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione uno o más atajos para cambiar la distribución. Algunas opciones sólo
+          modifican la distribución mientras mantiene pulsada una tecla, en lugar de cambiar la
+          distribución cuando pulsa la tecla.</para>
+        </listitem>
+      </orderedlist>
+      <sect2>
+        <title>Opciones personalizadas</title>
+        <para>
+          <emphasis>Puede añadir algunos símbolos a teclas específicas o ajustar la opción
+          personalizada y el comportamientos. Puede hacer esto pulsando en Opciones.</emphasis>
+        </para>
+      </sect2>
+      <sect2>
+        <title>Distribuciones de teclado</title>
+        <para>Puede hacer que el teclado se comporte como el teclado de otro idioma,
+        independientemente de las letras impresas en las teclas. Incluso puede cambiar fácilmente
+        entre diferentes distribuciones de teclado con un ícono en la barra superior.</para>
+        <para>Para saber cómo hacerlo, consulte la 
+        <xref linkend="sec:Usar-distribuciones-de" /></para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Cambiar el teclado para todas las cuentas del sistema</title>
+      <para>Cuando cambia su distribución de teclado sólo la cambiará para su cuenta después de
+      iniciada la sesión. También puede cambiar los formatos del sistema, que son los formatos
+      usados en sitios como la pantalla de inicio de sesión.</para>
+      <para>Cambie su distribución de teclado, tal y como se detalla encima. 
+      <xref linkend="sub:Usar-distribuciones-de" /></para>
+      <para>Seleccione la pestaña Sistema.</para>
+      <para>Pulse Copiar configuración. Se necesitan privilegios de administrador (Ver 
+      <xref linkend="sec:Cmo-funcionan-los-18" />).</para>
+      <para>Introduzca su contraseña, o la contraseña de administrador que se le pida.</para>
+      <para>Las distribuciones se muestran junto a la etiqueta Fuente de entrada.</para>
+      <para>Si usa varias distribuciones, la pantalla de inicio de sesión presentará el menú de
+      distribución de teclado en la barra superior.</para>
+      <bridgehead renderas="sect4"></bridgehead>
+    </sect1>
+    <sect1>
+      <title>Acceso universal</title>
+      <para>Para saber cómo puede cambiar la configuración de tu teclado, mouse, ya se para activar
+      el rechazo de teclas, activar las teclas lentas, vea 
+      <xref linkend="part:Accesibilidad" /></para>
+      <sect2>
+        <title>Activar el rechazo de teclas</title>
+        <para>Ignorar pulsaciones rápidas de la misma tecla.</para>
+      </sect2>
+      <sect2>
+        <title>Activar las teclas lentas</title>
+        <para>Tener un retardo al pulsar una tecla y el tiempo que tarda en aparecer en la
+        pantalla.</para>
+      </sect2>
+      <sect2>
+        <title>Activar las teclas persistentes</title>
+        <para>Pulsar combinaciones de teclas de forma seguida en lugar de tener que mantener todas
+        las teclas pulsadas a la vez.</para>
+      </sect2>
+      <sect2>
+        <title>Navegación con el teclado</title>
+        <para>Aprenda cómo realizar las tareas que usualmente realiza con el mouse utilizando
+        sólamente el teclado:</para>
+        <itemizedlist>
+          <listitem>
+            <para>
+            
+              Tab
+            <!--keycombo-->y 
+            
+              Ctrl+Tab
+            <!--keycombo-->Mover el foco del teclado entre diferentes controles. 
+            
+              Ctrl+Tab
+            <!--keycombo-->lo mueve entre grupos de controles, por ejemplo de una barra lateral al
+            contenido principal.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Ctrl+Tab
+            <!--keycombo-->también puede salir de un control que use Tab por sí mismo, como un área de
+            texto. Mantenga pulsada la tecla Mayús para mover el foco en orden inverso.</para>
+          </listitem>
+          <listitem>
+            <para>Teclas de flechas
+            <!--keycombo-->Mover la selección entre elementos de un único control, o entre un conjunto
+            de controles relacionados. Use las teclas de flechas para dar el foco a los botones,
+            seleccionar elementos en una vista de lista o de íconos o para seleccionar un botón de
+            radio en un grupo. En la vista de árbol, use las teclas de flechas derecha e izquierda
+            para contraer y expandir los elementos con hijos.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Ctrl+Teclas de flechas
+            <!--keycombo-->En la vista de lista o de íconos, mover el foco del teclado a otro elemento
+            sin cambiar el elemento que está seleccionado.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Mayús+Teclas de flechas
+            <!--keycombo-->En la vista de lista o de íconos, seleccionar todos los elementos desde el
+            elemento seleccionado actualmente hasta el nuevo elemento con el foco. Espacio Activar
+            un elemento que tenga el foco, como un botón, una casilla o un elemento de una
+            lista.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Ctrl+Espacio
+            <!--keycombo-->En la vista de lista o de íconos, seleccionar o deseleccionar el elemento
+            con el foco sin deseleccionar el resto de elementos.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Alt
+            <!--keycombo-->Mantenga pulsada la tecla Alt para mostrar los aceleradores: teclas
+            subrayadas en elementos de menú, botones y otros controles. Pulse Alt+ la tecla
+            subrayada para activar el control, como si hubiera pulsado sobre él.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Esc
+            <!--keycombo-->Salir de un menú, menú emergente, selector o ventana de diálogo.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              F10
+            <!--keycombo-->Abrir el primer elemento de un menú en la barra de menú de una ventana. Use
+            las teclas de flechas para navegar por los menús.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              tecla Huayra +F10
+            <!--keycombo-->Abrir el menú de la aplicación en la barra superior. (ver 
+            <xref linkend="sec:Qu-es-la-1-9" />)</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Mayús+F10
+            <!--keycombo-->o la tecla "menú" Mostrar el menú contextual para la selección actual, como
+            si hubiera pulsado con el botón derecho.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Ctrl+F10
+            <!--keycombo-->En el gestor de archivos, mostrar el menú contextual para la carpeta actual,
+            como si hubiera pulsado con el botón derecho sobre el fondo y no sobre un
+            elemento.</para>
+          </listitem>
+          <listitem>
+            <para>
+            
+              Ctrl+Re Pág
+            <!--keycombo-->y 
+            
+              Ctrl+Av. Pág
+            <!--keycombo-->En la interfaz con pestañas, cambiar a la pestaña de la izquierda o a la de
+            la derecha.</para>
+          </listitem>
+        </itemizedlist>
+        <sect3>
+          <title>Navegar por el escritorio</title>
+          <itemizedlist>
+            <listitem>
+              <para>
+              
+                Alt+F1
+              <!--keycombo-->o la 
+              
+                tecla Huayra
+              <!--keycombo-->Cambia entre la vista general de Actividades y el escritorio. En la vista
+              general, comience a escribir para buscar instantáneamente sus aplicaciones, contactos
+              y documentos. (ver 
+              <xref linkend="sec:Qu-es-la-1-9" />)</para>
+            </listitem>
+            <listitem>
+              <para>
+              
+                Alt+Tab
+              <!--keycombo-->Cambio rápido entre ventanas. Mantenga pulsada Mayús para tener un orden
+              inverso.</para>
+            </listitem>
+            <listitem>
+              <para>
+              
+                Alt+`
+              <!--keycombo-->Cambia entre ventanas de la misma aplicación, o desde la aplicación
+              seleccionada después de Alt+Tab. Este atajo de teclado usa ` en teclados
+              estadounidenses, donde la tecla ` está encima de la tecla Tab. En cualquier otro
+              teclado, el atajo se usa con la tecla Alt y cualquiera que sea la tecla encima de la
+              tecla Tab.</para>
+            </listitem>
+            <listitem>
+              <para>
+              
+                Ctrl+Alt+Tab
+              <!--keycombo-->Pone el foco del teclado en la barra superior. En la vista de Actividades,
+              cambia el foco del teclado entre la barra superior, tablero, vista previa de
+              ventanas, lista de aplicaciones y campo de búsqueda. Use las flechas para navegar.
+              Actualmente no es posible usar las teclas de flechas para navegar por la vista previa
+              de las ventanas. Para cambiar entre ventanas, salga de la vista previa y use 
+              
+                Alt+Tab
+              <!--keycombo-->y 
+              
+                Alt+`
+              <!--keycombo-->.</para>
+            </listitem>
+            <listitem>
+              <para>
+              
+                Alt+F6
+              <!--keycombo-->Moverse entre las ventanas de la misma aplicación. Mantenga pulsada la
+              tecla Alt y pulse F6 hasta que se resalte la ventana que quiere, y entonces suelte la
+              tecla Alt. Esto es similar a la característica Alt+`.</para>
+            </listitem>
+            <listitem>
+              <para>
+              
+                Alt+Esc
+              <!--keycombo-->Rotar a través de todas las ventanas abiertas en un espacio de
+              trabajo.</para>
+            </listitem>
+          </itemizedlist>
+        </sect3>
+        <sect3>
+          <title>Navegar por las ventanas</title>
+          <itemizedlist>
+            <listitem>
+              <para>
+              
+                Alt+F4
+              <!--keycombo-->Cerrar la ventana actual.</para>
+            </listitem>
+            
+            <listitem>
+              <para>
+              
+                Alt+F10
+              <!--keycombo-->para maximizar y restaurar una ventana.</para>
+            </listitem>
+            <listitem>
+              <para>
+              
+                Alt+F7
+              <!--keycombo-->Mover la ventana actual. Pulse Alt+F7 y use las teclas de flechas para
+              mover la ventana. Pulse 
+              <emphasis>Intro</emphasis>para dejar de mover la ventana, o Esc para devolverla a su
+              ubicación original.</para>
+            </listitem>
+            <listitem>
+              <para>
+              
+                Alt+F8
+              <!--keycombo-->Redimensionar la ventana actual. Pulse Alt+F8 y use las teclas de flechas
+              para redimensionar la ventana. Pulse Intro para dejar de redimensionar la ventana, o
+              Esc para devolverla a su tamaño original.</para>
+            </listitem>
+            
+            
+            
+            <listitem>
+              <para>
+              
+                Alt+Espacio
+              <!--keycombo-->Mostrar el menú de la ventana, como si hubiera pulsado con el botón
+              derecho sobre la barra de título.</para>
+            </listitem>
+          </itemizedlist>
+        </sect3>
+      </sect2>
+      <sect2>
+        <title>Usar un teclado en pantalla</title>
+        <para>Usar un teclado en pantalla para introducir texto pulsando botones con el
+        mouse.</para>
+        <orderedlist>
+          <listitem>
+            <para>Pulse en el ícono de usuario
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="img/iusuario.png" role="png" />
+              </imageobject>
+            </inlinemediaobject>en la barra superior a la derecha y seleccione 
+            <emphasis>Configuración del sistema</emphasis>.</para>
+          </listitem>
+          <listitem>
+            <para>Abra 
+            <emphasis>Acceso universal</emphasis>y seleccione la pestaña 
+            <emphasis>Teclear</emphasis>.</para>
+          </listitem>
+          <listitem>
+            <para>Cambie al 
+            <emphasis>Asistente de teclado</emphasis>para mostrar el teclado en pantalla.</para>
+          </listitem>
+        </orderedlist>
+        <para>Pulse el 
+        <emphasis>botón 123</emphasis>para escribir números y símbolos. Hay más símbolos
+        disponibles si pulsa el botón {#*. Para volver al teclado alfabético, pulse el botón
+        Abc.</para>
+        <para>Si el teclado en pantalla se interpone, pulse el botón que parece un teclado (junto
+        al botón de la bandeja) para ocultarlo.</para>
+        <para>Para mostrar el teclado, abra la bandeja de mensajes llevando el mouse a parte
+        inferior derecha del escritorio y pulsando el elemento del teclado en la bandeja.</para>
+      </sect2>
+      <sect2>
+        <title>Desactivar la repetición de teclas</title>
+        <para>De manera predeterminada, si mantiene pulsada una tecla en el teclado, se repetirá su
+        letra o símbolo hasta que suelte la tecla. Si tiene dificultades para retirar su dedo lo
+        bastante rápido, puede desactivar esta característica o cambiar el tiempo que tardan los
+        caracteres en empezar a repetirse.</para>
+        <orderedlist>
+          <listitem>
+            <para>Pulse en el ícono
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="img/iusuario.png" role="png" />
+              </imageobject>
+            </inlinemediaobject>en la barra superior a la derecha y seleccione 
+            <emphasis>Configuración del sistema</emphasis>.</para>
+          </listitem>
+          <listitem>
+            <para>Abra 
+            <emphasis>Teclado</emphasis>y seleccione la pestaña 
+            <emphasis>Escritura</emphasis>.</para>
+          </listitem>
+          <listitem>
+            <para>Desactive 
+            <emphasis>Las pulsaciones de teclas</emphasis>se repiten cuando la tecla se mantiene
+            pulsada para desactivar las teclas repetidas por completo.</para>
+            <para>Alternativamente, ajuste el deslizador Retardo para controlar cuánto tiene que
+            mantener pulsada una tecla hasta que se empiece a repetir y ajuste la Velocidad para
+            controlar cómo de rápido se repiten las pulsaciones de teclas.</para>
+          </listitem>
+        </orderedlist>
+      </sect2>
+      <sect2>
+        <title>Establecer atajos de teclado</title>
+        <para>
+          <emphasis>Definir o cambiar atajos de teclado en la configuración del Teclado.</emphasis>
+        </para>
+        <para>Para cambiar los atajos de teclado:</para>
+        <orderedlist>
+          <listitem>
+            <para>Pulse en el 
+            <xref linkend="Icono-de-usuario" />en la barra superior a la derecha y seleccione 
+            <emphasis>Configuración del sistema</emphasis>.</para>
+          </listitem>
+          <listitem>
+            <para>Abra 
+            <emphasis>Teclado</emphasis>y seleccione la pestaña 
+            <emphasis>Atajos</emphasis>.</para>
+          </listitem>
+          <listitem>
+            <para>Seleccione una categoría en la parte izquierda de la ventana, y la acción que
+            quiere a la derecha.</para>
+          </listitem>
+          <listitem>
+            <para>Pulse sobre la definición del atajo en la parte derecha.</para>
+          </listitem>
+          <listitem>
+            <para>Pulse la combinación de teclas que quiere o pulse Retroceso para borrar.</para>
+          </listitem>
+        </orderedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Atajos definidos</para>
+          </listitem>
+        </itemizedlist>
+        <para>Hay una serie de atajos preconfigurados que se pueden cambiar, agrupados en estas
+        categorías: Lanzadores, Navegación, Capturas de pantalla, Sonido y medios, Sistema, Acceso
+        universal y Ventanas</para>
+        <itemizedlist>
+          <listitem>
+            <para>Atajos personalizados</para>
+          </listitem>
+        </itemizedlist>
+        <para>Para crear su atajo de teclado personalizado:</para>
+        <orderedlist>
+          <listitem>
+            <para>Seleccione Atajos personalizados en la parte izquierda de la ventana.</para>
+          </listitem>
+          <listitem>
+            <para>Pulse el botón +. Aparecerá la ventana Atajo personalizado.</para>
+          </listitem>
+          <listitem>
+            <para>Escriba un Nombre para identificar el atajo, Comando para ejecutar una aplicación
+            y pulse Aplicar. Por ejemplo, si quiere que el atajo abra Rhythmbox, puede llamarlo
+            Música y usar el comando rhythmbox.</para>
+          </listitem>
+          <listitem>
+            <para>Pulse dos veces donde dice Desactivado en la parte derecha y mantenga pulsada la
+            combinación de teclas que quiere para el atajo.</para>
+          </listitem>
+        </orderedlist>
+        <para>El nombre del comando que escriba debe ser un comando del sistema válido. Puede
+        comprobar que el comando funciona abriendo una terminal y escribiéndolo en ella. El comando
+        que abre una aplicación puede no tener el mismo nombre exacto que la propia
+        aplicación.</para>
+        <para>Si quiere cambiar el comando asociado a un atajo de teclado, pulse dos veces sobre el
+        nombre del atajo. Aparecerá la ventana Atajo personalizado y podrá editar el
+        comando.</para>
+      </sect2>
+      <sect2>
+        <title>Hacer que parpadee el cursor del teclado</title>
+        <para>
+          <emphasis>Hacer que el punto de inserción parpadee y controlar la velocidad del
+          parpadeo.</emphasis>
+        </para>
+        <para>Si tiene dificultades para ver el cursor del teclado en un campo de texto puede hacer
+        que parpadee siendo más fácil ubicarlo.</para>
+        <orderedlist>
+          <listitem>
+            <para>Pulse en el ícono de usuario 
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="img/iusuario.png" role="png" />
+              </imageobject>
+            </inlinemediaobject>en la barra superior a la derecha y seleccione Configuración del
+            sistema.</para>
+          </listitem>
+          <listitem>
+            <para>Abra 
+            <emphasis>Teclado</emphasis>y seleccione la pestaña 
+            <emphasis>Escritura</emphasis>.</para>
+          </listitem>
+          <listitem>
+            <para>Seleccione 
+            <emphasis>Parpadeo del cursor</emphasis>en los campos de texto.</para>
+          </listitem>
+          <listitem>
+            <para>Use el deslizador 
+            <emphasis>Velocidad</emphasis>para ajustar la rapidez del parpadeo del cursor.</para>
+          </listitem>
+        </orderedlist>
+      </sect2>
+    </sect1>
+    <sect1 id='sec:Insertar-caracteres-especiales' xreflabel='Insertar caracteres especiales'>
+      <title>Insertar caracteres especiales </title>
+      <para>En este apartado se enumeran algunas de las diferentes maneras en las que puede
+      introducir caracteres especiales.</para>
+      <sect2>
+        <title>Mapa de caracteres</title>
+        <para>Huayra viene con una aplicación de mapa de caracteres que le permite examinar todos
+        los caracteres en Unicode.</para>
+        <para>Use el mapa de caracteres para buscar el carácter que quiere, y cópielo y péguelo
+        donde quiera. Puede encontrar el Mapa de caracteres en la 
+        <xref linkend="chap:Vista-de-actividades" />.</para>
+      </sect2>
+      <sect2>
+        <title>Tecla de composición</title>
+        <para>Una 
+        <emphasis>clave compuesta</emphasis>es una clave especial que le permite pulsar varias
+        teclas seguidas para obtener un carácter especial.</para>
+        <para>Por ejemplo, para usar la letras con tilde é puede pulsar componer despúes ' y
+        después e.</para>
+        <para>Los teclados no tienen teclas de composición específicas. En su lugar, puede definir
+        una de las teclas existentes en su teclado, como tecla para componer.</para>
+        <sect3>
+          <title>Definir una tecla de composición</title>
+          <orderedlist>
+            <listitem>
+              <para>Pulse en nombre de usuario en la barra superior y seleccione 
+              <emphasis>Configuración del sistema</emphasis>.</para>
+            </listitem>
+            <listitem>
+              <para>Pulse en 
+              <emphasis>Región e idioma.</emphasis></para>
+            </listitem>
+            <listitem>
+              <para>Seleccione la pestaña 
+              <emphasis>Disposición</emphasis>y pulse 
+              <emphasis>Opciones</emphasis>.</para>
+            </listitem>
+            <listitem>
+              <para>Busque el grupo llamado 
+              <emphasis>Posición de tecla de composición</emphasis>.</para>
+            </listitem>
+            <listitem>
+              <para>Seleccione la tecla o teclas que le gustaría que se comportasen como tecla de
+              composición.</para>
+            </listitem>
+          </orderedlist>
+          <para>Puede seleccionar teclas como 
+          
+            Bloq Mayús
+          <!--keycombo-->, o 
+          
+            Alt
+          <!--keycombo-->o la tecla menú. Cualquier tecla que seleccione funcionará solo como tecla de
+          composición y nunca más funcionará con su propósito original.</para>
+          <para>Puede teclear muchos caracteres comunes usando la tecla compuesta, por
+          ejemplo:</para>
+          <orderedlist>
+            <listitem>
+              <para>Pulse componer después ' después una letra para establecer la tilde en tal
+              letra, tal como la é.</para>
+            </listitem>
+            <listitem>
+              <para>Pulse componer después ` después una letra para establecer un acento grave
+              sobre tal letra, tal como è.</para>
+            </listitem>
+            <listitem>
+              <para>Pulse componer después " después una letra para establecer una diéresis en tal
+              letra, tal como la ë.</para>
+            </listitem>
+            <listitem>
+              <para>Pulse componer después - después una letra para establecer un macrón sobre la
+              letra, tal como la ë.</para>
+            </listitem>
+          </orderedlist>
+        </sect3>
+      </sect2>
+      <sect2>
+        <title>Puntos de código</title>
+        <para>Puede introducir cualquier carácter Unicode usando solo el teclado con el punto de
+        código numérico del carácter. Cada carácter se identifica con un punto de código de cuatro
+        caracteres.</para>
+        <para>Para encontrar el punto de código de un carácter, busque el carácter en la aplicación
+        de mapa de caracteres y mire en la barra de estado o en la pestaña 
+        <emphasis>Detalles de carácter</emphasis>.</para>
+        <para>
+        <emphasis>El punto de código son los cuatro caracteres que hay después de
+        U+.</emphasis>Para introducir un carácter por su punto de código, mantenga presionadas 
+        
+          Ctrl y Mayús
+        <!--keycombo-->, teclee u seguido por los cuatros caracteres del punto de código, a
+        continuación, suelte 
+        
+          Ctrl y Mayús
+        <!--keycombo-->.</para>
+        <para>Si suele usar caracteres a los que no puede acceder fácilmente con otros métodos,
+        puede que le resulte útil memorizar el punto de código para esos caracteres de manera que
+        pueda introducirlos rápidamente.</para>
+      </sect2>
+      <sect2>
+        <title>Métodos de entrada</title>
+        <para>Un método de entrada expande los métodos anteriores permitiendo introducir caracteres
+        no sólo con el teclado sino también con otros dispositivos de entrada.</para>
+        <para>Por ejemplo, puede introducir caracteres con un mouse usando un gesto, o introducir
+        caracteres en japonés usando un teclado latino.</para>
+        <para>Para elegir un método de entrada, pulse con el botón derecho sobre un widget de texto
+        y, en el menú Método de entrada, elija el método de entrada que quiere usar. 
+        <emphasis>No hay ninguno predeterminado</emphasis>, por lo que puede consultar la
+        documentación de los métodos de entrada para saber cómo usarlos.</para>
+        <para>Para más información ver: 
+        <xref linkend="chap:Trucos-y-consejos" />. Consulte también: 
+        <xref linkend="sub:Usar-distribuciones-de" /></para>
+      </sect2>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Pantalla' xreflabel='Pantallas'>
+    <title>Pantallas</title>
+    <para>Aprenda a bloquear una pantalla, a trabajar con un monitor externo y a configurarla según
+    sus necesidades.</para>
+    <sect1>
+      <title>Bloquear automáticamente la pantalla</title>
+      <para>Cuando se aleje de su equipo, debería bloquear la pantalla (Ver 
+      <xref linkend="sub:Bloquear-la-pantalla" />) para impedir que otras personas puedan usar su
+      escritorio y acceder a sus archivos. Su sesión permanecerá abierta y todas sus aplicaciones
+      seguirán funcionando, pero tendrá que introducir su contraseña para poder volver a usar su
+      equipo. Puede bloquear la pantalla manualmente, pero también puede hacer que la pantalla se
+      bloquee automáticamente.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el 
+          <xref linkend="Icono-de-usuario" />en la barra superior y seleccione 
+          <emphasis>Configuración del sistema.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Brillo y bloqueo</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Asegúrese de que Bloquear está activada, después seleccione un tiempo de espera de
+          la lista desplegable anterior. La pantalla se bloqueará automáticamente después de que el
+          equipo haya estado inactivo durante ese tiempo.</para>
+        </listitem>
+      </orderedlist>
+      <itemizedlist>
+        <listitem>
+          <para>También puede seleccionar que la pantalla se apague para bloquear automáticamente
+          la pantalla después de que ésta se apague.</para>
+        </listitem>
+      </itemizedlist>
+      <sect2 id='sec:La-pantalla-se' xreflabel='La pantalla se bloquea demasiado deprisa'>
+        <title>La pantalla se bloquea demasiado deprisa</title>
+        <para>Si deja el equipo por unos minutos, la pantalla se bloqueará automáticamente, por lo
+        que tendrá que introducir su contraseña para comenzar a utilizarlo de nuevo.</para>
+        <para>Esto se hace por razones de seguridad (para que nadie pueda estropear su trabajo si
+        deja el equipo sin vigilancia), pero puede ser molesto si la pantalla se bloquea con
+        demasiada rapidez.</para>
+        <para>Para esperar un periodo más largo antes de que la pantalla se bloquee
+        automáticamente:</para>
+        <orderedlist>
+          <listitem>
+            <para>Pulse en el 
+            <xref linkend="Icono-de-usuario" />en la barra superior y seleccione 
+            <xref linkend="sec:Configuracin-del-sistema-1" />.</para>
+          </listitem>
+          <listitem>
+            <para>Abra Brillo y bloqueo.</para>
+          </listitem>
+          <listitem>
+            <para>Cambie el valor en la lista desplegable Bloquear la pantalla después de.</para>
+          </listitem>
+        </orderedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Si no quiere que la pantalla se bloquee automáticamente nunca, desactive
+            Bloquear.</para>
+          </listitem>
+        </itemizedlist>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Conectar una pantalla externa o proyector a su portátil</title>
+      <para>Para configurar una pantalla externa a su portátil, conecte la pantalla al portátil. Si
+      su sistema no la reconoce inmediatamente, o si quiere ajustar su configuración:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el 
+          <xref linkend="Icono-de-usuario" />
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior a la derecha y seleccione 
+          <xref linkend="sec:Configuracin-del-sistema-1" />.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione la opción Pantallas</para>
+        </listitem>
+        <listitem>
+          <para>Pulse en la imagen de la pantalla que quiere activar o desactivar y pulse
+          Activar/Desactivar.</para>
+        </listitem>
+        <listitem>
+          <para>La pantalla con la 
+          <xref linkend="chap:Barra-superior" />es la pantalla principal. Para cambiar qué pantalla
+          es la "principal", pulse en la barra superior y arrástrela hasta la pantalla que quiere
+          que sea la pantalla "principal".</para>
+        </listitem>
+        <listitem>
+          <para>Para cambiar la "posición" de una pantalla, pulse sobre ella y arrástrela hasta la
+          posición que quiera.</para>
+        </listitem>
+        <listitem>
+          <para>Si quiere que las dos pantallas muestren lo mismo, marque la casilla Espejar
+          pantallas.</para>
+          <para>Cuando esté satisfecho con la configuración, pulse Aplicar y luego pulse Mantener
+          esta configuración.</para>
+        </listitem>
+        <listitem>
+          <para>Para cerrar la Configuración de las pantallas pulse en la x en la esquina
+          superior.</para>
+        </listitem>
+      </orderedlist>
+      <para>Más información:
+      <xref linkend="chap:Pantalla" />- Fondo, tamaño y rotación, brillo.</para>
+    </sect1>
+    <sect1 id='sec:Establecer-el-brillo' xreflabel='Establecer el brillo de la pantalla'>
+      <title>Establecer el brillo de la pantalla</title>
+      <para>Puede cambiar el brillo de su pantalla para ahorrar energía o hacerla más legible en
+      condiciones de mucha luz ambiental. También puede hacer que la pantalla se atenúe
+      automáticamente cuando se consume batería o apagarla automáticamente cuando no se use la
+      pantalla.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>y seleccione Configuración del sistema.</para>
+        </listitem>
+        <listitem>
+          <para>Abra Brillo y bloqueo.</para>
+        </listitem>
+        <listitem>
+          <para>Mueva el deslizador de Brillo para obtener un valor confortable.</para>
+        </listitem>
+      </orderedlist>
+      <para>En Huayra los teclados tienen teclas especiales para ajustar el brillo. éstas tienen
+      una imagen que parece un sol y están ubicadas en las teclas de función en la parte superior.
+      Mantenga pulsada la tecla 
+      
+        Fn
+      <!--keycombo-->para usar estas teclas.</para>
+      <para>Seleccione Oscurecer la pantalla para ahorrar energía para hacer que el brillo se
+      reduzca automáticamente cuando esté usando la batería. La luz de fondo de su pantalla puede
+      consumir mucha energía y reducir significativamente el tiempo que durará la batería hasta que
+      tenga que volver a cargarla.</para>
+      <para>La pantalla se apagará automáticamente cuando lleve un tiempo sin usarla. Esto solo
+      afecta a la pantalla, y no apaga su equipo.</para>
+      <para>Puede ajustar el tiempo que tiene que estar inactivo con la opción 
+      <emphasis>Apagar la pantalla tras una inactividad de.</emphasis></para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Impresoras' xreflabel='Impresoras'>
+    <title>Impresoras</title>
+    <para>Aprenda a configurar su impresora, a agregar una nueva, cambiar los ajustes y mucho
+    más.</para>
+    <sect1 id='sub:Cmo-puedo-comprobar-51' xreflabel='¿Cómo puedo comprobar los niveles de tinta o tóner de mi impresora?'>
+      <title>¿Cómo puedo comprobar los niveles de tinta o tóner de mi impresora?</title>
+      <para>Cómo comprobar cuánta tinta o tóner queda en su impresora depende del modelo y
+      fabricante de su impresora y de los controladores y aplicaciones instaladas en su
+      equipo.</para>
+      <para>Algunas impresoras tienen una pantalla empotrada para mostrar los niveles de tinta y
+      otra información.</para>
+      <para>Los controladores y herramientas de estado para la mayoría de las impresoras de HP los
+      proporciona el proyecto imagen e impresión en Linux de HP ("HP Linux Imaging and Printing",
+      HPLIP). Otros fabricantes pueden proporcionar controladores propietarios con características
+      similares.</para>
+      <para>Alternativamente, puede instalar una aplicación para comprobar o monitorizar los
+      niveles de tinta. Inkblot muestra el estado de la tinta para la mayoría de las impresoras HP,
+      Epson y Canon. Compruebe si su impresora está en la lista de modelos soportados. Otra
+      aplicación de niveles de tinta para Epson y algunas otras impresoras es mktink.</para>
+      <para>Algunas impresoras aún no están muy bien soportadas en GNU/Linux y otras no están
+      diseñadas para informar de sus niveles de tinta.</para>
+    </sect1>
+    <sect1>
+      <title>Configurar una impresora local</title>
+      <para>Su sistema puede reconocer automáticamente varios tipos de impresoras cuando se
+      conectan. La mayoría de las impresoras se conectan al equipo con un cable USB.</para>
+      <orderedlist>
+        <listitem>
+          <para>Asegúrese que la impresora está encendida.</para>
+        </listitem>
+        <listitem>
+          <para>Conecte la impresora a su sistema mediante el cable apropiado. Puede ver la
+          actividad en la pantalla, cuando el sistema busca los controladores, y puede que se le
+          pida que se autentique para instalarlos.</para>
+        </listitem>
+        <listitem>
+          <para>Aparecerá un mensaje cuando el sistema haya terminado de instalar la impresora.
+          Seleccione Imprimir una página de prueba para imprimir una página de prueba, o Configurar
+          para hacer cambios adicionales en la configuración de la impresora.</para>
+        </listitem>
+      </orderedlist>
+      <para>Si su impresora no se estableció de manera automática, puede añadirla en la
+      configuración de impresora.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior y seleccione Configuración del
+          sistema.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Impresoras.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse el botón Desbloquear en la esquina superior derecha e introduzca su
+          contraseña.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse el botón +.</para>
+        </listitem>
+        <listitem>
+          <para>En la ventana emergente, seleccione Local en la izquierda y su impresora nueva en
+          la derecha. Pulse Añadir.</para>
+        </listitem>
+      </orderedlist>
+      <para>Si su impresora no aparece en el menú emergente Añadir impresora, puede necesitar
+      instalar los controladores de la impresora.</para>
+      <para>Después de instalar la impresora puede querer cambiar su impresora
+      predeterminada.</para>
+    </sect1>
+    <sect1>
+      <title>Establecer la impresora predeterminada</title>
+      <para>Si tiene más de una impresora disponible, puede seleccionar la que será su impresora
+      predeterminada. Es posible que quiera elegir la impresora que usa con más frecuencia.</para>
+      <para>
+        <emphasis>Necesita privilegios de administrador del sistema para establecer la impresora
+        predeterminada.</emphasis>
+      </para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>y seleccione Configuración del sistema.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Impresoras.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione la impresora predeterminada de la lista de impresoras
+          disponibles.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse el botón Desbloquear en la esquina superior derecha e introduzca su
+          contraseña.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione la opción Predeterminada.</para>
+        </listitem>
+      </orderedlist>
+      <para>Al imprimir en una aplicación, la impresora predeterminada se utiliza automáticamente,
+      a menos que elija una impresora diferente para esta salida específica. 
+     </para>
+    </sect1>
+    <sect1>
+      <title>Cambiar el tamaño del papel al imprimir</title>
+      <para>Si quiere cambiar el tamaño de papel del documento (por ejemplo, imprimir un PDF de
+      tamaño carta americana en papel A4), puede cambiar el formato de impresión para el
+      documento.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse Archivo / Imprimir.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione la pestaña Configuración de página.</para>
+        </listitem>
+        <listitem>
+          <para>Bajo la columna Papel, seleccione su Tamaño de papel de la lista
+          desplegable.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Print y su documento debería imprimirse.</para>
+        </listitem>
+      </orderedlist>
+      <para>También puede usar el menú Orientación para elegir una orientación diferente:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Vertical</para>
+        </listitem>
+        <listitem>
+          <para>Apaisado</para>
+        </listitem>
+        <listitem>
+          <para>Retrato invertido</para>
+        </listitem>
+        <listitem>
+          <para>Apaisado invertido</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>Hacer que las páginas se impriman en diferente orden</title>
+      <sect2>
+        <title>Inverso</title>
+        <para>La impresoras normalmente imprimen la primera página primero y la última página al
+        final, así que las páginas se recogen en orden inverso. Si es necesario, puede revertir
+        este orden de impresión.</para>
+        <para>Para invertir el orden:</para>
+        <orderedlist>
+          <listitem>
+            <para>Pulse Archivo / Imprimir.</para>
+          </listitem>
+          <listitem>
+            <para>En la pestaña General de la ventana de impresión, en Copias, seleccione Invertir.
+            La última página se imprimirá primero, y así sucesivamente.</para>
+          </listitem>
+        </orderedlist>
+      </sect2>
+      <sect2>
+        <title>Clasificar</title>
+        <para>Si va a imprimir más de una copia del documento, los impresos se pueden agrupar por
+        número de página de manera predeterminada (es decir, sacar todas las copias de la página
+        uno, a continuación las copias de la página dos, y así sucesivamente). Clasificar hará que
+        cada copia salga con sus páginas agrupadas en el orden correcto.</para>
+        <orderedlist>
+          <listitem>
+            <para>Pulse Archivo / Imprimir.</para>
+          </listitem>
+          <listitem>
+            <para>En la pestaña General de la ventana de impresión, en Copias seleccione
+            Clasificar.</para>
+          </listitem>
+        </orderedlist>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Imprimir diseños de páginas múltiples y a doble cara</title>
+      <para>Para imprimir en ambas caras de cada hoja de papel:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse Archivo / Imprimir.</para>
+        </listitem>
+        <listitem>
+          <para>Vaya a la pestaña Configurar página de la ventana de impresión y elija una opción
+          de la lista desplegable Doble cara. Si la opción está desactivada, entonces su impresora
+          no permite impresión a doble cara. Las impresoras manejan la impresión a doble cara de
+          diferentes maneras. Es buena idea experimentar con su impresora para ver cómo
+          trabaja.</para>
+        </listitem>
+        <listitem>
+          <para>También puede imprimir más de una página del documento por cada cara del papel. Use
+          la opción Páginas por cara para hacer esto.</para>
+        </listitem>
+      </orderedlist>
+      <note>
+        <title> DIsponibilidad </title>
+        <para>La disponibilidad de estas opciones puede depender del tipo de impresora que tenga,
+        así como de la aplicación que esté usando. Esta opción puede no estar siempre
+        disponible.</para>
+      </note>
+    </sect1>
+    <sect1>
+      <title>Imprimir sobres y etiquetas</title>
+      <para>La mayoría de las impresoras le permiten imprimir directamente en un sobre o en una
+      hoja de etiquetas. Esto es especialmente útil si tiene que enviar muchas cartas, por
+      ejemplo.</para>
+      <bridgehead renderas="sect2">Imprimir en sobres</bridgehead>
+      <para>Hay dos cosas que hay que comprobar cuando se trata de imprimir en un sobre. La primera
+      es que la impresora sabe de qué tamaño es el sobre. Después de pulsar Imprimir y de aparecer
+      la ventana de impresión, vaya a Configurar página y elija el Tipo de papel como "sobre" si es
+      posible. Si no puede hacer esto, vea si se puede cambiar el Tamaño de papel a un tamaño de
+      sobre (por ejemplo, "C5"). El paquete de sobres dirá de qué tamaño son; la mayoría de los
+      sobres vienen en tamaños estándar.</para>
+      <para>En segundo lugar, es necesario asegurarse de que los sobres se cargan del lado adecuado
+      en la bandeja de la impresora. Consulte el manual de la impresora para esto, o trate de
+      imprimir un sobre y comprobar de qué lado está impreso para ver qué manera es la
+      correcta.</para>
+      <para>
+        <emphasis>Algunas impresoras no están diseñadas para imprimir sobres, especialmente algunas
+        impresoras láser. Consulte el manual de su impresora para ver si acepta sobres, de lo
+        contrario, podría dañar la impresora al introducir un sobre.</emphasis>
+      </para>
+    </sect1>
+    <sect1>
+      <title>Imprimir solo ciertas páginas</title>
+      <para>Para imprimir solo ciertas páginas del documento:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse Archivo / Imprimir.</para>
+        </listitem>
+        <listitem>
+          <para>En la pestaña General, en la ventana Imprimir, elija Páginas de la sección
+          Rango.</para>
+        </listitem>
+        <listitem>
+          <para>Escriba los números de las páginas que desea imprimir en el cuadro de texto,
+          separados por comas. Use un guión para indicar un rango de páginas.</para>
+        </listitem>
+      </orderedlist>
+      <tip>
+       <title>Imprimir solo ciertas páginas</title>
+       <para>Por ejemplo, si escribe "1,3,5-7,9" en la caja de texto Páginas, se imprimirán las
+        páginas 1,3,5,6,7.
+       </para>
+      </tip> 
+    </sect1>
+    <sect1>
+      <title>Imprimir un folleto</title>
+      <para>Puede imprimir un folleto de un PDF:</para>
+      <para>Si quiere imprimir un folleto desde un documento de LibreOffice, tendrá que exportarlo
+      primero a PDF eligiendo Archivo / Exportar como PDF.... Su documento debe tener un número de
+      páginas múltiplo de 4 (4, 8, 12, 16,...). Es posible que tenga que añadir hasta 3 páginas en
+      blanco.</para>
+      <para>Si el número de páginas de su documento PDF no es múltiplo de 4, debe añadir el número
+      de páginas en blanco adecuado (1, 2 o 3) para que sea múltiplo de 4. Para hacerlo,
+      puede:</para>
+      <orderedlist>
+        <listitem>
+          <para>Cree un documento de LibreOffice con el número de páginas en blanco (1-3) que
+          necesite.</para>
+        </listitem>
+        <listitem>
+          <para>Exporte las páginas en blanco a un archivo PDF eligiendo Archivo / Exportar como
+          PDF....</para>
+        </listitem>
+        <listitem>
+          <para>Mezcle las páginas en blanco con su documento PDF usando PDF-Shuffler o PDF Mod,
+          colocando las páginas en blanco al final.</para>
+        </listitem>
+      </orderedlist>
+      <para>Seleccione el tipo de impresora que usará para imprimir, de la lista de más
+      abajo:</para>
+      <para>Imprimir folletos plegados (tipo libro o panfleto) usando un tamaño de papel normal
+      A4/Carta.</para>
+      <bridgehead id='Imprimir-folletos-plegados'  xreflabel='Imprimir folletos plegados' renderas="sect3">Imprimir folletos plegados</bridgehead>
+      <para>Puede hacer folletos plegados (como un pequeño libro o panfleto) mediante la impresión
+      de páginas de un documento en un orden especial y cambiando un par de opciones de
+      impresión.</para>
+      <para>Estas instrucciones son para imprimir un folleto a partir de un documento PDF.</para>
+      <para>Si quiere imprimir un folleto desde un documento de LibreOffice, tendrá que exportarlo
+      primero a PDF eligiendo Archivo / Exportar como PDF.... Su documento debe tener un número de
+      páginas múltiplo de 4 (4, 8, 12, 16,...). Es posible que tenga que añadir hasta 3 páginas en
+      blanco.</para>
+      <para>Para imprimir un folleto:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse Archivo / Imprimir.</para>
+        </listitem>
+        <listitem>
+          <para>Vaya a la pestaña General. Bajo Rango, seleccione Páginas.</para>
+        </listitem>
+        <listitem>
+          <para>Escriba los números de las páginas en este orden (n es el número total de páginas,
+          múltiplo de 4): n, 1, 2, n-1, n-2, 3, 4, n-3, n-4, 5, 6, n-5, n-6, 7, 8, n-7, n-8, 9, 10,
+          n-9, n-10, 11, 12, n-11... Ejemplos: Folleto de 4 páginas: escriba 4,1,2,3 Folleto de 8
+          páginas: escriba 8,1,2,7,6,3,4,5 Folleto de 20 páginas: escriba
+          20,1,2,19,18,3,4,17,16,5,6,15,14,7,8,13,12,9,10,11</para>
+        </listitem>
+        <listitem>
+          <para>Ahora, vaya a la pestaña Configuración de página. En Disposición, en la opción
+          Doble cara, seleccione Borde corto (voltear). En la opción Páginas por cara seleccione 2.
+          En el menúOrdenación de páginas, elijaDe izquierda a derecha.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Imprimir.</para>
+        </listitem>
+      </orderedlist>
+      <bridgehead id='Imprimir-un-folleto' renderas="sect3" xreflabel='Imprimir un folleto en una impresora de
+      una sola cara'>Imprimir un folleto en una impresora de
+      una sola cara</bridgehead>
+      <note>
+        <para>Estas instrucciones son para imprimir un folleto a partir de un documento PDF. Si
+        quiere imprimir un folleto desde un documento de LibreOffice, tendrá que exportarlo primero
+        a PDF eligiendo Archivo / Exportar como PDF.... Su documento debe tener un número de páginas
+        múltiplo de 4 (4, 8, 12, 16,...). Es posible que tenga que añadir hasta 3 páginas en
+        blanco.</para>
+      </note>
+        <para>Para imprimir:</para>
+        <orderedlist>
+          <listitem>
+            <para>Pulse Archivo / Imprimir.</para>
+          </listitem>
+          <listitem>
+            <para>Elija la pestaña General. En Rango, elija Páginas.</para>
+          </listitem>
+          <listitem>
+            <para>Escriba los números de las páginas en este orden (n es el número total de
+            páginas, múltiplo de 4): n, 1, 2, n-1, n-2, 3, 4, n-3, n-4, 5, 6, n-5, n-6, 7, 8, n-7,
+            n-8, 9, 10, n-9, n-10, 11, 12, n-11... ...hasta que haya escrito todas las páginas.
+            Ejemplos: Folleto de 4 páginas: escriba 4,1,2,3 Folleto de 8 páginas: escriba
+            8,1,2,7,6,3,4,5 Folleto de 12 páginas: escriba 12,1,2,11,10,3,4,9,8,5,6,7 Folleto de 16
+            páginas: escriba 16,1,2,15,14,3,4,13,12,5,6,11,10,7,8,9 Folleto de 20 páginas: escriba
+            20,1,2,19,18,3,4,17,16,5,6,15,14,7,8,13,12,9,10,11</para>
+          </listitem>
+          <listitem>
+            <para>Seleccione la pestaña Configuración de página. En Disposición, en el menú Doble
+            cara seleccione Una cara. En el menú Páginas por cara, elija 2. En el menúOrdenación de
+            páginas, elijaDe izquierda a derecha. En el menú Solo imprimir, elija Páginas
+            impares.</para>
+          </listitem>
+          <listitem>
+            <para>Pulse Imprimir.</para>
+          </listitem>
+          <listitem>
+            <para>Cuando todas las páginas estén impresas, dé la vuelta a las páginas y colóquelas
+            en la impresora.</para>
+          </listitem>
+          <listitem>
+            <para>Pulse Archivo / Imprimir.</para>
+          </listitem>
+          <listitem>
+            <para>Seleccione la pestaña Configuración de página. En el menú Solo imprimir, elija
+            Páginas pares.</para>
+          </listitem>
+          <listitem>
+            <para>Pulse Imprimir.</para>
+          </listitem>
+        </orderedlist>
+    </sect1>
+    <sect1 id='sec:Problemas-de-impresin-52' xreflabel='Problemas de impresión'>
+      <title>Problemas de impresión</title>
+      <sect2>
+        <title>Arreglar un atasco de papel</title>
+        <para>A veces, las impresoras alimentan de forma incorrecta las hojas de papel y se
+        atascan.</para>
+        <para>El manual de su impresora, por lo general, le dará instrucciones detalladas sobre
+        cómo solucionar los atascos de papel. Por lo general, tendrá que abrir uno de los paneles
+        de la impresora para encontrar el atasco en el interior y luego con firmeza (pero con
+        cuidado) saque el papel atascado del mecanismo de alimentación de la impresora.</para>
+        <para>Una vez que el atasco se ha arreglado es posible que tenga que pulsar el botón
+        Reanudar para empezar a imprimir de nuevo. Con algunas impresoras, puede que incluso sea
+        necesario apagar y volver a encender la impresora, y luego iniciar el trabajo de impresión
+        otra vez.</para>
+      </sect2>
+      <sect2>
+        <title>Cancelar un trabajo de impresión</title>
+        <para>Si accidentalmente empieza a imprimir un documento, puede cancelar la impresión
+        rápidamente para no gastar la tinta o el papel. Pulse en el ícono de la impresora en la
+        barra superior y luego pulse en Cancelar.</para>
+        <para>Si esto no cancela la impresión como esperaba, inténtelo pulsando el botón Cancelar
+        de su impresora.</para>
+        <para>Como último recurso, especialmente si tiene un trabajo de impresión grande con muchas
+        de páginas que no se cancelan, retire el papel de la bandeja de papel de la impresora. La
+        impresora debe darse cuenta de que no hay papel y dejará de imprimir. A continuación, puede
+        tratar de cancelar el trabajo de impresión, o intentar apagar la impresora y volver a
+        encenderla.</para>
+        <note>
+          <para>Tenga cuidado de no dañar la impresora al extraer el papel, aunque si tiene que
+          tirar con fuerza del papel para extraerlo, probablemente debería dejarlo donde
+          está.</para>
+        </note>
+      </sect2>
+      <sect2>
+        <title>¿Por qué la impresión es poco uniforme...?</title>
+        <para>Si sus impresiones son poco uniformes, están desvanecidas o tienen líneas que no
+        deberían tener o son de calidad pobre, puede ser debido a un problema con la impresora o
+        falta de tinta o tóner.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Imágenes o texto desvanecidos Puede que se esté quedando sin tinta o tóner.
+            Compruebe el nivel de su tinta o tóner y compre un cartucho nuevo si es
+            necesario.</para>
+          </listitem>
+          <listitem>
+            <para>Rayas y líneas Si tiene una impresión de inyección de tinta, el cabezal de
+            impresión puede estar sucio o bloqueado parcialmente. Pruebe a limpiarlo (consulte el
+            manual de instrucciones de la impresora).</para>
+          </listitem>
+          <listitem>
+            <para>Colores incorrectos Puede que la impresora se haya quedado sin tinta o tóner de
+            un color. Compruebe su suministro de tinta/tóner y compre un cartucho nuevo si es
+            necesario.</para>
+          </listitem>
+          <listitem>
+            <para>Bordes escalonados o líneas que no son rectas Si las líneas en la impresión de
+            que deben ser rectas resultan irregulares, es posible que necesite alinear el cabezal
+            de impresión. Consulte el manual de instrucciones de la impresora para obtener detalles
+            sobre cómo hacer esto.</para>
+          </listitem>
+        </itemizedlist>
+        <para>
+          <xref linkend="sub:Cmo-puedo-comprobar-51" />
+        </para>
+      </sect2>
+    </sect1>
+  </chapter>
+  <chapter id='chap:energia' xreflabel='Energía y Batería'>
+    <title>Energía y Batería</title>
+    <para>En este apartado encontrará sugerencias y consejos para aprovechar al máximo la energía y
+    batería de su computador.</para>
+    <sect1>
+      <title>ícono de batería en la Barra superior</title>
+      <para>La batería está completamente cargada cuando el ícono que representa una pila tiene las
+      tres filas de carga completas.</para>
+      <itemizedlist>
+        <listitem>
+          <para>La batería está parcialmente vacía, cuando en la pila, falta una de las filas que
+          indican la carga.</para>
+        </listitem>
+        <listitem>
+          <para>La batería está baja cuando sólo una fila aparece dentro de la pila.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Cuando la batería aparece con sólo una fila de carga en color rojo, y un signo de
+      admiración eso significa Advertencia: la batería está muy baja.</para>
+      <itemizedlist>
+        <listitem>
+          <para>En cambio, cuando la batería está vacía, sin ninguna fila de carga indica que la
+          batería está extremadamente baja.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Cuando toda la pila se pone gris sin distinguirse las filas de carga, indica que falta
+      la batería.</para>
+      <para>Cuando la pila está con todas las filas de carga de color oscuro, es decir, activas, y
+      con un rayo gris claro en la esquina inferior derecha, significa que la batería está completa
+      y cargada.</para>
+      <para>Cuando la pila está con todas las filas de carga de color oscuro, es decir, activas, y
+      con un rayo gris oscuro en la esquina inferior derecha, significa que la batería está
+      completa y cargándose.</para>
+      <para>Cuando la pila está con dos de las filas de carga de color oscuro, es decir, activas, y
+      con un rayo gris oscuro en la esquina inferior derecha, significa que la batería está
+      parcialmente completa y cargándose.</para>
+      <para>Cuando la pila está con una de las filas de carga de color oscuro, es decir, activa, y
+      con un rayo gris oscuro en la esquina inferior derecha, significa que la batería está baja y
+      cargándose.</para>
+      <para>Cuando la pila está con una de las filas de carga de color rojo y con un rayo gris
+      oscuro en la esquina inferior derecha, significa que la batería está muy baja y
+      cargándose.</para>
+      <para>Cuando la pila está vacía de filas de carga y con un rayo gris oscuro en la esquina
+      inferior derecha, significa que la batería está vacía y cargándose.</para>
+    </sect1>
+    <sect1>
+      <title>Sacar el máximo partido a la batería de su portátil</title>
+      <para>A medida que las baterías del portátil envejecen, empeoran su capacidad de
+      almacenamiento de carga y se reduce gradualmente su capacidad. Existen algunas técnicas que
+      pueden ayudarle a prolongar su vida útil, aunque no espere grandes diferencias.</para>
+      <para>No deje que la batería se gaste por completo:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Recargue siempre la batería antes de que le quede muy poca carga, aunque la mayoría
+          de las baterías tienen medidas para evitar que esto pase.</para>
+        </listitem>
+        <listitem>
+          <para>Recargarla cuando está solo parcialmente descargada resulta más eficiente. 
+          <emphasis>Pero recargarla cuando sólo está un poco descargada es malo para la
+          batería</emphasis>.</para>
+        </listitem>
+      </itemizedlist>
+      <para>El calor tiene un efecto negativo en la eficiencia de carga de la batería. No deje que
+      la batería se caliente más de lo debido.</para>
+      <para>Las baterías envejecen aunque se dejen guardadas. No merece mucho la pena comprar una
+      batería de repuesto al mismo tiempo que la batería original; compre siempre los recambios
+      justo cuando los necesite.</para>
+      <para>
+        <emphasis>Este consejo aplica específicamente a las baterías de ión de litio (Li-Ion), que
+        son las más comunes. Otros tipos de baterías se pueden comportar de distinta
+        forma.</emphasis>
+      </para>
+    </sect1>
+    <sect1>
+      <title>Usar menos energía y mejorar la vida de la batería</title>
+      <para>Los equipos pueden utilizar una gran cantidad de energía. Mediante el uso de algunas
+      estrategias sencillas de ahorro de energía, puede reducir su factura de la luz y ayudar al
+      medio ambiente.</para>
+      <sect2>
+        <title>Consejos generales</title>
+        <itemizedlist>
+          <listitem>
+            <para>
+            <emphasis>Suspenda su equipo</emphasis>cuando no lo esté usando. Esto reduce
+            significativamente la energía que consume y puede reanudar el equipo muy
+            rápidamente.</para>
+          </listitem>
+          <listitem>
+            <para>
+            <emphasis>Apague el equipo</emphasis>cuando no vaya a usarlo durante mucho tiempo.
+            Algunas personas creen que apagar un equipo con regularidad puede hacer que se desgaste
+            más rápidamente, pero no es el caso.</para>
+          </listitem>
+          <listitem>
+            <para>Use las preferencias de 
+            <emphasis>Energía</emphasis>en la C
+            <emphasis>onfiguración del sistema</emphasis>para cambiar sus opciones de energía. Hay
+            varias opciones que pueden ayudarle a ahorrar energía: puede atenuar automáticamente la
+            pantalla pasado un cierto tiempo; reducir el brillo de la pantalla (para portátiles); y
+            hacer que el equipo se suspenda automáticamente si no lo usa durante un cierto periodo
+            de tiempo.</para>
+          </listitem>
+          <listitem>
+            <para>Apague cualquier dispositivo externo (como impresoras o escáneres) cuando no los
+            use.</para>
+          </listitem>
+        </itemizedlist>
+      </sect2>
+      <sect2>
+        <title>Portátiles, computadors y otros dispositivos con baterías</title>
+        <para>Reducir el brillo de la pantalla; el consumo de energía de la pantalla supone una
+        parte significativa del consumo de energía total de un portátil. La mayoría de los
+        portátiles tienen botones en el teclado (o una combinación de teclas) que puede usar para
+        reducir el brillo.</para>
+        <para>Si no va a necesitar conectarse a Internet durante un tiempo, apague la tarjeta
+        inalámbrica. Estos dispositivos funcionan emitiendo ondas de radio, lo que consume energía.
+        Algunos equipos tienen un interruptor físico que puede usarse para apagarla, mientras que
+        otros usan una combinación de teclas. Puede volver a activarla de nuevo cuando lo
+        necesite.</para>
+      </sect2>
+      <sect2>
+        <title>Mas consejos avanzados</title>
+        <para>Reduzca el número de tareas que se ejecutan en segundo plano. Los equipos gastan más
+        energía cuando tienen más trabajo que hacer.</para>
+        <para>La mayoría de las aplicaciones que se ejecutan hacen muy poco cuando no se están
+        utilizando activamente. Sin embargo, las aplicaciones que con frecuencia toman datos de
+        Internet, reproducen música o películas o ejecutan cálculos distribuidos pueden afectar su
+        consumo de energía.</para>
+      </sect2>
+    </sect1>
+    <sect1 id='sec:Cmo-apago-el-8' xreflabel='¿Cómo apago el equipo?'>
+      <title>¿Cómo apago el equipo?</title>
+      <para>Para apagar el equipo:</para>
+      <para>1. Pulse en su nombre en la barra superior</para>
+      <para>2. Mantenga pulsada la tecla Alt y pulse Apagar...</para>
+      <para>De manera predeterminada, sólo está visible la opción Suspender. Puede querer apagar el
+      equipo si quiere moverlo y no tiene una batería, o si su batería está baja o no se carga
+      bien. Un equipo apagado también usa menos energía que uno que está suspendido.</para>
+    </sect1>
+    <sect1>
+      <title>¿Por qué se apaga mi equipo cuando cierro la tapa?</title>
+      <para>Cuando cierra la pantalla de su portátil, su equipo se suspend para ahorrar energía.
+      Esto quiere decir que el equipo no está realmente apagado, solo está durmiendo. Puede
+      despertarlo abriendo de nuevo la pantalla. Si no se despierta así, pruebe pulsando un botón
+      del mouse o una tecla cualquiera. Si sigue sin funcionar, pulse el botón de encendido.</para>
+      <para>Algunos equipos no se suspenden correctamente, normalmente porque su hardware no
+      funciona completamente con el sistema operativo (ej. los controladores de Linux no están
+      completos). En este caso, verá que no puede reanudar su equipo después de haber cerrado la
+      tapa del portátil. Puede intentar arreglar problemas de suspensión, o puede evitar que el
+      equipo intente suspenderse cuando cierre la tapa de su portátil.</para>
+      <sect2>
+        <title>Parar la suspensión del equipo cuando se cierra la tapa</title>
+        <para>Si no quiere que el equipo se suspenda al cerrar la tapa, puede cambiar la
+        configuración de ese comportamiento. Para configurar el equipo para que apague la pantalla,
+        en lugar de suspender, cuando se cierra la tapa:</para>
+          <para>1. Abra la aplicación Terminal desde la vista de Actividades.</para>
+          <para>2. Para cambiar la configuración que usa cuando trabaja con batería, teclee este
+          comando y pulse Intro:</para>
+          <para><emphasis>gsettings set org.gnome.settings-daemon.plugins.power lid-close-battery-action
+              blank</emphasis></para>
+          <para>3. Para cambiar la configuración que usa cuando trabaja con corriente alterna (CA),
+          teclee este comando y pulse Intro:</para>
+          <para><emphasis>gsettings set org.gnome.settings-daemon.plugins.power lid-close-ac-action
+              blank</emphasis></para>
+        <note>
+          <para>Tenga cuidado si cambia esta configuración. Algunos portátiles se pueden
+          sobrecalentar si se dejan encendidos con la tapa cerrada, especialmente si están en un
+          lugar cerrado como una mochila.</para>
+        </note>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>¿Qué ocurre cuando hiberno el equipo?</title>
+      <para>Cuando hiberna el equipo, se guardan todas las aplicaciones y los documentos y el
+      equipo se apaga por completo, por lo que no utiliza ningún tipo de energía, pero sus
+      aplicaciones y documentos seguirán estando abiertos al encender el equipo de nuevo. No puede
+      hibernar el equipo usted mismo, pero puede establecer la Hibernación como la acción
+      predeterminada que ejecutar cuando la batería del equipo está críticamente baja:</para>
+      <para>1. Pulse en su nombre en la barra superior y seleccione 
+      <emphasis>Configuración del sistema</emphasis>.</para>
+      <para>2. Abra 
+      <emphasis>Energía</emphasis>.</para>
+      <para>3. Cambie la opción Cuando la carga está críticamente baja a Hibernar.</para>
+      <para>Algunos equipos tienen problemas con el soporte del hardware, lo que significa que
+      pueden no ser capaces de suspender o hibernar adecuadamente. Es una buena idea comprobar la
+      hibernación en su equipo para ver si funciona bien.</para>
+      <para>
+        <emphasis>Guarde siempre su trabajo antes de hibernar Debe guardar todo su trabajo antes de
+        hibernar el equipo, solo por si algo fuera mal y sus aplicaciones y documentos abiertos no
+        se pudieran recuperar al encender el equipo de nuevo.</emphasis>
+      </para>
+    </sect1>
+    <sect1>
+      <title>¿Qué ocurre cuando suspendo el equipo?</title>
+      <para>Cuando suspende el equipo, lo envía a dormir. Todas las aplicaciones y los documentos
+      permanecen abiertos, pero la pantalla y otras partes del equipo se apagan para ahorrar
+      energía. El equipo sin embargo sigue encendido y aún va a utilizar una pequeña cantidad de
+      energía. Puede activarlo pulsando una tecla o el mouse. Si eso no funciona, intente presionar
+      el botón de encendido.</para>
+      <para>Algunos equipos tienen problemas de hardware lo que significa que pueden no ser capaces
+      de suspender o hibernar adecuadamente. Es una buena idea comprobar la suspensión en su equipo
+      para ver si funciona bien antes de usarla.</para>
+      <para>
+        <emphasis>Guarde siempre su trabajo antes de suspender Debe guardar todo su trabajo antes
+        de suspender el equipo, solo por si algo fuera mal y sus aplicaciones y documentos abiertos
+        no se pudieran recuperar al encender el equipo de nuevo.</emphasis>
+      </para>
+    </sect1>
+    <sect1>
+      <title>La duración estimada de la batería no es correcta</title>
+      <para>Cuando compruebe el nivel de carga restante de la batería, puede que observe que el
+      tiempo restante muestra un valor diferente de lo que dura realmente la batería. Esto se debe
+      a que el nivel de carga restante de la batería solo puede estimarse, aunque las estimaciones
+      van mejorando con el tiempo.</para>
+      <para>Para poder estimar el nivel de batería restante, se deben tener en cuenta varios
+      factores. Uno es la cantidad de energía que el equipo está usando actualmente: el consumo de
+      energía varía en función de cuántos programas tenga abiertos, qué dispositivos tiene
+      conectados, y de si está ejecutando tareas intensivas (como ver un DVD o convertir archivos
+      de música, por ejemplo). Esto cambia de un momento a otro, y es difícil de predecir.</para>
+      <para>Otro factor es cómo se descarga la batería. Algunas baterías pierden su carga más
+      rápidamente de lo que reciben. Sin un conocimiento preciso de cómo se descarga la batería,
+      solo se podrá hacer una estimación aproximada del nivel de batería restante.</para>
+      <para>A medida que la batería se descarga, el gestor de energía se irá haciendo una idea de
+      sus propiedades de descarga y aprenderá a mejorar sus estimaciones sobre el nivel de la
+      batería, aunque nunca serán completamente precisas.</para>
+      <itemizedlist>
+        <listitem>
+          <para>Si obtiene una estimación completamente ridícula del nivel de la batería (digamos,
+          cientos de días), probablemente es que el Gestor de energía no tenga los datos necesarios
+          para hacer una estimación coherente.</para>
+        </listitem>
+        <listitem>
+          <para>Si desenchufa la alimentación, trabaja con el portátil usando la batería durante un
+          tiempo, y luego vuelve a enchufar la alimentación y deja que se recargue de nuevo, el
+          gestor de energía debería poder obtener los datos que necesita.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>¿Por qué mi portátil se vuelve más lento cuando funciona con la batería?</title>
+      <para>Algunos equipos portátiles, intencionadamente, se ralentizan cuando están trabajando
+      con la batería para ahorrar energía. El procesador del equipo portátil (CPU) cambia a una
+      velocidad más lenta, y los procesadores consumen menos energía cuando se funcionan más
+      lentamente, por lo que la batería debe durar más tiempo.</para>
+      <para>Esta característica se llama escalado de frecuencia de la CPU.</para>
+    </sect1>
+    <sect1>
+      <title>¿Por qué se apaga/hiberna el equipo cuando la batería llega al 10%?</title>
+      <para>Cuando el nivel de carga de la batería es muy bajo, el equipo hibernará
+      automáticamente. Lo hace para asegurarse de que la batería no se descargue por completo, ya
+      que esto es malo para la batería. Si la batería se acaba sin más, el equipo no tendría tiempo
+      para cerrar correctamente.</para>
+      <para>Puede cambiar lo que sucede cuando el nivel de batería está muy bajo abriendo Energía
+      en la vista de Actividades. Consulte el ajuste Cuando la carga está críticamente baja. Puede
+      escoger que el equipo hiberne o se apague. Si elige que se apague, no se guardarán sus
+      aplicaciones y documentos antes de que el equipo se apague.</para>
+      <para>Algunos equipos tienen problemas al hibernar, y al reanudarse no son capaces de
+      recuperar las aplicaciones y documentos que tenía abiertos. En este caso, puede que se haya
+      perdido algo de su trabajo si no lo guardó antes de que el equipo hibernara. Sin embargo,
+      quizá pueda arreglar problemas de hibernación.</para>
+    </sect1>
+    <sect1 id='sec:Por-qu-mi-53' xreflabel='¿Por qué mi pantalla se oscurece después de un tiempo?'>
+      <title>¿Por qué mi pantalla se oscurece después de un tiempo?</title>
+      <para>Cuando su portátil esté funcionando con baterías, se oscurecerá la pantalla cuando el
+      equipo esté inactivo para ahorrar energía. Cuando reanude su uso, la pantalla volverá a
+      aclararse.</para>
+      <para>Puede evitar que la pantalla se oscurezca:</para>
+      <para>1. Pulse en su nombre en la barra superior y seleccione Configuración del
+      sistema.</para>
+      <para>2. Abra Brillo y bloqueo y desmarque Oscurecer la pantalla para ahorrar energía.</para>
+    </sect1>
+    <sect1 id='sec:Problemas-de-energa-54' xreflabel='Problemas de energía y batería'>
+      <title>Problemas de energía y batería</title>
+      <para>Huayra GNU/Linux, como cualquier distribución de GNU/Linux, se desarrolló para que
+      pueda utilizarse en cualquier equipo. Las computadoras del Programa Conectar Igualdad tienen
+      un determinado hardware y Huayra se ha probado de manera extensiva sobre el mismo. De este
+      modo, los problemas que puedan aparecer vinculados al hardware son mínimos. De todos modos se
+      agregaron en este apartado de la documentación una serie de posibles problemas que pueden
+      aparecer en otros equipos y como solucionarlos.</para>
+      <sect2>
+        <title>Mi equipo se calienta demasiado</title>
+        <para>La mayoría de los equipos se calientan después de un tiempo, y algunos pueden llegar
+        a estar muy calientes. Esto es normal: simplemente es parte de la forma en la que el equipo
+        se refrigera. Sin embargo, si el equipo se pone muy caliente podría ser una señal de
+        sobrecalentamiento, lo que potencialmente puede causar daños.</para>
+        <para>La mayoría de los portátiles se calientan razonablemente una vez que se han estado
+        usando durante un tiempo. Por lo general no es nada preocupante. Los equipos producen una
+        gran cantidad de calor y los portátiles son muy compactos, por lo que necesitan que se
+        caliente su cubierta externa para eliminar el calor rápidamente.</para>
+        <para>Si instaló Huayra en otros equipos recuerde que algunas computadors se calientan
+        demasiado y esto puede hacerlas incómodos de usar. Este es normalmente el resultado de un
+        sistema de refrigeración mal diseñado. A veces se pueden conseguir accesorios adicionales
+        de refrigeración que se ajustan a la parte inferior del equipo portátil y proporcionan una
+        refrigeración más eficiente.</para>
+        <para>Si tiene un equipo de escritorio que se nota caliente al tacto, puede que tenga una
+        refrigeración insuficiente. Si esto le preocupa, puede comprar más ventiladores o comprobar
+        que los ventiladores y rejillas de ventilación estén libres de polvo y otras obstrucciones.
+        Es posible que desee considerar la posibilidad de tener el equipo en un lugar mejor
+        ventilado; si está en un espacio cerrado (por ejemplo, en un armario), el sistema de
+        refrigeración puede no ser capaz de eliminar el calor y hacer circular el aire fresco con
+        suficiente rapidez.</para>
+        <para>La mayoría de los equipos modernos se apagan solos si se calientan demasiado, con el
+        fin de evitar que se produzcan daños. Si el equipo se mantiene apagado puede ser por esto.
+        Si su equipo se ha sobrecalentando, probablemente tendrá que repararlo.</para>
+      </sect2>
+      <sect2>
+        <title>No tengo conexión inalámbrica a la red cuando despierto mi equipo</title>
+        <para>Si ha enviado a su equipo a dormir (suspendido) o a hibernar, puede encontrar que su
+        conexión inalámbrica a Internet no funciona cuando se despierta de nuevo. Esto sucede
+        cuando los controladores del dispositivo inalámbrico, no son totalmente compatibles con
+        determinadas características de ahorro de energía. Normalmente, la conexión inalámbrica no
+        se enciende correctamente cuando el equipo se reactiva.</para>
+        <para>Si esto pasa, intente apagar su adaptador inalámbrico y volverlo a encender:</para>
+        <para>1. Pulse en su nombre en la barra superior y seleccione Configuración del
+        sistema</para>
+        <para>2. Abra Red y seleccione la pestaña Inalámbrica.</para>
+        <para>3. Apague su tarjeta inalámbrica y vuelva a encenderla</para>
+        <para>4. Si la red inalámbrica sigue sin funcionar, active el Modo avión y desactívelo de
+        nuevo.</para>
+        <para>Si esto no funciona, reiniciar su equipo suele hacer que el adaptador inalámbrico
+        funcione de nuevo.</para>
+      </sect2>
+      <sect2>
+        <title>¿Puede funcionar mi equipo con el suministro de energía de otro país?</title>
+        <para>Países diferentes usan diferentes suministros de energía con voltajes diferentes
+        (generalmente 110V o 220-240V) y frecuencias AC (generalmente 50Hz o 60Hz). Su equipo
+        debería funcionar con el suministro de energía de otro país siempre que tenga el adaptador
+        de energía apropiado. También es posible que tenga que accionar un interruptor.</para>
+        <para>Si tiene un portátil, todo lo que necesita hacer es conseguir el enchufe adecuado
+        para su adaptador de corriente. Muchos portátiles se entregan con más de un enchufe para su
+        adaptador, así que puede que ya tenga el adecuado. Si no es así, conectar el existente en
+        un adaptador de viaje estándar será suficiente.</para>
+        <para>Si tiene un equipo de escritorio, también puede obtener un cable con un enchufe
+        diferente, o utilizar un adaptador de viaje. En este caso, sin embargo, es posible que
+        necesite cambiar el interruptor de voltaje en la fuente de alimentación del equipo, si es
+        que existe. Muchos equipos no tienen un interruptor de este tipo, y trabajarán sin
+        problemas con cualquier tensión. Mire la parte posterior del equipo y busque el zócalo del
+        del cable de alimentación. En algún lugar cercano, puede haber un pequeño interruptor
+        marcado con "110v" o "230v" (por ejemplo). Conmútelo si es necesario.</para>
+        <warning>
+          <para>Tenga cuidado al cambiar los cables de alimentación o al usar adaptadores de
+          viaje. Si es posible, apague todo en primer lugar.</para>
+        </warning>
+      </sect2>
+      <sect2 id='sub:Por-qu-mi-55' xreflabel='¿Por qué mi equipo no reacciona después de haberlo enviado suspendido?'>
+        <title>¿Por qué mi equipo no reacciona después de haberlo enviado suspendido?</title>
+        <para>Si suspende o hiberna su equipo y luego tratar de despertarlo o de volver a
+        encenderlo, es posible que no funcione como esperaba. En algunas computador de Conectar
+        Igualdad debe presionar de nuevo el botón de encendido.</para>
+        <sect3>
+          <title>Mi equipo está dormido y no puedo despertarlo</title>
+          <para>Si suspende su equipo y luego presiona una tecla o pulsa con su mouse, debería
+          despertarse y mostrar una pantalla pidiendo su contraseña.Si esto no ocurre, intente
+          presionando el botón de encendido (no lo mantenga presionado, púlselo solo una
+          vez).</para>
+          <para>Si esto no funciona, asegúrese de que el monitor de su equipo está encendido e
+          intente pulsar una tecla nuevamente.</para>
+          <para>Como último recurso, apague el equipo manteniendo pulsado el botón de encendido de
+          5 a 10 segundos. Al hacerlo perderá sus trabajos sin guardar. Luego podrá encender el
+          equipo nuevamente.</para>
+          <para>Si esto ocurre siempre que pone su equipo a dormir, puede que la suspensión no
+          funcione en su hardware.</para>
+          <para>
+            <emphasis>Si su equipo gasta energía y no tiene una fuente de alimentación alternativa
+            (como una batería), se apagará.</emphasis>
+          </para>
+        </sect3>
+        <sect3>
+          <title>Ninguno de mis programas/documentos está abierto cuando enciendo mi equipo
+          nuevamente</title>
+          <para>Si hiberna su equipo y al encenderlo de nuevo, ninguno de sus documentos o
+          aplicaciones están abiertas, es probable que no hiberne correctamente. A veces esto
+          ocurre debido a un problema menor, y el equipo será capaz de hibernar correctamente la
+          próxima vez que lo haga. También podría suceder, ya que hubiera instalado una
+          actualización de software que requiera que el equipo se reinicie, en este caso, el equipo
+          puede haberse apagado en lugar de hibernar.</para>
+          <para>También es posible que el equipo no sea capaz de hibernar porque el hardware no lo
+          permita. Esto puede ser debido, por ejemplo, a un problema con los controladores de Linux
+          para su hardware. Puede probar esto hibernando de nuevo y ver si funciona la segunda vez.
+          Si no es así, probablemente sea un problema con los controladores de su equipo.</para>
+        </sect3>
+        <sect3>
+          <title>Mi conexión inalámbrica (u otro hardware) no funciona cuando mi equipo
+          despierta</title>
+          <para>Si suspende o hiberna su equipo y luego lo despierta de nuevo, es posible que
+          encuentre que su conexión a Internet, el mouse, o algún otro dispositivo no funcionan
+          correctamente. Esto podría deberse a que el controlador del dispositivo no soporta
+          correctamente suspender/hibernar. Esto es un problema con el controlador y no con el
+          propio dispositivo.</para>
+          <para>Si el dispositivo tiene algún interruptor de encendido, pruebe a apagarlo y
+          volverlo a encender. En muchas ocasiones, el dispositivo volverá a funcionar de nuevo. Si
+          se conecta mediante un cable USB o similar, desconéctelo y vuélvalo a conectar, a ver si
+          funciona.</para>
+          <para>Si no se puede apagar o desenchufar el dispositivo, o si esto no funciona, es
+          posible que deba reiniciar el equipo para que el dispositivo vuelva a funcionar.</para>
+        </sect3>
+      </sect2>
+      <sect2>
+        <title>El ventilador de mi computador está siempre funcionando</title>
+        <para>Si el ventilador de refrigeración de su portátil siempre está funcionando, es posible
+        que el hardware que controla el sistema de refrigeración del portátil no esté muy bien
+        soportado en Linux. Algunos portátiles necesitan software adicional para controlar sus
+        ventiladores de refrigeración de manera eficiente, pero este software puede no estar
+        instalado (o no estar disponible para Linux) y por eso los ventiladores funcionan a toda
+        velocidad todo el tiempo.</para>
+        <para>Si este es el caso, puede ser capaz de cambiar algunos ajustes o instalar software
+        adicional que le permita el control total del ventilador. Por ejemplo, vaiofan se puede
+        instalar para controlar los ventiladores de algunos portátiles Sony VAIO. La instalación de
+        este software es un proceso bastante técnico que depende en gran medida de la marca y
+        modelo de su portátil, por lo que pudiera tener que obtener asesoramiento específico sobre
+        cómo hacerlo para su equipo.</para>
+        <para>También es posible que su portátil produzca una gran cantidad de calor. Esto no
+        significa necesariamente que se esté recalentando, sino que puede ser que necesite que el
+        ventilador funcione a toda velocidad todo el tiempo para permitirle mantenerse frío. Si
+        este es el caso, tiene pocas opciones para evitar que el ventilador funcione a toda
+        velocidad todo el tiempo. A veces se pueden comprar accesorios adicionales de refrigeración
+        para su portátil que le pueden ayudar.</para>
+      </sect2>
+      <sect2 id='sub:Mi-equipo-no' xreflabel='Mi equipo no se enciende'>
+        <title>Mi equipo no se enciende</title>
+        <para>Hay varias razones por las que su equipo no se encenderá. Este tema da una breve
+        descripción de algunas de las posibles razones.</para>
+        <sect3>
+          <title>Equipo no enchufado, batería sin carga o cable suelto</title>
+          <para>Asegúrese de que los cables de alimentación del equipo estén bien conectados y que
+          las tomas de corriente están encendidas. Asegúrese de que el monitor está enchufado y
+          encendido también. Si tiene un portátil, conecte el cable del cargador (en caso de que se
+          hubiera quedado sin batería). También puede comprobar que la batería está correctamente
+          colocada en su lugar (mire en la parte inferior del portátil) si es extraíble.</para>
+        </sect3>
+        <sect3>
+          <title>Problemas con el hardware del equipo</title>
+          <para>Un componente de su equipo puede estar dañado o ser defectuoso. Si este es el caso,
+          tendrá que conseguir reparar su equipo. Los fallos más comunes son una fuente de
+          alimentación rota, componentes instalados incorrectamente (por ejemplo la memoria/RAM) y
+          una placa madre defectuosa.</para>
+        </sect3>
+        <sect3>
+          <title>El equipo pita y luego se apaga</title>
+          <para>Si el equipo emite un pitido varias veces cuando lo enciende y luego se apaga (o no
+          arranca), puede estar indicando que ha detectado un problema. Estos pitidos se denominan
+          a vece códigos de pitido, y el patrón de sonidos tiene la intención de decir cuál es el
+          problema que tiene el equipo. Los distintos fabricantes utilizan diferentes códigos, por
+          lo que tendrá que consultar el manual de la placa base o llevar su equipo a
+          reparar.</para>
+        </sect3>
+        <sect3>
+          <title>Los ventiladores de la equipo giran pero no aparece nada en la pantalla</title>
+          <para>Lo primero que verificar es que su monitor esté conectado y encendido.</para>
+          <para>Puede que este problema se deba a un fallo de hardware. Los ventiladores pueden
+          encenderse al presionar el botón de encendido, pero puede que otras partes esenciales del
+          sistema no se enciendan correctamente. En este caso lleve su equipo al servicio
+          técnico.</para>
+        </sect3>
+      </sect2>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Discos-y-almacenamiento' xreflabel='Discos y almacenamiento'>
+    <title>Discos y almacenamiento</title>
+    <para>Puede comprobar el espacio de disco libre y la capacidad del disco usando el Analizador
+    de uso del disco y el Monitor del sistema.</para>
+    <sect1 id='sec:pendrive' xreflabel='¿Cómo trabajar con un Pendrive?'>
+      <title>¿Cómo trabajar con un Pendrive?</title>
+      <para>Para comenzar a utilizar un pendrive primero debes ingresarlo en cualquiera de los
+      puertos que están a los costados de la computador. Apenas el equipo lo detecta aparece un cartel
+      con dos opciones:</para>
+      <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/pendrive.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>
+      </para>
+      <itemizedlist>
+        <listitem>
+          <para>
+          <emphasis>Abrir con Archivos :</emphasis>abre la aplicación Archivos (ver 
+          <xref linkend="sec:Ordenar-archivos-y" />), y permite ver todo el contenido del
+          pendrive.</para>
+        </listitem>
+        <listitem>
+          <para>
+          <emphasis>Expulsar:</emphasis>permite extraer el pendrive de manera segura. (Ver cómo 
+          <xref linkend="sec:Extraer-una-unidad" />)</para>
+        </listitem>
+      </itemizedlist>
+      <para>Si después de un tiempo quieres volver a ver el contenido del mismo, te diriges al
+      escritorio donde a encontraras un ícono con el nombre del pendrive. Basta simplemente con
+      hacer doble clic para ver el contenido.</para>
+      <para>También puedes recurrir al ícono ubicado en la 
+      <xref linkend="chap:Barra-inferior" />. Al hacer clic en él, se muestran todos los
+      dispositivos extraíbles que están conectados al equipo.</para>
+      <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/pendrive2.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>
+      </para>
+      <para>Para 
+      <emphasis>quitarlo/extraerlo</emphasis>simplemente hay que hacer clic con el botón derecho y
+      seleccionar 
+      <emphasis>Expulsar unidad de forma segura.</emphasis></para>
+      <sect2>
+        <title>Cuidados y consejos para trabajar con un pendrive</title>
+        <itemizedlist>
+          <listitem>
+            <para>Al conectar: recuerde que el pendrive es frágil .</para>
+          </listitem>
+        </itemizedlist>
+        <para>Una memoria flash puede ser utilizada durante 5 años o más. Su vida media es mayor a
+        la de un disco rígido convencional. Sin embargo, el chip de memoria está montado sobre un
+        circuito impreso, a la que son soldados los 4 contactos del conector USB, fijado en el
+        cuerpo externo, usualmente de plástico. El circuito impreso es frágil y la fijación del
+        conector en el cuerpo no es tan rígida como parece. Ahí está el problema. Por más accesible
+        que esté el puerto USB de su micro, por mejor puntería que tenga, por más firme que sea su
+        mano, el hecho de enchufar y desenchufar del día a día provoca ineludiblemente una fatiga
+        del material, cortando algún circuito o comprometiendo contactos internos.</para>
+        <para>Como nada de esto se puede evitar, la forma es intentar alargar la vida útil del
+        dispositivo. Una buena solución es conectar el pendrive a la computadora por medio de un
+        cable USB "macho/hembra", fáciles de encontrar y muy baratos. La conexión del pendrive al
+        cable es más fácil y somete al dispositivo a menores esfuerzos. Además de esto, el pendrive
+        no está fijo a la computadora, predispuesto a la rotura física por golpes o enganches, lo
+        cual sucede más frecuentemente de lo que muchos imaginan.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Después de conectarlo, deje el pendrive quieto</para>
+          </listitem>
+        </itemizedlist>
+        <para>Los puertos USB de su computadora permiten transferencia de datos a alta velocidad.
+        Por otro lado, las conexiones internas de la computadora, por donde pasa el flujo de bits,
+        están soldadas o dependen de encastres muy justos, con la seguridad adicional de tornillos
+        de fijación.</para>
+        <para>A pesar del aspecto amigable de las conexiones USB, usted no puede tratarlas con la
+        misma falta de cuidado con la que lidia con un enchufe eléctrico, o con un plug de audio.
+        Un movimiento, por menor que sea, en la superficies de contacto, durante una transferencia,
+        podrá dañar sus archivos.</para>
+        <para>Por lo tanto, una vez conectado el PenDrive al USB y cuando haya aparecido el icono
+        en la barra de tareas, confirmando el reconocimiento del dispositivo, ya no lo
+        mueva.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Considere el pendrive sólo como medio de transporte de datos.</para>
+          </listitem>
+        </itemizedlist>
+        <para>El pendrive funciona como un disco rígido. Por esto uno termina utilizándolo como
+        tal, trabajando directamente con los archivos almacenados. Tal vez usted esté haciendo
+        esto, ignorando el riesgo al que se expone. Su suerte un día podría acabar y, cuando menos
+        lo espera, sus archivos no estarán más.</para>
+        <para>Piense bien. No da tanto trabajo esto: enchufe su pendrive, copie los archivos con
+        los que irá a trabajar al disco rígido, realice sus tareas y, al final, cópielos de vuelta.
+        Si la computadora en la que trabajó no es suya, borre los vestigios de su estadía, para su
+        propia seguridad y para preservar el espacio en disco de terceros.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Cuidado al desconectar el Pen Drive</para>
+          </listitem>
+        </itemizedlist>
+        <para>El pendrive, como cualquier dispositivo con conexión USB, tiene la característica de
+        ser "hot-swappable", o sea, puede ser conectado o desconectado con la computadora
+        conectada, sin riesgo de dañar el hardware, sea el puerto en el que está conectado o el
+        propio dispositivo. Los datos almacenados, sin embargo, pueden ser dañados si el
+        dispositivo es removido durante las operaciones de lectura o escritura. Para que esto no
+        suceda, antes de extraer un pendrive debe ser detenida la unidad extraíble para realizar
+        una extracción segura.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Al transportarlo, recuerde nuevamente que el pendrive es frágil.</para>
+          </listitem>
+        </itemizedlist>
+        <para>Aunque los pen drives pueden ser colocados en llaveros o colgados en el cuello, hay
+        lugares más seguros para transportarlos. Dentro del bolsillo o de una carpeta el
+        dispositivo estará más protegido contra golpes, caídas y contacto con el agua.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Al volver a su computadora haga siempre un backup del pendrive</para>
+          </listitem>
+        </itemizedlist>
+        <para>La capacidad de los pendrives, aún los más grandes, son mucho menor que la de los
+        discos rígidos disponibles en las computadoras actuales. Por lo tanto, siempre será posible
+        crear un directorio en el disco rígido, destinado a almacenar la copia de seguridad de todo
+        el pendrive o, al menos, de sus archivos más importantes.</para>
+        <para>Siga estos consejos y aproveche todo lo que su pen drive tiene de bueno, evitando los
+        problemas que puede generarle a las personas mas descuidadas.</para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Comprobar espacio con el analizador de uso de disco</title>
+      <para>Para comprobar el espacio de disco libre y la capacidad del disco usando el Analizador
+      de uso del disco:</para>
+      <orderedlist>
+        <listitem>
+          <para>Abra el Analizador de uso del disco desde la vista general de Actividades.</para>
+        </listitem>
+        <listitem>
+          <para>La ventana mostrará la Capacidad total del sistema de archivos y el Uso total del
+          sistema de archivos.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse en los botones de la barra de herramientas para elegir Analizar carpeta
+          personal, Analizar sistema de archivos, Analizar carpeta, o Analizar carpeta
+          remota.</para>
+        </listitem>
+        <listitem>
+          <para>La información se muestra según la Carpeta, el Uso, el Tamaño y el
+          Contenido.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+    <sect1>
+      <title>Comprobar el espacio con el monitor del sistema</title>
+      <para>Para comprobar el espacio libre del disco y la capacidad con el Monitor del
+      sistema:</para>
+      <orderedlist>
+        <listitem>
+          <para>Abra la aplicación Monitor del sistema desde la vista de Actividades.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione la pestaña Sistemas de archivos para ver las particiones del sistema y
+          el espacio usado en el disco en Total, Libre, Disponible y Usado.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+    <sect1>
+      <title>¿Qué pasa si el disco está demasiado lleno?</title>
+      <para>Si el disco está muy lleno, puede:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Eliminar archivos que no son importantes o que no va a usar más.</para>
+        </listitem>
+        <listitem>
+          <para>Haga copias de seguridad de los archivos importantes que no vaya a necesitar
+          durante un tiempo y elimínelos del disco duro.</para>
+        </listitem>
+      </itemizedlist>
+      <para></para>
+      <para></para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Bluetooth' xreflabel='Bluetooth'>
+    <title>Bluetooth</title>
+    <para>Huayra no cuenta con Bluetooth, sin embargo, se puede conectar por medio de un
+    dispositivo USB.</para>
+    <sect1>
+      <title>¿Qué es Bluetooth?</title>
+      <para>
+      <emphasis>Bluetooth es un protocolo inalámbrico que le permite conectar varios tipos de
+      dispositivos a su equipo.</emphasis>Bluetooth se usa habitualmente para auriculares y
+      dispositivos de entrada como son los mouse y teclados. También puede usar Bluetooth para
+      enviar archivos entre dispositivos, por ejemplo entre su equipo y su teléfono móvil.</para>
+    </sect1>
+    <sect1>
+      <title>Conectar el equipo a un dispositivo Bluetooth</title>
+      <para>Antes de poder usar un dispositivo Bluetooth como un mouse o unos auriculares, primero
+      se tiene que conectar al equipo. A esto se le denomina "emparejar" dispositivos Bluetooth.
+      Antes de empezar, asegúrese de que el Bluetooth está activado en su equipo.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse el icono de Bluetooth en la barra superior y seleccione Configurar un
+          dispositivo nuevo.</para>
+        </listitem>
+        <listitem>
+          <para>Haga que el otro dispositivo Bluetooth se pueda descubrir o que sea visible y
+          colóquelo a menos de diez metros de su equipo. Pulse Continuar. Su equipo empezará a
+          buscar dispositivos.</para>
+        </listitem>
+        <listitem>
+          <para>Si hay demasiados dispositivos en la lista, seleccione la barra desplegable
+          <emphasis>Tipo de dispositivo</emphasis>para mostrar un único tipo de dispositivo en la
+          lista.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Opciones de PIN para configurar cómo entregar un PIN a otro dispositivo. La
+          opción de PIN automático usará un código numérico de seis dígitos. Los dispositivos que
+          no dispongan de teclas de entrada o pantalla, como mouse o auriculares, necesitarán que
+          especifique un PIN como 0000, o ninguno en absoluto.</para>
+        </listitem>
+        <listitem>
+          <para>Consulte en el manual de su dispositivo cuál es la opción adecuada. Seleccione una
+          opción apropiada de PIN para su dispositivo y después pulse Cerrar. Seleccione 
+          <emphasis>Continuar</emphasis>. Se mostrará el PIN en la pantalla si no eligió un PIN
+          predefinido. Si es necesario, confirme el PIN en el otro dispositivo. Ahora, el
+          dispositivo debería mostrarle el PIN que ve en la pantalla de su equipo, o pedirle que lo
+          introduzca. Confirme el PIN en el dispositivo y pulse Coincide.</para>
+        </listitem>
+        <listitem>
+          <para>En la mayoría de los dispositivos, deberá introducirlo la entrada en menos de
+          veinte segundos, o la conexión no se completará. Si pasara esto, vuelva a la lista de
+          dispositivos y empiece de nuevo. Cuando la conexión se complete correctamente, aparecerá
+          un mensaje. Pulse Cerrar. Puede eliminar una conexión Bluetooth más adelante, si lo
+          desea.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+    <sect1 id='sec:Encender-o-apagar' xreflabel='Encender o apagar el Bluetooth'>
+      <title>Encender o apagar el Bluetooth</title>
+      <para>Puede activar su Bluetooth para usar dispositivos Bluetooth y enviar y recibir
+      archivos, pero apáguelo para ahorrar energía. Para activar el Bluetooth, pulse en el icono de
+      Bluetooth en la barra superior y encienda el Bluetooth. Muchos portátiles tienen un
+      interruptor físico o una combinación de teclas para encender y apagar el Bluetooth. Si el
+      interruptor físico está apagado, no podrá ver el icono de Bluetooth en la barra superior.
+      Busque un interruptor en su equipo o una tecla en su teclado. La tecla suele ir asociada a la
+      tecla Fn. Para apagar el Bluetooth, cambie pulse el icono de Bluetooth y apáguelo. Sólo tiene
+      que activar la Visibilidad si se está conectado a este equipo desde otro dispositivo.</para>
+      <para>Más información: 
+      <xref linkend="sec:Qu-es-la-1-9" /></para>
+    </sect1>
+    <sect1>
+      <title>No puedo conectar mi dispositivo Bluetooth</title>
+      <para>Existen varias razones por las que es posible que no pueda conectarse a un dispositivo
+      Bluetooth, como un teléfono o unos auriculares.</para>
+      <sect2>
+        <title>Conexión bloqueada o sin confianza</title>
+        <para>Algunos dispositivos Bluetooth bloquean las conexiones de manera predeterminada o
+        requieren que se les cambie la configuración para permitir las conexiones. Asegúrese de que
+        su dispositivo permite las conexiones.</para>
+      </sect2>
+      <sect2>
+        <title>Hardware Bluetooth no reconocido</title>
+        <para>Es posible que su equipo no haya reconocido su adaptador Bluetooth. Esto puede
+        deberse a que no tenga instalados los controladores para su adaptador.</para>
+        <para>Algunos adaptadores Bluetooth no funcionan con Linux, y por tanto no le será posible
+        conseguir los controladores apropiados para ellos. En tal caso, probablemente tendrá que
+        conseguir otro adaptador Bluetooth diferente.</para>
+      </sect2>
+      <sect2>
+        <title>Adaptador no conectado</title>
+        <para>Asegúrese de que su adaptador Bluetooth está encendido. Pulse en el icono de
+        Bluetooth en la barra superior y compruebe que no está desactivado.</para>
+      </sect2>
+      <sect2>
+        <title>Conexión del dispositivo Bluetooth apagada</title>
+        <para>Compruebe que el dispositivo al que está intentando conectarse tiene activado el
+        Bluetooth. Por ejemplo, si está intentando conectarse a un teléfono, compruebe que no está
+        en modo avión.</para>
+      </sect2>
+      <sect2>
+        <title>No existe un dispositivo Bluetooth en su equipo</title>
+        <para>Muchos equipos no tienen adaptadores de Bluetooth. Puede comprar un adaptador si
+        quiere usar Bluetooth.</para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Eliminar una conexión entre dispositivos Bluetooth</title>
+      <para>Si no quiere volver a conectarse a un dispositivo Bluetooth puede quitar la
+      conexión.</para>
+      <para>Es útil si ya no quiere volver a usar un dispositivo como unos auriculares o si ya no
+      va a volver a transferir archivos a o desde un dispositivo.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en el icono de Bluetooth en la barra superior y seleccione Configuración de
+          Bluetooth.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione en el panel de la izquierda el dispositivo que quiere desconectar, y
+          después pulse el icono - bajo la lista.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Quitar en la ventana de confirmación.</para>
+        </listitem>
+      </orderedlist>
+      <para>
+        <emphasis>Puede volver a conectarse a un dispositivo Bluetooth más tarde si lo
+        desea.</emphasis>
+      </para>
+      <para>Para más información consulte: 
+      <xref linkend="sec:Encender-o-apagar" /></para>
+    </sect1>
+    <sect1>
+      <title>Enviar un archivo a un dispositivo Bluetooth</title>
+      <para>Puede enviar archivos a los dispositivos Bluetooth conectados, tales como algunos
+      teléfonos móviles u otros equipos. Algunos tipos de dispositivos no permiten la transferencia
+      de archivos, o tipos de archivos específicos.</para>
+      <para>Puede enviar archivos de tres maneras:</para>
+      <itemizedlist>
+        <listitem>
+          <para>desde la ventana de configuración de Bluetooth o</para>
+        </listitem>
+        <listitem>
+          <para>directamente desde el gestor de archivos.</para>
+        </listitem>
+      </itemizedlist>
+      <sect2>
+        <title>Usando el icono de Bluetooth en la barra superior.</title>
+        <orderedlist>
+          <listitem>
+            <para>Pulse en el icono de Bluetooth en la barra superior y pulse Enviar archivos al
+            dispositivo.</para>
+          </listitem>
+          <listitem>
+            <para>Seleccione el archivo que quiera enviar y pulse Seleccionar. (Para enviar más de
+            un archivo en una carpeta, mantenga pulsado Ctrl al seleccionar cada archivo).</para>
+          </listitem>
+          <listitem>
+            <para>Seleccione de la lista el dispositivo al que quiere enviar los archivos y pulse
+            Enviar. La lista de dispositivos se mostrará en los dispositivos a los que ya está
+            conectado y en el rango de los dispositivos visibles.</para>
+          </listitem>
+          <listitem>
+            <para>Si todavía no se ha conectado al dispositivo seleccionado, se le pedirá que se
+            empareje con el dispositivo después de pulsar Enviar. Probablemente, esto requiera una
+            confirmación en el otro dispositivo. Si hay varios dispositivos, puede limitar la lista
+            para que sólo aparezcan los dispositivos de un tipo específico usando el desplegable
+            Tipo de dispositivo. El propietario del dispositivo receptor normalmente tiene que
+            pulsar un botón para aceptar el archivo. Cuando este acepte o rechace, el resultado de
+            la transferencia de archivos se mostrará en su pantalla.</para>
+          </listitem>
+        </orderedlist>
+      </sect2>
+      <sect2>
+        <title>Enviar un archivo desde la ventana de configuración de Bluetooth</title>
+        <orderedlist>
+          <listitem>
+            <para>Pulse en el icono de Bluetooth en la barra superior y seleccione Configuración de
+            Bluetooth.</para>
+          </listitem>
+          <listitem>
+            <para>Seleccione el dispositivo al que enviar archivo en la lista de la izquierda. La
+            lista sólo muestra los dispositivos a los que ya está conectado.</para>
+          </listitem>
+          <listitem>
+            <para>Consulte la Conectar su equipo a un dispositivo Bluetooth.</para>
+          </listitem>
+          <listitem>
+            <para>En la información del dispositivo, a la derecha, pulse Enviar archivos.
+            Seleccione el archivo que quiera enviar y pulse Seleccionar. (Para enviar más de un
+            archivo en una carpeta, mantenga pulsado Ctrl al seleccionar cada archivo). El
+            propietario del dispositivo receptor normalmente tiene que pulsar un botón para aceptar
+            el archivo. Cuando este acepte o rechace, el resultado de la transferencia de archivos
+            se mostrará en su pantalla.</para>
+          </listitem>
+        </orderedlist>
+        <para>Para más información consulte: 
+        <xref linkend="chap:Compartir-tus-archivos" /></para>
+      </sect2>
+      <sect2>
+        <title>Enviar un archivo directamente desde el gestor de archivos.</title>
+        <para>Para enviar archivos directamente
+        <emphasis>desde el gestor de archivos,</emphasis>consulte Compartir y transferir
+        archivos.</para>
+      </sect2>
+    </sect1>
+    <sect1 id='sec:Qu-es-la-1-9' xreflabel='¿Qué es la visibilidad de Bluetooth?'>
+      <title>¿Qué es la visibilidad de Bluetooth?</title>
+      <para>La visibilidad de Bluetooth se refiere simplemente a si otros dispositivos pueden
+      descubrir su equipo al buscar dispositivos Bluetooth.</para>
+      <para>Cuando la visibilidad de Bluetooth está activada, su equipo informará al resto de
+      dispositivos que estén al alcance, permitiéndoles que se intenten conectar a su equipo. Su
+      equipo no necesita ser visible para buscar otros dispositivos, pero esos dispositivos si
+      deben ser visibles para que su equipo pueda descubrirlos. Después de haberse conectado a un
+      dispositivo, ni su equipo ni el dispositivo necesitan estar visibles para comunicarse entre
+      sí. A menos que usted o alguien en quien confíe necesite conectarse a su equipo desde otro
+      dispositivo, debería desactivar la visibilidad.</para>
+      <para>Para más información:
+      <xref linkend="sec:Encender-o-apagar" /></para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Ajustes-de-color' xreflabel='Ajustes de color'>
+    <title>Ajustes de color </title>
+    <para>En este apartado podrá ver porqué es importante ajustar el perfil de color, Cómo calibrar
+    un dispositivo...</para>
+    <sect1>
+      <title>Perfiles de color</title>
+      <sect2 id='sub:Qu-es-un-1-56' xreflabel='¿Qué es un perfil de color?'>
+        <title>¿Qué es un perfil de color?</title>
+        <para>
+          <emphasis>Un perfil de color es un simple archivo que expresa un espacio de color o una
+          respuesta de un dispositivo.</emphasis>
+        </para>
+        <para>Un perfil de color es un conjunto de datos que caracteriza o un dispositivo, tal como
+        un proyector, o un espacio de color, tal como sRGB. La mayoría de los perfiles de color
+        están en un formato ICC, que es un pequeño archivo con una extensión .ICC o .ICM. Los
+        perfiles de color se pueden empotrar en imágenes para especificar el espectro del rango de
+        los datos. Esto asegura que el usuario ve los mismos colores en diferentes
+        dispositivos.</para>
+        <para>Cada dispositivo cuyo procesado de color debe tener su propio perfil ICC y cuando
+        ésto se logra se dice que el sistema tiene un flujo de trabajo de color de principio a fin.
+        Con este flujo de trabajo puede estar seguro de que los colores no se pierden ni
+        modifican.</para>
+        <para>Para más información consulte: 
+        <xref linkend="sub:Cmo-asignar-perfiles-57" />, 
+        <xref linkend="sub:Cmo-se-importan-58" />, 
+        <xref linkend="sub:Dnde-se-pueden-59" />, 
+        <xref linkend="sub:Qu-es-un-1-56" />, 
+        <xref linkend="sub:Se-puede-compartir-60" />.</para>
+      </sect2>
+      <sect2 id='sub:Dnde-se-pueden-59' xreflabel='¿Dónde se pueden obtener los perfiles de color?'>
+        <title>¿Dónde se pueden obtener los perfiles de color?</title>
+        <para>La mejor forma de obtener perfiles es generándolos usted mismo, aunque esto requiere
+        de un trabajo inicial.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Muchos fabricantes proporcionan perfiles de color para los dispositivos, aunque
+            algunas veces vienen en paquetes de controladores que puede necesitar descargar y
+            extraer para buscar los perfiles de color.</para>
+          </listitem>
+          <listitem>
+            <para>Algunos fabricantes no proporcionan perfiles precisos para el hardware y es mejor
+            evitar esos perfiles. Un buena sugerencia es descargar el perfil y si la fecha de
+            creación es mayor de un año antes de la fecha en la que compró el dispositivo, entonces
+            es un como un perfil de prueba y es completamente inútil.</para>
+          </listitem>
+        </itemizedlist>
+        <para>Para obtener más información acerca de por qué los perfiles proporcionados por los
+        fabricantes son peor que inútiles, consulte : ¿Por qué necesito realizar la calibración yo
+        mismo?.</para>
+      </sect2>
+      <sect2 id='sub:Cmo-se-importan-58' xreflabel='¿Cómo se importan los perfiles de color?'>
+        <title>¿Cómo se importan los perfiles de color?</title>
+        <para>El perfil se puede importar fácilmente pulsando dos veces sobre el archivo .ICC o
+        .ICM en el navegador de archivos.</para>
+        <para>Alternativamente puede seleccionar 
+        <emphasis>Importar perfil...</emphasis>de Configuración del sistema / Color al seleccionar
+        un perfil para un dispositivo.</para>
+        <para>Para más información consulte: 
+        <xref linkend="sub:Cmo-asignar-perfiles-57" />, 
+        <xref linkend="sub:Qu-es-un-1-56" />.</para>
+      </sect2>
+      <sect2>
+        <title>¿Le falta información para la corrección de color de la pantalla completa?</title>
+        <para>Desafortunadamente muchos de los perfiles de color ICC que proporcionan los
+        fabricantes, no incluyen la información requerida para una completa corrección de la
+        pantalla. Aún así, esos perfiles pueden seguir siendo útiles para aplicaciones que realizan
+        compensación del color, pero no verá todos los colores del cambio de su pantalla. Para
+        crear un perfil de pantalla que incluya datos tanto calibración como de caracterización,
+        necesita usar instrumentos especiales de medición de color llamados 
+        <emphasis>colorímetro</emphasis>o 
+        <emphasis>espectrómetro</emphasis>.</para>
+        <para>Más información: 
+        <xref linkend="sub:Dnde-se-pueden-59" />- Los fabricantes proporcionan los perfiles de
+        color y también puede generarlos usted.</para>
+      </sect2>
+      <sect2>
+        <title>¿Puedo obtener una notificación cuando mi perfil de color no es preciso?</title>
+        <para>Lamentablemente no se puede saber si un perfil de dispositivo es preciso o no sin
+        recalibrarlo. Se puede usar una simple métrica de la cantidad de tiempo que paso desde la
+        calibración, para determinar si se recomienda una recalibración.</para>
+        <para>Algunas empresas tienen unas directivas muy específicas para hacer que sus perfiles
+        caduquen, ya que perfiles de color imprecisos pueden marcar una diferencia enorme en un
+        producto final. Si establece la directiva de tiempo de caducidad y el perfil es más antiguo
+        que la directiva, entonces se mostrará un triángulo rojo de advertencia en el diálogo C
+        <emphasis>onfiguración del sistema</emphasis>/ 
+        <emphasis>Color junto al perfil.</emphasis></para>
+        <para>También se mostrarán notificaciones de advertencia cada vez que inicie sesión en su
+        equipo. Para establecer la normativa para dispositivos de pantalla e impresoras,
+        especifique el tiempo máximo de aplicación de la normativa, en días:</para>
+        <para>
+          <literal>
+            [usuario@gnome] gsettings set org.gnome.settings-daemon.plugins.color
+            recalibrate-printer-threshold 180
+            [usuario@gnome] gsettings set org.gnome.settings-daemon.plugins.color
+            recalibrate-display-threshold 180
+          </literal>
+        </para>
+        <para>Más información: 
+        <xref linkend="sub:Por-qu-necesito-61" />- La calibración es importante si se preocupa por
+        los colores que muestra o imprime.</para>
+      </sect2>
+      <sect2>
+        <title>¿Por qué no caducan los perfiles predeterminados para pantallas?</title>
+        <para>El perfil de color predeterminado usado para cada monitor se genera automáticamente
+        basándose en los datos EDID de la panatalla, almacenados en el chip de memoria dentro del
+        monitor. Los datos EDID sólo le dan una instantánea de los colores disponibles que el
+        monitor es capaz de mostrar en el momento de su fabricación y no contiene mucha más
+        información de corrección de color.</para>
+        <para>No tienen fecha de caducidad ya que los EDID no se pueden actualizar. Obtener un
+        perfil del fabricante del monitor o crear un perfil usted mismo hará que obtenga una
+        corrección de color más precisa.</para>
+        <para>Más información: 
+        <xref linkend="sub:Dnde-se-pueden-59" />- Los fabricantes proporcionan los perfiles de
+        color y también puede generarlos usted. 
+        <xref linkend="sub:Por-qu-necesito-61" />- La calibración es importante si se preocupa por
+        los colores que muestra o imprime.</para>
+      </sect2>
+      <sect2>
+        <title>¿Cómo compruebo si la gestión del color funciona correctamente?</title>
+        <para>Los efectos de un perfil de color son a veces sutiles y puede que sean difíciles de
+        ver, si no ha cambiado mucho. En GNOME existen diversos perfiles para probar que demuestran
+        claramente las diferencias al aplicar perfiles:</para>
+        <itemizedlist>
+          <listitem>
+            <para>Prueba de azul: esto cambiará la pantalla a azul y probará si las curvas de
+            calibración son enviadas al dispositivo.</para>
+          </listitem>
+          <listitem>
+            <para>Prueba ADOBEGAMA: cambiará la pantalla a rosa y probará diferentes
+            características de un perfil de pantalla.</para>
+          </listitem>
+          <listitem>
+            <para>RGBFalso: esto no cambiará la pantalla pero cambiará a lo largo de los canales
+            RGB para llegar a BGR.</para>
+          </listitem>
+        </itemizedlist>
+        <para>Hará que todos los gradientes de colores se muestren prácticamente correctos y no
+        habrá mucha diferencia en la pantalla entera, pero las imágenes se verán muy diferentes en
+        aplicaciones que soporten gestión de color.</para>
+        <para>Añada uno de los perfiles de pruebas a su pantalla usando las preferencias en
+        Configuración de sistema / Color. Usando estos perfiles puede ver claramente cuándo una
+        aplicación soporta gestión de color.</para>
+        <para>Más información:
+        <xref linkend="sub:Dnde-se-pueden-59" />- Los fabricantes proporcionan los perfiles de
+        color y también puede generarlos usted.</para>
+      </sect2>
+      <sect2 id='sub:Qu-es-un-2-62' xreflabel='¿Qué es un dispositivo de gestión de color virtual?'>
+        <title>¿Qué es un dispositivo de gestión de color virtual?</title>
+        <para>Es un dispositivo de gestión de color que no está conectado al equipo. Ejemplos de
+        ello son:</para>
+        <itemizedlist>
+          <listitem>
+            <para>Una tienda de impresión en línea donde se pueden subir fotos, se imprimen y se le
+            envían</para>
+          </listitem>
+          <listitem>
+            <para>Fotos de una cámara digital almacenadas en una tarjeta de memoria</para>
+          </listitem>
+        </itemizedlist>
+        <para>Para crear un perfil virtual para una cámara digital, simplemente arrastre y suelte
+        un archivo de imagen dentro del diálogo 
+        <emphasis>Configuración del sistem</emphasis>a / 
+        <emphasis>Color</emphasis>.</para>
+        <para>Después puede asignarle perfiles como a cualquier otro dispositivo o incluso
+        calibrarlo.</para>
+        <para>Más información: 
+        <xref linkend="sub:Por-qu-necesito-61" />- La calibración es importante si se preocupa por
+        los colores que muestra o imprime.</para>
+      </sect2>
+      <sect2 id='sub:Se-puede-compartir-60' xreflabel='¿Se puede compartir un perfil de color?'>
+        <title>¿Se puede compartir un perfil de color?</title>
+        <para>
+          <emphasis>Compartir perfiles de color nunca es una buena idea ya que el hardware cambia a
+          lo largo del tiempo.</emphasis>
+        </para>
+        <para>Los perfiles de color que ha creado usted mismo son específicos del hardware y de las
+        condiciones de luz para las que lo ha calibrado.</para>
+        <para>Una pantalla que ha estado encendida unos pocos cientos de horas va a tener un perfil
+        de color muy diferente que un dispositivo similar con un número de serie próximo, si ésta
+        última ha estado encendida unas mil horas. Esto significa que si comparte su perfil de
+        color con alguien, puede que esté mejorando su calibración, pero es incorrecto decir que su
+        dispositivo está calibrado.</para>
+        <para>De forma similar, a menos que todo el mundo tenga el control de luz recomendado (sin
+        luz solar de ventanas, paredes negras, bombillas de día, etc.) en una habitación donde se
+        editan imágenes, compartir un perfil que ha creado bajo sus propias condiciones de luz
+        específicas no tiene mucho sentido. Debería comprobar cuidadosamente las condiciones de
+        redistribución de los perfiles descargados de las páginas web de los fabricantes o que se
+        crearon en su nombre.</para>
+        <para>Más información: 
+        <xref linkend="sub:Qu-es-un-1-56" />- Un perfil de color es un simple archivo que expresa
+        un espacio de color o una respuesta de un dispositivo.</para>
+      </sect2>
+      <sect2>
+        <title>¿Qué es un dispositivo de gestión de color virtual?</title>
+        <para>Un dispositivo virtual es un dispositivo de color gestionado que no está conectado al
+        equipo.</para>
+        <sect3>
+          <title>¿Cómo compruebo si la gestión del color funciona correctamente?</title>
+          <para>Probar la gestión del color no es difícil y hasta se proporcionan algunos perfiles
+          de ejemplo.</para>
+        </sect3>
+      </sect2>
+      <sect2 id='sub:Qu-es-un-63' xreflabel='¿Qué es un espacio de color?'>
+        <title>¿Qué es un espacio de color?</title>
+        <para>Un espacio de color es un rango definido de colores.</para>
+        <para>Los espacios de colores bien documentados incluyen sRGB, AdobeRGB y ProPhotoRGB. El
+        sistema visual humano no es un sensor RGB simple pero se puede aproximar cómo responde el
+        ojo humano al diagrama de cromaticidad CIE 1931 que muestra la respuesta visual humana con
+        una forma de herradura.</para>
+        <para>Puede ver que en la visión humana se detectan muchos más tonos de verde que de azul o
+        rojo. Con un espacio de color tricromático como el RGB, se representan estos colores en el
+        equipo usando tres valores, lo que se restringe a codificar un triángulo de colores. Usar
+        modelos tales como el diagrama de cromaticidad CIE 1931 es una enorme simplificación del
+        sistema visual humano y las gamas reales se expresan en 3D, en lugar de en proyecciones 2D.
+        Una proyección 2D de una forma 3D puede llevar a confusiones, de tal forma que si quiere
+        ver la representación 3D use la aplicación gcm-viewer.</para>
+        <para>sRGB, AdobeRGB and ProPhotoRGB representados por triángulos blancos Primero, mire al
+        sRGB, que es el menor espacio y que puede codificar el menor número de colores. Es una
+        aproximación de una pantalla CRT de 10 años de antigüedad y la mayoría de los monitores
+        modernos pueden mostrar muchos más colores que estos. sRGB es un estándar del
+        menor-denominador-común y se usa en un gran número de aplicaciones (incluyendo Internet).
+        AdobeRGB se usa frecuentemente como un espacio de edición. Puede codificar más colores que
+        sRGB, lo que significa que puede ajustar los colores en una fotografía sin preocuparse
+        mucho de que el brillo de los colores se corte o los negros se pisen. PhoPhoto es el mayor
+        sitio disponible y se usa frecuentemente para archivar documentos.</para>
+        <para>Puede codificar casi todo el rango de colores detectados por el ojo humano e incluso
+        codificar colores que el hojo humano no puede detectar. Ahora, si PhoPhoto es claramente
+        mejor, ¿por qué no usarlo para todo? La respuesta tiene que ver con la cuantización. Si
+        sólo tiene 8 bits (256 niveles) para codificar cada canal, entonces un mayor rango
+        requerirá tener pasos más grandes entre cada valor. Pasos más grandes significan un mayor
+        error entre el color capturado y el color almacenado y para algunos colores es un gran
+        problema. Resulta que los colores clave, como los colores de la piel, son muy importantes e
+        incluso pequeños errores harán que una persona no acostumbrada note que algo está mal en la
+        fotografía. Por supuesto, usar 16 bits para la imagen hará que haya más niveles y un error
+        de cuantización mucho más pequeño, pero esto multiplica por dos el tamaño de cada archivo
+        de imagen. La mayoría del contenido existente hoy día tiene 8bpp, es decir, 8 bits por
+        píxel.</para>
+        <para>El proceso de gestión de color para convertir de un espacio de color a otro, donde el
+        espacio de color se puede definir bien en un espacio de color sRGB o un espacio de color
+        personalizado tal como el del perfil de su monitor o su impresora.</para>
+        <para>Más información: 
+        <xref linkend="sub:Qu-es-un-1-56" />- Un perfil de color es un simple archivo que expresa
+        un espacio de color o una respuesta de un dispositivo.</para>
+      </sect2>
+      <sect2 id='sub:Cmo-asignar-perfiles-57' xreflabel='¿Cómo asignar perfiles a los dispositivos?'>
+        <title>¿Cómo asignar perfiles a los dispositivos?</title>
+        <para>Busque en la Configuración de sistema / Color la opción para cambiar esto.</para>
+        <orderedlist>
+          <listitem>
+            <para>Abra la 
+            <emphasis>Configuración de sistema</emphasis>/ 
+            <emphasis>Color</emphasis>y pulse en el dispositivo al que quiere añadir un
+            perfil.</para>
+          </listitem>
+          <listitem>
+            <para>Al pulsar 
+            <emphasis>Añadir perfil</emphasis>puede seleccionar un perfil existente o importar un
+            archivo nuevo.</para>
+          </listitem>
+        </orderedlist>
+        <para>Cada dispositivo puede tener asignados varios perfiles, pero sólo uno de ellos puede
+        ser el perfil predeterminado. El perfil predeterminado se usa cuando no hay información
+        adicional que permita elegir el perfil automáticamente. Un ejemplo de selección automática
+        sería si se crease un perfil para papel satinado y otro para papel normal.</para>
+        <para>Puede crear un perfil predeterminado cambiándolo con el botón de radio.</para>
+        <para>Si el hardware de calibración está conectado, el botón 
+        <emphasis>Calibrar</emphasis>... creará un perfil nuevo.</para>
+        <para>Más información:
+        <xref linkend="sub:Cmo-se-importan-58" />- Los perfiles de color se pueden importar
+        fácilmente simplemente abriéndolos. 
+        <xref linkend="sub:Por-qu-necesito-61" />- La calibración es importante si se preocupa por
+        los colores que muestra o imprime. 
+        <xref linkend="sub:Qu-es-un-1-56" />- Un perfil de color es un simple archivo que expresa
+        un espacio de color o una respuesta de un dispositivo.</para>
+      </sect2>
+      <sect2>
+        <title>¿Por qué es importante la gestión del color?</title>
+        <para>La gestión de color es el proceso de capturar un color usando un dispositivo de
+        entrada, mostrándolo en una pantalla e imprimiéndolo a la vez que se mantienen exactamente
+        los colores y el rango de colores en cada uno de los medios. La mejor manera de explicar la
+        necesidad de gestión de color es con una fotografía de un pájaro en un frío día de
+        invierno.</para>
+        <para>Un pájaro en una pared helada tal y como se ve en el visor de la cámara. Generalmente
+        las pantallas sobresaturan el canal azul, haciendo que las imágenes parezcan frías.</para>
+        <para>Esto es lo que un usuario ve en una pantalla de portátil de negocios típica. Note
+        cómo el blanco no es "blanco puro" y que el negro del ojo es un marrón sucio.</para>
+        <para>Esto es lo que el usuario ve al imprimir en una típica impresora de inyección de
+        tinta El problema básico es que cada dispositivo es capaz de manejar un rango diferente de
+        colores. Así que, aunque pueda tomar una fotografía en azul eléctrico, la mayoría de las
+        impresoras no podrán reproducirla. La mayoría de los dispositivos captura en RGB (rojo,
+        verde, azul) y lo convierte a CMYK (cian, magenta, amarillo y negro) para imprimir. Otro
+        problema es que no tiene tinta blanca de tal forma que los blancos sólo pueden ser tan
+        buenos como lo sea el papel. Otro problema son las unidades. Sin especificar la escala en
+        la que un color está medido, no se sabe si 100% rojo está cerca del infrarrojo o es el
+        color más rojo de la tinta de la impresora. Lo que en una pantalla es 50% rojo,
+        probablemente sea 62% en otra. Es como contar a una persona que acaba de conducir 7
+        unidades de distancia, sin saber la unidad no puede saber si son 7 kilómetros o 7 metros.
+        En el color, se refiere a las unidades como gama ("gamut"). La gama es esenciamente el
+        rango de colores que se puede reproducir.</para>
+        <para>Un dispositivo como una cámara réflex (DSLR) puede tener un rango muy grande, siendo
+        capaz de capturar todos los colores de una puesta de sol, pero un proyector tiene una gama
+        muy reducida y parecerá que los colores están "lavados". En algunos casos se puede corregir
+        la respuesta del dispositivo alterando los datos enviados al dispositivo, pero en otros
+        casos donde esto no es posible (no puede imprimir un azul eléctrico) se necesita mostrar al
+        usuario cómo será el resultado.</para>
+        <para>Para las fotografías, tiene sentido usar toda la gama tonal de un dispositivo de
+        color, para poder hacer cambios suaves en el color. Para otros gráficos, es posible que
+        quiera hacer coincidir el color exactamente, lo cual es importante si está tratando de
+        imprimir una taza personalizada con el logo de Red Hat que tiene que ser el rojo exacto de
+        Red Hat.</para>
+        <para>Más información:
+        <xref linkend="sub:Qu-es-un-1-56" />,
+        <xref linkend="sub:Calibrado" />.</para>
+      </sect2>
+    </sect1>
+    <sect1 id='sub:Calibrado' xreflabel=''>
+      <title>Calibrado</title>
+      <sect2 id='sub:Cmo-calibrar-la-2-64' xreflabel='¿Cómo calibrar la cámara?'>
+        <title>¿Cómo calibrar la cámara?</title>
+        <para>Las cámaras se calibran tomando una fotografía de un objetivo bajo ciertas
+        condiciones de luz. Convertir el archivo RAW a TIFF puede servir para calibrar la cámara en
+        panel de control del color.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Deberá recortar el archivo TIFF para que sólo sea visible el objetivo. Asegúrese
+            de que los bordes blancos o negros siguen siendo visibles. La calibración no funcionará
+            si la imagen está al revés o si está muy distorsionada.</para>
+          </listitem>
+        </itemizedlist>
+        <para>El perfil resultante sólo es válido bajo las condiciones de luz en las que se obtuvo
+        la imagen original. Esto significa que puede necesitar perfilar varias veces para
+        condiciones de luz de estudio, luz solar brillante y nublado.</para>
+        <para>Más información: 
+        <xref linkend="sub:Cmo-calibrar-el-65" />- Calibrar su escáner es importante para capturar
+        colores precisos. 
+        <xref linkend="sub:Cmo-calibrar-la-1-66" />- Calibrar su impresora es importante para
+        imprimir colores precisos. 
+        <xref linkend="sub:Cmo-calibrar-la-1-66" />- Calibrar su pantalla es importante para
+        mostrar colores precisos. 
+        <xref linkend="sub:Qu-tipos-de-67" />- Se necesitan objetivos de calibración para perfilar
+        escáneres y cámaras.</para>
+      </sect2>
+      <sect2 id='sub:Cmo-calibrar-la-68' xreflabel='¿Cómo calibrar la impresora?'>
+        <title>¿Cómo calibrar la impresora?</title>
+        <para>Existen dos formas de perfilar una impresora:</para>
+        <itemizedlist>
+          <listitem>
+            <para>Usar un dispositivo espectrofotómetro como el Pantone ColorMunki</para>
+          </listitem>
+          <listitem>
+            <para>Descargar un archivo de referencia de impresión de una empresa de color</para>
+          </listitem>
+        </itemizedlist>
+        <para>Usar una empresa de color para generar un perfil de impresora es la opción más barata
+        si tiene uno o dos tipos de papel diferentes. Descargando el gráfico de referencia desde el
+        sitio web de la empresa, puede después enviarles la impresión en un sobre acolchado que
+        ellos analizarán, generarán el perfil y le enviarán un perfil ICC preciso.</para>
+        <para>Usar un dispositivo caro tal como ColorMunki sólo compensa si está perfilando un gran
+        número de conjuntos de tinta o tipos de papeles.</para>
+        <para>
+          <emphasis>Si cambia de proveedor de tinta, asegúrese de recalibrar la
+          impresora.</emphasis>
+        </para>
+        <para>Más información: 
+        <xref linkend="sub:Cmo-calibrar-el-65" />- Calibrar su escáner es importante para capturar
+        colores precisos. 
+        <xref linkend="sub:Cmo-calibrar-la-1-66" />- Calibrar su pantalla es importante para
+        mostrar colores precisos.
+        <xref linkend="sub:Cmo-calibrar-la-2-64" />: Calibrar su cámara es importante para capturar
+        colores precisos.</para>
+      </sect2>
+      <sect2 id='sub:Cmo-calibrar-el-65' xreflabel='¿Cómo calibrar el escáner?'>
+        <title>¿Cómo calibrar el escáner?</title>
+        <para>Puede analizar su archivo y guardarlo como un archivo TIFF sin comprimir. Después,
+        pulse Calibrar... desde Configuración del sistema / Color para crear un perfil para ese
+        dispositivo.</para>
+        <para>
+          <emphasis>Los escáneres son increíblemente estables en el tiempo y temperatura y
+          generalmente no necesitan recalibrarse.</emphasis>
+        </para>
+        <para>Más información: 
+        <xref linkend="sub:Cmo-calibrar-la-68" />- Calibrar su impresora es importante para
+        imprimir colores precisos. 
+        <xref linkend="sub:Cmo-calibrar-la-1-66" />- Calibrar su pantalla es importante para
+        mostrar colores precisos. 
+        <xref linkend="sub:Cmo-calibrar-la-2-64" />- Calibrar su cámara es importante para capturar
+        colores precisos. 
+        <xref linkend="sub:Qu-tipos-de-67" />- Se necesitan objetivos de calibración para perfilar
+        escáneres y cámaras.</para>
+      </sect2>
+      <sect2 id='sub:Cmo-calibrar-la-1-66' xreflabel='¿Cómo calibrar la pantalla?'>
+        <title>¿Cómo calibrar la pantalla?</title>
+        <para>Calibrar su pantalla es muy fácil y se debería ser un requerimiento si usa su equipo
+        para diseño o arte.</para>
+        <para>Usando el dispositivo llamado colorímetro medirá con precisión los diferentes colores
+        que su pantalla es capaz de mostrar.</para>
+        <para>Ejecutando
+        <emphasis>Configuración del sistema</emphasis>/ 
+        <emphasis>Color</emphasis>puede crear fácilmente un perfil y el asistente le mostrará cómo
+        adjuntar el colorímetro y qué configuración ajustar.</para>
+        <para>
+          <emphasis>Las pantallas cambian en todo momento; la luz de fondo en una pantalla TFT
+          tendrá aproximadamente la mitad de brillo cada 18 meses y se hará más amarilla según vaya
+          envejeciendo. Lo que significa que debería recalibrar su pantalla cuando aparezca el
+          ícono [!] en el panel de control. Las pantallas LED también cambian a lo largo del
+          tiempo, pero a una tasa mucho menor que las TFT.</emphasis>
+        </para>
+        <para>Más información: 
+        <xref linkend="sub:Cmo-calibrar-el-65" />- Calibrar su escáner es importante para capturar
+        colores precisos. 
+        <xref linkend="sub:Cmo-calibrar-la-68" />- Calibrar su impresora es importante para
+        imprimir colores precisos. 
+        <xref linkend="sub:Cmo-calibrar-la-2-64" />- Calibrar su cámara es importante para capturar
+        colores precisos.</para>
+      </sect2>
+      <sect2>
+        <title>¿Cuál es la diferencia entre calibración y caracterización?</title>
+        <para>Al principio mucha gente está confundida con la diferencia entre calibración y
+        caracterización. La calibración es el proceso de modificar el comportamiento de color de un
+        dispositivo. Generalmente se realiza a través de dos mecanismos:</para>
+        <itemizedlist>
+          <listitem>
+            <para>Cambiar los controles o configuraciones internas que tiene</para>
+          </listitem>
+          <listitem>
+            <para>Aplicar curvas a sus canales de color</para>
+          </listitem>
+        </itemizedlist>
+        <para>La idea de calibración es la de poner un dispositivo en un estado definido
+        dependiendo de su respuesta de color. Generalmente se usa como un instrumento del día a día
+        para mantener un comportamiento reproducible. Típicamente, la calibración se almacena en
+        formatos de archivo específicos de dispositivo o sistema que guardan la configuración del
+        dispositivo o curvas de calibración por canal.</para>
+        <para>La caracterización (o perfilado) es grabar la forma en la que un dispositivo
+        reproduce o responde al color. Generalmente el resultado se almacena en un perfil ICC de
+        dispositivo. Tal perfil no modifica en sí el color en ninguna medida. Permite al sistema,
+        tal como al CMM (módulo de gestión de color, "Color Management Module") o a una aplicación
+        capaz de gestionar color, modificar el color al combinarse con otro perfil de color. Sólo
+        sabiendo las características de dos dispositivos se puede transferir el color de un
+        dispositivo de representación a otro.</para>
+        <para>
+          <emphasis>Tenga en cuenta que una caracterización (perfil) sólo será válida para un
+          dispositivo si está en el mismo estado de calibración en el que estaba cuando se
+          caracterizó.</emphasis>
+        </para>
+        <para>En el caso de los perfiles de pantalla existe cierta confusión adicional ya que la
+        información de calibración se almacena en el perfil por conveniencia. Por convenio, se
+        almacena en una etiqueta denominada vcgt. Aunque se almacena en el perfil, ninguna de las
+        herramientas o aplicaciones normales basadas en ICC la tienen en cuenta. De igual forma,
+        las herramientas de calibración y aplicaciones típicas no son conscientes ni trabajan con
+        la información de caracterización (perfil) ICC.</para>
+      </sect2>
+      <sect2>
+        <title>¿Qué instrumentos de medición de color están soportados?</title>
+        <para>GNOME confía en el sistema de gestión de color Argyll para soportar los instrumentos
+        de color. Por ello, están soportados los siguientes instrumentos de medida:</para>
+        <itemizedlist>
+          <listitem>
+            <para>Gretag-Macbeth i1 Pro (espectrómetro)</para>
+          </listitem>
+          <listitem>
+            <para>Gretag-Macbeth i1 Monitor (espectrómetro)</para>
+          </listitem>
+          <listitem>
+            <para>Gretag-Macbeth i1 Display 1, 2 o LT (colorímetro)</para>
+          </listitem>
+          <listitem>
+            <para>X-Rite i1 Display Pro (colorímetro)</para>
+          </listitem>
+          <listitem>
+            <para>X-Rite ColorMunki Design</para>
+          </listitem>
+        </itemizedlist>
+        <para>o</para>
+        <itemizedlist>
+          <listitem>
+            <para>Photo (espectrómetro)</para>
+          </listitem>
+          <listitem>
+            <para>X-Rite ColorMunki</para>
+          </listitem>
+          <listitem>
+            <para>Create (colorímetro)</para>
+          </listitem>
+          <listitem>
+            <para>X-Rite ColorMunki Display (colorímetro)</para>
+          </listitem>
+          <listitem>
+            <para>Pantone Huey (colorímetro)</para>
+          </listitem>
+          <listitem>
+            <para>MonacoOPTIX (colorímetro)</para>
+          </listitem>
+          <listitem>
+            <para>ColorVision Spyder 2 y 3 (colorímetro)</para>
+          </listitem>
+          <listitem>
+            <para>Colorimètre HCFR (colorímetro)</para>
+          </listitem>
+        </itemizedlist>
+        <para>Actualmente el Pantone Huey es el hardware más barato y mejor soportado en
+        GNU/Linux.</para>
+        <para>Gracias a Argull existe cierto número de espectrómetros reflectantes lectores de
+        puntos y líneas soportados para ayudarle a calibrar y caracterizar sus impresoras:</para>
+        <para>X-Rite DTP20 "Pulse" (espectrómetro reflectante de tipo "deslizante")</para>
+        <para>X-Rite DTP22 Digital Swatchbook (espectrómetro reflectante de tipo punto)</para>
+        <para>X-Rite DTP41 (espectrómetro reflectante lector de puntos y líneas)</para>
+        <para>X-Rite DTP41T (espectrómetro reflectante lector de puntos y líneas)</para>
+        <para>X-Rite DTP51 (espectrómetro reflectante lector de puntos)</para>
+        <para>Más información</para>
+        <para>
+          <xref linkend="sub:Calibrado" />
+        </para>
+      </sect2>
+      <sect2 id='sub:Qu-tipos-de-67' xreflabel='¿Qué tipos de objetivos están soportados?'>
+        <title>¿Qué tipos de objetivos están soportados?</title>
+        <para>Los siguientes tipos de objetivos están soportados:</para>
+        <itemizedlist>
+          <listitem>
+            <para>CMP DigitalTarget</para>
+          </listitem>
+          <listitem>
+            <para>ColorChecker 24</para>
+          </listitem>
+          <listitem>
+            <para>ColorChecker DC</para>
+          </listitem>
+          <listitem>
+            <para>ColorChecker SG</para>
+          </listitem>
+          <listitem>
+            <para>i1 RGB Scan 14</para>
+          </listitem>
+          <listitem>
+            <para>LaserSoft DC Pro</para>
+          </listitem>
+          <listitem>
+            <para>QPcard 201 IT8.7/2</para>
+          </listitem>
+        </itemizedlist>
+        <para>Puede comprar objetivos de fabricantes de renombre como KODAK, X'Rite y LaserSoft en
+        diversas tiendas en línea.</para>
+        <para>Alternativamente puede comprar objetivos de Wolf Faust a muy buen precio.</para>
+        <para>Más información: 
+        <xref linkend="sub:Calibrado" />. 
+        <xref linkend="sub:Cmo-calibrar-el-65" />- Calibrar su escáner es importante para capturar
+        colores precisos. 
+        <xref linkend="sub:Cmo-calibrar-la-2-64" />- Calibrar su cámara es importante para capturar
+        colores precisos.</para>
+      </sect2>
+      <sect2 id='sub:Por-qu-necesito-61' xreflabel='¿Por qué necesito realizar la calibración yo mismo?'>
+        <title>¿Por qué necesito realizar la calibración yo mismo?</title>
+        <para>Generalmente los perfiles genéricos son malos. Cuando un fabricante crea un modelo
+        nuevo, simplemente toman algunos elementos de la línea de producción y miden su
+        media:</para>
+        <para>Las pantallas difieren bastante de una unidad a otra y pueden cambiar sustancialmente
+        a lo largo del tiempo. También es más difícil para las impresoras, ya que el simple cambio
+        de tipo o peso del papel pueden cambiar el estado de caracterización y hacer que el perfil
+        no sea preciso. La mejor forma de asegurarse de que el perfil que tiene es preciso es
+        realizando la calibración usted mismo, o permitiendo que una empresa externa le proporcione
+        un perfil basado en su estado de caracterización exacto.</para>
+        <para>Más información: 
+        <xref linkend="sub:Calibrado" />Consulte también: 
+        <xref linkend="sub:Cmo-asignar-perfiles-57" />- Busque en la Configuración de sistema /
+        Color la opción para cambiar esto. 
+        <xref linkend="sub:Dnde-se-pueden-59" />- Los fabricantes proporcionan los perfiles de
+        color y también puede generarlos usted. 
+        <xref linkend="sub:Qu-es-un-2-62" />- Un dispositivo virtual es un dispositivo de color
+        gestionado que no está conectado al equipo.</para>
+      </sect2>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Qu-es-el-69' xreflabel='¿Qué es el modo alternativo?'>
+    <title>¿Qué es el modo alternativo?</title>
+    <para>Si la tarjeta gráfica de su equipo no admite ciertas características, se iniciará una
+    versión más básica del escritorio y verá un mensaje diciéndole lo que ocurre. A esto se le
+    denomina 
+    <emphasis>modo alternativo</emphasis>y le permitirá usar Huayra en su equipo aunque sin algunas
+    de sus características más avanzadas.</para>
+    <para>Puede cambiar manualmente al modo alternativo haciendo lo siguiente:</para>
+    <orderedlist>
+      <listitem>
+        <para>Pulse en su nombre en la esquina superior derecha y elija 
+        <emphasis>Configuración del sistema</emphasis>.</para>
+      </listitem>
+      <listitem>
+        <para>Pulse 
+        <emphasis>Detalles</emphasis>en 
+        <emphasis>Sistema</emphasis>. Es posible que necesite desplazarse hacia abajo para ver esta
+        opción.</para>
+      </listitem>
+      <listitem>
+        <para>Pulse en 
+        <emphasis>Gráficos</emphasis>en el lateral derecho.</para>
+      </listitem>
+      <listitem>
+        <para>Active la opción 
+        <emphasis>Forzar modo alternativo (Encendido).</emphasis></para>
+      </listitem>
+      <listitem>
+        <para>Cierre la sesión e iníciela otra vez para disfrutar del modo alternativo.</para>
+      </listitem>
+    </orderedlist>
+    <para>La mayoría de las características que faltan en el modo alternativo están relacionadas
+    con la organización de ventanas y el inicio de aplicaciones. Por ejemplo, en lugar de tener una
+    vista de actividades, tendrá un 
+    <emphasis>Menú de aplicaciones</emphasis>en la parte superior de la pantalla con el que podrá
+    iniciar aplicaciones y una lista de ventanas abiertas en la parte inferior de la pantalla.
+    Funcionar en el modo alternativo no afecta al número de aplicaciones que pueda ejecutar, solo
+    cambia el aspecto del escritorio.</para>
+    <para>El hecho de que se inicie en el modo alternativo no significa necesariamente que su
+    tarjeta gráfica no sea lo bastante buena para funcionar con Huayra, puede que se deba a que no
+    tiene instalados los controladores adecuados para su tarjeta gráfica. Si logra encontrar
+    mejores controladores gráficos para su equipo, es posible que pueda ejecutar la versión
+    completa de Huayra.</para>
+  </chapter>
+  <chapter id='chap:Problemas-comunes-de' xreflabel='Problemas comunes de hardware'>
+    <title>Problemas comunes de hardware</title>
+    <para>En este apartado encontrará un listado con la resolución de los problemas más comunes en
+    relación al hardware.</para>
+    <sect1>
+      <title>
+        <xref linkend="sec:Problemas-de-energa-54" />
+      </title>
+      <para>Resolución de problemas sobre energía y batería.</para>
+    </sect1>
+    <sect1>
+      <title>
+        <xref linkend="sec:Problemas-de-impresin-52" />
+      </title>
+      <para>Impresoras no detectadas, atascos de papel, impresiones que se ven mal...</para>
+    </sect1>
+    <sect1>
+      <title>
+        <xref linkend="sec:Problemas-de-sonido" />
+      </title>
+      <para>Solucionar problemas como no tener sonido o tener mala calidad de sonido.</para>
+    </sect1>
+    <sect1>
+      <title>
+        <xref linkend="sec:Problemas-de-red" />
+      </title>
+      <para>Identificar y arreglar problemas con conexiones inalámbricas</para>
+    </sect1>
+    <sect1>
+      <title>Problemas de la pantalla</title>
+      <para>
+        <emphasis>Resolución de problemas de pantalla y gráficos.</emphasis>
+      </para>
+      <para>La mayoría de los problemas con la pantalla se deben a controladores de gráficos que no
+      están funcionando correctamente o al uso de una configuración errónea. ¿Cuál de los
+      siguientes temas describe mejor el problema que tiene?</para>
+      <sect2>
+        <title>
+          <xref linkend="sec:Establecer-el-brillo" />
+        </title>
+        <para>Atenuar la pantalla para ahorrar energía o incrementar el brillo para hacerla más
+        legible en condiciones de mucha luz ambiental.</para>
+      </sect2>
+      <sect2>
+        <title>
+          <xref linkend="sec:La-pantalla-se" />
+        </title>
+        <para>Cambie el tiempo de espera antes de que se bloquee la pantalla en la configuración de
+        Brillo y bloqueo.</para>
+        <para>
+          <xref linkend="sub:Por-qu-mi-55" />
+        </para>
+        <para>Algunos componentes hardware del equipo causan problemas al suspender o
+        hibernar.</para>
+      </sect2>
+      <sect2>
+        <title>
+          <xref linkend="sec:Por-qu-mi-53" />
+        </title>
+        <para>Cuando su portátil esté funcionando con baterías, se oscurecerá la pantalla cuando el
+        equipo esté inactivo para ahorrar energía.</para>
+      </sect2>
+      <sect2>
+        <title>
+          <xref linkend="sec:Por-qu-parece-17" />
+        </title>
+        <para>La resolución de la pantalla puede estar incorrectamente ajustada.</para>
+      </sect2>
+      <sect2>
+        <title>
+          <xref linkend="chap:Qu-es-el-69" />
+        </title>
+        <para>Si la tarjeta gráfica de su equipo no admite ciertas características, se iniciará una
+        versión más básica del escritorio.</para>
+      </sect2>
+      <sect2>
+        <title>
+          <xref linkend="sub:Mi-equipo-no" />
+        </title>
+        <para>Los cables sueltos y los problemas de hardware son las posibles razones.</para>
+      </sect2>
+    </sect1>
+  </chapter>
+</part>
