@@ -2,13 +2,13 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd"
  [ 
 <!ENTITY parte_1.xml SYSTEM "parte_1.xml">
-<!ENTITY parte_2.xml SYSTEM "parte_2.xml">
-<!ENTITY parte_3.xml SYSTEM "parte_3.xml">
-<!ENTITY parte_4.xml SYSTEM "parte_4.xml">
 <!ENTITY parte_5.xml SYSTEM "parte_5.xml">
 <!ENTITY parte_6.xml SYSTEM "parte_6.xml">
 <!ENTITY parte_7.xml SYSTEM "parte_7.xml">
 <!ENTITY parte_8.xml SYSTEM "parte_8.xml">
+<!ENTITY parte_9.xml SYSTEM "parte_9.xml">
+<!ENTITY parte_10.xml SYSTEM "parte_10.xml">
+<!ENTITY parte_11.xml SYSTEM "parte_11.xml">
 <!ENTITY glosario.xml SYSTEM "glosario.xml">
 ]>
 <book lang="es">

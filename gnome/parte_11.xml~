@@ -29,7 +29,7 @@
       <title>Instalar desde el Centro de software</title>
       <para>El programa que se encarga de esta tarea es el 
       <emphasis>Centro de software</emphasis>. Es importante recordar que necesitamos conexión a
-      Internet. Por ejemplo para instalar gimp  (es un programa de edición de imágenes digitales en forma de mapa de bits, tanto dibujos como fotografías. ):</para>
+      Internet. Por ejemplo para instalar gimp  (es un programa de edición de imágenes digitales en forma de mapa de bits, tanto dibujos como fotografías. .):</para>
       <orderedlist>
         <listitem>
           <para>Abrir el Menú Canaima, Administración y luego Centro de Software ( o usar el
@@ -113,7 +113,7 @@
         </listitem>
       </itemizedlist>
       <para>Resumiendo 
-      <emphasis>sudo apt-get install gimp</emphasis>significa: con permisos de superusuario (
+      <emphasis>sudo apt-get install chromium</emphasis>significa: con permisos de superusuario (
       <emphasis>sudo</emphasis>) que la aplicación apt (
       <emphasis>apt-get</emphasis>) instale (
       <emphasis>install</emphasis>) chromium (
@@ -233,12 +233,12 @@
             <entry align="center" valign="top">
               <inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="img/cunaguaro.png" role="png" />
+                  <imagedata fileref="img/chromium.png" role="png" />
                 </imageobject>
               </inlinemediaobject>
             </entry>
             <entry align="right" valign="top">
-              Cunaguaro
+              Chromium
             </entry>
           </row>
           <row>
@@ -321,12 +321,12 @@
             <entry align="center" valign="top">
               <inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="img/empathy.png" role="png" />
+                  <imagedata fileref="img/pidgin.png" role="png" />
                 </imageobject>
               </inlinemediaobject>
             </entry>
             <entry align="right" valign="top">
-              Empathy
+              Pidgin
             </entry>
           </row>
           <row>
@@ -343,12 +343,12 @@
             <entry align="center" valign="top">
               <inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="img/totem.png" width="30cm" role="png" />
+                  <imagedata fileref="img/vlc.png" width="30cm" role="png" />
                 </imageobject>
               </inlinemediaobject>
             </entry>
             <entry align="right" valign="top">
-              Totem
+              VLC Media Player
             </entry>
           </row>
           <row>
@@ -365,12 +365,12 @@
             <entry align="center" valign="top">
               <inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="img/rhythmbox.png" role="png" />
+                  <imagedata fileref="img/clementine.png" role="png" />
                 </imageobject>
               </inlinemediaobject>
             </entry>
             <entry align="right" valign="top">
-              Rhythmbox
+              Clementine
             </entry>
           </row>
           <row>
@@ -399,6 +399,28 @@
             <entry align="center" valign="top">
               <inlinemediaobject>
                 <imageobject>
+                  <imagedata fileref="img/winzip.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Winzip
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/file-roller.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              File Roller
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
                   <imagedata fileref="img/outlook.png" role="png" />
                 </imageobject>
               </inlinemediaobject>
@@ -409,12 +431,12 @@
             <entry align="center" valign="top">
               <inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="img/guacharo.png" role="png" />
+                  <imagedata fileref="img/thunderbird.png" role="png" />
                 </imageobject>
               </inlinemediaobject>
             </entry>
             <entry align="right" valign="top">
-              Guacharo
+              Mozilla Thunderbird
             </entry>
           </row>
           <row>

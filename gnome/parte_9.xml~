@@ -695,7 +695,7 @@
           <listitem>
             <para>
             
-              tecla Canaima +F10
+              tecla Huayra +F10
             <!--keycombo-->Abrir el menú de la aplicación en la barra superior. (ver 
             <xref linkend="sec:Qu-es-la-1-9" />)</para>
           </listitem>
@@ -734,7 +734,7 @@
                 Alt+F1
               <!--keycombo-->o la 
               
-                tecla Canaima
+                tecla Huayra
               <!--keycombo-->Cambia entre la vista general de Actividades y el escritorio. En la vista
               general, comience a escribir para buscar instantáneamente sus aplicaciones, contactos
               y documentos. (ver 
@@ -1007,10 +1007,11 @@
       introducir caracteres especiales.</para>
       <sect2>
         <title>Mapa de caracteres</title>
-        <para>Canaima viene con una aplicación de mapa de caracteres que le permite examinar todos
+        <para>Huayra viene con una aplicación de mapa de caracteres que le permite examinar todos
         los caracteres en Unicode.</para>
         <para>Use el mapa de caracteres para buscar el carácter que quiere, y cópielo y péguelo
-        donde quiera.</para>
+        donde quiera. Puede encontrar el Mapa de caracteres en la 
+        <xref linkend="chap:Vista-de-actividades" />.</para>
       </sect2>
       <sect2>
         <title>Tecla de composición</title>
@@ -1246,7 +1247,7 @@
           <para>Mueva el deslizador de Brillo para obtener un valor confortable.</para>
         </listitem>
       </orderedlist>
-      <para>En Canaima los teclados tienen teclas especiales para ajustar el brillo. éstas tienen
+      <para>En Huayra los teclados tienen teclas especiales para ajustar el brillo. éstas tienen
       una imagen que parece un sol y están ubicadas en las teclas de función en la parte superior.
       Mantenga pulsada la tecla 
       
@@ -1961,9 +1962,9 @@
     </sect1>
     <sect1 id='sec:Problemas-de-energa-54' xreflabel='Problemas de energía y batería'>
       <title>Problemas de energía y batería</title>
-      <para>Canaima GNU/Linux, como cualquier distribución de GNU/Linux, se desarrolló para que
+      <para>Huayra GNU/Linux, como cualquier distribución de GNU/Linux, se desarrolló para que
       pueda utilizarse en cualquier equipo. Las computadoras del Programa Conectar Igualdad tienen
-      un determinado hardware y Canaima se ha probado de manera extensiva sobre el mismo. De este
+      un determinado hardware y Huayra se ha probado de manera extensiva sobre el mismo. De este
       modo, los problemas que puedan aparecer vinculados al hardware son mínimos. De todos modos se
       agregaron en este apartado de la documentación una serie de posibles problemas que pueden
       aparecer en otros equipos y como solucionarlos.</para>
@@ -1977,7 +1978,7 @@
         usando durante un tiempo. Por lo general no es nada preocupante. Los equipos producen una
         gran cantidad de calor y los portátiles son muy compactos, por lo que necesitan que se
         caliente su cubierta externa para eliminar el calor rápidamente.</para>
-        <para>Si instaló Canaima en otros equipos recuerde que algunas computadors se calientan
+        <para>Si instaló Huayra en otros equipos recuerde que algunas computadors se calientan
         demasiado y esto puede hacerlas incómodos de usar. Este es normalmente el resultado de un
         sistema de refrigeración mal diseñado. A veces se pueden conseguir accesorios adicionales
         de refrigeración que se ajustan a la parte inferior del equipo portátil y proporcionan una
@@ -2329,7 +2330,7 @@
   </chapter>
   <chapter id='chap:Bluetooth' xreflabel='Bluetooth'>
     <title>Bluetooth</title>
-    <para>Canaima no cuenta con Bluetooth, sin embargo, se puede conectar por medio de un
+    <para>Huayra no cuenta con Bluetooth, sin embargo, se puede conectar por medio de un
     dispositivo USB.</para>
     <sect1>
       <title>¿Qué es Bluetooth?</title>
@@ -3122,7 +3123,7 @@
     <para>Si la tarjeta gráfica de su equipo no admite ciertas características, se iniciará una
     versión más básica del escritorio y verá un mensaje diciéndole lo que ocurre. A esto se le
     denomina 
-    <emphasis>modo alternativo</emphasis>y le permitirá usar Canaima en su equipo aunque sin algunas
+    <emphasis>modo alternativo</emphasis>y le permitirá usar Huayra en su equipo aunque sin algunas
     de sus características más avanzadas.</para>
     <para>Puede cambiar manualmente al modo alternativo haciendo lo siguiente:</para>
     <orderedlist>
@@ -3156,10 +3157,10 @@
     Funcionar en el modo alternativo no afecta al número de aplicaciones que pueda ejecutar, solo
     cambia el aspecto del escritorio.</para>
     <para>El hecho de que se inicie en el modo alternativo no significa necesariamente que su
-    tarjeta gráfica no sea lo bastante buena para funcionar con Canaima, puede que se deba a que no
+    tarjeta gráfica no sea lo bastante buena para funcionar con Huayra, puede que se deba a que no
     tiene instalados los controladores adecuados para su tarjeta gráfica. Si logra encontrar
     mejores controladores gráficos para su equipo, es posible que pueda ejecutar la versión
-    completa de Canaima.</para>
+    completa de Huayra.</para>
   </chapter>
   <chapter id='chap:Problemas-comunes-de' xreflabel='Problemas comunes de hardware'>
     <title>Problemas comunes de hardware</title>

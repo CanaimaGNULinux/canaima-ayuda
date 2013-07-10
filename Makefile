@@ -37,15 +37,15 @@ build:
 
 install:
 
-	mkdir -p $(DESTDIR)/usr/share/canaima/help/gnome
-	mkdir -p $(DESTDIR)/etc/skel/Escritorio
+	mkdir -p $(DESTDIR)/usr/share/canaima/help/
+	mkdir -p $(DESTDIR)/usr/share/applications/
 	@cp -r gnome  $(DESTDIR)/usr/share/canaima/help/
-	@cp ayuda-gnome.desktop $(DESTDIR)/etc/skel/Escritorio
+	@cp ayuda-gnome.desktop $(DESTDIR)/usr/share/applications
 
 uninstall:
 
-	rm -r /etc/skel/canaima-ayuda/ayuda-gnome.desktop
-	rm -rf /usr/share/canaima/help/gnome
+	rm -r /usr/share/canaima/help/
+	rm -rf  /usr/share/applications/ayuda-gnome.desktop
 
 	
 # se creó en el install
