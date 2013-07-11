@@ -1,0 +1,1064 @@
+<part id='part:Aplicaciones' xreflabel='Aplicaciones'>
+  <title>Aplicaciones</title>
+  <partintro>
+  <para>
+  <inlinemediaobject>
+    <imageobject>
+      <imagedata fileref="img/cent_soft.png" role="png" />
+    </imageobject>
+  </inlinemediaobject>
+  </para>
+  </partintro>
+  <chapter id='chap:Cmo-instalar-aplicaciones-3' xreflabel='¿Cómo instalar/desinstalar aplicaciones en Canaima?'>
+    <title>¿Cómo instalar/desinstalar aplicaciones en Canaima?</title>
+    <para>
+    <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="img/cent_soft.png" role="png" />
+      </imageobject>
+    </inlinemediaobject>
+    </para>
+    <para>Una de las acciones imprescindibles y de mayor consulta por parte de los que se inician
+    en Canaima es la instalación de aplicaciones nuevas.</para>
+    <para>En el mundo del software libre, los programas pueden instalarse de manera simple,
+    sencilla y sin temor a que ingresen virus u otros programas malignos. Todas las versiones son
+    completas y actualizadas. No hay demos, versiones recortadas, que requieran registro o que
+    caduquen en la temporalidad. Las aplicaciones libres son seguras, estables, siempre tendrá la
+    última versión y será la que más se aplica a nuestro sistema operativo.</para>
+    <sect1>
+      <title>Instalar desde el Centro de software</title>
+      <para>El programa que se encarga de esta tarea es el 
+      <emphasis>Centro de software</emphasis>. Es importante recordar que necesitamos conexión a
+      Internet. Por ejemplo para instalar gimp  (es un programa de edición de imágenes digitales en forma de mapa de bits, tanto dibujos como fotografías. ):</para>
+      <orderedlist>
+        <listitem>
+          <para>Abrir el Menú Canaima, Administración y luego Centro de Software ( o usar el
+          buscador).</para>
+        </listitem>
+        <listitem>
+          <para>Si se sabe el nombre del mismo como en este caso de gimp, se ingresa en el
+          buscador que aparece en la esquina superior derecha. De no saberlo es posible buscar por
+          categoría en el menú de la izquierda (grafico). También ingresar en el buscador la
+          palabra "dibujo" (sin comillas), y el Centro de Software dará una lista de las herramientas de dibujo
+          para instalar.</para>
+        </listitem>
+        <listitem>
+          <para>Hacer clic en la aplicación que se desea instalar. Esto habilitará las opciones
+          "Mas información" e "Instalar".</para>
+        </listitem>
+        <listitem>
+          <para>Hacer clic en Instalar y se abrirá una ventana de diálogo donde solicitará la
+          contraseña de usuario.</para>
+        </listitem>
+        <listitem>
+          <para>Una vez que ingresada la contraseña, comenzará el proceso de instalación. Para
+          iniciar la aplicación instalada, ingresar entrar al Menú Canaima y poner en el buscador el
+          nombre de la aplicación o buscarla por la categoría correspondiente.</para>
+        </listitem>
+      </orderedlist>
+      <para>Si la aplicación ya se encuentra instalada, la misma aparecerá en el Centro de Software
+      con un tilde sobre el ícono de la aplicación y en lugar de la opción de instalación aparecerá
+      "Desinstalar".</para>
+      <para>Si se hace clic en el ícono Instalado, dentro del Centro de Software, podrá verse, por
+      categoría, todas las aplicaciones que están instaladas en el computador (tanto las que ya
+      vienieron instaladas como las que se instalaron después).</para>
+      <para>El 
+      <emphasis>Centro de Software</emphasis>ofrece una lista de categorías donde se encuentran
+      agrupados los diferentes programas y también un ranking con las aplicaciones mejor
+      valoradas.</para>
+      <para>Es aconsejable navegar por el Centro de software en el menú por categorías, recorrer y
+      probar nuevas aplicaciones. Lo peor que nos puede pasar es que no nos guste y no sirva, en
+      tal caso lo desinstalamos sin problemas. Pero es seguro que nos encontraremos con programas
+      desconocidos para nosotros pero que al probarlos se convertirán en herramientas de primera
+      necesidad.</para>
+    </sect1>
+    <sect1>
+      <title>Instalar desde 
+      <xref linkend="sub:Consola" /></title>
+      <para>Para instalar una aplicación desde la consola sólo hay que seguir dos pasos:</para>
+      <orderedlist>
+        <listitem>
+          <para>Abrir la 
+          <xref linkend="sub:Consola" /></para>
+        </listitem>
+        <listitem>
+          <para>Ingresar: sudo apt-get install nombre_del_programa</para>
+        </listitem>
+      </orderedlist>
+      <para>Si por ejemplo quiere instalar gimp solo debe ingresar en la
+      consola: 
+      <emphasis>sudo apt-get install gimp</emphasis></para>
+      <itemizedlist>
+        <listitem>
+          <para>
+          <emphasis>sudo</emphasis>: significa Super User Do (el super usuario hace, porque para
+          instalar progamas uno tiene que ingresar con permisos de administrador. Ver 
+          <xref linkend="sec:Cmo-funcionan-los-18" />)</para>
+        </listitem>
+        <listitem>
+          <para>apt-get: Es la aplicación que instala o desinstala otras aplicaciones en Canaima.
+          Significa Advanced Packaging Tool (Herramienta Avanzada de Empaquetado), abreviado APT,
+          es un sistema de gestión de paquetes creado por el proyecto Debian, en el cual se basa
+          Canaima.</para>
+        </listitem>
+        <listitem>
+          <para>
+          <emphasis>install</emphasis>: es el comando que indica que la aplicación apt tiene que
+          instalar un paquete.</para>
+        </listitem>
+        <listitem>
+          <para>
+          <emphasis>nombre_del_programa</emphasis>: es el nombre del paquete que se quiere
+          instalar.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Resumiendo 
+      <emphasis>sudo apt-get install gimp</emphasis>significa: con permisos de superusuario (
+      <emphasis>sudo</emphasis>) que la aplicación apt (
+      <emphasis>apt-get</emphasis>) instale (
+      <emphasis>install</emphasis>) chromium (
+      <emphasis>chromium</emphasis>).</para>
+    </sect1>
+    <sect1>
+      <title>Lista de 
+      <xref linkend="sub:Repositorio" /> y fuente de software</title>
+      <para>Esto es posible siempre y cuando ese 
+      <xref linkend="sub:Paquetes" /> se encuentre en los repositorios que vienen listados en
+      Canaima. Un repositorio es un sitio centralizado donde se almacena y mantiene información
+      digital. En el caso de Canaima, es un lugar donde se almacenan los paquetes que pueden ser
+      desde aplicaciones completas hasta librerías, codecs, etc.</para>
+      <para>Estos repositorios se encuentran listados en Canaima y es allí donde busca si existe una
+      aplicación o su actualización. En una analogía extremadamente simple, los repositorios son
+      como las secciones de una librería. Si uno necesita buscar un libro de historia debe hacerlo
+      en la sección correspondiente. Si necesita una de Economía la biblioteca debe tener una
+      sección con libros de esa disciplina. En caso de no tenerla, debe agregársele.</para>
+      <para>Es posible agregar y quitar repositorios a esa lista. Si una aplicación no se encuentra
+      en el Centro de software o no se puede instalar por consola, es porque probablemente no se
+      encuentre en los repositorios. Entonces lo que hay que hacer es agregar a la lista de
+      repositorios un repositorio que tenga ese paquete.</para>
+      <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/orig_soft.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>
+      </para>
+      <orderedlist>
+        <listitem>
+          <para>Abrir Centro de software</para>
+        </listitem>
+        <listitem>
+          <para>Ir a Editar / Software sources</para>
+        </listitem>
+        <listitem>
+          <para>Ir a la pestaña Other software</para>
+        </listitem>
+        <listitem>
+          <para>Hacer clic en Add</para>
+        </listitem>
+      </orderedlist>
+      <para>Aquí es posible ingresar la lína de APT, es decir la dirección del repositorio. A
+      partir de entonces, Canaima reconocerá los paquetes que contenga ese repositorio como así
+      también sus actualizaciones.</para>
+    </sect1>
+    <sect1>
+      <title>Instalar desde un paquete Deb</title>
+      <para>Canaima se basa en una de las distribuciones de GNU/Linux más conocidas y estables:
+      Debian. Por eso los paquetes de instalación validos para Debian son válidos para
+      Canaima.</para>
+      <para>
+        <emphasis>¿Qué quiere decir esto?</emphasis>
+      </para>
+      <para>Si quieres instalar una aplicación que sabes que se encuentra disponible para Linux
+      pero no la puedes encontrar en Centro de Software, entonces puedes buscar el paquete .
+      <xref linkend="sub:deb" /> para bajar e instalar en tu computadora. éstos son archivos que
+      bajas de un sitio de internet que tienen la extensión .
+      <xref linkend="sub:deb" />. Es decir su nombre puede ser progama.deb. Puedes buscarlo en
+      navegadores usando las palabras clave "progama" "paquete" "deb".</para>
+      <para>Al descargar solo tienes que:</para>
+      <orderedlist>
+        <listitem>
+          <para>Descargar el programa (las computadors de Conectar son de 32bit)</para>
+        </listitem>
+        <listitem>
+          <para>Hacer clic derecho sobre el archivo</para>
+        </listitem>
+        <listitem>
+          <para>Elegir "Abrir con instalador de paquetes GDebi</para>
+        </listitem>
+      </orderedlist>
+      <para>Para descargar el navegador Chrome, solo hay que ir a http://www.google.com/chrome,
+      elegir para descargar el paquete 32bit .deb y abrirlo con GDebi.</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Cmo-se-si-72' xreflabel='¿Cómo se si una aplicación está instalada?'>
+    <title>¿Cómo se si una aplicación está instalada?</title>
+    <para>Si la aplicación ya se encuentra instalada, la misma aparecerá en el Centro de Software
+    con un tilde sobre el ícono de la aplicación y en lugar de la opción de instalación aparecerá
+    "Desinstalar".</para>
+    <para>Si se hace clic en el ícono Instalado, dentro del Centro de Software, podrá verse, por
+    categoría, todas las aplicaciones que están instaladas en la computador (tanto las que ya vinieron
+    instaladas como las que se instalaron después).</para>
+  </chapter>
+  <chapter id='sec:loquehaciascon' xreflabel='¿Dónde encuentro en Canaima GNU/Linux los programas que más usaba en MS Windows?'>
+    <title>¿Dónde encuentro en Canaima GNU/Linux los programas que más usaba en MS Windows?</title>
+    <para>Algunos de los programas son muy populares, otros son nuevos pero hacen lo mismo de
+    formas aprecidas o incluso mejor.</para>
+    <informaltable>
+      <tgroup cols="4" colsep="1" rowsep="1">
+        <colspec colname="col0" align="center" />
+        <colspec colname="col1" align="center" />
+        <colspec colname="col2" align="center" />
+        <colspec colname="col3" align="right" />
+        <tbody>
+          <row>
+            <entry align="center" valign="top" namest="col0" nameend="col1">
+              Lo que hacías con...
+            </entry>
+            <entry align="center" valign="top" namest="col2" nameend="col3">
+              ... lo podés hacer con:
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/ie.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Microsoft Internet Explorer
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/cunaguaro.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Cunaguaro
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/word.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Microsoft Office Word
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/libreoffice-writer.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Libre Office Writer
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/excel.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Microsoft Office Excel
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/libreoffice-calc.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Libre Office Calc
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/powerpoint.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Microsoft Office Power Point
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/libreoffice-impress.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Libre Office Impress
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/messenger.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Microsoft Messenger
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/empathy.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Empathy
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/mediaplayer.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Microsoft Windows Media Player
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/totem.png" width="30cm" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Totem
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/winamp.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Winamp
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/rhythmbox.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Rhythmbox
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/ps.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Adobe Photoshop
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/gimp.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Gimp
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/outlook.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Microsoft Outlook
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/guacharo.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Guacharo
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/torrent.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Bit Torrent
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/transmision.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Transmission
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/notas.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Bloc de notas
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/kedit.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Gedit
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/ilustrator.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Ilustrator
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/inkscape.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Inkscape
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/access.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              Microsoft Office Access
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/lofficebase.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Libre Office Base
+            </entry>
+          </row>
+          <row>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/msbasic.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="center" valign="top">
+              MS Visual Basic
+            </entry>
+            <entry align="center" valign="top">
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="img/gambas.png" role="png" />
+                </imageobject>
+              </inlinemediaobject>
+            </entry>
+            <entry align="right" valign="top">
+              Gambas
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+    <para>Y además hay muchas más aplicaciones (Dia, Cheese, Pilas, Lazarus, LibreOffice Draw, etc)
+    que te abrirán nuevos caminos y que están disponibles de manera totalmente libre, en sus
+    versiones oficiales y gratuitas.</para>
+  </chapter>
+  <chapter id='chap:Aplicaciones-recomendadas-en' xreflabel='Aplicaciones recomendadas en Canaima'>
+    <title>Aplicaciones recomendadas en Canaima</title>
+    <sect1 id='sec:Arduino-IDE' xreflabel='Arduino IDE'>
+      <title>Arduino IDE</title>
+      <para>Arduino es una plataforma de hardware libre, basada en una placa con un
+      microcontrolador y un entorno de desarrollo, diseñada para facilitar el uso de la electrónica
+      en proyectos multidisciplinares. El hardware consiste en una placa con un microcontrolador
+      Atmel AVR y puertos de entrada/salida. Los microcontroladores más usados son el Atmega168,
+      Atmega328, Atmega1280, ATmega por su sencillez y bajo coste que permiten el desarrollo de
+      múltiples diseños. Por otro lado el software consiste en un entorno de desarrollo que
+      implementa el lenguaje de programación Processing/Wiring y el cargador de arranque (boot
+      loader) que corre en la placa.</para>
+      <para>Arduino se puede utilizar para desarrollar objetos interactivos autónomos o puede ser
+      conectado a software del ordenador (por ejemplo: Macromedia Flash, Processing, Max/MSP, Pure
+      Data). Las placas se pueden montar a mano o adquirirse. El entorno de desarrollo integrado
+      libre se puede descargar gratuitamente. Al ser open-hardware, tanto su diseño como su
+      distribución es libre. Es decir, puede utilizarse libremente para el desarrollo de cualquier
+      tipo de proyecto sin haber adquirido ninguna licencia.</para>
+    </sect1>
+    <sect1 id='sec:Audacity' xreflabel='Audacity'>
+      <title>Audacity</title>
+      <para>Audacity es un editor de sonido, fácil de usar y muy potente. Con este programa van a
+      poder grabar sonidos en vivo, convertir archivos de audio a diferentes formatos, cortar,
+      pegar o empalmar pistas de audio para mezclar sonidos, cambiar la velocidad de grabación o
+      reproducción, agregar efectos de sonido, etc. ¡Todo para que se sientan verdaderos DJ!</para>
+    </sect1>
+    <sect1 id='sec:Avogadro' xreflabel='Avogadro'>
+      <title>Avogadro</title>
+      <para>Avogadro es un programa para dibujar estructuras moleculares realizando enlaces
+      químicos, y lo mejor es que podrán visualizarlas en 3D rotando la estructura, cambiando la
+      perspectiva visual, y haciéndola girar en cualquier sentido y dirección solo con los
+      movimientos del mouse. Tendrán una vista espectacular de las estructuras moleculares.</para>
+    </sect1>
+    <sect1 id='sec:Ayni' xreflabel='Ayni'>
+      <title>Ayni</title>
+      <para>Es un videojuego que consiste en un grupo de cooperativistas que se reunen para
+      resolver un problema colectivo, llevar agua a las casas pueblo.</para>
+    </sect1>
+    <sect1 id='sec:Babiloo' xreflabel='Babiloo'>
+      <title>Babiloo</title>
+      <para>Babiloo es un diccionario y traductor gratuito de código abierto, de múltiples idiomas,
+      que se destaca por su rapidez y el gran detalle de los resultados que ofrece. Contiene
+      diccionarios de sinónimos y antónimos, y definiciones en español, inglés-español y
+      español-inglés. Es un diccionario muy rápido y muy fácil de usar.</para>
+    </sect1>
+    <sect1 id='sec:BKChem' xreflabel='BKChem'>
+      <title>BKChem</title>
+      <para>BKChem es una aplicación de dibujo vectorial que les va a permitir elaborar una
+      representación esquemática de los enlaces químicos que forman una sustancia determinada. Una
+      vez confeccionado el dibujo de la fórmula química, podrán exportarlo como imagen en varios
+      formatos para aplicarlos a sus propios documentos.</para>
+    </sect1>
+    <sect1 id='sec:Blender' xreflabel='Blender'>
+      <title>Blender</title>
+      <para>Blender es un programa informático multiplataforma, dedicado especialmente al modelado,
+      animación y creación de gráficos tridimensionales. Tiene capacidad para una gran variedad de
+      primitivas geométricas, incluyendo curvas, mallas poligonales, vacíos, NURBS, metaballs.
+      Junto a las herramientas de animación se incluyen cinemática inversa, deformaciones por
+      armadura o cuadrícula, vértices de carga y partículas estáticas y dinámicas. Cuenta con
+      edición de audio y sincronización de video, además de Características interactivas para
+      juegos como detección de colisiones, recreaciones dinámicas y lógica.</para>
+    </sect1>
+    <sect1 id='sec:Calibre'  xreflabel='Calibre'>
+      <title>Calibre</title>
+      <para>Calibre es una aplicación que organiza tus libros electrónicos además de leer diarios,
+      sincronizar con un dispositivo móvil, cambiar metadatos (portada de los libros), importar y
+      exportar desde y hacia otros formatos de ebook, etc.</para>
+    </sect1>
+    <sect1 id='sec:CDPedia' xreflabel='CDPedia'>
+      <title>CDPedia</title>
+      <para>CDPedia te permite ver la Wikipedia en español aunque no tengas conexión a internet. Es
+      un proyecto desarrollado por la comunidad de usuarios de Python de Argentina (PyAr).</para>
+    </sect1>
+    <sect1 id='sec:Celestia' xreflabel='Celestia'>
+      <title>Celestia</title>
+      <para>Celestia es un proyecto de código abierto de simulación del espacio en 3D. La gran
+      diversidad de este programa proporciona figuras como los planetas del Sistema Solar,
+      satélites, galaxias, también se incluyen constelaciones y datos precisos sobre sus
+      coordenadas de ubicación.</para>
+    </sect1>
+    <sect1 id='sec:Cheese' xreflabel='Cheese'>
+      <title>Cheese</title>
+      <para>Cheese les permitirá capturar fotos con un estilo divertido, ya que pueden aplicarles
+      efectos especiales y videos desde una webcam. El programa contiene doce efectos especiales
+      diferentes, es libre y de código abierto. Su instalación es muy fácil y rápida. Si les gusta
+      utilizar la cámara web, esta aplicación los entusiasmará más a trabajar con ella.</para>
+    </sect1>
+    <sect1 id='sec:Clementine' xreflabel='Clementine'>
+      <title>Clementine</title>
+      <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/clementine.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>Clementine es un reproductor de audio y organizador de biblioteca
+      multiplataforma, libre y de código abierto. Se enfoca en una interfaz rápida y fácil de usar
+      para buscar y reproducir audio.</para>
+    </sect1>
+    <sect1 id='sec:Pidgin' xreflabel='Pidgin'>
+      <title>Pidgin</title>
+      <para>Pidgin es un programa de mensajería instantánea, que les permitirá conectarse con
+      muchas redes y establecer una comunicación mediante chat con varios amigos, intercambiar
+      archivos, conectar una cámara web o un micrófono, avisar cuando un amigo se conecta, etc. Es
+      gratuito de código abierto.</para>
+    </sect1>
+    <sect1 id='sec:DeVeDe' xreflabel='DeVeDe'>
+      <title>DeVeDe</title>
+      <para>DeVeDe es un programa que permite crear vídeos en formato de DVD y CD, aptos para ser
+      reproducidos desde cualquier reproductor de DVD doméstico,1 a partir de muchos conjuntos de
+      archivos de vídeo, en cualquier formato reproducible por MPlayer.</para>
+    </sect1>
+    <sect1 id='sec:Dia' xreflabel='Dia'>
+      <title>Dia</title>
+      <para>Dia es una aplicación informática de propósito general para la creación de diagramas.
+      Se puede utilizar para dibujar diferentes tipos de diagramas. Actualmente se incluyen
+      diagramas entidad-relación, diagramas UML, diagramas de flujo, diagramas de redes, diagramas
+      de circuitos eléctricos, etc. Nuevas formas pueden ser fácilmente agregadas, dibujándolas con
+      un subconjunto de SVG e incluyéndolas en un archivo XML. El formato para leer y almacenar
+      gráficos es XML (comprimido con gzip, para ahorrar espacio). Puede producir salida en los
+      formatos EPS, SVG y PNG.</para>
+    </sect1>
+    <sect1 id='sec:Documentos' xreflabel='Documentos'>
+      <title>Documentos</title>
+      <para>Es una aplicación que te va a permitir organizar y buscar mejor tus documentos (Ver 
+      <xref linkend="chap:Documentos-1." />)</para>
+    </sect1>
+    <sect1 id='sec:Dr.Geo' xreflabel='Dr.Geo'>
+      <title>Dr.Geo</title>
+      <para>Dr. Geo es un programa tanto de geometría interactiva como de programación en el
+      lenguaje Scheme. Les va a permitir crear figuras geométricas, así como manipularlas
+      interactivamente respetando sus restricciones geométricas. Podrán trabajar con: semirrectas,
+      segmentos, círculos, arcos de círculo, polígonos, transformaciones geométricas, lugares
+      geométricos, vectores, ángulos, etc. Para comprender visualmente algunos conceptos
+      importantes como: números irracionales, cálculo de Pi, etc.</para>
+    </sect1>
+    <sect1 id='sec:Eboard' xreflabel='Eboard'>
+      <title>Eboard</title>
+      <para>Eboard es un juego de ajedrez que te permite jugar solo contra la computadora, contra
+      otros en internet o contra otro compañero que tenga una net sin necesidad de internet.</para>
+    </sect1>
+    <sect1 id='sec:Bluefish' xreflabel='Bluefish'>
+      <title>Bluefish</title>
+      <para>Bluefish es un software editor HTML multiplataforma POSIX y con licencia GPL, lo que lo
+      convierte en software libre. Bluefish está dirigido a diseñadores web experimentados y
+      programadores y se enfoca en la edición de páginas dinámicas e interactivas. Es capaz de
+      reconocer diversos lenguajes de programación y de marcas. Bluefish cuenta con características
+      tales como rapidez, posibilidad de abrir múltiples archivos simultáneamente, soporte
+      multiproyecto, soporte para archivos remotos mediante gnome-vfs, marcado de sintaxis
+      personalizable basado en expresiones regulares compatibles con Perl, soporte para
+      sub-patrones y patrones predefinidos (para HTML, PHP, Javascript, JSP, SQL, XML, Python,
+      Perl, CSS, ColdFusion, Pascal, R, Octave/Matlab), diálogos para etiquetas HTML, asistentes
+      para creación fácil de documentos, creación de tablas, marcos (frames), soporte para
+      múltiples codificaciones, trabajo con diferentes juegos de caracteres, numeración de líneas,
+      menús desplegables, barras de herramientas configurables, diálogo para insertar imágenes,
+      buscador de referencia de funciones, Integración personalizable con varios programas (make,
+      javac, etc), resaltado de sintaxis (C, Java, JavaScript, Python, Perl, ColdFusion, Pascal, R
+      y Octave), traducciones completas a aproximadamente veintidós idiomas entre ellos: portugués
+      brasileño, búlgaro, chino, danés, finés, francés, alemán, húngaro, italiano, noruego, polaco,
+      portugués, español, sueco, japonés, y tamil.</para>
+    </sect1>
+    <sect1 id='sec:Etoys' xreflabel='Etoys'>
+      <title>Etoys</title>
+      <para>Es un entorno de desarrollo para un lenguaje que se llama SmallTalk. Smalltalk es un
+      lenguaje de programación que permite realizar tareas de computación mediante la interacción
+      con un entorno de objetos virtuales. Metafóricamente, se puede considerar que un Smalltalk es
+      un mundo virtual donde viven objetos que se comunican mediante el envío de mensajes</para>
+    </sect1>
+    <sect1 id='sec:Euler' xreflabel='Euler'>
+      <title>Euler</title>
+      <para>Euler es un entorno de cálculo para números reales, complejos, matrices y cálculo
+      simbólico y estadístico. Con él podrán experimentar la programación interactiva asignando
+      distintos valores a las variables que creen para resolver una función, y viendo los
+      resultados en un gráfico en 2D o 3D.</para>
+    </sect1>
+    <sect1 id='sec:Freeciv' xreflabel='Freeciv'>
+      <title>Freeciv</title>
+      <para>Freeciv es un videojuego de estrategia por turnos, inspirado en el juego Civilization.
+      La partida comienza en el año 4000 a. C., cada jugador es el líder de una tribu nómada que se
+      deberá asentar e ir fundando ciudades, investigando tecnologías, desarrollando
+      infraestructuras o maravillas, entablar relaciones diplomáticas y crear ejércitos. Es
+      software libre, está licenciado bajo la GNU GPL, además de ser gratuito.</para>
+    </sect1>
+    <sect1 id='sec:Freemind' xreflabel='Freemind'>
+      <title>Freemind</title>
+      <para>FreeMind es una herramienta de software libre que permite la elaboración de mapas
+      mentales o conceptuales, programada en Java. Es útil en el análisis y recopilación de
+      información o ideas generadas en grupos de trabajo, pues con él es posible generar mapas
+      mentales y publicarlos en internet como páginas html, java o insertarlos dentro de wikis como
+      Dokuwiki mediante la configuración de un plugin.</para>
+    </sect1>
+    <sect1 id='sec:Fritzing' xreflabel='Fritzing'>
+      <title>Fritzing</title>
+      <para>Fritzing es un programa de automatización de diseño electrónico libre que busca ayudar
+      a diseñadores y artistas para que puedan pasar de prototipos (usando, por ejemplo, placas de
+      pruebas) a productos finales. Fritzing fue creado bajo los principios de Processing y
+      Arduino, y permite a los diseñadores, artistas, investigadores y aficionados documentar sus
+      prototipos basados en Arduino y crear esquemas de circuitos impresos para su posterior
+      fabricación. Además cuenta con un sitio web complementario que ayuda a compartir y discutir
+      bosquejos y experiencias y a reducir los costos de fabricación (Ver 
+      <xref linkend="sec:Arduino-IDE" />)</para>
+    </sect1>
+    <sect1 id='sec:Gambas3.' xreflabel='Gambas'>
+      <title>Gambas3</title>
+      <para>Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere
+      decir Gambas Almost Means Basic). Es distribuido con licencia GNU GPL. Cabe destacar que
+      presenta ciertas similitudes con Java ya que en la ejecución de cualquier aplicación, se
+      requiere un conjunto de librerías interprete previamente instaladas (Gambas Runtime) que
+      entiendan el bytecode de las aplicaciones desarrolladas y lo conviertan en código ejecutable
+      por el computador. Por otro lado, a diferencia de Java, no se experimentan ralentizaciones y
+      es posible desarrollar grandes aplicaciones en poco tiempo.</para>
+    </sect1>
+    <sect1 id='sec:GCompris' xreflabel='GCompris'>
+      <title>GCompris</title>
+      <para>GCompris es un programa de cómputo educacional con diferentes actividades para niños
+      entre 2 y 10 años de edad. Algunas actividades son como videojuegos, pero siempre educativas.
+      Entre otros, permite aprender y practicar cálculos y texto, así como iniciarse en el manejo
+      de una computadora.</para>
+    </sect1>
+    <sect1 id='sec:Geogebra' xreflabel='Geogebra'>
+      <title>Geogebra</title>
+      <para>GeoGebra es un software matemático interactivo libre para la educación en colegios y
+      universidades. Lo interesante de este programa es que combina elementos de geometría,
+      álgebra, análisis, cálculo y estadística de una forma dinámica, y representa a los objetos
+      desde cada una de sus posibles perspectivas: vistas gráficas, algebraicas y hojas de datos
+      dinámicamente vinculadas. Con él pueden realizar construcciones, tanto con puntos, vectores,
+      segmentos, rectas y secciones cónicas, como con funciones, que a posteriori pueden modifica
+      dinámicamente.</para>
+    </sect1>
+    <sect1 id='sec:Gimp' xreflabel='Gimp'>
+      <title>Gimp</title>
+      <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/gimp.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>El programa GIMP sirve para la editar y modificar imágenes, muy similar a
+      la aplicación Photoshop pero con la diferencia de ser un software libre.</para>
+      <para>La sigla GIMP significa programa de manipulación de imágenes de GNU. Además, es un
+      software multiplataforma ya que se puede utilizar en varios Sistemas Operativos. GIMP
+      incluyen la creación de gráficos y logos, el cambio de tamaño y recorte de fotografías, el
+      cambio de colores, permite combinar imágenes usando varias capas, eliminar elementos no
+      deseados de las imágenes y la conversión entre distintos formatos. También puede ser
+      utilizado para crear imágenes animadas sencillas.</para>
+    </sect1>
+    <sect1 id='sec:ImageJ' xreflabel='ImageJ'>
+      <title>ImageJ</title>
+      <para>ImageJ es un programa de procesamiento de imagen digital de dominio público programado
+      en Java desarrollado en el National Institutes of Health. ImageJ fue diseñado con una
+      arquitectura abierta que proporciona extensibilidad vía plugins Java y macros
+      (macroinstrucciones) grabables. Se pueden desarrollar plugins de escaneo personalizado,
+      análisis y procesamiento usando el editor incluido en ImageJ y un compilador Java. Los
+      plug-ins escritos por usuarios hacen posible resolver muchos problemas de procesado y
+      análisis de imágenes, desde imágenes en vivo de las células en tres dimensiones, procesado de
+      imágenes radiológicas, comparaciones de múltiples datos de sistema de imagen hasta sistemas
+      automáticos de hematología. La arquitectura de plugins y entorno de desarrollo integrados de
+      ImageJ lo han convertido en una plataforma popular para enseñar procesamiento de
+      imagen</para>
+    </sect1>
+    <sect1 id='sec:ImageMagik' xreflabel='ImageMagik'>
+      <title>ImageMagik</title>
+      <para>ImageMagick es un conjunto de utilidades de código abierto para mostrar, manipular y
+      convertir imágenes, capaz de leer y escribir más de 100 formatos.</para>
+    </sect1>
+    <sect1 id='sec:Inkscape' xreflabel='Inkscape'>
+      <title>Inkscape</title>
+      <para>Inkscape es un editor de gráficos en formato vectoriales SVG, gratuito, libre y
+      multiplataforma. Las características de SVG soportadas incluyen formas básicas, trayectorias,
+      texto, canal alfa, transformaciones, gradientes, edición de nodos, exportación de SVG a PNG,
+      agrupación de elementos, etc. Inkscape tiene como objetivo proporcionar a los usuarios una
+      herramienta libre de código abierto de elaboración de gráficos en formato vectorial escalable
+      (SVG) que cumpla completamente con los estándares XML, SVG y CSS2.</para>
+    </sect1>
+    <sect1 id='sec:IpTUX' xreflabel='IpTux'>
+      <title>IpTux</title>
+      <para>IpTux permite chatear y compartir archivos con otras computadoras que estén cerca sin
+      necesidad de internet. Es un cliente de mensajería IP para Linux que detecta automáticamente
+      otros clientes en la intranet, y permite enviar archivos a otros clientes dentro de la misma
+      red. Puede ser muy útil para aquellos que prefieran charlar con sus compañeros sin tener que
+      molestarse en salir de los límites de su escritorio. Características: Auto-detecta a otros
+      usuarios iptux, permite chatear con otros clientes en la misma red. permite enviar y recibir
+      archivos, la contraseña protege los recursos.</para>
+    </sect1>
+    <sect1 id='sec:iPython' xreflabel='iPython'>
+      <title>iPython </title>
+      <para>iPython es un excelente programa para aprender a programar. Si les interesa el mundo de
+      la programación, les permitirá realizar una programación orientada a objetos, programación
+      funcional y programación estructurada. Es libre y de código abierto.</para>
+    </sect1>
+    <sect1 id='sec:JClic' xreflabel='JClic'>
+      <title>JClic</title>
+      <para>JClic es un entorno para la creación, realización y evaluación de actividades
+      educativas multimedia, desarrollado en el lenguaje de programación Java. Es una aplicación de
+      software libre basada en estándares abiertos que funciona en diversos entornos operativos. El
+      proyecto JClic es una evolución del programa Clic 3.0, una herramienta para la creación de
+      aplicaciones didácticas multimedia con más de 10 años de historia. A lo largo de este tiempo
+      han sido muchos los educadores y educadoras que lo han utilizado para crear actividades
+      interactivas donde se trabajan aspectos procedimentales como diversas áreas del currículo,
+      desde educación infantil hasta secundaria.</para>
+    </sect1>
+    <sect1 id='sec:Jmol' xreflabel='Jmol'>
+      <title>Jmol</title>
+      <para>Jmol es un visor de código abierto de estructuras químicas en 3D. Jmol devuelve una
+      representación tridimensional de una molécula que puede usarse como herramienta de enseñanza
+      o para la investigación, por ejemplo en química y bioquímica. Es software libre y de código
+      abierto, escrito en Java y por ello se puede ejecutar en Windows, Mac OS X, Linux y sistemas
+      Unix. Existe una aplicación independiente y un kit de herramientas de desarrollo que puede
+      integrarse en otras aplicaciones Java. La característica más notable es una miniaplicación
+      (applet) que se puede integrar en páginas web para mostrar las moléculas de muchas formas.
+      Por ejemplo, las moléculas se pueden mostrar como modelos de "bola y palo", modelos "que
+      llenan el espacio", modelos de "cinta", etc.</para>
+    </sect1>
+    <sect1 id='sec:Mixxx' xreflabel='Mixxx'>
+      <title>Mixxx</title>
+      <para>Mixxx es una aplicación software libre para disc jockeys que permite hacer mezclas.
+      Admite los formatos de audio ogg y mp3 y mediante plugins se pueden reproducir otros
+      formatos.</para>
+    </sect1>
+    <sect1 id='sec:MyPaint' xreflabel='MyPaint'>
+      <title>MyPaint</title>
+      <para>MyPaint es una aplicación de software libre para ilustrar y dibujar con una tableta
+      digitalizadora. Posee una interfaz sencilla, donde casi todas las funciones de dibujo básico
+      tienen asignado un atajo del teclado, lo que hace el acceso a las herramientas más rápido.
+      Además, se puede ocultar toda la interfaz gráfica, y centrar toda la atención en el dibujo,
+      sin distraerse con botones o paletas innecesarias o complejas.</para>
+    </sect1>
+    <sect1 id='sec:Mi-Escritorio' xreflabel='Mi Escritorio'>
+      <title>Mi Escritorio</title>
+      <para>Aplicación con contenido educativo, donde podrás buscar, descargar y compartir recursos
+      con quién necesites. Además, podrás dejar tus comentarios y votar lo que más te guste.</para>
+    </sect1>
+    <sect1 id='sec:OpenShot-Video' xreflabel='OpenShot'>
+      <title>OpenShot Video</title>
+      <para>OpenShot Video Editor es un editor de video no lineal de código abierto programado en
+      Python, GTK, y el framework MLT. El proyecto fue iniciado en agosto de 2008 por Jonathan
+      Thomas, con el objetivo de proveer un editor de video gratuito, robusto y fácil de usar para
+      la plataforma Linux.</para>
+    </sect1>
+    <sect1 id='sec:Orca' xreflabel='Orca'>
+      <title>Orca</title>
+      <para>Orca es una aplicación de software libre integrada en el entorno de escritorio GNOME
+      del sistema operativo GNU/Linux que permite a las personas con discapacidad visual utilizar
+      este sistema operativo. Está compuesto de un lector y de un magnificador de pantalla, que se
+      pueden usar a la vez o individualmente.</para>
+    </sect1>
+    <sect1 id='sec:Pilas' xreflabel='Pilas'>
+      <title>Pilas</title>
+      <para>Pilas es un motor para hacer videojuegos de manera sencilla.</para>
+      <para>Está dirigido a personas que comienzan a programar videojuegos y quieren lograr
+      resultados interesantes y divertidos en poco tiempo.</para>
+    </sect1>
+    <sect1 id='sec:VLC-Media-Player' xreflabel='VLC'>
+      <title>VLC Media Player</title>
+      <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/vlc.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>Con este programa tendrán un práctico, completo y eficaz reproductor
+      multimedia de código abierto y gratuito. Reproduce cualquier tipo y formato de sonido y
+      video, así como discos DVD y video "streaming" (video bajo demanda).</para>
+    </sect1>
+    <sect1 id='sec:Scilab' xreflabel='Scilab'>
+      <title>Scilab</title>
+      <para>Scilab es un programa de cálculo numérico, con el que podrán realizar operaciones con
+      cálculos matriciales, con polinomios, operaciones con ecuaciones lineales y diferenciales,
+      graficar funciones en 2D y 3D y además programar sus propias funciones. Es un programa muy
+      bueno para conocer y expermientar con el uso de variables y practicar programación.</para>
+    </sect1>
+    <sect1 id='sec:Scribus' xreflabel='Scribus'>
+      <title>Scribus</title>
+      <para>Scribus es un programa de maquetación de páginas licenciado como software libre, y que
+      ofrece un gran rendimiento en la creación de publicaciones por ordenador. Scribus está
+      disponible en versiones nativas para GNU/Linux, Unix, Mac OS X y Windows y brinda capacidades
+      para el diseño y diagramación, similares a las ofrecidas por programas comerciales como Adobe
+      PageMaker, QuarkXPress y Adobe InDesign. Scribus está diseñado para dar flexibilidad en el
+      diseño y la composición, ofreciendo la capacidad de preparar archivos para equipos
+      profesionales de filmación de imágenes. También puede crear presentaciones animadas e
+      interactivas en PDF y formularios. Entre los ejemplos de su aplicación se encuentran
+      periódicos, folletos, boletines de noticias, carteles y libros.</para>
+    </sect1>
+    <sect1 id='sec:Squeak' xreflabel='Squeak'>
+      <title>Squeak</title>
+      <para>Les presentamos una herramienta multimedia y multiplataforma con la que podrán crear
+      sus propios juegos de acción o estrategia. Multiplataforma porque la pueden utilizar con
+      diversos sistemas operativos, y multimedia porque se pueden incorporar fácilmente textos,
+      sonidos, imágenes y video. Pueden convertirse en creadores, creando software de juegos o
+      software de temas que les interesen.</para>
+    </sect1>
+    <sect1 id='sec:Stellarium' xreflabel='Stellarium'>
+      <title>Stellarium </title>
+      <para>Stellarium es un software que permite a las personas simular un planetario en su propia
+      computadora, es software libre y está disponible para los principales sistemas operativos,
+      entre ellos Linux, Windows y Mac OS. Permite calcular la posición del Sol, luna, planetas,
+      constelaciones y estrellas, además simula el cielo dependiendo de la localización y tiempo
+      del observador. También simula fenómenos astronómicos, tales como lluvias de meteoros y
+      eclipses lunares y solares.</para>
+    </sect1>
+    <sect1 id='sec:TurtleArt' xreflabel='TurtleArt'>
+      <title>TurtleArt</title>
+      <para>TurtleArt es un programa que te permite dar los primer pasos en programación a través
+      de una tortuga que va formando imagenes siguiendo una serie de comandos. Se especifica la
+      secuencia ajustando piezas de rompecabezas. Los bloques pueden decirle a la tortuga que
+      dibuje líneas y arcos, dibujar en diferentes colores, ir a un lugar específico de la
+      pantalla, etc También hay bloques que le permiten repetir o nombre secuencias. Otros bloques
+      realizar operaciones lógicas. Este tipo de programación se inspira en el lenguaje de
+      programación LOGO. Fue diseñado para ser lo suficientemente fácil para los niños y sin
+      embargo lo suficientemente potente como para las personas de todas las edades. TurtleArt se
+      centra en la creación de imágenes, mientras que permite explorar la geometría y la
+      programación.</para>
+    </sect1>
+    <sect1 id='sec:TuxGuitar' xreflabel='TuxGuitar'>
+      <title>TuxGuitar</title>
+      <para>TuxGuitar es un editor de partituras, con licencia libre y soporte para bastantes
+      sistemas operativos, entre ellos Linux, Windows y Mac OS, el programa se orienta
+      fundamentalmente para guitarra, aunque admite todos los instrumentos soportados por el
+      formato MIDI, el desarrollador de software es Herac. Es una herramienta muy útil en el
+      aprendizaje de música, particularmente en el aprendizaje de la guitarra, ya que además de
+      permitirnos escuchar la canción podemos ver la tablatura y la partitura, además de un esquema
+      con la posición de los dedos en el mástil de la guitarra.</para>
+    </sect1>
+    <sect1 id='sec:TuxPaint' xreflabel='TuxPaint'>
+      <title>TuxPaint</title>
+      <para>Tux Paint es un editor de imágenes libre orientado a niños de corta edad. Está
+      licenciado bajo la Licencia Pública General de GNU .</para>
+    </sect1>
+  </chapter>
+  <chapter id='sec:Abrir-archivos-con' xreflabel='Cambiar aplicaciones predeterminadas'>
+    <title>Cambiar aplicaciones predeterminadas</title>
+    <para>
+      <emphasis>Cuando se pulsa dos veces sobre un archivo, se abre con la aplicación
+      predeterminada para ese tipo de archivos. Puede abrirlo con una aplicación distinta, buscar
+      aplicaciones en línea, o establecer la aplicación predeterminada para todos los archivos del
+      mismo tipo. Lo mismo ocurre para los links de los diferentes sitios webs y los correos
+      electrónicos. A continuación encontrará todo lo que necesita saber al respecto.</emphasis>
+    </para>
+    <sect1>
+      <title>Cambiar la aplicación predeterminada</title>
+      <para>Puede cambiar la aplicación predeterminada usada para abrir los archivos de un cierto
+      tipo. Esto le permitirá abrir su aplicación preferida cuando pulse dos veces sobre un archivo
+      para abrirlo. Por ejemplo, puede que quiera que se abra su reproductor de música favorito al
+      pulsar dos veces sobre un archivo MP3.</para>
+      <orderedlist>
+        <listitem>
+          <para>Seleccione un archivo del tipo cuya aplicación predeterminada desea cambiar. Por
+          ejemplo, para cambiar la aplicación usada para abrir archivos MP3, seleccione un archivo
+          .mp3.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse con el botón derecho del mouse y seleccione Propiedades.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione la pestaña Abrir con.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione la aplicación que quiere y pulse Establecer como predeterminada. De
+          manera predeterminada, el gestor de archivos solo muestra aplicaciones que sabe que
+          pueden manejar el archivo. Para buscar entre todas las palicaciones en su equipo, pulse
+          Mostrar otras aplicaciones.</para>
+          <para>Si Otras aplicaciones contiene una aplicación que desea usar a veces, pero que no
+          quiere convertir en la predeterminada, seleccione esa aplicación y pulse en Añadir. Esto
+          la añadirá a Aplicaciones recomendadas. A partir de entonces podrá usar la aplicación
+          pulsando con el botón derecho sobre el archivo y seleccionándola de la lista.</para>
+        </listitem>
+      </orderedlist>
+      <para>Esto cambiará la aplicación predeterminada no solo para el archivo seleccionado, sino
+      para todos los archivos del mismo tipo.</para>
+    </sect1>
+    <sect1>
+      <title>Abrir archivo con otra aplicación con el botón derecho</title>
+      <para>Para abrir un archivo con una aplicación distinta de la predeterminada, pulse en el
+      archivo y seleccione la aplicación que desee en la parte superior del menú. Si no ve la
+      aplicación que quiere, pulse en Abrir con otra aplicación. De manera predeterminada, el
+      gestor de archivos solo muestra las aplicaciones que sabe que pueden manejar el archivo. Para
+      buscar todas las aplicaciones en su equipo, pulse en Mostrar otras aplicaciones.</para>
+      <para>Si aun no encuentra la aplicación que quiere, puede buscar más aplicaciones pulsando
+      Buscar aplicaciones en línea. El gestor de archivos buscará en línea paquetes que contengan
+      aplicaciones que manejen archivos de ese tipo.</para>
+    </sect1>
+    <sect1>
+      <title>¿Con qué navegador abro mis sitios web?</title>
+      <para>Cuando pulsa en un enlace a una página web, en cualquier aplicación, se abre un
+      navegador web automáticamente en esa página. Si tiene más de un navegador instalado, la
+      página puede no abrirse en el navegador que quería. Canaima viene con un navegador web propio,
+      pero puede elegir descargarse otros navegadores libres (Ver 
+      <xref linkend="chap:Cmo-instalar-aplicaciones-3" />). Para solucionar este problema, cambie
+      el navegador predeterminado:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en 
+          <xref linkend="Icono-de-usuario" /> en la barra superior a la derecha y seleccione
+          Configuración del sistema.</para>
+        </listitem>
+        <listitem>
+          <para>Abra Detalles y elija Aplicaciones predeterminadas de la lista en el lado izquierdo
+          de la ventana.</para>
+        </listitem>
+        <listitem>
+          <para>Elija qué navegador web quiere vincular para abrir, cambiando la opción Web.</para>
+        </listitem>
+      </orderedlist>
+      <para>Al abrir un navegador web diferente, le puede decir que no es el navegador
+      predeterminado. Si esto sucede, pulse en el botón Cancelar (o similar) para que no trate de
+      configurarse como el navegador predeterminado.</para>
+    </sect1>
+    <sect1>
+      <title>Cambiar qué aplicación de correo electrónico se usa para escribir correos</title>
+      <para>Al pulsar en un botón o enlace para enviar un nuevo correo electrónico (por ejemplo, en
+      su procesador de textos), la aplicación de correo predeterminada se abrirá con un mensaje en
+      blanco, listo para escribir. Si tiene más de una aplicación de correo instalada, la
+      aplicación de correo mal podría abrirse. Puede resolver el problema cambiando la aplicación
+      de correo electrónico predeterminada:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior y seleccione Configuración del
+          sistema.</para>
+        </listitem>
+        <listitem>
+          <para>Abra Detalles y elija Aplicaciones predeterminadas de la lista en el lado izquierdo
+          de la ventana.</para>
+        </listitem>
+        <listitem>
+          <para>Elija qué cliente de correo quiere usar de manera predeterminada, cambiando la
+          opción Correo.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+  </chapter>
+</part>

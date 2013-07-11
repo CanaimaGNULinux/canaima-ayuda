@@ -1,0 +1,11 @@
+Package: canaima-ayuda
+Version: 0.17
+Architecture: all
+Maintainer: Sasha Veronica Solano Grosjean <sasha.solano@gmail.com>
+Installed-Size: 6309
+Depends: yelp
+Section: misc
+Priority: optional
+Homepage: http://canaima.softwarelibre.gob.ve/
+Description: Ayuda de Canaima GNU/Linux
+ Archivos de ayuda de Canaima para el escritorio Gnamon

@@ -1,0 +1,475 @@
+<part id='part:Accesibilidad' xreflabel='Accesibilidad'>
+  <title>Accesibilidad</title>
+  <partintro>
+  <para>En este apartado se encuentra toda la información necesaria sobre los temas vinculados a la
+  accesibilidad. El escritorio Canaima incluye tecnologías de asistencia para dar soporte a usuarios
+  con diversas necesidades especiales y para interactuar con dispositivos de asistencia
+  comunes.</para>
+  <para>Se puede acceder a muchas características de accesibilidad desde el menú en la 
+  <xref linkend="chap:Barra-superior" /> / <xref linkend="sub:Iconos-del-men-6" /></para>
+  <para>
+  <inlinemediaobject>
+    <imageobject>
+      <imagedata fileref="img/accesibilidad.png" role="png" />
+    </imageobject>
+  </inlinemediaobject>
+  </para>
+  </partintro>
+  <chapter id='chap:Disminuciones-visuales'  xreflabel='Disminuciones visuales'>
+    <title>Disminuciones visuales</title>
+    <para>Si cuenta con algun tipo de disminución visual parcial o completa le recomendamos este
+    apartado para saber cómo configurar su computador y adecuarla a su necesidad.</para>
+    <sect1 id='sub:Leer-la-pantalla-1.' xreflabel='Lector de pantalla'>
+      <title>Lector de pantalla</title>
+      <para>Canaima proporciona el lector de pantalla 
+      <xref linkend="sec:Orca" /> para mostrar la interfaz de usuario en dispositivos actualizables
+      Braille.</para>
+      <itemizedlist>
+        <listitem>
+          <para>En el caso que no tenga o cuente con Orca:</para>
+          <itemizedlist>
+            <listitem>
+              <para>
+              <ulink url="Instale Orca"></ulink>,</para>
+            </listitem>
+            <listitem>
+              <para>para obtener más información lea la 
+              <ulink url="Ayuda de Orca"></ulink>.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+      <para></para>
+    </sect1>
+    <sect1>
+      <title>Ajustar el contraste</title>
+      <para>Puede ajustar el contraste de las ventanas y los botones para que se vean más
+      fácilmente. Esto no es lo mismo que cambiar el brillo de toda la pantalla; solo cambiarán
+      algunas partes de la interfaz de usuario.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la 
+          <xref linkend="chap:Barra-superior" /> y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Acceso universal</emphasis>y seleccione la pestaña 
+          <emphasis>Visión</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Debajo de Pantalla seleccione el 
+          <emphasis>Contraste</emphasis>que mejor se ajuste a sus necesidades: Bajo, Normal, Alto,
+          Alto/Invertido. 
+          <emphasis>Bajo hará las cosas menos vívidas, por ejemplo.</emphasis></para>
+        </listitem>
+      </orderedlist>
+      <para>También se puede cambiar rápidamente el contraste pulsando en el ícono de acceso
+      universal 
+      <emphasis>( ver 
+      <xref linkend="sub:Iconos-del-men-6" />)</emphasis>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/iaccesib.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>en la barra superior y seleccionando 
+      <emphasis>Contraste alto</emphasis>.</para>
+    </sect1>
+    <sect1>
+      <title>Cambiar el tamaño del texto en la pantalla</title>
+      <para>Si tiene dificultades para leer el texto en su pantalla, puede cambiar el tamaño de la
+      tipografía. Para ello:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Acceso universal</emphasis>y seleccione la pestaña 
+          <emphasis>Visión</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Debajo de 
+          <emphasis>Pantalla</emphasis>seleccione el 
+          <emphasis>Tamaño del texto</emphasis>que sea suficientemente grande para usted. Se
+          ajustará inmediatamente.</para>
+        </listitem>
+      </orderedlist>
+      <para><emphasis>Puede ajustar rápidamente el tamaño del texto pulsando en el ícono de
+      accesibilidad</emphasis>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="img/iaccesib.png" role="png" />
+        </imageobject>
+      </inlinemediaobject>
+      <emphasis>en la parte superior de la barra y seleccionando Texto grande</emphasis>.</para>
+    </sect1>
+    <sect1>
+      <title>Hacer que parpadee el cursor del teclado</title>
+      <para>Si tiene dificultades para ver el cursor del teclado en un campo de texto puede hacer
+      que parpadee para ubicarlo más fácilmente. Para ello:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Teclado</emphasis>y seleccione la pestaña 
+          <emphasis>Escritura</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione 
+          <emphasis>Parpadeo del cursor en los campos de texto</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Use el deslizador 
+          <emphasis>Velocidad</emphasis>para ajustar la rapidez del parpadeo del cursor.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+    <sect1>
+      <title>Localizar rápidamente el puntero</title>
+      <para>Si tiene problema para ver dónde está el puntero del mouse en su pantalla, podrá
+      localizarlo simplemente pulsando la tecla Ctrl <!--keycombo-->. Al activar esta opción, cuando pulse 
+      Ctrl <!--keycombo-->se visualizará una animación que aparecerá brevemente en la posición del
+      puntero.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse</emphasis>y 
+          <emphasis>touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Mouse</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione 
+          <emphasis>Mostrar la posición del puntero al pulsar la tecla Ctrl.</emphasis></para>
+        </listitem>
+      </orderedlist>
+      <blockquote>
+        <para>
+          <emphasis>Ahora sus teclas Ctrl <!--keycombo--> localizarán el cursor cuando las pulse.</emphasis>
+        </para>
+      </blockquote>
+    </sect1>
+    <sect1>
+      <title>Magnificar el área de la pantalla</title>
+      <para>Magnificar la pantalla no es simplemente aumentar el tamaño del texto. Esta
+      característica es como tener una lupa que puede mover aumentando partes de la
+      pantalla.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Acceso universal</emphasis>y seleccione la pestaña 
+          <emphasis>Visión</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Active la 
+          <emphasis>Ampliación</emphasis>.</para>
+        </listitem>
+      </orderedlist>
+      <para>Puede moverse en el área de la pantalla. Moviendo su mouse por los bordes de la
+      ptanlla, puede mover el área magnificada en diferentes direcciones, permitiéndole ver el área
+      de su elección.</para>
+      <para>
+        <emphasis>Puede activar o desactivar la ampliación rápidamente pulsando el ícono de
+        accesibilidad</emphasis>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/iaccesib.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        <emphasis>en la barra superior y seleccionando Ampliación.</emphasis>
+      </para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Disminucin-auditiva-45' xreflabel='Disminución auditiva'>
+    <title>Disminución auditiva </title>
+    <para>Si cuenta con algun tipo de disminución auditiva, puede activar alertas visuales para
+    iluminar la pantalla o la ventana cuando se reproduzca un sonido de alerta.</para>
+    <sect1>
+      <title>Destello de pantalla para sonidos de alerta</title>
+      <para>Para ciertos tipos de mensajes y eventos, su equipo reproducirá un sencillo sonido de
+      alerta. Si tiene dificultades para oír esos sonidos, puede hacer que se ilumine la ventana
+      actual o la pantalla completa cada vez que se reproduzca un sonido de alerta.</para>
+      <para>También puede resultar útil si se encuentra en un entorno en el que necesita que su
+      equipo esté en silencio, como en una biblioteca.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Acceso universal</emphasis>y seleccione la pestaña 
+          <emphasis>Audición</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Active las 
+          <emphasis>Alertas visuales</emphasis>. Seleccione si quiere que destelle la pantalla
+          entera o solo la ventana actual.</para>
+        </listitem>
+      </orderedlist>
+      <para>
+        <emphasis>Puede activar y desactivar rápidamente las alertas visuales pulsando en el ícono
+        de accesibilidad</emphasis>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/iaccesib.png" role="png" />
+          </imageobject>
+        </inlinemediaobject>
+        <emphasis>en la barra superior y seleccionando Alertas visuales.</emphasis>
+      </para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Disminucin-motora-46' xreflabel='Disminución motora'>
+    <title>Disminución motora</title>
+    <para>Si cuenta con algun tipo de disminución motora, puede modificar los comportamientos del
+    mouse, iluminar la pantalla o la ventana cuando se reproduzca un sonido de alerta.</para>
+    <sect1>
+      <title>Ajustar el umbral de arrastre del mouse</title>
+      <para>Cuando se pulsa sobre algo, no es raro que su mano se mueva un poco durante el tiempo
+      que pasa entre que pulsa el botón y lo suelta. Por esa razón, el proceso de arrastrar solo
+      empieza si se mueve el puntero pasado un cierto umbral, para que no empiece a arrastrar
+      accidentalmente cada vez que pulse sobre algo.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse y touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Mouse.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>En 
+          <emphasis>Arrastrar y soltar</emphasis>, ajuste el deslizador del 
+          <emphasis>Umbral</emphasis>a un valor que le resulte cómodo. Pruebe a mover la ventana de
+          opciones arrastrando la barra de título para probar el valor actual.</para>
+        </listitem>
+      </orderedlist>
+      <para>
+        <emphasis>Este ajuste afectará tanto a su mouse como a su «touchpad», así como a cualquier
+        otro dispositivo apuntador.</emphasis>
+      </para>
+    </sect1>
+    <sect1>
+      <title>Ajustar la velocidad de la doble pulsación</title>
+      <para>La doble pulsación solo sucede cuando pulsa el botón del mouse dos veces lo bastante
+      rápido. Si se tarda mucho en pulsar la segunda vez, obtendrá dos pulsaciones separadas, no
+      una doble pulsación. Si tiene dificultados en pulsar el mouse tan deprisa debería incrementar
+      el tiempo de espera.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>mouse y touchpad</emphasis>y seleccione la pestaña 
+          <emphasis>Mouse.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Bajo 
+          <emphasis>Tiempo de espera de la pulsación doble</emphasis>, ajuste el deslizador 
+          <emphasis>Tiempo de espera</emphasis>a un valor que considere confortable. Use la cara
+          sonriente junto al deslizador para probar su configuración. Una pulsación simple lo hará
+          sonreír. Una pulsación doble lo hará sonreír de oreja a oreja.</para>
+        </listitem>
+      </orderedlist>
+      <para>Si su mouse genera una doble pulsación cuando quiere hacer una sola pulsación, aunque
+      haya incrementado el tiempo de espera de la pulsación doble, es posible que esté defectuoso.
+      Pruebe a conectar otro mouse en su equipo y compruebe si funciona correctamente. O también,
+      conecte su mouse en otro equipo distinto y compruebe si el problema persiste.</para>
+      <para>
+        <emphasis>Este ajuste afectará tanto a su mouse como a su «touchpad», así como a cualquier
+        otro dispositivo apuntador. 
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="img/admiracion.png" role="png" />
+          </imageobject>
+        </inlinemediaobject></emphasis>
+      </para>
+    </sect1>
+    <sect1>
+      <title>Simular una pulsación al posicionar el puntero</title>
+      <para>Puede pulsar
+      <emphasis></emphasis>o
+      <emphasis></emphasis>arrastrar
+      <emphasis></emphasis>simplemente posando el puntero de su mouse sobre un control o un objeto
+      en la pantalla. Es útil si tiene dificultades para mover el mouse y pulsar a la vez. Esta
+      característica se llama 
+      <emphasis>pulsación al enfocar o pulsación al posarse</emphasis>.</para>
+      <para>Cuando la pulsación al enfocar está activada puede mover el puntero de su mouse sobre
+      un control, dejar el mouse y esperar un poco hasta que el botón se pulse
+      automáticamente.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Acceso universal</emphasis>y seleccione la pestaña 
+          <emphasis>Apuntar y pulsar</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Active la 
+          <emphasis>Pulsación al posarse</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Se abrirá la ventana 
+          <emphasis>Pulsación al pasar por encima</emphasis>, que siempre estará encima del resto
+          de ventanas. Puede usarla para elegir el tipo de pulsación que deberá aplicarse cuando
+          coloque el mouse sobre un botón. Por ejemplo, si selecciona 
+          <emphasis>Pulsación secundaria</emphasis>, el mouse simulará una pulsación con el botón
+          derecho cuando coloque el puntero sobre un botón durante unos pocos segundos. Al pasar el
+          puntero del mouse sobre un botón y no moverse, poco a poco cambiará de color. Una vez
+          totalmente cambiado de color, el botón se pulsará.</para>
+        </listitem>
+      </orderedlist>
+      <itemizedlist>
+        <listitem>
+          <para>Ajuste la opción 
+          <emphasis>Retardo</emphasis>para controlar cuánto tiempo debe mantener el puntero del
+          mouse para realizar la pulsación.</para>
+        </listitem>
+      </itemizedlist>
+      <para>No tiene por qué mantener el mouse perfectamente quieto al realizar una pulsación al
+      pasar por encima. El puntero se puede mover un poco y aún así se hará la pulsación pasado un
+      tiempo. En cambio, no se producirá la pulsación si lo mueve demasiado.</para>
+      <itemizedlist>
+        <listitem>
+          <para>Ajuste la opción del 
+          <emphasis>Umbral de movimiento</emphasis>para cambiar cuánto se puede mover el puntero y
+          que aún así se siga considerando una pulsación de posicionamiento.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>Simular una pulsación derecha del mouse</title>
+      <para>Puede hacer que, en lugar de pulsar el botón derecho del mouse, baste con mantener
+      pulsado el botón izquierdo del mouse durante un tiempo para realizar la misma acción. Es útil
+      si tiene dificultades para mover los dedos de una mano de forma individual o si su
+      dispositivo apuntador tiene un solo botón.</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>en la barra superior y seleccione 
+          <emphasis>Configuración del sistema</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Abra 
+          <emphasis>Acceso universal</emphasis>y seleccione la pestaña 
+          <emphasis>Apuntar y pulsar</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Active 
+          <emphasis>Pulsación secundaria simulada</emphasis>.</para>
+        </listitem>
+      </orderedlist>
+      <itemizedlist>
+        <listitem>
+          <para>Puede cambiar la 
+          <emphasis>duración</emphasis>de la pulsación del botón izquierdo del mouse antes de que
+          se considere una pulsación con el botón derecho en la pestaña 
+          <emphasis>Apuntar y pulsar,</emphasis>cambie el 
+          <emphasis>Retardo de aceptación</emphasis>bajo 
+          <emphasis>Pulsación secundaria simulada.</emphasis></para>
+        </listitem>
+        <listitem>
+          <para>Para pulsar con el botón derecho del mouse usando una pulsación secundaria
+          simulada, mantenga pulsado el botón izquierdo del mouse donde normalmente pulsaría con el
+          botón derecho, y después suéltelo.El puntero se rellenará con un color azul mientras
+          mantiene pulsado el botón izquierdo. Cuando esté azul del todo, suelte el botón para
+          hacer la pulsación derecha.</para>
+        </listitem>
+        <listitem>
+          <para>Algunos punteros especiales, como los punteros de redimensión, con cambian de
+          color. Sigue pudiendo usar la pulsación secundaria simulada de manera normal, aunque no
+          vea el efecto visual del puntero.</para>
+        </listitem>
+        <listitem>
+          <para>Si usa las Teclas del mouse, esto también le permite simular una pulsación derecha
+          manteniendo pulsada la tecla 5 <!--keycombo--> de su teclado numérico.</para>
+        </listitem>
+      </itemizedlist>
+      <para>En la vista general de 
+      <emphasis>Actividades</emphasis>siempre puede realizar una 
+      <emphasis>Pulsación larga</emphasis>para ejecutar una pulsación con el botón derecho, incluso
+      si esta característica está desactivada.</para>
+      <para>La pulsación larga funciona de forma ligeramente difente en la vista general: no tiene
+      que liberar el botón para realizar la pulsación con el botón derecho.
+      <emphasis></emphasis></para>
+    </sect1>
+    <sect1>
+      <title>Activar el rechazo de teclas</title>
+      <para>Active el rechazo de teclas para ignorar las pulsaciones de teclas repetidas
+      rápidamente. Por ejemplo, si tiene temblores de manos que pueden hacer que pulse teclas
+      varias veces cuando solo quiere pulsarlas una vez, debería activar el rechazo de
+      teclas.</para>
+      <orderedlist>
+        <listitem>
+          <para>Puede activar rápidamente el rechazo de teclas, pulsando en el ícono de usuario 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="img/iusuario.png" role="png" />
+            </imageobject>
+          </inlinemediaobject>, en la barra superior y seleccionando 
+          <emphasis>Rechazo de teclas</emphasis>.</para>
+        </listitem>
+        <listitem>
+          <para>Use el deslizador 
+          <emphasis>Retardo de aceptación</emphasis>para cambiar el tiempo que debe esperar el
+          rechazo de teclas antes de registrar otra tecla pulsada después de la pulsada en primer
+          lugar.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione 
+          <emphasis>Pitar al rechazar una tecla</emphasis>si quiere que el equipo emita un sonido
+          cada vez que ignora una tecla porque la pulsación ha sucedido demasiado pronto después de
+          la pulsación de la tecla anterior.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+  </chapter>
+</part>
