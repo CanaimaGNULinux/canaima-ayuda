@@ -1,5 +1,5 @@
 Source: canaima-ayuda
-Section: misc
+Section: main
 Priority: optional
 Maintainer: Sasha Veronica Solano Grosjean <sasha.solano@gmail.com>
 Build-Depends: debhelper (>= 9)

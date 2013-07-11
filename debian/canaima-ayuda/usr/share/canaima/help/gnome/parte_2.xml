@@ -1,0 +1,1703 @@
+<part id='part:Archivos.-Carpetas.-Documentos-20' xreflabel='Archivos, Carpetas, Documentos y Backup'>
+  <title>Archivos, Carpetas, Documentos y Backup </title>
+ <partintro>
+  <para>
+  <inlinemediaobject>
+    <imageobject>
+      <imagedata fileref="img/archivos.png" role="png" />
+    </imageobject>
+  </inlinemediaobject>
+  </para>
+  <para>En este apartado estará toda la información disponible sobre archivos y carpetas
+  (eliminarlos, copiarlos, renombrarlos, etc) así como también compartir los archivos con compañeros y
+  docentes, organizar los documentos y realizar Back up</para>
+ </partintro>
+  <chapter id='chap:Archivos-y-carpetas' xreflabel='Archivos y carpetas'>
+    <title>Archivos y carpetas</title>
+    <para>
+    <emphasis>En este apartado encontrarás todo lo que necesitas saber para trabajar con archivos y
+    carpetas. Por ejemplo cómo eliminarlos, copiarlos</emphasis>,
+    <emphasis>renombrarlos, compartirlos, etc.</emphasis></para>
+    <sect1 id='sec:Examinar-archivos-y' xreflabel='Examinar archivos y carpetas'>
+      <title>Examinar archivos y carpetas </title>
+      <para>Use la aplicación Archivos para navegar y organizar los archivos en su equipo. También
+      puede usarlo para gestionar archivos en dispositivos de almacenamiento (como discos
+      externos), en servidores de archivos y en recursos compartidos de la red.</para>
+      <para>Para abrir el 
+      <xref linkend="sub:Gestor-de-archivos" />, abra Archivos en la 
+      <xref linkend="chap:Vista-de-actividades" />. También puede buscar archivos y carpetas en la
+      vista de la misma manera que busca 
+      <xref linkend="sec:Aplicaciones" />.</para>
+      <bridgehead renderas="sect2">Explorar el contenido de carpetas</bridgehead>
+      <para>En el 
+      <xref linkend="sub:Gestor-de-archivos" />, pulse dos veces sobre una carpeta para ver su
+      contenido, o sobre un archivo para abrirlo con la aplicación predeterminada para ese archivo.
+      También puede pulsar con el botón derecho sobre una carpeta para abrirla en una pestaña o una
+      ventana nueva. En la vista de lista, también puede pulsar en el extensor situado junto a la
+      carpeta para mostrar su contenido en forma de árbol.</para>
+      <para>Cuando estés navegando entre carpetas puedes usar Ctrl + T para abrir dentro de una
+      misma ventana diferentes solapas, igual que en los navegadores de Internet. También puedes
+      dividir la ventana en dos con F3.</para>
+      <para>La barra de rutas situada encima de la lista de archivos y carpetas muestra que carpeta
+      está visualizando, incluyendo sus carpetas padre hasta su carpeta personal. Pulse en una
+      carpeta padre o directorio de la barra de rutas para moverse a esa carpeta. Pulse con el
+      botón derecho sobre cualquier carpeta de la barra de rutas para abrirla en una pestaña o
+      ventana nueva, copiarla, moverla o acceder a sus propiedades.</para>
+      <para>Si quiere saltar rápidamente a un archivo en la carpeta que esta viendo, empiece a
+      escribir su nombre. Aparecerá una caja de búsqueda en la parte inferior de la ventana y se
+      resaltará el primer archivo que coincida con su búsqueda. Pulse la flecha «abajo» , Ctrl+G o
+      desplácese con el mouse para saltar al siguiente archivo que coincida con su búsqueda.</para>
+      <para>Puede acceder rápidamente a lugares comunes desde la barra lateral. Si no ve la barra
+      lateral, pulse en Ver - Barra lateral - Mostrar barra lateral. Puede añadir marcadores a
+      carpetas que use con frecuencia y aparecerán en la barra lateral. Use el menú Marcadores para
+      hacer esto, o simplemente arrastre una carpeta a la barra lateral.</para>
+      <para>Si mueve frecuentemente archivos entre carpetas anidadas, puede encontrar útil mostrar
+      un árbol en la barra lateral. Pulse Ver - Barra lateral - árbol para activar el árbol de la
+      barra lateral. Pulse el expansor junto a la carpeta para mostrar sus carpetas hijas en el
+      árbol, o pulse en una carpeta para abrirla en la ventana.</para>
+    </sect1>
+    <sect1 id='sec:Buscar-archivos' xreflabel='Buscar archivos'>
+      <title>Buscar archivos</title>
+      <para>Puede buscar archivos desde el Menú Canaima, en Accesorios, Buscar archivos. Tambien
+      puede buscar archivos según su nombre o su tipo de archivo directamente desde el gestor de
+      archivos. Finalmente, puede guardar búsquedas frecuentes, que aparecerán como carpetas
+      especiales dentro de su carpeta personal.</para>
+      <bridgehead renderas="sect2">Buscar</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Abra la aplicación Archivos desde la 
+          <xref linkend="chap:Vista-de-actividades" />.</para>
+        </listitem>
+        <listitem>
+          <para>Si sabe que los archivos que quiere buscar están en una carpeta determinada, vaya a
+          esa carpeta.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Buscar en la barra de herramientas, o pulse Ctrl+F.</para>
+        </listitem>
+        <listitem>
+          <para>Teclee una o varias palabras que sepa que aparecen en el nombre del archivo y pulse
+          Enter. Por ejemplo, si todas sus facturas contienen en su nombre la palabra «Factura»,
+          teclee factura. Pulse Enter. No hace falta tener en cuenta las mayúsculas y
+          minúsculas.</para>
+        </listitem>
+        <listitem>
+          <para>Puede acotar los resultados por ubicación y tipo de archivo. Pulse el botón + para
+          establecer más criterios de búsqueda.</para>
+          <itemizedlist>
+            <listitem>
+              <para>Para acotar los resultados de la búsqueda, seleccione Ubicación de la lista
+              desplegaba para añadir una ubicación padre.</para>
+            </listitem>
+            <listitem>
+              <para>Para acotar los resultados de la búsqueda en función del tipo de archivo,
+              seleccione Tipo de archivo de la lista desplegable.</para>
+            </listitem>
+          </itemizedlist>
+          <para>Pulse el botón - junto a cualquier opción de búsqueda para quitar esa opción y
+          aumentar los resultados de búsqueda.</para>
+        </listitem>
+        <listitem>
+          <para>Puede abrir, copiar, eliminar o trabajar con sus archivos desde los resultados de
+          búsqueda, igual como si estuviera en cualquier carpeta en el gestor de archivos.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse de nuevo Buscar en la barra de herramientas para salir de la búsqueda y
+          volver a la carpeta.</para>
+        </listitem>
+      </orderedlist>
+      <para>Si lleva a cabo ciertas búsquedas muy a menudo, puede guardarlas para acceder a ellas
+      rápidamente.</para>
+      <bridgehead renderas="sect2">Guardar una búsqueda</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Iniciar una búsqueda como la indicada más arriba.</para>
+        </listitem>
+        <listitem>
+          <para>Cuando esté satisfecho con sus parámetros de búsqueda, pulse Archivo - Guardar
+          búsqueda como.</para>
+        </listitem>
+        <listitem>
+          <para>Asigne un nombre a la búsqueda y pulse Guardar. Si lo desea, seleccione una carpeta
+          distinta en la que guardarla. Cuando visualice esa carpeta, verá sus búsquedas guardadas
+          como un ícono de carpeta con una lupa.</para>
+        </listitem>
+      </orderedlist>
+      <para>Para eliminar el archivo buscado cuando haya terminado con él, simplemente elimínelo de
+      la búsqueda igual que haría con cualquier otro archivo. Cuando elimina una búsqueda guardada,
+      no elimina los archivos que coincidieron con la búsqueda.</para>
+    </sect1>
+    <sect1 id='sec:Crear-un-acceso' xreflabel='Crear un acceso directo'>
+      <title>Crear un acceso directo</title>
+      <para>Para crear un acceso directo de un archivo o carpeta primero simplemente pulsa botón
+      derecho y selecciona "Crear un enlace". Eso crea un acceso directo en el mismo lugar donde
+      estaba el archivo o carpeta original. Para pasarlo al escritorio simplemente hay que cortar y
+      pegar o arrastrarlo al mismo (Ver debajo 
+      <xref linkend="sec:Copiar-o-mover" />).</para>
+      <para>Si es una carpeta también puedes crear un Marcador (Ver 
+      <xref linkend="sec:Marcadores-de-carpeta" />), que te va a permitir tener disponible esa
+      carpeta en el menú Marcadores sobre la izquierda del gestor de archivos. También aparecerán
+      en el 
+      <xref linkend="chap:menuCanaima" />.</para>
+      <sect2>
+        <title>Accesos directos de aplicaciones</title>
+        <para>En el caso de las aplicaciones, si quieres tener un acceso directo a una aplicación
+        que utilices con frecuencia lo mejor es crear un acceso directo en el 
+        <xref linkend="x-hap:Tablero-2" />.</para>
+        <orderedlist>
+          <listitem>
+            <para>Abre la aplicación deseada</para>
+          </listitem>
+          <listitem>
+            <para>Presiona la Tecla Canaima o lleva el puntero del mouse a la 
+            <xref linkend="sec:Esquina-activa" /> de arriba a la izquierda</para>
+          </listitem>
+          <listitem>
+            <para>Haz clic derecho sobre el icono de la aplicación abierta que aparece en el 
+            <xref linkend="x-hap:Tablero-2" />, a la izquierda de la pantalla y luego "Añadir a favoritos"</para>
+          </listitem>
+        </orderedlist>
+        <para>De este modo también aparecerá automáticamente en la parte Favoritos del 
+        <xref linkend="chap:menuCanaima" />.</para>
+        <para>Si buscas esa aplicación en el 
+        <xref linkend="chap:menuCanaima" /> y haces clic derecho sobre la misma, "Añadir a favoritos", esta aparecerá en
+        Favoritos y en el <xref linkend="x-hap:Tablero-2" />.</para>
+        <para>Finalmente con la aplicación Menú principal puedes crear accesos directos a
+        aplicaciones cuando y donde gustes (Ver 
+        <xref linkend="chap:Cmo-configuro-el-21" />)</para>
+      </sect2>
+    </sect1>
+    <sect1 id='sec:Copiar-o-mover' xreflabel='Copiar o mover archivos'>
+      <title>Copiar o mover archivos y carpetas</title>
+      <para>Es posible copiar o mover un archivo o una carpeta en una nueva ubicación arrastrando y
+      soltando con el mouse, usando los comandos de copiar y pegar, o mediante combinaciones de
+      teclas.</para>
+      <para>Por ejemplo, es posible que quiera copiar una presentación en una tarjeta de memoria
+      para trabajar con ella. O bien, podría hacer una copia de seguridad de un documento antes de
+      realizar cambios en el mismo (y luego utilizar la copia antigua si no le gustan los
+      cambios).</para>
+      <para>Estas instrucciones se aplican tanto a los archivos como a las carpetas. Se copian y se
+      mueven archivos y carpetas de la misma forma.</para>
+      <bridgehead renderas="sect2">Copiar y pegar archivos</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Seleccione el archivo que quiera copiar, pulsándolo una sola vez.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Editar - Copiar, o Ctrl+C.</para>
+        </listitem>
+        <listitem>
+          <para>Vaya a otra carpeta donde quiera poner la copia del archivo.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Editar - Pegar para finalizar la copia del archivo, o también puede hacerlo
+          pulsando Ctrl+V. Ahora habrá una copia del archivo en la carpeta original y en la otra
+          carpeta.</para>
+        </listitem>
+      </orderedlist>
+      <bridgehead renderas="sect2">Cortar y pegar archivos para moverlos</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Seleccione el archivo que quiere mover pulsándolo una sola vez.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Editar - Cortar, o Ctrl+X.</para>
+        </listitem>
+        <listitem>
+          <para>Vaya a otra carpeta donde quiera mover el archivo.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Editar - Pegar para finalizar el movimiento del elemento o pulse Ctrl+V. El
+          archivo se tomará de su carpeta original y se moverá a la otra carpeta.</para>
+        </listitem>
+      </orderedlist>
+      <bridgehead renderas="sect2">Arrastrar archivos para copiarlos o moverlos</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Abra el 
+          <xref linkend="sub:Gestor-de-archivos" /> y vaya a la carpeta que contenga el elemento que
+          quiere copiar.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Archivo - Ventana nueva (o pulse Ctrl+N) para abrir una segunda ventana. En
+          la ventana nueva, navegue hasta la carpeta donde quiere copiar o mover el
+          elemento.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse y arrastre el elemento de una ventana a la otra. Esto lo moverá si el destino
+          está en el mismo dispositivo, o lo copiará si el destino está en un dispositivo
+          diferente.</para>
+          <para>Por ejemplo, si arrastra un archivo de una memoria USB a su carpeta personal éste
+          se copiará porque lo está arrastrando desde un dispositivo a otro.</para>
+          <para>Para forzar a que se copie el archivo manteniendo pulsada la tecla Ctrl mientras
+          arrastra el archivo, o forzar mover el archivo manteniendo pulsada la tecla Mayús
+          mientras arrastra el archivo.</para>
+        </listitem>
+      </orderedlist>
+      <para>No puede copiar o mover un archivo a una carpeta de solo lectura. Algunas carpetas son
+      de solo lectura para impedir que pueda hacer cambios en su contenido. Puede hacer que deje de
+      ser de solo lectura cambiando los permisos del archivo.</para>
+    </sect1>
+    <sect1>
+      <title>Eliminar archivos y carpetas</title>
+      <para>Si ya no quiere un archivo o una carpeta, puede eliminarla. Cuando elimina un elemento,
+      se mueve a la carpeta Papelera, donde se guarda hasta que la vacía. Puede restaurar elementos
+      de la Papelera a su ubicación original si decide que los necesita, o si los eliminó
+      accidentalmente.</para>
+      <bridgehead renderas="sect2">Para enviar un archivo a la papelera:</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Seleccione el elemento que quiere eliminar pulsándolo una sola vez.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Supr en su teclado.</para>
+        </listitem>
+      </orderedlist>
+      <para>Para eliminar archivos permanentemente y liberar espacio en el equipo, debe vaciar la
+      papelera. Para vaciar la papelera, pulse con el botón derecho en la Papelera en la barra
+      lateral y elija Vaciar papelera (Para más información ver: 
+      <xref linkend="sub:Papelera" />).</para>
+      <bridgehead renderas="sect2">Eliminar permanentemente un archivo:</bridgehead>
+      <para>Puede eliminar un archivo permanentemente de forma inmediata, sin tenerlo que enviar
+      primero a la papelera. Para eliminar permanentemente un archivo:</para>
+      <orderedlist>
+        <listitem>
+          <para>Seleccione el elemento que quiere eliminar.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse y mantenga pulsada la tecla Mayús, y luego pulse la tecla Supr de su
+          teclado.</para>
+        </listitem>
+        <listitem>
+          <para>Como no puede deshacer esta operación, se le preguntará que confirme si quiere
+          eliminar el archivo o carpeta.</para>
+        </listitem>
+      </orderedlist>
+      <para>Si necesita con frecuencia eliminar archivos sin usar la papelera (por ejemplo, si
+      trabaja a menudo con datos sensibles), puede añadir una opción Eliminar al menú contextual de
+      archivos y carpetas. Pulse Editar - Preferencias y seleccione la pestaña Comportamiento.
+      Seleccione Incluir un comando «Eliminar» que no use la papelera.</para>
+      <para>Los archivos eliminados en un dispositivo extraíble pueden no ser visibles en otros
+      sistemas operativos (VER: 
+      <xref linkend="sub:Sistema-Operativo" />), tales como Windows o Mac OS. Los archivos seguirán
+      ahí, y estarán disponibles cuando conecte el dispositivo de nuevo en su equipo.</para>
+    </sect1>
+    <sect1 id='sec:Comprimir-y-descomprimir' xreflabel='Comprimir y descomprimir'>
+      <title>Comprimir y descomprimir archivos o carpetas</title>
+      <para>Para poder comprimir archivos o carpetas simplemente hay que presionar el botón derecho
+      del mouse sobre el archivo, carpeta o conjunto de ellos que se quiera comprimir. Luego
+      elegimos el nombre del archivo resultante, la 
+      <xref linkend="sub:Extensin-de-archivo-22" /> y el lugar donde quedará guardado.</para>
+      <para>También es posible dividir el archivo en partes iguales y protegerlo con una clave
+      haciendo clic en "Otras opciones".</para>
+      <para>Para descomprimir simplemente hay que hacer clic derecho y "Extraer aquí"l.</para>
+    </sect1>
+    <sect1 id='sec:Ordenar-archivos-y' xreflabel='Ordenar archivos y carpetas'>
+      <title>Ordenar archivos y carpetas </title>
+      <para>Puede ordenar los archivos de una carpeta de diferentes formas; por ejemplo, por fecha
+      o por tamaño. Consulte la Maneras de ordenar archivos a continuación en una lista de formas
+      habituales de ordenar archivos.</para>
+      <para>Cuando cambia la manera de ordenar elementos en una carpeta, solo afecta a esa carpeta.
+      El 
+      <xref linkend="sub:Gestor-de-archivos" /> recordará sus preferencias de ordenación para esa
+      carpeta, pero usará el criterio de ordenación predeterminado en las demás carpetas. Consulte 
+      <xref linkend="sec:Preferencias-de-la" /> para obtener más información sobre cómo cambiar el
+      criterio de ordenación predeterminado.</para>
+      <para>La forma en la que ordene los archivos dependerá de la vista de carpeta que esté
+      usando. Puede cambiar la vista actual usando el menú Ver.</para>
+      <bridgehead renderas="sect2">Vista de ícono</bridgehead>
+      <para>Para ordenar los archivos de forma diferente, pulse con el botón derecho en un lugar
+      vacío de la carpeta y seleccione una opción del menú Organizar los elementos. También puede
+      usar el menú Ver - Organizar los elementos.</para>
+      <para>Por ejemplo, si selecciona Ordenar por nombre en el menú Organizar los elementos, los
+      archivos se ordenarán según sus nombres. Consulte otras opciones en la Maneras de ordenar
+      archivos.</para>
+      <para>Puede ordenar en orden inverso seleccionando Orden inverso en el menú Organizar los
+      elementos.</para>
+      <para>Para controlar totalmente el orden y la posición de los archivos en la carpeta, pulse
+      con el botón derecho en un lugar vacío de la carpeta y seleccione Organizar los elementos -
+      Manualmente. Así podrá reorganizar los archivos arrastrándolos y soltándolos por la carpeta.
+      La ordenación manual solo funciona en la vista de íconos.</para>
+      <para>La opción Disposición compacta del menú Organizar los elementos organiza los archivos
+      de forma que ocupan el menor espacio posible. Es útil si quiere ver un montón de archivos al
+      mismo tiempo en una carpeta.</para>
+      <bridgehead renderas="sect2">Vista de lista</bridgehead>
+      <para>Para ordenar los archivos de forma diferente, pulse en una de las cabeceras de las
+      columnas en el 
+      <xref linkend="sub:Gestor-de-archivos" />. Por ejemplo, pulse en Tipo para ordenar por tipo
+      de archivo. Pulse de nuevo en la cabecera de la columna para ordenar en orden inverso.</para>
+      <para>En la vista de lista, puede mostrar las columnas con más atributos y ordenar estas
+      columnas. Pulse en Vista - Columnas visibles y seleccione las columnas que desea que sean
+      visible. A continuación, podrá ordenar por esas columnas. Consulte la Preferencias de las
+      columnas en la lista del gestor de archivos para obtener las descripciones de las columnas
+      disponibles.</para>
+      <bridgehead renderas="sect2">Vista compacta</bridgehead>
+      <para>Puede ordenar los archivos en la vista compacta de la misma manera que puede ordenar la
+      vista de íconos. La única diferencia es que no se puede colocar manualmente los archivos en
+      cualquier lugar que desee, siempre están organizados en una lista en esta vista.</para>
+      <bridgehead renderas="sect2">Maneras de ordenar archivos</bridgehead>
+      <itemizedlist>
+        <listitem>
+          <para>Por nombre: Ordena alfabéticamente por el nombre del archivo.</para>
+        </listitem>
+        <listitem>
+          <para>Por tamaño: Ordena por el tamaño del archivo (cuánto espacio ocupa). Ordena de
+          menor a mayor de manera predeterminada.</para>
+        </listitem>
+        <listitem>
+          <para>Por tipo: Ordena alfabéticamente por el tipo de archivo. Los archivos del mismo
+          tipo se agrupan, a continuación, ordenados por nombre.</para>
+        </listitem>
+        <listitem>
+          <para>Por fecha de modificación: Ordena por la fecha y hora en las que se modificó un
+          archivo por última vez. Ordena de la más antigua a la más reciente de manera
+          predeterminada.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>Previsualizar archivos y carpetas</title>
+      <para>Puede previsualizar archivos rápidamente sin abrirlos en una aplicación completa.
+      Seleccione un archivo y pulse la barra espaciadora. El archivo se abrirá en una ventana
+      simple de vista previa. Pulse la barra espaciadora de nuevo para cerrar la vista
+      previa.</para>
+      <para>La vista previa soporta la mayoría de formatos de archivo para documentos, imágenes,
+      vídeo y sonido. En la vista previa puede desplazarse por sus documentos o buscar a través de
+      sus vídeos y archivos de sonido.</para>
+      <para>Para ver una vista previa a pantalla completa, pulse el botón con flechas en la parte
+      inferior o pulse f. Pulse f para salir del modo a pantalla completa, o pulse la barra
+      espaciadora para salir por completo de la vista previa.</para>
+    </sect1>
+    <sect1 id='sec:Renombrar-un-archivo' xreflabel='Renombrar un archivo o una carpeta'>
+      <title>Renombrar un archivo o una carpeta</title>
+      <para>Al igual que con otros gestores de archivos (ver:
+      <xref linkend="sub:Gestor-de-archivos" />), puede usar el gestor de archivos de 
+      <xref linkend="sub:GNOME" /> para cambiar el nombre de un archivo o de una carpeta.</para>
+      <para>Para renombrar un archivo o una carpeta:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse con el botón derecho sobre un archivo o carpeta y seleccione Renombrar, o
+          seleccione el archivo y pulse F2.</para>
+        </listitem>
+        <listitem>
+          <para>Escriba el nombre nuevo y pulse Enter.</para>
+        </listitem>
+      </orderedlist>
+      <para>También puede renombrar un archivo desde la ventana de propiedades.</para>
+      <para>Cuando cambia el nombre de un archivo, solo se selecciona la primera parte del nombre
+      de ese archivo, sin la extensión (la parte que va detrás del «.»). La extensión normalmente
+      representa el tipo de archivo (p.ej: archivo.pdf es un documento PDF), y normalmente no
+      querrá cambiarla. Si necesita cambiar la extensión también, seleccione el nombre completo del
+      archivo y cámbielo.</para>
+      <para>Si cambia el nombre del archivo incorrecto, o asigna un nombre equivocado, puede
+      deshacer el renombrado. Para revertir esta acción inmediatamente, pulse Editar - Deshacer
+      para restaurar el nombre.</para>
+      <bridgehead renderas="sect2">Caracteres válidos para nombres de archivo</bridgehead>
+      <para>Puede usar cualquier carácter en los nombres de archivos, excepto la barra inclinada /.
+      Algunos dispositivos, sin embargo, usan sistemas de archivos con más restricciones en los
+      nombres de archivos. Por lo tanto, es recomendable evitar los siguientes caracteres: |, \, ?,
+      *, &lt;, ", :, &gt;, /.</para>
+      <para>Si nombra a un archivo con un . (punto) como primer carácter, el archivo estará oculto
+      cuando intente verlo en el 
+      <xref linkend="sub:Gestor-de-archivos" />.</para>
+      <bridgehead renderas="sect2">Problemas comunes</bridgehead>
+      <para>
+        <emphasis>El nombre del archivo ya está en uso</emphasis>
+      </para>
+      <para>No puede tener dos archivos o carpetas con el mismo nombre en la misma carpeta. Si al
+      cambiar el nombre a un archivo intenta asignarle uno que ya existe en la carpeta donde está
+      trabajando, el 
+      <xref linkend="sub:Gestor-de-archivos" /> no se lo permitirá.</para>
+      <para>Los nombres de archivos y carpetas son sensibles a mayúsculas, por lo que el nombre
+      Archivo.txt no es lo mismo que ARCHIVO.txt. Usar nombres diferentes como éstos está
+      permitido, pero no es recomendable.</para>
+      <para>
+        <emphasis>El nombre de archivo demasiado largo</emphasis>
+      </para>
+      <para>En algunos sistemas de archivos, los nombres de los archivos no pueden tener más de 255
+      caracteres. Este límite de 255 caracteres incluye tanto el nombre del archivo como la ruta
+      del archivo (ej. /home/wanda/Documentos/trabajo/propuestas-trabajo/...), por lo que debería
+      evitar nombres largos en archivos y carpetas cuando sea posible.</para>
+      <para>
+        <emphasis>La opción para renombrar está en gris</emphasis>
+      </para>
+      <para>Si la opción Renombrar aparece en color gris, es que no tiene los permisos necesarios
+      para renombrar el archivo. Debe tener cuidado al tratar de renombrar estos archivos, ya que
+      cambiar el nombre a archivos protegidos puede causar problemas o hacer que su sistema se
+      vuelva inestable. Consulte 
+      <xref linkend="sec:Establecer-los-permisos" /> para obtener más información.</para>
+    </sect1>
+    <sect1 id='sec:Marcadores-de-carpeta' xreflabel='Marcadores'>
+      <title>Marcadores de carpeta</title>
+      <para>Los marcadores son accesos rápidos a las carpetas de mayor uso. Pueden crearse los que
+      desee. Sus marcadores se listan en el menú Marcadores sobre la izquierda del gestor de
+      archivos. También aparecerán en el 
+      <xref linkend="chap:menuCanaima" />.</para>
+      <bridgehead renderas="sect3">Eliminar un marcador:</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en Marcadores - Editar los marcadores....</para>
+        </listitem>
+        <listitem>
+          <para>En la ventana Editar marcadores, seleccione el marcador que quiere eliminar y pulse
+          Eliminar.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Cerrar.</para>
+        </listitem>
+      </orderedlist>
+      <bridgehead renderas="sect3">Añadir un marcador:</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Abra la carpeta (o la ubicación) que quiera añadir a los marcadores.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Marcadores - Añadir un marcador.</para>
+        </listitem>
+      </orderedlist>
+      <bridgehead renderas="sect3">Renombrar un marcador:</bridgehead>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en Marcadores - Editar los marcadores....</para>
+        </listitem>
+        <listitem>
+          <para>En la ventana Editar marcadores, seleccione el marcador que quiere
+          renombrar.</para>
+        </listitem>
+        <listitem>
+          <para>En la casilla Nombre escriba el nombre nuevo para el marcador.</para>
+        </listitem>
+      </orderedlist>
+      <para>Al renombrar un marcador no se renombra la carpeta. Si tiene marcadores de dos carpetas
+      distintas en dos ubicaciones distintas, pero cada una con el mismo nombre, el marcador tendrá
+      el mismo nombre, y no podrá distinguirlos. En esos casos, es útil darle al marcador un nombre
+      distinto al de la carpeta a la que apunta.</para>
+    </sect1>
+    <sect1>
+      <title>Encontrar un archivo perdido</title>
+      <para>Si ha creado o descargado un archivo, pero no sabe dónde está, siga estas
+      indicaciones:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Si no recuerda dónde guardó el archivo, pero tiene cierta idea de cómo se llama,
+          puede buscarlo por su nombre. Consulte 
+          <xref linkend="sec:Buscar-archivos" /> para saber cómo.</para>
+        </listitem>
+        <listitem>
+          <para>Si acaba de descargar el archivo, su navegador web podría haberlo guardado
+          automáticamente en una carpeta común. Compruebe las carpetas Escritorio y Descargas en su
+          carpeta personal.</para>
+        </listitem>
+        <listitem>
+          <para>Es posible que haya eliminado el archivo accidentalmente. Cuando elimina un
+          archivo, se mueve a la papelera, donde permanecerá hasta que la vacíe manualmente.
+          Consulte 
+          <xref linkend="sec:Recuperar-un-archivo" /> para saber cómo recuperar un archivo
+          eliminado.</para>
+        </listitem>
+        <listitem>
+          <para>Puede que haya cambiado el nombre del archivo de forma que ahora quede oculto. Los
+          archivos que empiezan por . o que acaban en ~ están ocultos en el 
+          <xref linkend="sub:Gestor-de-archivos" />. Pulse Ver - Mostrar los archivos ocultos en el
+          gestor de archivos. Consulte 
+          <xref linkend="sec:Ocultar-un-archivo" /> para obtener más información.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>Examinar archivos en un servidor o compartición de red</title>
+      <para>Puede conectarse a un servidor o a un recurso compartido para buscar y ver los archivos
+      en el servidor, exactamente como si estuvieran en su máquina local o dispositivo extraíble.
+      Esta es una manera conveniente para descargar o subir archivos, o para compartir archivos con
+      usuarios en su red local.</para>
+      <para>Para examinar archivos en la red abra la aplicación de Archivos desde la vista general
+      de Actividades. Después pulse Navegar por la red en la barra lateral, o seleccione Red en el
+      menú Ir. El 
+      <xref linkend="sub:Gestor-de-archivos" /> buscará cualquier equipo en su red local que informe
+      que puede servir archivos. Si quiere conectarse a un servidor de Internet, o si no ve el
+      equipo que está buscando, puede conectarse manualmente a un servidor introduciendo su
+      dirección de red o internet.</para>
+      <sect2>
+        <title>Conectar con un servidor de archivos</title>
+        <orderedlist>
+          <listitem>
+            <para>En el 
+            <xref linkend="sub:Gestor-de-archivos" /> pulse Archivo - Conectar con el
+            servidor.</para>
+          </listitem>
+          <listitem>
+            <para>Introduzca la dirección del servidor, seleccione el tipo de servidor y escriba
+            cualquier información adicional cuando se le solicite. Después, pulse en Conectar. Se
+            listan debajo detalles acerca de los tipos de servidores.</para>
+            <para>Para servidores en Internet, generalmente se puede usar el nombre de dominio (ej.
+            ftp.ejemplo.com). Sin embargo, para los equipos de su red de área local, puede que
+            tenga que usar la dirección IP numérica del equipo.</para>
+          </listitem>
+          <listitem>
+            <para>Se abrirá una nueva ventana mostrando los archivos en el servidor. Puede examinar
+            los archivos de igual forma que si estuviesen en su mismo equipo.</para>
+            <para>El servidor también se añadirá a la barra lateral para que pueda acceder
+            rápidamente a él en el futuro</para>
+          </listitem>
+        </orderedlist>
+      </sect2>
+      <sect2>
+        <title>Diferentes tipos de servidores</title>
+        <para>Puede conectarse a diferentes tipos de servidores. Algunos servidores son públicos, y
+        permiten a cualquiera conectarse. Otros servidores requieren que inicie sesión con su
+        nombre de usuario y contraseña.</para>
+        <para>Puede que no tenga permisos para realizar ciertas acciones sobre los archivos en un
+        servidor. Por ejemplo, en sitios FTP públicos, probablemente no podrá eliminar
+        archivos.</para>
+        <bridgehead renderas="sect3">Tipos de servidores</bridgehead>
+        <itemizedlist>
+          <listitem>
+            <para>SSH: Si tiene una cuenta SSH en un servidor, podrá conectarse usando este método.
+            Muchos servidores de alojamiento web proporcionan cuentas SSH a sus miembros para que
+            puedan subir archivos de forma segura. Los servidores SSH siempre requieren que usted
+            inicie una sesión. Si usa una clave de SSH para iniciar sesión, deje el campo de
+            contraseña en blanco. Cuando se usa SSH, todos los datos que envía (incluyendo su
+            contraseña) van cifrados, por lo que otros usuarios de su red no podrán verlos.</para>
+          </listitem>
+          <listitem>
+            <para>FTP-(con-registro): FTP es un manera popular para intercambiar archivos por
+            Internet. Dado que, a través de FTP, los datos no están cifrados, muchos servidores
+            facilitan el acceso a través de SSH. Algunos servidores, sin embargo, todavía permiten
+            o requieren el uso de FTP para subir o descargar archivos. Los sitios FTP con inicio de
+            sesión generalmente le permitirán eliminar y subir archivos.</para>
+          </listitem>
+          <listitem>
+            <para>FTP-público: Los sitios que le permiten descargar archivos a veces proporcionan
+            acceso FTP público o anónimo. Estos servidores no requieren un nombre de usuario y
+            contraseña, y por lo general no le permiten eliminar o subir archivos.</para>
+            <para>Algunos sitios FTP anónimos requieren iniciar sesión con un nombre de usuario y
+            contraseña pública, o con un nombre de usuario público utilizando su dirección de
+            correo electrónico como contraseña. Para estos servidores, utilice el método de FTP
+            (con entrada), y use las credenciales especificadas por el sitio FTP.</para>
+          </listitem>
+          <listitem>
+            <para>Compartición-Windows: Los equipos Windows usan un protocolo privativo para
+            compartir archivos a través de una red de área local. Los equipos de una red Windows a
+            veces se agrupan en dominios para organizar y controlar mejor el acceso. Si tiene los
+            permisos adecuados en el equipo remoto, podrá conectarse a un recurso compartido de
+            Windows desde el gestor de archivos.</para>
+          </listitem>
+          <listitem>
+            <para>WebDAV/WebDAV-seguro: Basado en el protocolo HTTP usado en la web, a veces se usa
+            WebDAV para compartir archivos en una red local o guardarlos en Internet. Si el
+            servidor al que se está conectando admite conexiones seguras, debería escoger esta
+            opción. WebDAV seguro usa cifrado SSL fuerte, por lo que nadie podrá ver su contraseña
+            ni sus datos.</para>
+          </listitem>
+        </itemizedlist>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Propiedades del archivo</title>
+      <para>Para ver información sobre un archivo o carpeta, pulse con el botón derecho y
+      seleccione Propiedades. También puede seleccionar el archivo y pulsar Alt+Intro.</para>
+      <para>La ventana de propiedades del archivo le muestra información tal como el tipo de
+      archivo, su tamaño y cuándo lo modificó por última vez. Si necesita esta información a
+      menudo, puede mostrarla en las columnas de la vista de lista (Ver 
+      <xref linkend="sec:Preferencias-de-las" />) o en las leyendas de los íconos (Ver 
+      <xref linkend="sec:Preferencias-de-la" />).</para>
+      <para>La información básica dada en la pestaña Básico se explica a continuación. También
+      están las pestañas Permisos (Ver 
+      <xref linkend="sec:Establecer-los-permisos" />) y Abrir con . Para ciertos tipos de archivos,
+      como imágenes y vídeos, habrá una pestaña adicional que proporcione información sobre el
+      tamaño, la duración y el 
+      <xref linkend="sub:Cdec-23" />.</para>
+      <sect2>
+        <title>Propiedades básicas</title>
+        <bridgehead renderas="sect3">Nombre</bridgehead>
+        <para>Puede cambiar el nombre del archivo cambiando este campo. También puede cambiar el
+        nombre de un archivo fuera de la ventana de propiedades. Consulte 
+        <xref linkend="sec:Renombrar-un-archivo" /> para obtener más información.</para>
+        <bridgehead renderas="sect3">Tipo</bridgehead>
+        <para>Esto le ayuda a identificar el tipo de un archivo, como un documento PDF, texto de
+        OpenDocument o una imagen JPEG. El tipo del archivo determina, entre otras cosas, qué
+        aplicaciones pueden abrir el archivo.Por ejemplo, no puede abrir una imagen con un
+        reproductor de música. Consulte 
+        <xref linkend="sec:Abrir-archivos-con" /> para obtener más información.</para>
+        <para>Entre paréntesis se muestra el tipo MIME del archivo; el tipo MIME es una forma
+        estándar que los equipos usan para referirse al tipo de archivo.</para>
+        <bridgehead renderas="sect3">Contenido</bridgehead>
+        <para>Este campo se muestra si está consultando las propiedades de una carpeta. Muestra el
+        número de elementos de la carpeta. Si la carpeta incluye otras carpetas, cada carpeta
+        interna se cuenta como un elemento, aunque contenga a su vez otros elementos. Cada archivo
+        se cuenta como un elemento. Si la carpeta está vacía, el contenido no mostrará nada.</para>
+        <bridgehead renderas="sect3">Tamaño</bridgehead>
+        <para>Este campo se muestra si está viendo un archivo (no una carpeta). El tamaño de un
+        archivo le indica cuanto espacio ocupa en el disco. También es un indicador de cuánto
+        tardará en descargar un archivo o en enviarlo por correo-e (cuanto más grande es el
+        archivo, más tarda al enviarse/recibirse).</para>
+        <para>Los tamaños se puede dar en bytes, KB, MB o GB; en los tres últimos casos, el tamaño
+        en bytes aparece entre paréntesis. Técnicamente, 1KB son 1024 bytes, 1MB son 1024 KB, y así
+        sucesivamente.</para>
+        <bridgehead renderas="sect3">Ubicación</bridgehead>
+        <para>La ubicación de cada archivo en su sistema viene dada por su ruta absoluta. Esto es
+        una «dirección» única del archivo en el equipo, compuesta de una lista de carpetas a las
+        que debe ir para encontrar el archivo. Por ejemplo, si Jaime tiene un archivo Resumen.pdf
+        en su carpeta personal, la ubicación será /home/jaime/Resumen.pdf.</para>
+        <bridgehead renderas="sect3">Volumen</bridgehead>
+        <para>El sistema de archivo o el dispositivo en el que está almacenado el archivo. Esto le
+        muestra dónde está almacenado físicamente el archivo, por ejemplo, si está en el disco
+        duro, en un CD o en una carpeta de red o un servidor de archivos. Los discos duros se
+        pueden dividir en varias particiones (VER: 
+        <xref linkend="chap:Discos-y-almacenamiento" />); la partición se mostrará también debajo
+        del Volumen.</para>
+        <bridgehead renderas="sect3">Espacio libre</bridgehead>
+        <para>Esto sólo se muestra para las carpetas. Indica la cantidad total de espacio
+        disponible en el disco en el que se encuentra la carpeta. Es útil para comprobar si el
+        disco duro está lleno.</para>
+        <bridgehead renderas="sect3">Accedido</bridgehead>
+        <para>Fecha y hora de la última apertura del archivo.</para>
+        <bridgehead renderas="sect3">Modificado</bridgehead>
+        <para>Fecha y hora de la última vez que se cambió y guardó el archivo.</para>
+      </sect2>
+    </sect1>
+    <sect1 id='sec:Recuperar-un-archivo' xreflabel='Recuperar un archivo de la papelera'>
+      <title>Recuperar un archivo de la papelera</title>
+      <para>Si elimina un archivo con el 
+      <xref linkend="sub:Gestor-de-archivos" />, normalmente se envía a la Papelera, y debería
+      poder recuperarlo.</para>
+      <para>Para restaurar un archivo de la papelera:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Abra la aplicación Archivos desde la vista de Actividades.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse Papelera en la barra lateral. Si su archivo eliminado está ahí, pulse con el
+          botón derecho sobre él y seleccione Restaurar. Se devolverá a la carpeta de la que se
+          eliminó.</para>
+        </listitem>
+        <listitem>
+          <para>Si eliminó el archivo pulsando Mayús+Supr o desde la línea de comandos, el archivo
+          no se podrá recuperar usando este método porque se habrá eliminado permanentemente. Los
+          archivos eliminados permanentemente no se pueden recuperar de la Papelera.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Existen varias herramientas de recuperación disponibles que a veces pueden recuperar
+      archivos que se eliminaron permanentemente. No obstante, normalmente no son muy fáciles de
+      usar. Si eliminó un archivo permanentemente de forma accidental, probablemente sea mejor
+      pedir ayuda en los foros de soporte para ver si es posible recuperarlo.</para>
+    </sect1>
+    <sect1>
+      <title>Abrir aplicaciones para dispositivos o discos</title>
+      <para>
+        <emphasis>Ejecutar aplicaciones automáticamente para CD y DVD, cámaras, reproductores de
+        sonido y otros dispositivos y soportes.</emphasis>
+      </para>
+      <bridgehead renderas="sect3">Abrir aplicaciones para dispositivos o discos</bridgehead>
+      <para>Puede hacer que se inicie una aplicación automáticamente cuando conecte un dispositivo,
+      cuando se introduzca un disco o una tarjeta de memoria. Por ejemplo, puede que quiera que se
+      inicie su gestor de fotografías cuando conecte una cámara digital. También puede desactivar
+      esta opción, para que no ocurra nada cuando conecte algo.</para>
+      <para>Para decidir qué aplicaciones deberían iniciarse cuando se conecte a varios
+      dispositivos:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse en su nombre en la barra superior y seleccione Configuración del
+          sistema.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione Detalles - Dispositivo extraíble.</para>
+        </listitem>
+        <listitem>
+          <para>Elija una aplicación o acción para el dispositivo multimedia que quiere. Consulte a
+          continuación para obtener una descripción de los diferentes tipos de dispositivos
+          multimedia.</para>
+          <para>En lugar de iniciar una aplicación, también puede configurarla para que el
+          dispositivo se muestre en el gestor de archivos. Cuando esto pase, se le preguntará qué
+          hacer o no sucederá nada automáticamente.</para>
+        </listitem>
+        <listitem>
+          <para>Si no encuentra en la lista el tipo de dispositivo o soporte que quiere cambiar
+          (como discos Blu-ray o lectores de libros electrónicos), pulse en Otros soportes para
+          obtener una lista de dispositivos más detallada. Seleccione el tipo de dispositivo o
+          soporte de la lista desplegable Tipo y la aplicación o acción de la lista desplegable
+          Acción.</para>
+        </listitem>
+      </orderedlist>
+      <para>Si no quiere que se abra automáticamente ninguna aplicación, independientemente de lo
+      que conecte, seleccione Nunca preguntar ni iniciar programas al introducir soportes en la
+      parte inferior de la ventana de Soportes extraíbles.</para>
+      <bridgehead renderas="sect3">Tipos de dispositivos y de medios</bridgehead>
+      <para>Cámaras y fotos: Use el desplegable Fotos para elegir una aplicación de gestión de
+      fotos para ejecutar al conectar su cámara digital o al insertar una tarjeta multimedia de una
+      cámara, tales como tarjetas CF, SD, MMC o MS. También puede simplemente examinar sus fotos
+      usando el gestor de archivos.</para>
+      <para>Reproductores de música: Elija una aplicación para gestionar la biblioteca de música
+      para su reproductor de música portátil o gestione los archivos usted mismo usando el gestor
+      de archivos.</para>
+      <para>Lectores de libros electrónicos: Use el botón Otros soportes para elegir una aplicación
+      para gestionar los libros en su lector de libros electrónicos o gestione los archivos usted
+      mismo usando el gestor de archivos.</para>
+      <para>Software: Algunos discos extraíbles contienen software que se supone se debe ejecutar
+      automáticamente al introducir el soporte. Use la opción Software para controlar lo que hacer
+      al introducir un soporte con un software de ejecución automática. Siempre se le pedirá
+      confirmación antes de ejecutar el software. No ejecute nunca software procedente de soportes
+      en los que no confía.</para>
+    </sect1>
+    <sect1 id='sec:Extraer-una-unidad' xreflabel='Extraer una unidad externa de forma segura'>
+      <title>Extraer una unidad externa de forma segura</title>
+      <para>
+        <emphasis>Expulsar o desmontar una memoria USB u otro dispositivo.</emphasis>
+      </para>
+      <bridgehead renderas="sect3">Extraer una unidad externa de forma segura</bridgehead>
+      <para>Cuando use dispositivos de almacenamiento externo, como memorias USB o similares,
+      deberá extraerlos con seguridad antes de desconectarlos. Si simplemente desconecta el
+      dispositivo, corre el riesgo de hacerlo cuando la aplicación todavía lo está usando. Esto
+      podría provocar que alguno de sus archivos se pierda o se dañe.</para>
+      <para>Para expulsar un dispositivo extraíble:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Desde la vista de Actividades, abra Archivos.</para>
+        </listitem>
+        <listitem>
+          <para>Localice el dispositivo en la barra lateral. Debería tener un pequeño ícono de
+          expulsión junto al nombre. Pulse en ese ícono para expulsar el dispositivo o extraerlo
+          con seguridad.</para>
+        </listitem>
+        <listitem>
+          <para>Alternativamente, pulse con el botón derecho del mouse sobre el nombre del
+          dispositivo y elija Expulsar.</para>
+        </listitem>
+      </itemizedlist>
+      <bridgehead renderas="sect3">Extraer un dispositivo en uso de forma segura</bridgehead>
+      <para>Si alguno de los archivos almacenados en el dispositivo está abierto en cualquier
+      aplicación no podrá extraer el dispositivo con seguridad. Aparecerá una ventana diciéndole
+      que «El volumen está ocupado» y le mostrará una lista de todos los archivos abiertos en el
+      dispositivo. Cuando haya cerrado todos los archivos del dispositivo, el dispositivo se
+      extraerá con seguridad automáticamente. En este momento ya podrá desconectarlo o
+      expulsarlo.</para>
+      <para>Si no pudiera cerrar uno de los archivos (por ejemplo, si la aplicación que está usando
+      el archivo se ha bloqueado) puede pulsar con el botón derecho sobre el archivo en la ventana 
+      <emphasis>El volumen está ocupado</emphasis>y seleccionar 
+      <emphasis>Terminar proceso</emphasis>. Esto obligará a la aplicación bloqueada a cerrarse, lo
+      que podría cerrar otros archivos que dicha aplicación tuviese abiertos.</para>
+      <para>También puede seleccionar 
+      <emphasis>Desmontar de todos modos</emphasis>para extraer el dispositivo sin cerrar los
+      archivos. Esto puede provocar errores en las aplicaciones que tuvieran esos archivos
+      abiertos.</para>
+    </sect1>
+    <sect1 id='sec:Establecer-los-permisos' xreflabel='Permisos'>
+      <title>Establecer permisos de archivos y carpetas</title>
+      <para>Puede usar los permisos de archivos para controlar quién puede ver y editar sus
+      archivos. Para ver y asignar los permisos de un archivo, púlselo con el botón derecho,
+      seleccione Propiedades y a continuación vaya a la pestaña Permisos.</para>
+      <para>Para obtener detalles acerca de los tipos de permisos que puede establecer, consulte la
+      Archivos y la Carpetas debajo.</para>
+      <sect2>
+        <title>Archivos</title>
+        <para>Puede asignar los permisos para el propietario del archivo, el grupo del propietario
+        y todos los demás usuarios del sistema. Para sus archivos, usted es su propietario, y puede
+        concederse a sí mismo permisos de solo lectura o de lectura/escritura. Defina un archivo
+        como solo lectura si no quiere cambiarlo accidentalmente.</para>
+        <para>Cada usuario de su equipo pertenece a un grupo. En equipos domésticos, es habitual
+        que cada usuario tenga su propio grupo, y que los permisos de grupo no se usen a menudo. En
+        entornos empresariales, los grupos se usan a veces para departamentos o proyectos. Además
+        de tener un propietario, cada archivo pertenece a un grupo. Puede asignar el grupo de un
+        archivo y controlar los permisos para todos los usuarios de ese grupo. Puede asignar el
+        grupo de un archivo solo si es un grupo al que usted pertenece.</para>
+        <para>También puede asignar los permisos de los usuarios que no sean el propietario ni que
+        estén en el grupo del archivo.</para>
+        <para>Si el archivo es un programa, como por ejemplo un script, tendrá que seleccionar
+        Permitir ejecutar el archivo como un programa para ejecutarlo. Incluso con esta opción
+        activada, puede que el gestor de archivos abra ese archivo dentro de una aplicación o le
+        pregunte qué hacer. Para obtener más información consulte la 
+        <xref linkend="sub:Archivos-de-texto" />.</para>
+      </sect2>
+      <sect2>
+        <title>Carpetas</title>
+        <para>Puede asignar permisos sobre carpetas para el propietario, el grupo y el resto de
+        usuarios. Para obtener una explicación sobre propietarios, grupos y el resto de usuarios,
+        consulte los detalles sobre permisos de archivos más arriba.</para>
+        <para>Los permisos que puede establecer para una carpeta son diferentes de los que puede
+        establecer para un archivo.</para>
+        <para>
+          <emphasis>Ninguno</emphasis>
+        </para>
+        <para>El usuario ni siquiera será capaz de ver qué archivos están en la carpeta.</para>
+        <para>
+          <emphasis>Solo listar archivos</emphasis>
+        </para>
+        <para>El usuario será capaz de ver los archivos que hay dentro de una carpeta, pero no será
+        capaz de abrir, crear o eliminar archivos.</para>
+        <para>
+          <emphasis>Acceder a archivos</emphasis>
+        </para>
+        <para>El usuario será capaz de abrir archivos en la carpeta (suponiendo que tiene permisos
+        para ello en ese archivo en particular), pero puede no ser capaz de crear nuevos archivos o
+        eliminar archivos.</para>
+        <para>
+          <emphasis>Crear y eliminar archivos</emphasis>
+        </para>
+        <para>El usuario tendrá acceso total a la carpeta, incluyendo abrir, crear y eliminar
+        archivos.</para>
+        <para>Puede asignar rápidamente los permisos a todos los archivos de una carpeta usando la
+        lista desplegable Acceso a archivos y la opción Ejecutar. Deje las listas desplegables como
+        --- para que no haya cambios, o la casilla Ejecutar en su estado indeterminado (una línea
+        horizontal cruzándola).</para>
+        <para>Si pulsa en Aplicar permisos a los archivos contenidos, el gestor de archivos
+        aplicará los permisos de lectura, escritura y ejecución a los archivos contenidos en
+        función de las opciones que haya definido en Acceso a archivos y Ejecución. Además cambiará
+        los permisos de las carpetas contenidas para ajustarse a los permisos de esa carpeta. Los
+        permisos de los archivos contenidos se aplicarán también a los archivos contenidos en las
+        subcarpetas, a cualquier profundidad.</para>
+      </sect2>
+    </sect1>
+    <sect1 id='sec:Ocultar-un-archivo' xreflabel='Ocultar un archivo o carpeta'>
+      <title>Ocultar un archivo o carpeta</title>
+      <para>
+        <emphasis>Hacer que un archivo sea invisible, para que no pueda verlo en el 
+        <xref linkend="sub:Gestor-de-archivos" />. Lo mismo vale para las carpetas</emphasis>
+      </para>
+      <para>
+        <emphasis>Ocultar un archivo</emphasis>
+      </para>
+      <para>El gestor de archivo de 
+      <xref linkend="sub:GNOME" /> le ofrece la posibilidad de ocultar y mostrar archivos a su
+      elección. Cuando un archivo está oculto, no se muestra en el gestor de archivos, pero sigue
+      estando en la carpeta.</para>
+      <para>Para ocultar un archivo, renómbrelo poniéndole un . al principio de su nombre. Por
+      ejemplo, para ocultar un archivo ejemplo.txt, deberá cambiarle el nombre a
+      .ejemplo.txt.</para>
+      <para>Puede ocultar carpetas de la misma forma que puede ocultar archivos. Oculte una carpeta
+      poniéndole un . al principio de su nombre.</para>
+      <para>
+        <emphasis>Mostrar todos los archivos ocultos</emphasis>
+      </para>
+      <para>Si quiere ver todos los archivos ocultos de una carpeta, vaya a esa carpeta y pulse Ver
+      - Mostrar los archivos ocultos o bien pulse Ctrl+H. Se mostrarán todos los archivos ocultos
+      junto con los que no estaban ocultos.</para>
+      <para>Para volver a ocultar estos archivos, pulse Ver - Mostrar archivos ocultos o pulse Ctrl
+      - H de nuevo.</para>
+      <para>
+        <emphasis>Mostrar un archivo oculto</emphasis>
+      </para>
+      <para>Para mostrar un archivo oculto, vaya a la carpeta que contiene el archivo oculto y
+      pulse en Ver - Mostrar los archivos ocultos. Luego, busque el archivo oculto y renómbrelo de
+      forma que no tenga un . al principio de su nombre. Por ejemplo, para mostrar un archivo
+      oculto llamado .ejemplo.txt, debe renombrarlo a ejemplo.txt.</para>
+      <para>Una vez que haya renombrado el archivo, puede pulsar Ver - Mostrar archivos ocultos o
+      pulsar Ctrl+H para ocultar cualquier otro archivo oculto otra vez.</para>
+      <para>De manera predeterminada, sólo verá los archivos en el 
+      <xref linkend="sub:Gestor-de-archivos" /> hasta que lo cierre. Para cambiar esta configuración
+      y que el gestor de archivos muestre siempre los archivos ocultos, consulte la Preferencias de
+      las vistas del gestor de archivos.</para>
+      <para>La mayoría de los archivos ocultos tienen un . (punto) al principio de su nombre.
+      Otros, en cambio, pueden tener una ~ al final de su nombre. Estos son archivos de respaldo.
+      Consulte 
+      <xref linkend="sec:Qu-es-un-24" /> para obtener más información.</para>
+    </sect1>
+    <sect1>
+      <title>Plantillas para tipos de documentos usados comúnmente</title>
+      <para>
+        <emphasis>Crear rápidamente documentos desde archivos de plantillas
+        personalizados.</emphasis>
+      </para>
+      <para>Plantillas para tipos de documentos usados comúnmente</para>
+      <para>Si crea a menudo documentos basados en el mismo contenido, puede beneficiarse del uso
+      de archivos de plantilla. Un archivo de plantilla puede ser un documento de cualquier tipo
+      con el formato o el contenido que quiera reutilizar. Por ejemplo, puede crear una plantilla
+      de documento con su membrete.</para>
+      <para>Crear una plantilla nueva</para>
+      <orderedlist>
+        <listitem>
+          <para>Cree un documento que vaya a usar como una plantilla. Por ejemplo, puede hacer su
+          membrete en una aplicación de procesado de textos.</para>
+        </listitem>
+        <listitem>
+          <para>Guarde el archivo con el contenido de la plantilla en la carpeta Plantillas en su
+          carpeta Personal. Si la carpeta Plantillas no existe deberá crearla primero.</para>
+        </listitem>
+      </orderedlist>
+      <para>Usar una plantilla para crear un documento</para>
+      <orderedlist>
+        <listitem>
+          <para>Abra la carpeta donde quiere ubicar el documento nuevo.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse con el botón derecho en el espacio vacío en la carpeta y elija Crear
+          documento nuevo. Los nombres de las plantillas disponibles se listarán en el
+          submenú.</para>
+        </listitem>
+        <listitem>
+          <para>Elija la plantilla que quiere de la lista.</para>
+        </listitem>
+        <listitem>
+          <para>Introduzca el nombre de archivo para el documento recién creado.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse dos veces sobre el archivo para abrirlo y comenzar a editarlo.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+    <sect1>
+      <title>Seleccionar archivos por patrones</title>
+      <para>
+        <emphasis>Pulse Ctrl+S para seleccionar múltiples archivos que tienen nombres
+        similares.</emphasis>
+      </para>
+      <para>Puede seleccionar archivos de una carpeta en base a un patrón sobre el nombre del
+      archivo. Pulse Ctrl+S para abrir la ventana Seleccionar elementos que coincidan con. Teclee
+      un patrón que tenga partes comunes de los nombres de archivos y caracteres comodín.</para>
+      <para>Existen dos caracteres comodín disponibles:</para>
+      <itemizedlist>
+        <listitem>
+          <para>* coincide con cualquier número de cualquier carácter, aunque no en todos.</para>
+        </listitem>
+        <listitem>
+          <para>? coincide exactamente con uno de cualquiera de los caracteres.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Por ejemplo:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Si tiene un archivo de texto de OpenDocument, un archivo PDF y una imagen, todos
+          con el mismo nombre base Factura, seleccione los tres con el patrón</para>
+          <itemizedlist>
+            <listitem>
+              <para>Factura.*</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+        <listitem>
+          <para>Si tiene algunas fotos con nombres tales como Vacaciones-001.jpg,
+          Vacaciones-002.jpg, Vacaciones-003.jpg; selecciónelas con el patrón</para>
+          <itemizedlist>
+            <listitem>
+              <para>Vacaciones-???.jpg</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+        <listitem>
+          <para>Si tiene fotos como las anteriores pero ha editado alguna de ellas y luego ha
+          añadido editada al final del nombre de archivo de la foto editada, seleccione las fotos
+          editadas con</para>
+          <itemizedlist>
+            <listitem>
+              <para>Vacaciones-???-editada.jpg</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1 id='sec:Qu-es-un-24' xreflabel='¿Qué es un archivo con una «~» al final del nombre?'>
+      <title>¿Qué es un archivo con una «~» al final del nombre?</title>
+      <para>Estos son archivos de copias de seguridad. Están ocultos de manera
+      predeterminada.</para>
+      <para>¿Qué es un archivo con una «~» al final del nombre?</para>
+      <para>Los archivos con «~» al final de sus nombres (por ejemplo, ejemplo.txt~) son copias de
+      respaldo creadas de forma automática al editar documentos en el editor de textos gedit o en
+      otras aplicaciones. Generalmente es seguro eliminarlos, pero en realidad no es
+      necesario.</para>
+      <para>Esos archivos están ocultos de manera predeterminada. Si los está viendo, es porque
+      seleccionó Ver - Mostrar los archivos ocultos o porque pulsó Ctrl+H. Puede volver a
+      ocultarlos repitiendo uno de estos pasos.</para>
+      <para>Estos archivos se tratan de la misma forma que los archivos ocultos normales. Consulte
+      la Ocultar un archivo para asesorarse sobre cómo trabajar con archivos ocultos.</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Compartir-tus-archivos' xreflabel='Compartir tus archivos'>
+    <title>Compartir tus archivos</title>
+    <para>
+    <emphasis>Es posible compartir cualquier archivo con compañeros y docentes a través del
+    Navegador Web de Canaima usando la carpeta Compartir Web que está en la netbook. También se
+    puede diseñar una pagina web propia y guardarla en esa carpeta. A continuación el paso a paso
+    para saber cómo compartir (antes asegurate de haber cambiado el nombre a tu
+    computadora:</emphasis>
+    <xref linkend="sec:Cambiar-el-nombre" />)</para>
+    <sect1 id="compartirweb" xreflabel="Compartir archivos a través de Compartir Web">
+      <title>Compartir a través de Compartir Web</title>
+      <para>Para compartir tus archivos con tus compañeros y docentes tienes que seguir los
+      siguientes pasos:</para>
+      <orderedlist>
+        <listitem>
+          <para>Asegurate de haberle cambiado el nombre a tu computadora (Ver 
+          <xref linkend="sec:Cambiar-el-nombre" />)</para>
+        </listitem>
+        <listitem>
+          <para>Guardá en la carpeta Compartir Web el archivo o carpeta que quieras
+          compartir</para>
+        </listitem>
+        <listitem>
+          <para>Que la persona con la que quieres compartir abra el navegador e ingrese en la barra
+          de direcciones el nombre de tu computadora seguido de ".local" (sin comillas).</para>
+          <para>Por ejemplo si el nombre de tu computadora es "Canaima", tiene que ingresar
+          "Canaima.local" (sin comillas). Los nombres de las maquinas tienen que tener solamente
+          letras, números y guiones medios (sin otros caracteres).</para>
+          <para>Por eso es importante cambiar el nombre. Por que si todas las netbook se llaman
+          Canaima no vas a saber con cual compartir.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Documentos' xreflabel='Documentos'>
+    <title>Documentos</title>
+    <para>
+      <emphasis>En este apartado encontrarás todo lo que necesitás para trabajar con tus
+      documentos, buscar información sobre estos, crear colecciones y muchas cosas más.</emphasis>
+    </para>
+    <para>Documentos es una aplicación de 
+    <xref linkend="sub:GNOME" /> que le permite leer, guardar y organizar la información de los
+    documentos que cree.</para>
+    <para>Los formatos soportados PDF, DVI, XPS, PostScript y todos los formatos soportados por
+    Evince, Microsoft Office, Libreoffice y Google Docs.</para>
+    <para>Cuando abra Documentos se mostrarán todos los documentos que tenga en su equipo, así como
+    los documentos en los que haya trabajado de manera remota Google Docs. Esto es posible si
+    previamente ha configurado una cuenta en línea.</para>
+    <para>Puede gestionar los documentos usando el explorador de archivos, así como imágenes,
+    vídeos o música; pero Documentos puede hacer más aparte de imprimir, compartir, buscar, ordenar
+    o gestionar favoritos. Con Documentos, puede leer sus documentos en pantalla completa, si la
+    distracción de herramientas o menús que otras aplicaciones sí tienen. También proporciona un
+    recordatorio de los documentos que ha leído, crea colecciones e identifica sus documentos
+    rápidamente mediante la miniatura anterior.</para>
+    <sect1 id='sec:Crear-colecciones-de' xreflabel='Crear colecciones de documentos'>
+      <title>Crear colecciones de documentos</title>
+      <para>Documentos le permite agrupar varios documentos de diferentes tipos en un único lugar
+      llamado Colección.</para>
+      <para>Si tiene documentos relacionados, puede agruparlos para encontrarlos más fácilmente.
+      Por ejemplo, puede armar una colección para una materia, si realizó una presentación, puede
+      agrupar documentos como las consignas de un trabajo práctico (que es un archivo PDF), una
+      hoja de cálculo con gráficos y otros documentos PDF/ODF en una colección.</para>
+      <para>Podría pensar que puede anidar colecciones, pero el comportamiento de las colecciones
+      no el es mismo que el de las carpetas y su jerarquía. Por lo tanto, no puede anidar
+      colecciones. Puede buscar colecciones:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Pulsando Ctrl+F o Ctrl+S.</para>
+        </listitem>
+        <listitem>
+          <para>Escribiendo el nombre de la collección.</para>
+        </listitem>
+        <listitem>
+          <para>Pulsando en el ícono de la lupa y seleccionando los filtros relacionados con la
+          colección que está buscando.</para>
+        </listitem>
+        <listitem>
+          <para>Puede añadir una palabra para que la búsqueda sea más específica.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>Enviar una colección de documentos a alguien</title>
+      <para>Puede compartir documentos o colecciones por correo-e, si previamente ha añadido una
+      cuenta en línea.</para>
+      <para>Para enviar documentos a su familia o a sus amigos desde Documentos:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse el botón Comprobar, situado en el lado derecho.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione los documentos o las colecciones que quiere compartir.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse el ícono de las Tres flechas en la barra de menú inferior.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+    <sect1>
+      <title>Ver sólo sus documentos favoritos</title>
+      <para>Hay documentos o colecciones con los que uno trabaja frecuentemente y que necesita
+      buscarlos lo más rápido posible.</para>
+      <para>Por suerte, puede identificar fácilmente estos documentos si los marca como favoritos.
+      Para mostrar documentos o colecciones marcadas como favoritas:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Pulse el botón Comprobar.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione los documentos o los documentos que quiere marcar como favoritos.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse el ícono del Corazón en la barra de menú inferior.</para>
+        </listitem>
+        <listitem>
+          <para>Para desmarcar un documento o una colección, pulse sobre el documento o sobre la
+          colección y pulse el botón del corazón del menú inferior.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>Buscar información sobre los documentos</title>
+      <para>Cuando crea un documento, también se crean metadatos. Los metadatos son información
+      sobre el documento como el propietario, el tipo, el tamaño, el número de páginas, la fecha
+      del último acceso y de la última modificación.</para>
+      <para>Generalmente, estas propiedades se guardan, pero la información futura también se añade
+      y se puede buscar. Actualmente, puede elegir que la búsqueda se aplique a todo, o que sólo
+      coincida el título o el autor.</para>
+      <para>Para configurarla:</para>
+      <para>Seleccione Buscar en la menú desplegable que se muestra al pulsar la flecha a la
+      derecha de la caja de búsqueda. Documentos no ofrece actualmente ningún mecanismo para añadir
+      privacidad al documento. Sin embargo, generalmente puede hacer esto desde su aplicación para
+      crear el contenido (ej, LibreOffice o Adobe Acrobat). Sin embargo, algunos tipos de
+      documentos (ej. archivos PDF) se pueden proteger con contraseña, y es posible que no pueda
+      acceder a todos los metadatos o a su contenido.</para>
+    </sect1>
+    <sect1>
+      <title>Encontrar dónde se guarda un documento</title>
+      <para>Es posible que olvide el nombre de la carpeta en la que dejó los documentos, pero puede
+      recordar una palabra del nombre o del título, o algo sobre el documento que está
+      buscando.</para>
+      <para>Documentos le permite encontrar sus documentos o colecciones (VER: 
+      <xref linkend="sec:Crear-colecciones-de" />) buscando una palabra del título del
+      documento:</para>
+      <orderedlist>
+        <listitem>
+          <para>Pulse el botón Comprobar.</para>
+        </listitem>
+        <listitem>
+          <para>Vaya al menú superior de búsqueda y escriba la palabra que identifica su documento
+          o colección.</para>
+        </listitem>
+        <listitem>
+          <para>Seleccione el documento o la colección y pulse con el botón derecho para ver las
+          Propiedades del documento o de la colección.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+    <sect1>
+      <title>Ver documentos guardados/compartidos en línea</title>
+      <para>Cuando abre Documentos, todos los documentos que tenga en su equipo con diferentes
+      extensiones aparecen automáticamente como miniaturas.</para>
+      <para>Estos documentos locales se presentan junto con los documentos en línea. Los documentos
+      en línea se cargan desde diferentes fuentes o proveedores como GoogleDocs. Esto es posible si
+      previamente ha configurado una cuenta en línea.</para>
+      <para>Ver documentos guardados/compartidos local o remotamente/GoogleDocs:</para>
+      <para>Pulse el botón Comprobar, situado en el lado derecho. Los documentos están listos para
+      revisarlos, editarlos, imprimirlos o compartirlos.</para>
+    </sect1>
+    <sect1>
+      <title>¿Por qué no hay vistas previas para algunos archivos?</title>
+      <para>Cada vez que abre Documentos puede ver una vista previa en miniatura en la mayoría de
+      los documentos. Los documentos mostrados en la vista previa en miniatura se guardan
+      localmente.</para>
+      <para>Es posible que no vea la vista previa de otros (o que se muestre en blanco) ya que se
+      guardan en un servidor remoto como Google Docs.</para>
+      <para>Si quiere ver la vista previa en miniatura de los documentos almacenados en servidores
+      remotos, puede descargarlos para que se genere la miniatura, ya que se almacenarán localmente
+      en su equipo.</para>
+      <para>El contenido del documento de Google Docs se actualizará cuando descargue el documento.
+      Si quiere leerlo y editarlo en línea como estaba haciendo antes, es mejor que no lo
+      descargue.</para>
+    </sect1>
+    <sect1>
+      <title>Buscar archivos</title>
+      <para>Puede buscar documentos:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Pulsando Ctrl+F o Ctrl+S.</para>
+        </listitem>
+        <listitem>
+          <para>Escribiendo el nombre del documento.</para>
+        </listitem>
+        <listitem>
+          <para>Pulsando en el ícono de la lupa y seleccionando los filtros relacionados con el
+          documento que está buscando.</para>
+        </listitem>
+        <listitem>
+          <para>Puede añadir una palabra para que la búsqueda del documento sea más
+          específica.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
+      <title>No puedo ver mis documentos</title>
+      <para>Asegúrese de que 
+      <xref linkend="sub:Tracker" /> se está ejecutando en su sesión; la configuración
+      predeterminada debería establecerse a archivos índice en su carpeta personal (no recursiva) y
+      carpetas XDG (recursivas); asegúrese de que los archivos creados para la demostración están
+      en una de estas rutas.</para>
+    </sect1>
+    <sect1>
+      <title>Ver archivos en una lista o en una rejilla</title>
+      <para>Los documentos y las colecciones se muestran en forma de Rejilla de manera
+      predeterminada.</para>
+      <para>Para verlos en forma de Lista:</para>
+      <orderedlist>
+        <listitem>
+          <para>Vaya a la barra superior y pulse en Documentos.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse en Lista en la sección Ver como.</para>
+        </listitem>
+        <listitem>
+          <para>Pulse en Rejilla para volver al formato predeterminado.</para>
+        </listitem>
+      </orderedlist>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Back-up' xreflabel='Back up'>
+    <title>Back up</title>
+    <para>
+      <emphasis>En este apartado podrás encontrar todo lo que necesitas saber para asegurarte que
+      tus archivos no corran el riesgo de perderse o deteriorarse.</emphasis>
+    </para>
+    <sect1 id='sec:Hacer-copias-de' xreflabel='Hacer copias de respaldo de mis archivos importantes'>
+      <title>Hacer copias de respaldo de mis archivos importantes</title>
+      <para>
+      <emphasis>Respaldar</emphasis>sus archivos significa, sencillamente, hacer una copia de todos
+      sus archivos para su custodia. Esto se hace en caso de que los archivos originales queden
+      inutilizables en caso de pérdida o deterioro. Esas copias pueden usarse para restaurar los
+      datos originales si se perdieran. Las copias deberían almacenarse en un dispositivo distinto
+      al de los archivos originales. Por ejemplo, puede usar una unidad USB, un disco duro externo,
+      un CD o DVD o un servicio externo.</para>
+      <para>La mejor manera de respaldar sus archivos es hacerlo regularmente y mantener las copias
+      fuera del sitio y cifradas (si es posible).</para>
+    </sect1>
+    <sect1 id='sec:Compruebe-su-copia' xreflabel='Compruebe su copia de respaldo'>
+      <title>Compruebe su copia de respaldo </title>
+      <para>Una vez que haya realizado el backup/copia de los archivos, debería asegurarse de que
+      la copia se realizó correctamente. Si no funcionó correctamente puede perder datos
+      importantes, dado que algunos archivos pueden perderse en el respaldo.</para>
+      <para>Cuando usa el 
+      <emphasis>
+        <xref linkend="sub:Gestor-de-archivos" />
+      </emphasis>para copiar o mover archivos, el equipo comprueba que todos los datos se
+      transfieren correctamente. No obstante, si está transfiriendo datos muy importantes, puede
+      querer realizar comprobaciones adicionales para confirmar que sus datos se transfirieron
+      correctamente.</para>
+      <para>Puede hacer una comprobación adicional mirando a través de los archivos y carpetas
+      copiadas en el medio de destino. Comprobando que los archivos y carpetas realmente se han
+      trasladado a la copia de seguridad, puede tener la confianza adicional de que el proceso se
+      ha realizado correctamente.</para>
+      <para>Si observa que suele hacer a menudo copias de respaldo de grandes cantidades de datos,
+      puede que le resulte más fácil usar un programa específico de copias de respaldo, como 
+      <xref linkend="sub:Dj-Dup-25" />. Ese programa es más potente y fiable que simplemente copiar
+      y pegar los archivos.</para>
+    </sect1>
+    <sect1 id='sec:Cmo-hacer-una-26' xreflabel='¿Cómo hacer una copia de seguridad?'>
+      <title>¿Cómo hacer una copia de seguridad?</title>
+      <para>La manera más sencilla de hacer copias de seguridad de sus archivos y configuración es
+      dejar a una aplicación de copia de seguridad que gestione los procesos de respaldo.</para>
+      <para>Hay varias aplicaciones que sirven para este fin, por ejemplo 
+      <xref linkend="sub:Dj-Dup-25" />. La ayuda de la aplicación elegida le guiará mientras
+      establece sus preferencias de copia de respaldo, así como para restaurar sus datos.</para>
+      <para>Una opción alternativa consiste, simplemente, en copiar sus archivos en un lugar
+      seguro, como un disco duro externo, otro equipo de la red, o una unidad USB.</para>
+      <para>Sus archivos personales y preferencias suelen estar en su carpeta personal, por lo que
+      puede copiarlos de ahí. La cantidad de datos que puede respaldar está limitada por el tamaño
+      del dispositivo de almacenamiento. Si tiene espacio suficiente en su dispositivo de respaldo,
+      es mejor copiar la carpeta personal completa con las siguientes excepciones: Archivos que
+      están respaldados en algún sitio, tal como un CD o un DVD, u otro medio extraíble. Los
+      archivos que puede volver a crear fácilmente. Por ejemplo, si es programador, no tiene que
+      respaldar todos los archivos que ha generado al compilar sus programas. En su lugar,
+      simplemente asegúrese de que respalda los archivos fuente originales. Cualquier archivo en la
+      carpeta Papelera. Puede encontrar su carpeta de Papelera en ~/.local/share/Trash.</para>
+    </sect1>
+    <sect1 id='sec:Restaurar-una-copia' xreflabel='Restaurar una copia de respaldo'>
+      <title>Restaurar una copia de respaldo</title>
+      <itemizedlist>
+        <listitem>
+          <para>Si ha perdido o eliminado algunos de sus archivos pero tiene un respaldo de los
+          mismos, puede restaurarlos desde el respaldo.</para>
+        </listitem>
+        <listitem>
+          <para>Si quiere restaurar su respaldo desde un dispositivo tal como un disco duro
+          externo, una unidad USB u otro equipo de la red, puede copiarlos de nuevo en su
+          equipo.</para>
+        </listitem>
+        <listitem>
+          <para>Si ha creado su respaldo usando una aplicación de respaldos tal como 
+          <xref linkend="sub:Dj-Dup-25" />, se recomienda que use la misma aplicación para
+          restaurar su respaldo. Revise la ayuda de la aplicación de su programa de respaldos: le
+          proporcionará instrucciones específicas acerca de cómo restaurar sus archivos.</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1 id='sec:Dnde-puedo-encontrar-27' xreflabel='¿Dónde puedo encontrar los archivos a los que quiero hacerles una copia de respaldo?'>
+      <title>¿Dónde puedo encontrar los archivos a los que quiero hacerles una copia de respaldo?</title>
+      <para>Decidir qué archivos respaldar y saber dónde están es el paso más difícil al intentar
+      llevar a cabo una copia de respaldo. A continuación se listan las ubicaciones más comunes de
+      archivos y ajustes importantes que puede querer respaldar.</para>
+      <para>
+      <emphasis>Archivos personales</emphasis>(documentos, música, fotos y vídeos)</para>
+      <para>Generalmente están almacenados en su carpeta (/home/su_nombre). Pueden estar en
+      subcarpetas como Escritorio, Documentos, Imágenes, Música y Vídeos.</para>
+      <para>Si el medio que usa para sus respaldos tiene suficiente espacio (si es un disco duro
+      externo, por ejemplo), considere respaldar completamente su carpeta personal. Puede averiguar
+      cuánto espacio de disco duro usa su carpeta personal usando el 
+      <emphasis>Analizador de uso de disco</emphasis>.</para>
+      <para>
+        <emphasis>Archivos ocultos</emphasis>
+      </para>
+      <para>De forma predeterminada se oculta cualquier carpeta o archivo que comience por un punto
+      (.). Para ver archivos ocultos, pulse 
+      <emphasis>Ver - Mostrar archivos ocultos</emphasis>o pulse Ctrl+H <!--keycombo-->.</para>
+      <para>Puede copiarlos a una ubicación de respaldo como cualquier otro tipo de archivo.</para>
+      <para>
+      <emphasis>Configuración personal</emphasis>(preferencias del escritorio, temas y
+      configuración del software)</para>
+      <para>La mayoría de las aplicaciones almacenan su configuración en carpetas ocultas dentro de
+      su carpeta personal (para obtener más información acerca de archivos ocultos, ver más
+      arriba). La mayor parte de la configuración de sus aplicaciones se almacenará en las carpetas
+      ocultas .config, .gconf, .gnome2 y .local en su carpeta personal.</para>
+      <para>
+        <emphasis>Configuración global del sistema</emphasis>
+      </para>
+      <para>La configuración de las partes importantes de su sistema so no almacena en su carpeta
+      personal. Hay varias ubicaciones en las que se puede almacenar, pero la mayoría lo hacen en
+      la carpeta /etc. En general, no necesita hacer una copia de respaldo de estos archivos en un
+      ordenador personal. Sin embargo, si se trata de un servidor, debería crear una copia de
+      respaldo de los archivos de los servicios que estén en ejecución. Más información Hacer
+      copias de respaldo</para>
+    </sect1>
+    <sect1 id='sec:Frecuencia-de-las' xreflabel='Frecuencia de las copias de respaldo'>
+      <title>Frecuencia de las copias de respaldo</title>
+      <para>Una vez que haya respaldado los archivos (Ver: 
+      <xref linkend="sec:Hacer-copias-de" />), debería asegurarse de que la copia se realizó
+      correctamente.</para>
+      <para>Si no funcionó correctamente puede perder datos importantes, dado que algunos archivos
+      pueden perderse en el respaldo. Cuando usa el gestor de archivos para copiar o mover
+      archivos, el equipo comprueba que todos los datos se transfieren correctamente. No obstante,
+      si está transfiriendo datos muy importantes, puede querer realizar comprobaciones adicionales
+      para confirmar que sus datos se transfirieron correctamente.</para>
+      <para>Puede hacer una comprobación adicional mirando a través de los archivos y carpetas
+      copiadas en el medio de destino. Comprobando que los archivos y carpetas realmente se han
+      trasladado a la copia de seguridad, puede tener la confianza adicional de que el proceso se
+      ha realizado correctamente. Si observa que suele hacer a menudo copias de respaldo de grandes
+      cantidades de datos, puede que le resulte más fácil usar un programa específico de copias de
+      respaldo, como 
+      <xref linkend="sub:Dj-Dup-25" />. Ese programa es más potente y fiable que simplemente copiar
+      y pegar los archivos.</para>
+    </sect1>
+    <sect1>
+      <title>¿De qué cosas debería hacerse una copia de respaldo?</title>
+      <para>Su prioridad debería ser respaldar sus archivos más importantes así como los que
+      resulten difíciles de crear de nuevo. Por ejemplo, ordenados de mayor a menor
+      importancia:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Sus archivos personales</para>
+        </listitem>
+      </itemizedlist>
+      <para>Esto puede incluir documentos, hojas de cálculo, correo-e, citas en el calendario,
+      datos financieros, fotos familiares o cualquier cosa personal que considere
+      irreemplazable.</para>
+      <itemizedlist>
+        <listitem>
+          <para>Su configuración personal</para>
+        </listitem>
+      </itemizedlist>
+      <para>Esto incluye los cambios que haya hecho a los colores, fondos, resolución de la
+      pantalla y configuración del mouse en su escritorio. También incluye las preferencias de las
+      aplicaciones, como la configuración de LibreOffice, su reproductor de música y su programa de
+      correo electrónico. Son reemplazables, pero puede tardar un tiempo en volverlos a
+      crear.</para>
+      <itemizedlist>
+        <listitem>
+          <para>Configuración del sistema</para>
+        </listitem>
+      </itemizedlist>
+      <para>La mayoría de la gente nunca cambia la configuración que se crea durante la
+      instalación. Si se personaliza la configuración del sistema, o si usa su equipo como un
+      servidor, entonces es posible que quiera hacer una copia de respaldo de esta
+      configuración.</para>
+      <itemizedlist>
+        <listitem>
+          <para>Software instalado</para>
+        </listitem>
+      </itemizedlist>
+      <para>El software que usa se puede restaurar normalmente de manera rápida después de un
+      problema serio en el equipo, reinstalándolo.</para>
+      <para>En general, querrá respaldar los archivos que sean irreemplazables así como los que
+      necesiten de una gran inversión para sustituirlos si no se tuviera copia de respaldo. Por
+      otra parte, si todo resulta fácil de sustituir, puede que no desee usar espacio de disco
+      respaldándolo.</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Vista-de-archivos' xreflabel='Vista de archivos y carpetas'>
+    <title>Vista de archivos y carpetas</title>
+    <para>
+      <emphasis>En este capítulo encontrarás todo lo referente a cómo visualizar y personalizar los
+      archivos y carpetas en Canaima.</emphasis>
+    </para>
+<sect1>
+      <title>Preferencias de comportamiento del gestor de archivos</title>
+      <para>Puede controlar si necesita una pulsación o dos para abrir archivos, si las carpetas se
+      abren en ventanas nuevas, cómo se gestionarán los archivos de texto ejecutables, y el
+      comportamiento de la papelera. En cualquier ventana del gestor de archivos, pulse en Editar -
+      Preferencias y seleccione la pestaña Comportamiento.</para>
+      <sect2>
+        <title>Comportamiento</title>
+        <bridgehead renderas="sect3">Una sola pulsación o doble pulsación para abrir
+        elementos</bridgehead>
+        <para>De manera predeterminada, al pulsar una vez se seleccionan archivos, y pulsando dos
+        veces se abren. Puede optar por abrir archivos y carpetas pulsándolos una sola vez. En el
+        modo de una sola pulsación, puede mantener apretada la tecla Ctrl mientras pulsa con el
+        mouse para seleccionar uno o más archivos.</para>
+        <bridgehead renderas="sect3">Abrir cada carpeta en su propia ventana</bridgehead>
+        <para>Cuando abre una carpeta en el 
+        <xref linkend="sub:Gestor-de-archivos" />, generalmente se abre en la misma ventana. Puede
+        pulsar con el botón derecho sobre una carpeta y seleccionar Abrir en una ventana nueva para
+        abrir cualquier carpeta individual en una ventana nueva. Si hace esto a menudo, seleccione
+        esta opción para que, de forma predeterminada, cada carpeta se abra en su propia
+        ventana.</para>
+      </sect2>
+      <sect2 id='sub:Archivos-de-texto-1.' xreflabel='Archivos de texto ejecutables'>
+        <title>Archivos de texto ejecutables</title>
+        <para>Un archivo de texto ejecutable es un archivo que contiene un programa que puede
+        ejecutar. Los permisos de archivo (Ver 
+        <xref linkend="sec:Establecer-los-permisos" />) también deben permitir que el archivo pueda
+        ejecutarse como un programa. Los más frecuentes suelen ser scripts del intérprete de
+        comandos, de Python y de Perl. Tienen extensión .sh, .py, y .pl respectivamente.</para>
+        <para>Puede seleccionar Ejecutar archivos de texto ejecutables al abrirlos, Ver los
+        archivos de texto ejecutables al abrirlos o Preguntar cada vez. Si se selecciona esta
+        última opción, se mostrará una ventana preguntándole si quiere ejecutar o ver el archivo de
+        texto seleccionado.</para>
+      </sect2>
+    </sect1>
+    <sect1 id='sec:Preferencias-de-la-1.' xreflabel='Preferencias de la vista del gestor de archivos'>
+      <title>Preferencias de la vista del gestor de archivos</title>
+      <para>Puede controlar varios aspectos relativos a cómo visualiza los archivos el gestor de
+      archivos, incluyendo las leyendas de debajo de los íconos y cómo se formatean las fechas. En
+      cualquier ventana del gestor de archivos, pulse Editar - Preferencias y seleccione la pestaña
+      Visualización.</para>
+      <sect2>
+        <title>Títulos de íconos</title>
+        <para>Cuando se utiliza la vista de íconos, puede optar por tener información adicional
+        acerca de los archivos y carpetas mostrando una leyenda debajo de cada ícono. Esto es útil,
+        por ejemplo, si a menudo necesita ver que es propietario de un archivo o cuándo se modificó
+        por última vez.</para>
+        <para>A medida que aumente el nivel de ampliación de una carpeta (en el menú Ver), el
+        gestor de archivos le mostrará cada vez más información en las leyendas. Puede elegir hasta
+        tres cosas que mostrar en las leyendas. La primera se mostrará en la mayoría de los niveles
+        de ampliación. La última se mostrará solo en tamaños muy grandes.</para>
+        <para>La información que se puede mostrar en las leyendas de los íconos es la misma que las
+        columnas que pueden aparecer en la vista de lista. Consulte las 
+        <xref linkend="sec:Preferencias-de-las-1." /> para obtener más información.</para>
+        <para>Si tiene una ventana del gestor de archivos abierta, puede tener que recargarla para
+        que el cambio en los títulos de los íconos tenga efecto. Pulse Ver - Recargar o pulse
+        Ctrl+R.</para>
+      </sect2>
+      <sect2>
+        <title>Formato de fecha</title>
+        <para>La hora de acceso y modificación de los archivos se puede visualizar en los textos de
+        los íconos o en las columnas de la vista de lista. Puede elegir el formato de fecha que sea
+        más fácil desde la lista desplegable Formato. Los formatos disponibles incluyen un formato
+        detallado, que se puede escribir a mano, un formato estándar internacional, y un formato
+        que utiliza frases relativas como hoy y ayer. La lista desplegable muestra los formatos con
+        ejemplos, al mostrar la fecha y hora actuales en ese formato.</para>
+      </sect2>
+    </sect1>
+    <sect1 id='sec:Preferencias-de-las-1.' xreflabel='Preferencias de las columnas en la lista del gestor de archivos'>
+      <title>Preferencias de las columnas en la lista del gestor de archivos</title>
+      <para>Hay doce columnas de información que puede visualizar en la vista de lista del gestor
+      de archivos. Pulse Editar - Preferencias y seleccione la pestaña Columnas de la lista para
+      seleccionar qué columnas quiere que sean visibles.</para>
+      <para>Use los botones Subir y Bajar para seleccionar el orden en el que aparecerán las
+      columnas seleccionadas.</para>
+      <bridgehead renderas="sect3">Nombre</bridgehead>
+      <para>El nombre de las carpetas y archivos en la carpeta que se está visualizando.</para>
+      <bridgehead renderas="sect3">Tamaño</bridgehead>
+      <para>El tamaño de una carpeta viene dado por el número de elementos que contiene dicha
+      carpeta. El tamaño de un archivo viene dado en bytes, KB o MB.</para>
+      <bridgehead renderas="sect3">Tipo</bridgehead>
+      <para>Mostrado como carpeta, o tipo de archivo como documento PDF, imagen JPEG, sonido MP3,
+      etcétera.</para>
+      <bridgehead renderas="sect3">Fecha de modificación</bridgehead>
+      <para>Da la fecha y hora de la última vez que se modificó el archivo.</para>
+      <bridgehead renderas="sect3">Fecha de acceso</bridgehead>
+      <para>Da la fecha y hora de la última vez que se accedió al archivo.</para>
+      <bridgehead renderas="sect3">Grupo</bridgehead>
+      <para>El grupo al que pertenece el archivo. En equipos domésticos, cada usuario pertenece a
+      su propio grupo. Los grupos se usan a veces en entornos empresariales, donde los usuarios
+      pueden pertenecer a ciertos grupos en función de su departamento o proyecto.</para>
+      <bridgehead renderas="sect3">Ubicación</bridgehead>
+      <para>La ruta a la ubicación del archivo.</para>
+      <bridgehead renderas="sect3">Tipo MIME</bridgehead>
+      <para>Muestra el tipo MIME del elemento.</para>
+      <bridgehead renderas="sect3">Permisos</bridgehead>
+      <para>Muestra los permisos de acceso del archivo. Ej. drwxrw-r--</para>
+      <itemizedlist>
+        <listitem>
+          <para>El primer carácter - es el tipo de archivo. - significa archivo normal y d
+          significa directorio (carpeta).</para>
+        </listitem>
+        <listitem>
+          <para>Los tres caracteres siguientes rwx especifican los permisos para el usuario
+          propietario del archivo.</para>
+        </listitem>
+        <listitem>
+          <para>Los tres siguientes rw- especifican los permisos para todos los miembros del grupo
+          al que pertenece el archivo.</para>
+        </listitem>
+        <listitem>
+          <para>Los tres últimos caracteres de la columna r-- especifican los permisos para todos
+          los demás usuarios del sistema.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Cada carácter tiene el siguiente significado:</para>
+      <variablelist>
+        <varlistentry>
+          <term>r</term>
+          <listitem>
+            <para>: permiso de lectura.</para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>w</term>
+          <listitem>
+            <para>: permiso de escritura.</para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>x</term>
+          <listitem>
+            <para>: permiso de ejecución.</para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>-</term>
+          <listitem>
+            <para>: sin permiso.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+      <bridgehead renderas="sect3">Permisos octales</bridgehead>
+      <para>Muestra los permisos de archivos en notación octal anteponiendo «40» para carpetas y
+      «100» para archivos. En los tres últimos dígitos, cada dígito representa los permisos del
+      usuario, del grupo y del resto de usuarios, respectivamente.</para>
+      <itemizedlist>
+        <listitem>
+          <para>El permiso de lectura añade 4 al total de cada uno de los tres últimos
+          dígitos.</para>
+        </listitem>
+        <listitem>
+          <para>El permiso de escritura añade 2 al total.</para>
+        </listitem>
+        <listitem>
+          <para>El permiso de ejecución añade 1 al total.</para>
+        </listitem>
+      </itemizedlist>
+      <bridgehead renderas="sect3">Propietario</bridgehead>
+      <para>El nombre del usuario propietario de la carpeta o archivo.</para>
+      <bridgehead renderas="sect3">Contexto SELinux</bridgehead>
+      <para>Muestra el contexto SELinux del archivo, si es aplicable.}</para>
+    </sect1>
+    <sect1>
+      <title>Preferencias de la vista previa del gestor de archivos</title>
+      <para>El gestor de archivos crea miniaturas para previsualizar archivos de imágenes, de vídeo
+      y de texto. Las vistas previas en miniatura pueden resultar lentas con archivos grandes o a
+      través de la red, por lo que puede controlar cuándo se harán vistas previas. En cualquier
+      ventana del gestor de archivos, pulse Editar - Preferencias y seleccione la pestaña Vista
+      previa.</para>
+      <para>De manera predeterminada, todas las vistas previas se harán sobre archivos locales
+      situados en su equipo o en unidades externas conectadas al mismo. El gestor de archivos puede
+      examinar archivos en otros equipos situados en una red de área local o en Internet. Si suele
+      examinar archivos a través de una red local a menudo, y la red local tiene un gran ancho de
+      banda, puede que quiera establecer algunas o todas las opciones de vista previa a
+      Siempre.</para>
+      <bridgehead renderas="sect3">Archivos de texto</bridgehead>
+      <para>El ícono de los archivos de texto plano se parece a una hoja de papel con texto dentro.
+      El gestor de archivos extrae automáticamente las primeras líneas de texto del archivo y las
+      muestra en el ícono. Puede activar o desactivar esta característica, o activarla solo para
+      los archivos situados en su equipo y en unidades externas locales.</para>
+      <bridgehead renderas="sect3">Otros archivos previsualizables</bridgehead>
+      <para>El gestor de archivos puede crear automáticamente miniaturas de imágenes, vídeos,
+      archivos PDF y otros tipos de archivos. Las aplicaciones con tipos de archivos personalizados
+      pueden proporcionar miniaturas para los archivos que crean. Puede activar o desactivar esta
+      característica solo para archivos en su equipo y en discos locales externos. También puede
+      permitir crear miniaturas para archivos por debajo de un cierto tamaño.</para>
+      <bridgehead renderas="sect3">Carpetas</bridgehead>
+      <para>Si muestra el tamaño de los archivos en las columnas de la vista de lista (Ver 
+      <xref linkend="sec:Preferencias-de-las-1." />) o en las leyendas de los íconos (Ver 
+      <xref linkend="sec:Preferencias-de-la-1." />), las carpetas mostrarán la cantidad de archivos
+      y carpetas que contienen. Contar los elementos que hay en una carpeta puede resultar lento,
+      especialmente en carpetas muy grandes, o a través de la red. Puede activar o desactivar esta
+      característica, o activarla solo para los archivos almacenados en su equipo y en unidades
+      externas locales.</para>
+    </sect1>
+    <sect1>
+      <title>Preferencias de las vistas del gestor de archivos</title>
+      <para>Puede controlar la vista predeterminada para las nuevas carpetas, cómo se ordenarán los
+      archivos y carpetas de manera predeterminada, el nivel de ampliación en las vistas compacta y
+      de íconos, y si se mostrarán los archivos en la barra lateral de árbol. En cualquier ventana
+      del gestor de archivos, pulse Editar - Preferencias y seleccione la pestaña Vistas.</para>
+      <sect2>
+        <title>Vista predeterminada</title>
+        <bridgehead renderas="sect3">Ver las carpetas nuevas usando</bridgehead>
+        <para>De manera predeterminada, las carpetas nuevas se muestran en la vista de íconos.
+        Puede seleccionar una vista para cada carpeta cuando navega y el gestor de archivos
+        recordará sus preferencias para cada carpeta. Pero si usar a menudo la lista o la vista
+        compacta, puede usar estas vistas de manera predeterminada.</para>
+        <para>Cambie la vista de una carpeta individual en el menú Ver pulsando en íconos, Lista o
+        Compacta.</para>
+        <bridgehead renderas="sect3">Organizar los elementos</bridgehead>
+        <para>Puede organizar los elementos de su carpeta por nombre, tamaño de archivo, tipo de
+        archivo, cuándo se modificaron por última vez, cuándo se accedió a ellos por última vez o
+        cuándo se tiraron a la papelera. Puede cambiar cómo se ordenan los archivos en una carpeta
+        concreta usando el menú Ver - Organizar los elementos, o pulsando en las cabeceras de las
+        columnas mostradas en la vista de lista. Para obtener más información la Ordenar archivos y
+        carpetas 
+        <xref linkend="sec:Ordenar-archivos-y" />. Este menú solo afecta a la carpeta actual, y el 
+        <xref linkend="sub:Gestor-de-archivos" />recordará sus preferencias de ordenación para cada
+        carpeta.</para>
+        <para>Use la lista desplegable Organizar los elementos en las preferencias para cambiar el
+        orden predeterminado a usar en las nuevas carpetas.</para>
+        <bridgehead renderas="sect3">Colocar las carpetas antes que los archivos</bridgehead>
+        <para>De manera predeterminada, el gestor de archivos mostrará todas las carpetas antes que
+        los archivos. A su vez, las carpetas y los archivos por separado se organizarán en función
+        del criterio de ordenación seleccionado. Si no desea tratar las carpetas de forma especial
+        y quiere tenerlas mezcladas con los archivos según el criterio de ordenación, seleccione
+        esta opción.</para>
+        <bridgehead renderas="sect3">Mostrar archivos ocultos y de respaldo</bridgehead>
+        <para>El 
+        <xref linkend="sub:Gestor-de-archivos" /> no muestra los archivos ocultos o carpetas de
+        manera predeterminada. Para obtener más información acerca de los archivos ocultos,
+        consulte 
+        <xref linkend="sec:Ocultar-un-archivo" />. Puede mostrar archivos ocultos en una ventana
+        individual del menú Ver. Si prefiere mostrar siempre los archivos ocultos, o si desea ver
+        los archivos ocultos en todas las ventanas del gestor de archivos abiertos, seleccione esta
+        opción.</para>
+      </sect2>
+      <sect2>
+        <title>Vista de ícono predeterminada</title>
+        <bridgehead renderas="sect3">Nivel de ampliación predeterminado:</bridgehead>
+        <para>Puede hacer que los íconos y el texto sean más grande o más pequeños en la vista de
+        íconos. Puede hacer esto en una carpeta individual del menú Ver y el gestor de archivos
+        recordará su elección para cada carpeta. Si utiliza con frecuencia un mayor o menor nivel
+        de ampliación, puede establecer el valor predeterminado con esta opción.</para>
+        <para>En la vista de íconos, se mostrarán más o menos leyendas informativas en función de
+        su nivel de ampliación. Para obtener más información, consulte la Títulos de íconos.</para>
+        <bridgehead renderas="sect3">Texto junto a los íconos</bridgehead>
+        <para>Al seleccionar esta opción, aparecerán los nombres de los archivos y carpetas a la
+        derecha de los íconos, en lugar de bajo estos. Esta es una distribución más compacta que le
+        permite ver más información a la vez.</para>
+      </sect2>
+      <sect2>
+        <title>Valores predeterminados de la vista compacta</title>
+        <bridgehead renderas="sect3">Nivel de ampliación predeterminado:</bridgehead>
+        <para>Puede hacer que los íconos y los textos sean más grandes o más pequeños en la vista
+        compacta. Puede hacerlo en una carpeta individual desde el menú Ver, y el gestor de
+        archivos recordará el nivel de aumento que usted haya seleccionado para cada carpeta. Si
+        suele usar con frecuencia un determinado nivel de aumento más grande o más pequeño, puede
+        establecer el nivel predeterminado con esta opción.</para>
+        <bridgehead renderas="sect3">Todas las columnas tienen la misma anchura</bridgehead>
+        <para>De manera predeterminada, cada columna de la vista compacta es tan ancha como
+        necesite para que quepan los nombres de los elementos en esa columna. Al seleccionar esta
+        opción, conseguirá que todas las columnas tengan la misma anchura. Esto hará que los
+        archivos y carpetas que tengan nombres más grandes que el ancho de la columna se muestren
+        con puntos suspensivos (...) al final.</para>
+      </sect2>
+      <sect2>
+        <title>Valores predeterminados de la vista de lista</title>
+        <bridgehead renderas="sect3">Nivel de ampliación predeterminado:</bridgehead>
+        <para>Puede hacer que los íconos y los textos sean más grandes o más pequeños en la vista
+        de lista. Puede hacerlo en una carpeta individual desde el menú Ver, y el gestor de
+        archivos recordará el nivel de aumento que usted haya seleccionado para cada carpeta. Si
+        suele usar con frecuencia un determinado nivel de aumento más grande o más pequeño, puede
+        establecer el nivel predeterminado con esta opción.</para>
+      </sect2>
+      <sect2>
+        <title>Valores predeterminados de la vista de árbol</title>
+        <para>Puede mostrar un árbol de carpetas completo en la barra lateral de su gestor de
+        archivos seleccionando Ver - Barra lateral - árbol. De manera predeterminada, la barra
+        lateral en árbol solo muestra carpetas. Si además quiere ver los archivos en la barra
+        lateral, desactive Mostrar solo carpetas.</para>
+      </sect2>
+    </sect1>
+  </chapter>
+</part>

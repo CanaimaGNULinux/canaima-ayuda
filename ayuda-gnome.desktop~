@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Ayuda
-Comment=Ayuda de Canaima para Gnamon
+Comment=Ayuda de Huayra para Gnome
 Exec=yelp /usr/share/canaima/help/gnome/ayuda.xml
 Icon=help-browser
 StartupNotify=true

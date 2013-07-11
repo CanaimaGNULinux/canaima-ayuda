@@ -1,9 +1,8 @@
-canaima-ayuda (0.17) testing; urgency=low
+canaima-ayuda (0.16) testing; urgency=low
 
   * Adaptando a canaima 4.0
 
  -- Sasha Solano <sashasolano@gmail.com>  Fri, 05 Jul 2013 17:12:39 -0300
-
 huayra-ayuda (0.16) testing; urgency=low
 
   * Nueva version

@@ -44,7 +44,7 @@ install:
 
 uninstall:
 
-	rm -r /usr/share/canaima/help/gnome
+	rm -r /usr/share/canaima/help/
 	rm -rf  /usr/share/applications/ayuda-gnome.desktop
 
 	
