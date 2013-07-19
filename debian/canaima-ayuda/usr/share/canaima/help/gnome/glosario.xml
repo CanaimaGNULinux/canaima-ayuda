@@ -1,0 +1,659 @@
+<part id='chap:Glosario' xreflabel='Glosario'>
+  <title>Glosario</title>
+  <chapter id='chap:A' xreflabel='A'>
+    <title>A </title>
+    <sect1>
+      <title>Administrador de tareas</title>
+      <para>Un administrador de tareas es un programa informático que se utiliza para proporcionar
+      información sobre los procesos y programas que se están ejecutando en una computadora y su
+      situación general. Puede emplearse para finalizar procesos, comprobar el uso de CPU de éstos,
+      así como terminar programas y cambiar la prioridad entre procesos. Para más información
+      http://es.wikipedia.org/wiki/Administrador_de_tareas</para>
+    </sect1>
+    <sect1 id='sub:Aplicaciones' xreflabel='Aplicaciones'>
+      <title>Aplicaciones</title>
+      <para>En informática, una aplicación es un tipo de programa informático diseñado como
+      herramienta que permite a un usuario realizar uno o diversos tipos de trabajos. Esto lo
+      diferencia principalmente de otros tipos de programas como los sistemas operativos (que hacen
+      funcionar al ordenador), las utilidades (que realizan tareas de mantenimiento o de uso
+      general), y los lenguajes de programación (con el cual se crean los programas
+      informáticos).</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Aplicaci%C3%B3n_inform%C3%A1tica</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:B' xreflabel='B'>
+    <title>B</title>
+    <sect1>
+      <title>Bit</title>
+      <para>El bit es la unidad mínima de información empleada en informática.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Bit</para>
+    </sect1>
+    <sect1>
+      <title>Bug</title>
+      <para>Un bug es un error de software.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Error_de_software</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:C' xreflabel='C'>
+    <title>C</title>
+    <sect1 id='sub:Cdec-23' xreflabel='Códec'>
+      <title>Códec</title>
+      <para>Códec es la abreviatura de codificador-decodificador. Describe una especificación
+      desarrollada en software, hardware o una combinación de ambos, capaz de transformar un
+      archivo con un flujo de datos (stream) o una señal. Los códecs pueden codificar el flujo o la
+      señal (a menudo para la transmisión, el almacenaje o el cifrado) y recuperarlo o descifrarlo
+      del mismo modo para la reproducción o la manipulación en un formato más apropiado para estas
+      operaciones. Los códecs son usados a menudo en videoconferencias y emisiones de medios de
+      comunicación.</para>
+      <para>Más información: 
+      <ulink url="http://es.wikipedia.org/wiki/Codec">
+      http://es.wikipedia.org/wiki/Codec</ulink></para>
+    </sect1>
+    <sect1 id='sub:Controladores' xreflabel='Controladores'>
+      <title>Controladores</title>
+      <para>Un controlador de dispositivo, llamado normalmente controlador (en inglés, device
+      driver) es un programa informático que permite al sistema operativo interactuar con un
+      periférico haciendo una abstracción del hardware y proporcionando una interfaz para usarlo.
+      Se puede esquematizar como un manual de instrucciones que le indica al sistema operativo ,
+      cómo debe controlar y comunicarse con un dispositivo en particular. Por tanto, es una pieza
+      esencial, sin la cual no se podría usar el hardware.</para>
+      <para>Los dispositivos son «partes» físicas de su equipo. Puede ser externos, como impresoras
+      y pantallas, o internos, como tarjetas gráficas y de sonido.</para>
+      <para>Para que su equipo pueda usar estos dispositivos, necesita saber cómo comunicarse con
+      ellos. Esto lo hace un elemento software denominado controlador del dispositivo.</para>
+      <para>Cuando conecta un dispositivo a su equipo, este debe tener instalado el controlador
+      correcto para que el dispositivo funcione. Por ejemplo, si conecta una impresora pero no
+      están disponibles los controladores adecuados, no podrá usar esa impresora. Generalmente,
+      cada marca y modelo de dispositivo tiene sus propios controladores, por lo que no podrá usar
+      el controlador de un dispositivo para hacer que funcione otro dispositivo distinto.</para>
+      <para>En GNU/Linux, los controladores para la mayoría de los dispositivos se instalan de
+      manera predeterminada, así que todo debería funcionar nada más conectarlo. Es posible que
+      necesite instalar el controlador manualmente, o puede que ni siquiera esté disponible.</para>
+      <para>Además, algunos controladores están incompletos o no funcionan correctamente. Por
+      ejemplo, es posible que su impresora no pueda imprimir a doble cara, pero por lo demás es
+      completamente funcional.</para>
+    </sect1>
+    <sect1 id='sub:Consola' xreflabel='Consola'>
+      <title>Consola
+      </title>
+      <para>Interfaz de Línea de Comandos (CLI), por su acrónimo en inglés de Command Line
+      Interface (CLI), o Consola de comandos es un método que permite a las personas dar
+      instrucciones a algún programa informático por medio de una línea de texto simple.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/L%C3%ADnea_de_comandos</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:D' xreflabel='D'>
+    <title>D
+    </title>
+    <sect1 id='sub:deb' xreflabel='deb'>
+      <title>deb
+      </title>
+      <para>deb es la extensión del formato de paquetes de software de Debian y derivadas
+      (e.j.Ubuntu), y el nombre más usado para dichos paquetes. Como Debian, su nombre proviene de
+      Deborah Murdock, ex-esposa del fundador de la distribución Ian Murdock. El programa
+      predeterminado para manejar estos paquetes es dpkg, generalmente vía apt/aptitude aunque hay
+      interfaces gráficas como Synaptic, PackageKit, Gdebi o en Ubuntu Software Center, desde la
+      version 3.0.</para>
+      <para>Gdebi instalando un paquete .deb. Los paquetes deb son archivos ar estándar de Unix que
+      incluyen dos archivos tar en formato gzip, bzip2 o lzma: uno de los cuales alberga la
+      información de control y el otro los datos. Un paquete deb también puede ser convertido a
+      otros formato de paquete y viceversa usando la aplicación alien.</para>
+    </sect1>
+    <sect1 id='sub:Dj-Dup-25' xreflabel='Déja Dup'>
+      <title>Déja Dup
+      </title>
+      <para>Déja Dup es una aplicación para realizar copias de seguridad de forma sencilla y cómoda
+      en la 
+      <xref linkend="sub:Distribucin-GNULinux-70" />. Está completamente integrado en el escritorio
+      
+      <xref linkend="sub:GNOME" />y consta únicamente de una ventana principal con dos botones: uno
+      para realizar una copia y el otro para restaurar. En las preferencias del programa es donde
+      se seleccionan los directorios a respaldar, los que se deben excluir y el resto de opciones
+      de configuración.</para>
+    </sect1>
+    <sect1 id='sub:Distribucin-GNULinux-70' xreflabel='Distribución GNU/Linux'>
+      <title>Distribución GNU/Linux
+      </title>
+      <para>Existen muchas distribuciones diferentes de 
+      <xref linkend="sub:GNULinux-11" />. Cada una con sus particularidades y decisiones diferentes
+      tomadas en torno a los elementos que hacen a una distribución 
+      <xref linkend="sub:GNULinux-11" />.</para>
+      <para>Los diferentes elementos que componen una distribución de GNU/Linux son:</para>
+      <para>- Entorno de escritorio - Sistema de ventanas - Administrador de ventanas - Sistema de
+      gestión de paquetes - Aplicaciones</para>
+      <para>Más información: http://es.wikipedia.org/wiki/GNU/Linux</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:E' xreflabel='E'>
+    <title>E
+    </title>
+    <sect1>
+      <title>Empaquetar</title>
+      <para>El empaquetado de aplicaciones consiste en proporcionar las aplicaciones en forma de
+      paquetes, a los que se suele llamar en inglés software bundle o application bundle. Estos
+      paquetes están formados por los programas ejecutables de la aplicación, así como por todas
+      las bibliotecas de las que depende y otro tipo de ficheros (como imágenes, ficheros de audio,
+      traducciones y localizaciones, etc.), de forma que se proporcionan como un conjunto. Las
+      bibliotecas de las que depende el programa pueden haber sido enlazadas tanto de forma
+      dinámica como también estática. Por tanto, el usuario percibe el paquete como un conjunto que
+      representa al programa en sí, cuando en realidad incluye otros ficheros.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Empaquetado_de_aplicaciones</para>
+    </sect1>
+    <sect1 id='sub:Entorno-de-escritorio' xreflabel='Entorno de escritorio'>
+      <title>Entorno de escritorio
+      </title>
+      <para>Un entorno de escritorio (en inglés desktop environment, abreviado DE) es un conjunto
+      de software para ofrecer al usuario de una computadora una interacción amigable y cómoda. Es
+      una implementación de interfaz gráfica de usuario que ofrece facilidades de acceso y
+      configuración, como barras de herramientas e integración entre aplicaciones con habilidades
+      como arrastrar y soltar. Los entornos de escritorios por lo general no permiten el acceso a
+      todas las características que se encuentran en un sistema operativo, por la ausencia de una
+      interfaz gráfica. En su lugar, la tradicional interfaz de línea de comandos (CLI) todavía se
+      utiliza cuando el control total sobre el sistema operativo se requiere en estos casos. Un
+      entorno de escritorio por lo general consiste de íconos, ventanas, barras de herramientas,
+      carpetas, fondos de pantalla y widgets de escritorio.</para>
+      <para>En general cada entorno de escritorio se distingue por su aspecto y comportamiento
+      particulares, aunque algunos tienden a imitar características de escritorios ya existentes.
+      El primer entorno moderno de escritorio que se comercializó fue desarrollado por Xerox en los
+      años 80. Actualmente el entorno más conocido es el ofrecido por la familia Windows, aunque
+      existen otros como los de Macintosh (Classic y Cocoa), o también de código abierto (o
+      software libre) como GNOME, KDE, CDE, Xfce o LXDE, comúnmente usados en distribuciones Linux
+      o BSD.</para>
+      <para>Mas información: http://es.wikipedia.org/wiki/Entorno_de_escritorio</para>
+    </sect1>
+    <sect1 id='sub:Extensin-de-archivo-22' xreflabel='Extensión de archivo'>
+      <title>Extensión de archivo
+      </title>
+      <para>En informática, una extensión de archivo o extensión de fichero, es una cadena de
+      caracteres anexada al nombre de un archivo, usualmente precedida por un punto. Su función
+      principal es diferenciar el contenido del archivo de modo que el sistema operativo disponga
+      el procedimiento necesario para ejecutarlo o interpretarlo, sin embargo, la extensión es
+      solamente parte del nombre del archivo y no representa ningún tipo de obligación respecto a
+      su contenido.</para>
+      <para>Así por ejemplo:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Extensión .txt es un archivo de texto plano</para>
+        </listitem>
+        <listitem>
+          <para>Extensión .odt es un archivo de texto enriquecido</para>
+        </listitem>
+        <listitem>
+          <para>Extensión .png es un archivo de imagen</para>
+        </listitem>
+      </itemizedlist>
+    </sect1>
+  </chapter>
+  <chapter id='chap:F' xreflabel='F'>
+    <title>F
+    </title>
+    <sect1>
+      <title>Ficheros</title>
+      <para>Un archivo o fichero informático es un conjunto de bits almacenado en un dispositivo.
+      Un archivo es identificado por un nombre y la descripción de la carpeta o directorio que lo
+      contiene. Los archivos informáticos se les llama así porque son los equivalentes digitales de
+      los archivos escritos en libros, tarjetas,libretas, papel o microfichas del entorno de
+      oficina tradicional. Los archivos informáticos facilitan una manera de organizar los recursos
+      usados para almacenar permanentemente datos en un sistema informático.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Fichero</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:G' xreflabel='G'>
+    <title>G
+    </title>
+    <sect1 id='sub:GNOME' xreflabel='GNOME'>
+      <title>GNOME
+      </title>
+      <para>GNOME es un entorno de escritorio e infraestructura de desarrollo para sistemas
+      operativos Unix y derivados Unix como GNU/Linux, BSD o Solaris; compuesto enteramente de
+      software libre.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/GNOME</para>
+    </sect1>
+    <sect1 id='sec:Gestor-de-actualizaciones' xreflabel='Gestor de actualizaciones'>
+      <title>Gestor de actualizaciones
+      </title>
+      <para>Es la aplicación que te permite mantener actualizado Huayra.</para>
+    </sect1>
+    <sect1 id='sub:Gestor-de-archivos' xreflabel='Gestor de archivos'>
+      <title>Gestor de archivos
+      </title>
+      <para>Un administrador de archivos, gestor de archivos o explorador de archivos (del inglés
+      file manager) es una aplicación informática que provee acceso a archivos y facilita el
+      realizar operaciones con ellos, como copiar, mover, eliminar archivos donde el usuario lo
+      quiera ubicar y poder ingresar a ellos para realizar ciertas tareas.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Administrador_de_archivos</para>
+    </sect1>
+    <sect1>
+      <title>Gestor de arranque</title>
+      <para>Un gestor de arranque (en inglés «bootloader») es un programa sencillo que no tiene la
+      totalidad de las funcionalidades de un sistema operativo, y que está diseñado exclusivamente
+      para preparar todo lo que necesita el sistema operativo para funcionar. Normalmente se
+      utilizan los cargadores de arranque multietapas, en los que varios programas pequeños se
+      suman los unos a los otros, hasta que el último de ellos carga el sistema operativo.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Gestor_de_arranque</para>
+    </sect1>
+    <sect1 id='sub:GNULinux-11' xreflabel='GNU/Linux'>
+      <title>GNU/Linux
+      </title>
+      <para>GNU/Linux es un 
+      <xref linkend="sub:Sistema-Operativo" />, como Windows o MacOS. Pero a diferencia de ellos,
+      es 
+      <xref linkend="sub:Software-libre" />. Popularmente se lo llama solo Linux. En realidad,
+      Linux es el núcleo del sistema operativo, y el resto de los programas dentro del mismo fueron
+      desarrollados por el Proyecto GNU.</para>
+      <para>Existen muchas distribuciones diferentes de GNU/Linux (Ver 
+      <xref linkend="sub:Distribucin-GNULinux-70" />).</para>
+      <para>Más información: http://es.wikipedia.org/wiki/GNU/Linux</para>
+    </sect1>
+    <sect1>
+      <title>GRUB</title>
+      <para>GNU GRUB (GNU GRand Unified Bootloader) es un gestor de arranque múltiple, desarrollado
+      por el proyecto GNU que se usa comúnmente para iniciar uno, dos o más sistemas operativos
+      instalados en un mismo equipo.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/GRUB</para>
+    </sect1>
+    <sect1 id='sub:GTK-14' xreflabel='GTK+'>
+      <title>GTK+
+      </title>
+      <para>GTK+ o The GIMP Toolkit es un conjunto de bibliotecas multiplataforma para desarrollar
+      interfaces gráficas de usuario (GUI), principalmente para los entornos gráficos GNOME, XFCE y
+      ROX aunque también se puede usar en el escritorio de Windows, Mac OS y otros. Inicialmente
+      fueron creadas para desarrollar el programa de edición de imagen GIMP, sin embargo
+      actualmente se usan bastante por muchos otros programas en los sistemas GNU/Linux. Junto a Qt
+      es una de las bibliotecas más populares para X Window System. GTK+ se ha diseñado para
+      permitir programar con lenguajes como C, C++, C#, Java, Ruby, Perl, PHP o Python. Licenciado
+      bajo los términos de LGPL, GTK+ es software libre y es parte del proyecto GNU.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/GTK%2B</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:H' xreflabel='H'>
+    <title>H
+    </title>
+  <para></para>
+  </chapter>
+  <chapter id='chap:I' xreflabel='I'>
+    <title>I
+    </title>
+    <sect1>
+      <title>ISO</title>
+      <para>Una Imagen ISO es un archivo donde se almacena una copia o imagen exacta de un sistema
+      de ficheros como un CD, un DVD y también soportes USB. Es decir, una imagen ISO no es más que
+      un espejo de la información contenida en un disco, independientemente de su estructura. No
+      importa si es audio, texto, datos, un híbrido, o algo que no se pueda leer en un ordenador
+      normal, puedes crear una imagen de ese disco.</para>
+      <para>Como usa el protocolo ISO 9660 o el protocolo UDF que es compatible con el ISO 9660, es
+      útil a la hora de distribuir por Internet, archivos que necesitan evitar en la transferencia
+      la pérdida de cualquier información o la modificación de la estructura original, necesaria
+      muchas veces para el correcto funcionamiento del programa. Aunque la ISO 9660 lo especifica
+      como formato de sólo lectura es posible modificarlos con algunos programas.</para>
+      <para>Las ventajas de usar una imagen ISO son muchas, siempre y cuando tengas el espacio en
+      el disco duro para almacenarlas. Una imagen ISO almacenada en el disco será mucho más rápida
+      que leer los datos directamente desde el disco óptico. También es un método excelente para
+      conservar un CD o un DVD, hasta que puedas volcarlo a un disco grabable.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Imagen_ISO</para>
+    </sect1>
+    <sect1 id='sec:Interfaz-de-usuario' xreflabel='Interfaz de usuario'>
+      <title>Interfaz de usuario
+      </title>
+      <para>La interfaz de usuario es el medio con que el usuario puede comunicarse con una
+      máquina, un equipo o una computadora, y comprende todos los puntos de contacto entre el
+      usuario y el equipo. En su mayoría incluyen elementos como menús, ventanas, teclado, mouse,
+      los beeps y algunos otros sonidos que la computadora hace, y en general, todos aquellos
+      canales por los cuales se permite la comunicación entre el ser humano y la computadora. La
+      mejor interacción humano-máquina a través de una adecuada interfaz (Interfaz de Usuario), que
+      le brinde tanto comodidad, como eficiencia.</para>
+      <para>Sus principales funciones son las siguientes:</para>
+      <para>Puesta en marcha y apagado. - Control de las funciones manipulables del equipo. -
+      Manipulación de archivos y directorios. - Herramientas de desarrollo de aplicaciones. -
+      Comunicación con otros sistemas. - Información de estado. - Configuración de la propia
+      interfaz y entorno. - Intercambio de datos entre aplicaciones. - Control de acceso. - Sistema
+      de ayuda interactivo.</para>
+      <para>Tipos de interfaces de usuario</para>
+      <para>Según la forma de interactuar del usuario</para>
+      <para>Atendiendo a como el usuario puede interactuar con una interfaz, nos encontramos con
+      varios tipos de interfaces de usuario:</para>
+      <para>- Interfaces alfanuméricas (intérpretes de comandos) que solo presentan texto. -
+      Interfaces gráficas de usuario (GUI, graphic user interfaces), las que permiten comunicarse
+      con el ordenador de una forma muy rápida e intuitiva representando gráficamente los elementos
+      de control y medida. - Interfaces táctiles, que representan gráficamente un "panel de
+      control" en una pantalla sensible que permite interactuar con el dedo de forma similar a si
+      se accionara un control físico.</para>
+      <para>Según su construcción</para>
+      <para>Pueden ser de hardware o de software:</para>
+      <para>- Interfaces de hardware: Se trata de un conjunto de controles o dispositivos que
+      permiten que el usuario intercambie datos con la máquina, ya sea introduciéndolos
+      (pulsadores, botones, teclas, reguladores, palancas, manivelas, perillas) o leyéndolos
+      (pantallas, diales, medidores, marcadores, instrumentos). - Interfaces de software: Son
+      programas o parte de ellos, que permiten expresar nuestros deseos al ordenador o visualizar
+      su respuesta.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Interfaz_de_usuario</para>
+    </sect1>
+    <sect1>
+      <title>Initrd</title>
+      <para>El disco RAM inicial o initrd, por sus siglas en inglés es un sistema de archivos
+      temporal usado por el núcleo Linux durante el inicio del sistema. Es usado típicamente para
+      hacer los arreglos necesarios antes de que el sistema de archivos raíz pueda ser
+      montado.</para>
+      <para>Más información:http://es.wikipedia.org/wiki/Initrd</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:J' xreflabel='J'>
+    <title>J 
+    </title>
+    <sect1 id='sub:Jack' xreflabel='Jack'>
+      <title>Jack
+      </title>
+      <para>El conector Jack (también denominado conector TRS o conector TRRS) es un conector de
+      audio utilizado en numerosos dispositivos para la transmisión de sonido en formato
+      analógico.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Jack_%28conector%29</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:K' xreflabel='K'>
+    <title>K
+    </title>
+    <sect1>
+      <title>Kernel (Ver 
+      <xref linkend="sub:Ncleo-71" />)</title>
+  <para></para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:L' xreflabel='L'>
+    <title>L
+    </title>
+    <sect1>
+      <title>Linux (Ver 
+      <xref linkend="sub:GNULinux-11" />)</title>
+  <para></para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:M' xreflabel='M'>
+    <title>M
+    </title>
+    <sect1>
+      <title>Marcadores</title>
+      <para>Los marcadores son atajos a las carpetas de mayor uso. Los marcadores aparecen en el
+      margen izquierdo del gestor de archivos y del Menu Huayra.</para>
+    </sect1>
+    <sect1 id='sub:Metacity' xreflabel='Metacity'>
+      <title>Metacity 
+      </title>
+      <para>Metacity es un gestor de ventanas implementado con GTK+. Es el gestor de ventanas por
+      defecto del entorno de escritorio GNOME en las versiones anteriores a la 3. El desarrollo de
+      Metacity empezó por parte de Havoc Pennington bajo la GNU GPL.</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:N' xreflabel='N'>
+    <title>N
+    </title>
+    <sect1 id='sub:Ncleo-71' xreflabel='Núcleo'>
+      <title>Núcleo
+      </title>
+      <para>El NúCLEO (también llamado Kernel) se podría definir como el corazón de este sistema
+      operativo. Es el encargado de que el software y el hardware de tu ordenador puedan trabajar
+      juntos. Es un único programa responsable de la comunicación entre el hardware y los
+      diferentes programas. Es el principal responsable de facilitar a los distintos programas
+      acceso seguro al hardware de la computadora o en forma básica, es el encargado de gestionar
+      recursos. Como hay muchos programas y el acceso al hardware es limitado, también se encarga
+      de decidir qué programa podrá hacer uso de un dispositivo de hardware y durante cuánto
+      tiempo.</para>
+      <para>Sus principales funciones son: - La comunicación entre los programas que solicitan
+      recursos y el hardware. - Gestión de los distintos programas informáticos (tareas) de una
+      máquina. - Gestión del hardware (memoria, procesador, periférico, forma de almacenamiento,
+      etc.)</para>
+      <para>Más información: http://es.wikipedia.org/wiki/N%C3%BAcleo_%28inform%C3%A1tica%29</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:O' xreflabel='O'>
+    <title>O
+    </title>
+  <para></para>
+  </chapter>
+  <chapter id='chap:P' xreflabel='P'>
+    <title>P
+    </title>
+    <sect1 id='sub:Paquetes' xreflabel='Paquete'>
+      <title>Paquete
+      </title>
+      <para>Un paquete de software es una serie de programas que se distribuyen conjuntamente.
+      Algunas de las razones suelen ser que el funcionamiento de cada uno complementa a o requiere
+      de otros, además de que sus objetivos están relacionados como estrategia de
+      mercadotecnia.</para>
+      <para>Muchos sistemas operativos modernos emplean sistemas de gestión de paquetes que
+      permiten que el administrador del sistema instale o desinstale paquetes, sin que en ningún
+      momento queden programas instalados que no funcionen por falta de otros incluidos en su
+      paquete. El sistema de gestión de paquetes usualmente también se ocupa de mantener las
+      dependencias entre paquetes: si un paquete se recuesta en otro, el sistema se encarga de
+      instalar éste primero.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Paquetes_de_software</para>
+    </sect1>
+    <sect1>
+      <title>Partición</title>
+      <para>Una partición de disco, en mantenimiento, es el nombre genérico que recibe cada
+      división presente en una sola unidad física de almacenamiento de datos. Toda partición tiene
+      su propio sistema de archivos (formato); generalmente, casi cualquier sistema operativo
+      interpreta, utiliza y manipula cada partición como un disco físico independiente, a pesar de
+      que dichas particiones estén en un solo disco físico.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Partici%C3%B3n_de_disco</para>
+    </sect1>
+    <sect1 id='sub:Perifrico-47' xreflabel='Periférico'>
+      <title>Periférico
+      </title>
+      <para>En informática, se denomina periféricos a los aparatos y/o dispositivos auxiliares e
+      independientes conectados a la unidad central de procesamiento de una computadora. Son tanto
+      las unidades o dispositivos a través de los cuales la computadora se comunica con el mundo
+      exterior, como a los sistemas que almacenan o archivan la información, sirviendo de memoria
+      auxiliar de la memoria principal.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Perif%C3%A9rico</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:Q' xreflabel='Q'>
+    <title>Q
+    </title>
+  <para></para>
+  </chapter>
+  <chapter id='chap:R' xreflabel='R'>
+    <title>R
+    </title>
+    <sect1 id='sub:Repositorio' xreflabel='Repositorio'>
+      <title>Repositorio
+      </title>
+      <para>Un repositorio es un sitio centralizado donde se almacena y mantiene información
+      digital. En el caso de Huayra, es un lugar donde se almacenan los paquetes (
+      <xref linkend="sub:Paquetes" />) que pueden ser desde aplicaciones completas hasta librerías,
+      codecs, etc. Estos repositorios se encuentran listados en Huayra y es allí donde busca si
+      existe una aplicación o su actualización. Pueden agregarse y quitarse repositorios.</para>
+      <para>Huayra GNU/LInux cuenta con un repositorio propio donde se encuentran los paquetes que
+      el equipo de Huayra considera indispensables.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Repositorio</para>
+    </sect1>
+  </chapter>
+  <chapter id='sec:S' xreflabel='S'>
+    <title>S
+    </title>
+    <sect1 id='sub:Sistema-Operativo' xreflabel='Sistema Operativo'>
+      <title>Sistema Operativo
+      </title>
+      <para>Un sistema operativo (SO) es un programa o conjunto de programas que, en un sistema
+      informático, gestiona los recursos de hardware y provee servicios a los programas de
+      aplicación o Aplicaciones. Uno de los propósitos del sistema operativo que gestiona el núcleo
+      consiste en gestionar los recursos de localización y protección de acceso del hardware, hecho
+      que alivia a los programadores de aplicaciones de tener que tratar con estos detalles.</para>
+      <para>La mayoría de aparatos electrónicos que utilizan microprocesadores para funcionar
+      llevan incorporado un sistema operativo (teléfonos móviles, reproductores de DVD,
+      computadoras, radios, etc.). En cuyo caso, son manejados mediante una Interfaz Gráfica de
+      Usuario, un gestor de ventanas o un entorno de escritorio si es un celular o mediante una
+      consola o control remoto si es un DVD.</para>
+    </sect1>
+    <sect1 id='sub:Software-libre' xreflabel='Software Libre'>
+      <title>Software libre
+      </title>
+      <para>Software libre significa que el software respeta la libertad de los usuarios y la
+      comunidad. En términos generales, los usuarios tienen la libertad de copiar, distribuir,
+      estudiar, modificar y mejorar el software. Con estas libertades, los usuarios (tanto
+      individualmente como en forma colectiva) controlan el programa y lo que hace.</para>
+      <para>Cuando los usuarios no controlan el programa, el programa controla a los usuarios. El
+      programador controla el programa y, a través del programa, controla a los usuarios. Un
+      programa que no es libre, llamado «privativo», es por lo tanto un instrumento de poder
+      injusto.</para>
+      <para>Por tanto, el «software libre» es una cuestión de libertad, no de precio. Para entender
+      el concepto, piense en «libre» como en «libre expresión», no como en «barra libre».</para>
+      <para>Un programa es software libre si los usuarios tienen las cuatro libertades
+      esenciales:</para>
+      <para>- La libertad de ejecutar el programa para cualquier propósito (libertad 0). - La
+      libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que usted quiera
+      (libertad 1). El acceso al código fuente es una condición necesaria para ello. - La libertad
+      de redistribuir copias para ayudar a su prójimo (libertad 2). - La libertad de distribuir
+      copias de sus versiones modificadas a terceros (libertad 3). Esto le permite ofrecer a toda
+      la comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente
+      es una condición necesaria para ello.</para>
+      <para>Un programa es software libre si los usuarios tienen todas esas libertades. Por tanto,
+      usted debe ser libre de redistribuir copias, tanto con como sin modificaciones, ya sea
+      gratuitamente o cobrando una tarifa por la distribución, a cualquiera en cualquier parte. El
+      ser libre de hacer estas cosas significa, entre otras cosas, que no tiene que pedir ni pagar
+      el permiso.</para>
+      <para>También debe tener la libertad de hacer modificaciones y usarlas en privado para su
+      propio trabajo o pasatiempo, sin siquiera mencionar que existen. Si publica sus cambios, no
+      debe estar obligado a notificarlo a nadie en particular, ni de ninguna manera en
+      particular.</para>
+      <para>La libertad de ejecutar el programa significa que cualquier tipo de persona u
+      organización es libre de usarlo en cualquier tipo de sistema de computación, para cualquier
+      tipo de trabajo y finalidad, sin que exista obligación alguna de comunicarlo al programador
+      ni a ninguna otra entidad específica. En esta libertad, lo que importa es el propósito de los
+      usuarios, no el de los programadores. Usted como usuario es libre de ejecutar el programa
+      para alcanzar sus propósitos, y si lo distribuye a otra persona, también esa persona será
+      libre de ejecutarlo para lo que necesite; usted no tiene derecho a imponerle sus propios
+      objetivos.</para>
+      <para>La libertad de redistribuir copias debe incluir las formas binarias o ejecutables del
+      programa, así como el código fuente, tanto para las versiones modificadas como para las no lo
+      estén. (Distribuir programas en forma de ejecutables es necesario para que los sistemas
+      operativos libres se puedan instalar fácilmente). Resulta aceptable si no existe un modo de
+      producir una formato binario o ejecutable para un programa específico, dado que algunos
+      lenguajes no incorporan esa característica, pero debe tener la libertad de redistribuir
+      dichos formatos si encontrara o programara una forma de hacerlo.</para>
+      <para>«Software libre» no significa que «no es comercial». Un programa libre debe estar
+      disponible para el uso comercial, la programación comercial y la distribución comercial. La
+      programación comercial de software libre ya no es inusual; tal software libre comercial es
+      muy importante. Puede haber pagado dinero para obtener copias de software libre, o puede
+      haber obtenido copias sin costo. Pero sin tener en cuenta cómo obtuvo sus copias, siempre
+      tiene la libertad de copiar y modificar el software, incluso de vender copias.</para>
+      <para>Cuando se habla de software libre, es mejor evitar usar términos como «regalar» o
+      «gratuito», porque dichos términos implican que el asunto es el precio, no la
+      libertad.</para>
+      <para>Los manuales de software deben ser libres por las mismas razones que el software debe
+      ser libre, y porque de hecho los manuales son parte del software.</para>
+      <para>También tiene sentido aplicar los mismos argumentos a otros tipos de obras de uso
+      práctico; es decir, obras que incorporen conocimiento útil, tal como publicaciones educativas
+      y de referencia. La Wikipedia es el ejemplo más conocido.</para>
+      <para>Cualquier tipo de obra puede ser libre, y la definición de software libre se ha
+      extendido a una definición de obras culturales libres aplicable a cualquier tipo de
+      publicación.</para>
+      <para>¿Código abierto?</para>
+      <para>Otro grupo ha comenzado a usar el término «código abierto» (del inglés «open source»)
+      que significa algo parecido (pero no idéntico) a «software libre». Preferimos el término
+      «software libre» porque una vez que ya se sabe que se refiere a la libertad y no al precio,
+      evoca la idea de libertad. La palabra «abierto» nunca se refiere a la libertad.</para>
+      <para>Más información: http://www.gnu.org/philosophy/free-sw.es.html
+      http://es.wikipedia.org/wiki/Software_libre</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:T' xreflabel='T'>
+    <title>T
+    </title>
+    <sect1 id='sub:Terminal' xreflabel='Terminal'>
+      <title>Terminal
+      </title>
+      <para>Cuando alguien dice que hay que utilizar la "consola de comandos" o "terminal" se
+      refiere a que es necesario utilizar la interface de línea de comandos de GNU/Linux. Lo
+      opuesto sería la interface gráfica, que es lo que mayoría de usuarios ya conocen. Linux
+      utiliza una herramienta llamada consola de comandos o Terminal desde la cual se pueden
+      ejecutar una serie de sentencias para acceder a ciertos lugares del sistema, realizar ciertas
+      tareas o simplemente visualizar reportes importantes.</para>
+    </sect1>
+    <sect1 id='sub:Tracker' xreflabel='Tracker'>
+      <title>Tracker
+      </title>
+      <para>Un tracker o rastreador de BitTorrent es un servidor especial que contiene la
+      información necesaria para que los peers se conecten con otros peers asistiendo la
+      comunicación entre ellos usando el protocolo BitTorrent. Los rastreadores son el único y
+      principal punto de encuentro al cual los clientes requieren conectarse para poder comunicarse
+      y poder iniciar una descarga. En la actualidad existen una serie de comunicaciones alternas a
+      los rastreadores que permiten a un cliente encontrar a otros clientes sin la necesidad de
+      comunicarse anteriormente con un rastreador.</para>
+      <para>Más información: http://es.wikipedia.org/wiki/Tracker_%28BitTorrent%29</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:U' xreflabel='U'>
+    <title>U 
+    </title>
+    <sect1 id='sub:USB' xreflabel='USB'>
+      <title>USB
+      </title>
+      <para>El Universal Serial Bus (bus universal en serie USB) es un estándar industrial
+      desarrollado en los años 1990 que define los cables, conectores y protocolos usados en un bus
+      para conectar, comunicar y proveer de alimentación eléctrica entre ordenadores y 
+      <xref linkend="sub:Perifrico-47" /> y dispositivos electrónicos.</para>
+      <para>Más información: es.wikipedia.org/wiki/USB</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:V' xreflabel='V'>
+    <title>V
+    </title>
+    <sect1 id='sec:Ventanas-1.' xreflabel='Ventanas'>
+      <title>Ventanas
+      </title>
+      <para>Una ventana es un área visual, normalmente de forma rectangular, que contiene algún
+      tipo de 
+      <xref linkend="sec:Interfaz-de-usuario" />, mostrando la salida y permitiendo la entrada de
+      datos para uno de varios procesos que se ejecutan simultáneamente. Las ventanas se
+      representan casi siempre como objetos bidimensionales colocados en un escritorio. La mayoría
+      de las ventanas pueden ser redimensionadas, movidas, ocultadas, restauradas, y cerradas a
+      voluntad. Cuando dos se superponen, una está encima de la otra, con la parte tapada de la
+      ventana de abajo no visible. La parte de un sistema de ventanas que controla esto se denomina
+      administrador de ventanas o gestor de ventanas.</para>
+      <para>Muchas aplicaciones con las que es posible trabajar con más de un archivo a la vez,
+      como un editor de imágenes, ponen cada archivo en una ventana separada de manera que todos
+      los archivos están visibles a la vez.</para>
+      <para>Los administradores de ventanas a menudo ofrecen distintos tipos de ventanas, de
+      acuerdo con sus propiedades:</para>
+      <itemizedlist>
+        <listitem>
+          <para>Ventanas de aplicación/documento - el tipo normal de ventanas, que contienen
+          documentos o datos de aplicaciones.</para>
+        </listitem>
+        <listitem>
+          <para>Ventanas de utilidad, que flotan encima del resto y ofrecen herramientas o
+          información sobre la aplicación.</para>
+        </listitem>
+        <listitem>
+          <para>Cuadros de diálogo: ventanas que dan información al usuario o se la piden.</para>
+        </listitem>
+        <listitem>
+          <para>Inspectores: ventanas que están siempre encima de otras ventanas de la misma
+          aplicación. Se usan para mostrar las propiedades de un elemento.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Más información: http://es.wikipedia.org/wiki/Ventana_%28inform%C3%A1tica%29</para>
+    </sect1>
+  </chapter>
+  <chapter id='chap:W' xreflabel='W'>
+    <title>W
+    </title>
+  <para></para>
+  </chapter>
+  <chapter id='chap:X' xreflabel='X'>
+    <title>X
+    </title>
+  <para></para>
+  </chapter>
+  <chapter id='chap:Y' xreflabel='Y'>
+    <title>Y
+    </title>
+  <para></para>
+  </chapter>
+  <chapter id='chap:Z' xreflabel='Z'>
+    <title>Z
+    </title>
+  <para></para>
+  </chapter>
+</part>
