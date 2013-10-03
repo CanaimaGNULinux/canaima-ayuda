@@ -415,7 +415,7 @@
     </para>
     <sect1 id='sec:Ventanas'  xreflabel='Ventanas'>  
       <title>Ventanas</title>
-      <para>Aprentando la tecla Ctrl + Tab  se muestran las miniaturas de todas las ventanas que estén abiertas.</para>
+      <para>Aprentando la tecla Alt + Tab  se muestran las miniaturas de todas las ventanas que estén abiertas.</para>
       <para>Para 
       <emphasis>abrir</emphasis>la ventana simplemente haz clic en la misma. También puedess usar la
       rueda del mouse para aumentar cualquier miniatura de la ventana.</para>
