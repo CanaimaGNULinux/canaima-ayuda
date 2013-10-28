@@ -1,8 +1,11 @@
-canaima-ayuda (0.18) UNRELEASED; urgency=low
+canaima-ayuda (0.18+Canaima1) kerepakupai; urgency=low
 
-  * UNRELEASED
+  * [f2562d9] Removiendo postinst y dependiendo de gnome-user-guide (tkt #723)
+  * [fa25d50] Eliminando archivo innecesario
+  * [28a6edd] Corrigiendo el nombre del .desktop del paquete
+  * [0ca2f3b] Mejorando el .desktop de la aplicacion
 
- -- ssolano <ssolano@canaima-popular>  Thu, 03 Oct 2013 15:59:13 -0430
+ -- Erick Birbe <erickcion@gmail.com>  Mon, 28 Oct 2013 15:55:24 -0430
 
 canaima-ayuda (0.17) testing; urgency=low
 
