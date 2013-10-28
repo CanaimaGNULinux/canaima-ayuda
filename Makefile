@@ -18,8 +18,6 @@ all: build
 
 test:
 
-
-
 	@echo -n "\n===== Comprobando posibles errores de sintaxis en los scripts de mantenedor =====\n\n"
 
 	@for SCRIPT in $(SCRIPTS); \
@@ -29,6 +27,7 @@ test:
 	done
 
 	@echo -n "\n=================================================================================\nHECHO!\n\n"
+
 
 build:
 
@@ -40,12 +39,12 @@ install:
 	mkdir -p $(DESTDIR)/usr/share/canaima/help/
 	mkdir -p $(DESTDIR)/usr/share/applications/
 	@cp -r gnome  $(DESTDIR)/usr/share/canaima/help/
-	@cp ayuda-gnome.desktop $(DESTDIR)/usr/share/applications
+	@cp canaima-ayuda.desktop $(DESTDIR)/usr/share/applications
 
 uninstall:
 
 	rm -r /usr/share/canaima/help/gnome
-	rm -rf  /usr/share/applications/ayuda-gnome.desktop
+	rm -rf  /usr/share/applications/canaima-ayuda.desktop
 
 	
 # se creó en el install
