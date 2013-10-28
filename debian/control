@@ -9,7 +9,9 @@ Vcs-Git: https://github.com/ssolano/ayuda-ginamon.git
 
 Package: canaima-ayuda
 Architecture: all
-Depends: yelp, ${misc:Depends}
+Depends: gnome-user-guide,
+	yelp,
+	${misc:Depends}
 Description: Ayuda de Canaima GNU/Linux
  Archivos de ayuda de Canaima para el escritorio Gnamon
 
